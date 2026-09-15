@@ -10,6 +10,7 @@ BOARD_IDS = [b.strip() for b in os.environ.get('MONDAY_BOARD_IDS', os.environ.ge
 ACCOUNT = os.environ.get('MONDAY_ACCOUNT', 'spigen').strip()
 FILES_COLS = [c.strip().lower().replace(' ', '') for c in os.environ.get('MONDAY_FILES_COLUMN', '최종 도안').split(',') if c.strip()]
 CODE_PATTERN = os.environ.get('MONDAY_CODE_PATTERN', r'^[\s\[\(\{]*([A-Za-z0-9]{4,})')
+ALL_TOKENS = os.environ.get('MONDAY_ALL_TOKENS', 'true').lower() == 'true'   # 파일명 안의 다른 코드(예: SKU)도 함께 인식
 OUT = 'monday_map.json'
 API = 'https://api.monday.com/v2'
 
@@ -19,11 +20,13 @@ if not TOKEN:
 FRAG = '''
 fragment F on Item {
   id name
+  assets(assets_source: gallery) { id name created_at }
   column_values { id type column { title }
     ... on FileValue { files { __typename
       ... on FileAssetValue { created_at name asset { id name created_at } }
       ... on FileLinkValue { created_at name url } } } }
   subitems { id name board { id }
+    assets(assets_source: gallery) { id name created_at }
     column_values { id type column { title }
       ... on FileValue { files { __typename
         ... on FileAssetValue { created_at name asset { id name created_at } }
@@ -53,28 +56,41 @@ def gql(query, variables, tries=6):
     raise SystemExit('ERROR monday API: 재시도 한도 초과')
 
 CODE_RE = re.compile(CODE_PATTERN)
-def code_of(fname):
-    m = CODE_RE.match(fname or '')
-    if not m: return None
-    c = m.group(1).upper()
-    if not any(ch.isdigit() for ch in c): return None   # 'FINAL' 같은 단어 제외
-    return c
+TOKEN_RE = re.compile(r'[A-Za-z0-9]+')
+def codes_of(fname):
+    """파일명 -> 코드 목록. 맨 앞 토큰(자재코드) + (옵션) 영문+숫자 섞인 5자 이상 토큰(SKU 등)"""
+    base = re.sub(r'\.[A-Za-z0-9]{2,5}$', '', fname or '')   # 확장자 제거
+    out = []
+    m = CODE_RE.match(base)
+    if m:
+        c = m.group(1).upper()
+        if any(ch.isdigit() for ch in c): out.append(c)
+    if ALL_TOKENS:
+        for t in TOKEN_RE.findall(base):
+            u = t.upper()
+            if len(u) >= 5 and any(ch.isdigit() for ch in u) and any(ch.isalpha() for ch in u) and u not in out:
+                out.append(u)
+    return out
+
+def view_rank(fname):
+    """브라우저에서 바로 보이는 형식 우선: 이미지 0, PDF 1, 기타(ai/psd 등) 2"""
+    ext = (fname or '').rsplit('.', 1)[-1].lower() if '.' in (fname or '') else ''
+    return 0 if ext in ('jpg','jpeg','png','gif','webp') else 1 if ext == 'pdf' else 2
 
 def norm_title(t): return (t or '').strip().lower().replace(' ', '')
 
 def files_of(cv):
-    """파일 컬럼 값 -> [(파일명, 업로드시각ISO)]"""
+    """파일 컬럼 값 -> [(파일명, 업로드시각ISO, asset_id 또는 None, 외부링크 또는 None)]"""
     out = []
     for f in (cv.get('files') or []):
         tn = f.get('__typename')
         if tn == 'FileAssetValue':
             a = f.get('asset') or {}
             name = a.get('name') or f.get('name'); ts = f.get('created_at') or a.get('created_at') or ''
+            if name: out.append((name, ts, a.get('id'), None))
         elif tn == 'FileLinkValue':
             name = f.get('name'); ts = f.get('created_at') or ''
-        else:
-            continue
-        if name: out.append((name, ts))
+            if name: out.append((name, ts, None, f.get('url')))
     return out
 
 def file_cols(cvs, strict):
@@ -96,42 +112,66 @@ def build(board_items):
     stats = {'boards': len(board_items), 'items': 0, 'subitems': 0, 'files': 0, 'title_hits': 0}
     def push(code, **e):
         cands.setdefault(code, []).append(e)
+    seen_assets = set()
+    def gallery(node, url_base, parent_url, bname, item_name, sub_name):
+        for a in (node.get('assets') or []):
+            if not a.get('id') or a['id'] in seen_assets: continue
+            seen_assets.add(a['id']); stats['files'] += 1; stats['gallery'] = stats.get('gallery', 0) + 1
+            cs = codes_of(a.get('name'))
+            for c in cs:
+                push(c, url=f"{url_base}?asset_id={a['id']}", parent_url=parent_url, board=bname, item=item_name, sub=sub_name, file=a.get('name'), updated=a.get('created_at') or '', lead=cs[0])
     for bid, bname, items in board_items:
         stats['items'] += len(items)
         hits = 0
+        for it in items:   # 카드 첨부파일(파일 탭)
+            purl = f'https://{ACCOUNT}.monday.com/boards/{bid}/pulses/{it["id"]}'
+            gallery(it, purl, purl, bname, it.get('name'), None)
+            for sub in it.get('subitems') or []:
+                sb = (sub.get('board') or {}).get('id') or bid
+                gallery(sub, f'https://{ACCOUNT}.monday.com/boards/{sb}/pulses/{sub["id"]}', purl, bname, it.get('name'), sub.get('name'))
         for strict in (True, False):
             for it in items:
                 parent_url = f'https://{ACCOUNT}.monday.com/boards/{bid}/pulses/{it["id"]}'
                 for cv in file_cols(it.get('column_values'), strict):
                     hits += 1
-                    for fn, ts in files_of(cv):
-                        stats['files'] += 1; c = code_of(fn)
-                        if c: push(c, url=parent_url, parent_url=parent_url, board=bname, item=it.get('name'), sub=None, file=fn, updated=ts)
+                    for fn, ts, aid, link in files_of(cv):
+                        if aid and aid in seen_assets: continue
+                        if aid: seen_assets.add(aid)
+                        stats['files'] += 1
+                        url = link or (f'{parent_url}?asset_id={aid}' if aid else parent_url)
+                        cs = codes_of(fn)
+                        for c in cs:
+                            push(c, url=url, parent_url=parent_url, board=bname, item=it.get('name'), sub=None, file=fn, updated=ts, lead=cs[0])
                 for sub in it.get('subitems') or []:
                     if strict: stats['subitems'] += 1
                     sb = (sub.get('board') or {}).get('id') or bid
                     sub_url = f'https://{ACCOUNT}.monday.com/boards/{sb}/pulses/{sub["id"]}'
                     for cv in file_cols(sub.get('column_values'), strict):
                         hits += 1
-                        for fn, ts in files_of(cv):
-                            stats['files'] += 1; c = code_of(fn)
-                            if c: push(c, url=sub_url, parent_url=parent_url, board=bname, item=it.get('name'), sub=sub.get('name'), file=fn, updated=ts)
+                        for fn, ts, aid, link in files_of(cv):
+                            if aid and aid in seen_assets: continue
+                            if aid: seen_assets.add(aid)
+                            stats['files'] += 1
+                            url = link or (f'{sub_url}?asset_id={aid}' if aid else sub_url)
+                            cs = codes_of(fn)
+                            for c in cs:
+                                push(c, url=url, parent_url=parent_url, board=bname, item=it.get('name'), sub=sub.get('name'), file=fn, updated=ts, lead=cs[0])
             if hits > 0: break
-            print(f"WARN 보드 '{bname}'에 '{', '.join(FILES_COLS)}' 제목의 파일 컬럼이 없어 모든 파일 컬럼을 검색합니다.")
+            if strict: print(f"INFO 보드 '{bname}': '{', '.join(FILES_COLS)}' 제목의 파일 컬럼이 없어 모든 파일 컬럼(+카드 첨부파일)을 검색합니다.")
         stats['title_hits'] += hits
     mapping = {}
     for code, es in cands.items():
-        es.sort(key=lambda e: e.get('updated') or '', reverse=True)   # 최신 업로드 먼저
+        es.sort(key=lambda e: ((e.get('updated') or '')[:10], -view_rank(e.get('file'))), reverse=True)   # 최신 날짜 먼저, 같은 날이면 이미지>PDF>기타
         top = es[0]
         entry = {'url': top['url'], 'parent_url': top['parent_url'], 'board': top['board'], 'item': top['item'],
-                 'sub': top['sub'], 'file': top['file'], 'updated': (top.get('updated') or '')[:10],
-                 'files': []}
+                 'sub': top['sub'], 'file': top['file'], 'updated': (top.get('updated') or '')[:10], 'files': []}
         seen = set()
-        for e in es:
-            if e['file'] not in seen: entry['files'].append(e['file']); seen.add(e['file'])
-        alts = []
-        for e in es[1:]:
-            if e['url'] != entry['url'] and e['url'] not in alts: alts.append(e['url'])
+        for e in es:   # 최신 업로드 순, 파일(링크)별 상세
+            if e['url'] in seen: continue
+            seen.add(e['url'])
+            entry['files'].append({'name': e['file'], 'url': e['url'], 'updated': (e.get('updated') or '')[:10],
+                                   'code': e.get('lead') or code, 'sub': e['sub'], 'board': e['board']})
+        alts = [f['url'] for f in entry['files'][1:]]
         if alts: entry['alt'] = alts
         mapping[code] = entry
     return mapping, stats
@@ -154,7 +194,7 @@ def main():
            'map': dict(sorted(mapping.items()))}
     json.dump(out, open(OUT, 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
     dup = sum(1 for e in mapping.values() if e.get('alt'))
-    print(f"OK 보드 {st['boards']} · 아이템 {st['items']} · 하위 {st['subitems']} · 파일 {st['files']} → 자재코드 {len(mapping)}개 매핑 (중복코드 {dup}개는 최신 업로드로 연결)")
+    print(f"OK 보드 {st['boards']} · 아이템 {st['items']} · 하위 {st['subitems']} · 파일 {st['files']}(첨부 {st.get('gallery',0)}) → 자재코드 {len(mapping)}개 매핑 (중복코드 {dup}개는 최신 업로드로 연결)")
     if not mapping: print('WARN 매핑 0건: 파일명이 자재코드로 시작하는지, 컬럼 제목이 맞는지 확인하세요.')
 
 if __name__ == '__main__':
