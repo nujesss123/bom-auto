@@ -18,45 +18,100 @@ API = 'https://api.monday.com/v2'
 if not TOKEN:
     sys.exit('ERROR MONDAY_TOKEN 시크릿이 설정되지 않았습니다. (Settings → Secrets and variables → Actions)')
 
-FRAG = '''
-fragment F on Item {
-  id name
-  assets(assets_source: gallery) { id name created_at }
-  column_values(types: [file]) { id type column { title }
-    ... on FileValue { files { __typename
-      ... on FileAssetValue { created_at name asset { id name created_at } }
-      ... on FileLinkValue { created_at name url } } } }
-  subitems { id name board { id }
-    assets(assets_source: gallery) { id name created_at }
-    column_values(types: [file]) { id type column { title }
-      ... on FileValue { files { __typename
-        ... on FileAssetValue { created_at name asset { id name created_at } }
-        ... on FileLinkValue { created_at name url } } } } }
-}'''
-Q_FIRST = 'query($b:[ID!],$l:Int!){ boards(ids:$b){ id name items_page(limit:$l){ cursor items{ ...F } } } }' + FRAG
-Q_NEXT = 'query($c:String!,$l:Int!){ next_items_page(cursor:$c, limit:$l){ cursor items{ ...F } } }' + FRAG
+class ApiError(Exception): pass
 
-def gql(query, variables, tries=8):
+# 1단계: 아이템 목록만 가볍게 (id, 이름, 하위아이템 id)
+Q_LIST = 'query($b:[ID!],$l:Int!){ boards(ids:$b){ id name items_page(limit:$l){ cursor items{ id name subitems{ id } } } } }'
+Q_LIST_NEXT = 'query($c:String!,$l:Int!){ next_items_page(cursor:$c, limit:$l){ cursor items{ id name subitems{ id } } } }'
+# 2단계: 상세(파일 컬럼 + 카드 첨부파일)를 id 묶음으로
+FILES = ('files { __typename '
+         '... on FileAssetValue { created_at name asset { id name created_at } } '
+         '... on FileLinkValue { created_at name url } }')
+FRAG_FULL = ('fragment D on Item { id name board { id } assets(assets_source: gallery) { id name created_at } '
+             'column_values(types: [file]) { id type column { title } ... on FileValue { ' + FILES + ' } } }')
+FRAG_COLS = ('fragment D on Item { id name board { id } '
+             'column_values(types: [file]) { id type column { title } ... on FileValue { ' + FILES + ' } } }')
+Q_DETAIL = 'query($ids:[ID!]){ items(ids:$ids){ ...D } }'
+BATCH = int(os.environ.get('MONDAY_BATCH', '20'))
+USE_GALLERY = True
+gallery_fail = 0
+
+def gql(query, variables, tries=4):
     body = json.dumps({'query': query, 'variables': variables}).encode('utf-8')
     for i in range(tries):
         try:
             req = urllib.request.Request(API, data=body, headers={'Authorization': TOKEN, 'Content-Type': 'application/json'})
-            with urllib.request.urlopen(req, timeout=90) as r:
+            with urllib.request.urlopen(req, timeout=120) as r:
                 res = json.loads(r.read().decode('utf-8'))
         except urllib.error.HTTPError as e:
             if e.code in (429, 500, 502, 503, 504) and i < tries - 1:
-                wait = 15 * (i + 1); print(f'WARN HTTP {e.code} — {wait}s 후 재시도'); time.sleep(wait); continue
-            raise SystemExit(f'ERROR monday API HTTP {e.code}: {e.read().decode("utf-8","replace")[:400]}')
+                wait = 10 * (i + 1); print(f'WARN HTTP {e.code} — {wait}s 후 재시도'); time.sleep(wait); continue
+            raise ApiError(f'HTTP {e.code}: {e.read().decode("utf-8","replace")[:300]}')
+        except (urllib.error.URLError, TimeoutError) as e:
+            if i < tries - 1: time.sleep(10 * (i + 1)); continue
+            raise ApiError(f'네트워크 오류: {e}')
         errs = res.get('errors')
         if errs:
             msg = json.dumps(errs, ensure_ascii=False)
             if ('omplexity' in msg or 'rate' in msg.lower()) and i < tries - 1:
                 print('WARN API 한도 초과 — 60s 후 재시도'); time.sleep(60); continue
             if ('INTERNAL_SERVER_ERROR' in msg or 'DOWNSTREAM' in msg or 'status_code": 5' in msg) and i < tries - 1:
-                wait = 10 * (i + 1); print(f'WARN 먼데이닷컴 서버 오류(500) — {wait}s 후 재시도 ({i+1}/{tries-1})'); time.sleep(wait); continue
-            raise SystemExit('ERROR monday API: ' + msg[:900])
+                time.sleep(5 * (i + 1)); continue
+            raise ApiError(msg[:500])
         return res['data']
-    raise SystemExit('ERROR monday API: 재시도 한도 초과')
+    raise ApiError('재시도 한도 초과')
+
+def list_items(bid):
+    d = gql(Q_LIST, {'b': [bid], 'l': PAGE})
+    boards = d.get('boards') or []
+    if not boards: raise SystemExit(f'ERROR 보드 {bid}를 찾지 못했습니다(토큰 권한/보드 번호 확인).')
+    bname = boards[0].get('name') or bid
+    page = boards[0]['items_page']; items = list(page['items']); cursor = page.get('cursor')
+    while cursor:
+        page = gql(Q_LIST_NEXT, {'c': cursor, 'l': PAGE})['next_items_page']; items += page['items']; cursor = page.get('cursor')
+    return bname, items
+
+def fetch_details(ids):
+    """id 목록 -> {id: 상세}. 실패 시 반으로 쪼개 문제 항목만 건너뜀. 첨부파일 조회가 계속 막히면 컬럼 파일만."""
+    global USE_GALLERY, gallery_fail
+    out = {}
+    def go(chunk):
+        global USE_GALLERY, gallery_fail
+        frag = FRAG_FULL if USE_GALLERY else FRAG_COLS
+        try:
+            for it in gql(Q_DETAIL + frag, {'ids': chunk})['items']: out[it['id']] = it
+            return
+        except ApiError as e:
+            if len(chunk) > 1:
+                mid = len(chunk) // 2; go(chunk[:mid]); go(chunk[mid:]); return
+            if USE_GALLERY:   # 첨부파일 없이 한 번 더
+                try:
+                    for it in gql(Q_DETAIL + FRAG_COLS, {'ids': chunk}, tries=2)['items']: out[it['id']] = it
+                    gallery_fail += 1
+                    print(f'WARN 항목 {chunk[0]}: 첨부파일 조회 실패 → 컬럼 파일만 사용')
+                    if gallery_fail >= 5:
+                        USE_GALLERY = False; print('WARN 첨부파일 조회가 반복 실패해 이후 항목은 컬럼 파일만 읽습니다.')
+                    return
+                except ApiError as e2:
+                    e = e2
+            print(f'WARN 항목 {chunk[0]} 읽기 실패 — 건너뜀 ({str(e)[:120]})')
+    for i in range(0, len(ids), BATCH):
+        go(ids[i:i + BATCH])
+        if (i // BATCH) % 10 == 9: print(f'  … {min(i + BATCH, len(ids))}/{len(ids)}')
+    return out
+
+def fetch_board(bid):
+    bname, lst = list_items(bid)
+    item_ids = [it['id'] for it in lst]
+    sub_ids = [s['id'] for it in lst for s in (it.get('subitems') or [])]
+    print(f"보드 '{bname}'({bid}): 아이템 {len(item_ids)} · 하위아이템 {len(sub_ids)} 상세 조회 중…")
+    det = fetch_details(item_ids); sdet = fetch_details(sub_ids)
+    items = []
+    for it in lst:
+        d = det.get(it['id'], {'id': it['id'], 'name': it.get('name')})
+        d['subitems'] = [sdet[s['id']] for s in (it.get('subitems') or []) if s['id'] in sdet]
+        items.append(d)
+    return bname, items
 
 CODE_RE = re.compile(CODE_PATTERN)
 TOKEN_RE = re.compile(r'[A-Za-z0-9]+')
@@ -98,16 +153,6 @@ def files_of(cv):
 
 def file_cols(cvs, strict):
     return [cv for cv in (cvs or []) if cv.get('type') == 'file' and (not strict or norm_title((cv.get('column') or {}).get('title')) in FILES_COLS)]
-
-def fetch_board(bid):
-    d = gql(Q_FIRST, {'b': [bid], 'l': PAGE})
-    boards = d.get('boards') or []
-    if not boards: raise SystemExit(f'ERROR 보드 {bid}를 찾지 못했습니다(토큰 권한/보드 번호 확인).')
-    bname = boards[0].get('name') or bid
-    page = boards[0]['items_page']; items = list(page['items']); cursor = page.get('cursor')
-    while cursor:
-        page = gql(Q_NEXT, {'c': cursor, 'l': PAGE})['next_items_page']; items += page['items']; cursor = page.get('cursor')
-    return bname, items
 
 def build(board_items):
     """board_items: [(board_id, board_name, items)] -> mapping (최신 업로드 우선)"""
@@ -201,4 +246,5 @@ def main():
     if not mapping: print('WARN 매핑 0건: 파일명이 자재코드로 시작하는지, 컬럼 제목이 맞는지 확인하세요.')
 
 if __name__ == '__main__':
-    main()
+    try: main()
+    except ApiError as e: raise SystemExit('ERROR monday API: ' + str(e))
