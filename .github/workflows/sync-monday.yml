@@ -18,8 +18,10 @@ jobs:
       - name: Build monday_map.json
         env:
           MONDAY_TOKEN: ${{ secrets.MONDAY_TOKEN }}
-          MONDAY_BOARD_ID: '4057650308'
+          # 보드 번호를 콤마로 나열 (예: '4057650308, 1234567890')
+          MONDAY_BOARD_IDS: '4057650308'
           MONDAY_ACCOUNT: 'spigen'
+          # 파일 컬럼 제목(여러 개면 콤마, 공백/대소문자 무시)
           MONDAY_FILES_COLUMN: '최종 도안'
         run: python sync_monday.py
       - name: Commit and push

@@ -242,7 +242,7 @@ function photoBtn(code){
   if(!MONDAY) return '';
   const e=MONDAY[String(code||'').trim().toUpperCase()]; if(!e) return '';
   const n=(e.alt?e.alt.length:0)+1;
-  const t='먼데이닷컴에서 최종 도안 보기'+(e.files&&e.files.length?' — '+e.files.slice(0,3).join(', ')+(e.files.length>3?' 외':''):'')+(n>1?` (항목 ${n}개 중 첫 번째)`:'');
+  const t='먼데이닷컴에서 최종 도안 보기'+(e.file?' — '+e.file:(e.files&&e.files.length?' — '+e.files[0]:''))+(e.updated?` · 업로드 ${e.updated}`:'')+(e.board?` · ${e.board}`:'')+(n>1?` (총 ${n}곳, 최신 업로드 열기)`:'');
   return ` <a class="photo" href="${esc(e.url)}" target="_blank" rel="noopener" title="${esc(t)}" onclick="event.stopPropagation()">📷 보기</a>`;
 }
 fetch('monday_map.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).then(j=>{
