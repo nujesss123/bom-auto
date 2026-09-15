@@ -11,6 +11,7 @@ ACCOUNT = os.environ.get('MONDAY_ACCOUNT', 'spigen').strip()
 FILES_COLS = [c.strip().lower().replace(' ', '') for c in os.environ.get('MONDAY_FILES_COLUMN', '최종 도안').split(',') if c.strip()]
 CODE_PATTERN = os.environ.get('MONDAY_CODE_PATTERN', r'^[\s\[\(\{]*([A-Za-z0-9]{4,})')
 ALL_TOKENS = os.environ.get('MONDAY_ALL_TOKENS', 'true').lower() == 'true'   # 파일명 안의 다른 코드(예: SKU)도 함께 인식
+PAGE = int(os.environ.get('MONDAY_PAGE_SIZE', '25'))   # 한 번에 가져올 아이템 수(작을수록 안정적)
 OUT = 'monday_map.json'
 API = 'https://api.monday.com/v2'
 
@@ -21,21 +22,21 @@ FRAG = '''
 fragment F on Item {
   id name
   assets(assets_source: gallery) { id name created_at }
-  column_values { id type column { title }
+  column_values(types: [file]) { id type column { title }
     ... on FileValue { files { __typename
       ... on FileAssetValue { created_at name asset { id name created_at } }
       ... on FileLinkValue { created_at name url } } } }
   subitems { id name board { id }
     assets(assets_source: gallery) { id name created_at }
-    column_values { id type column { title }
+    column_values(types: [file]) { id type column { title }
       ... on FileValue { files { __typename
         ... on FileAssetValue { created_at name asset { id name created_at } }
         ... on FileLinkValue { created_at name url } } } } }
 }'''
-Q_FIRST = 'query($b:[ID!]){ boards(ids:$b){ id name items_page(limit:100){ cursor items{ ...F } } } }' + FRAG
-Q_NEXT = 'query($c:String!){ next_items_page(cursor:$c, limit:100){ cursor items{ ...F } } }' + FRAG
+Q_FIRST = 'query($b:[ID!],$l:Int!){ boards(ids:$b){ id name items_page(limit:$l){ cursor items{ ...F } } } }' + FRAG
+Q_NEXT = 'query($c:String!,$l:Int!){ next_items_page(cursor:$c, limit:$l){ cursor items{ ...F } } }' + FRAG
 
-def gql(query, variables, tries=6):
+def gql(query, variables, tries=8):
     body = json.dumps({'query': query, 'variables': variables}).encode('utf-8')
     for i in range(tries):
         try:
@@ -51,6 +52,8 @@ def gql(query, variables, tries=6):
             msg = json.dumps(errs, ensure_ascii=False)
             if ('omplexity' in msg or 'rate' in msg.lower()) and i < tries - 1:
                 print('WARN API 한도 초과 — 60s 후 재시도'); time.sleep(60); continue
+            if ('INTERNAL_SERVER_ERROR' in msg or 'DOWNSTREAM' in msg or 'status_code": 5' in msg) and i < tries - 1:
+                wait = 10 * (i + 1); print(f'WARN 먼데이닷컴 서버 오류(500) — {wait}s 후 재시도 ({i+1}/{tries-1})'); time.sleep(wait); continue
             raise SystemExit('ERROR monday API: ' + msg[:900])
         return res['data']
     raise SystemExit('ERROR monday API: 재시도 한도 초과')
@@ -97,13 +100,13 @@ def file_cols(cvs, strict):
     return [cv for cv in (cvs or []) if cv.get('type') == 'file' and (not strict or norm_title((cv.get('column') or {}).get('title')) in FILES_COLS)]
 
 def fetch_board(bid):
-    d = gql(Q_FIRST, {'b': [bid]})
+    d = gql(Q_FIRST, {'b': [bid], 'l': PAGE})
     boards = d.get('boards') or []
     if not boards: raise SystemExit(f'ERROR 보드 {bid}를 찾지 못했습니다(토큰 권한/보드 번호 확인).')
     bname = boards[0].get('name') or bid
     page = boards[0]['items_page']; items = list(page['items']); cursor = page.get('cursor')
     while cursor:
-        page = gql(Q_NEXT, {'c': cursor})['next_items_page']; items += page['items']; cursor = page.get('cursor')
+        page = gql(Q_NEXT, {'c': cursor, 'l': PAGE})['next_items_page']; items += page['items']; cursor = page.get('cursor')
     return bname, items
 
 def build(board_items):
