@@ -1,10 +1,20 @@
 name: Sync monday.com photo links
 on:
   schedule:
-    - cron: '0 21 * * *'   # 매일 06:00 (한국시간)
+    - cron: '0 21 * * *'       # 매일 06:00 KST — 전체 갱신
+    - cron: '0 2-9 * * 1-5'    # 평일 11:00~18:00 KST 매시 정각 — 증분 갱신(변경분만, 기존 이력 유지)
   workflow_dispatch:
+    inputs:
+      mode:
+        description: '갱신 방식'
+        type: choice
+        default: incremental
+        options: [incremental, full]
 permissions:
   contents: write
+concurrency:
+  group: monday-sync
+  cancel-in-progress: false
 jobs:
   sync:
     runs-on: ubuntu-latest
@@ -18,11 +28,11 @@ jobs:
       - name: Build monday_map.json
         env:
           MONDAY_TOKEN: ${{ secrets.MONDAY_TOKEN }}
-          # 보드 번호를 콤마로 나열 (예: '4057650308, 1234567890')
           MONDAY_BOARD_IDS: '4057650308, 7311969215'
           MONDAY_ACCOUNT: 'spigen'
-          # 파일 컬럼 제목(여러 개면 콤마, 공백/대소문자 무시)
           MONDAY_FILES_COLUMN: '최종 도안'
+          # 06:00 KST 스케줄 = full, 그 외 스케줄 = incremental, 수동 실행 = 선택값
+          MONDAY_MODE: ${{ github.event_name == 'schedule' && (github.event.schedule == '0 21 * * *' && 'full' || 'incremental') || (github.event.inputs.mode || 'incremental') }}
         run: python sync_monday.py
       - name: Commit and push
         run: |
@@ -33,5 +43,6 @@ jobs:
             echo "변경 없음 - 커밋 건너뜀"
           else
             git commit -m "자동 동기화: 먼데이닷컴 도안 링크"
+            git pull --rebase origin main || true
             git push
           fi
