@@ -1,17 +1,18 @@
 {
 "_meta": {
-"generated_at": "2026-09-15T09:03:15Z",
-"mode": "incremental",
+"generated_at": "2026-09-15T23:19:29Z",
+"mode": "full",
 "account": "spigen",
 "boards": 2,
 "files_column": [
 "최종도안"
 ],
-"items": 2,
-"subitems": 2,
-"files": 0,
-"title_hits": 2,
-"codes": 3162,
+"items": 1373,
+"subitems": 2067,
+"files": 6708,
+"title_hits": 2002,
+"gallery": 657,
+"codes": 3163,
 "no_gallery": []
 },
 "map": {
@@ -85555,6 +85556,48 @@
 "alt": [
 "https://spigen.monday.com/boards/4453971876/pulses/13014094481?asset_id=3244965759",
 "https://spigen.monday.com/boards/4453971876/pulses/13014094481?asset_id=3244965552"
+]
+},
+"3PK226480": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12801672555?asset_id=3248203950",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/12801686466",
+"board": "*[Mobile] 패키지 현황",
+"item": "iPad mini (2026) Core Armor (SQ)",
+"sub": "ACS12399",
+"file": "3PK226480_아패미(26)_코어아머_매트블랙.jpg",
+"updated": "2026-09-15",
+"files": [
+{
+"name": "3PK226480_아패미(26)_코어아머_매트블랙.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12801672555?asset_id=3248203950",
+"updated": "2026-09-15",
+"code": "3PK226480",
+"sub": "ACS12399",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "12801686466"
+},
+{
+"name": "3PK226480_아패미(26)_코어아머_매트블랙.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12801672555?asset_id=3248203968",
+"updated": "2026-09-15",
+"code": "3PK226480",
+"sub": "ACS12399",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "12801686466"
+},
+{
+"name": "3PK226480_아패미(26)_코어아머_매트블랙.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12801672555?asset_id=3248203958",
+"updated": "2026-09-15",
+"code": "3PK226480",
+"sub": "ACS12399",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "12801686466"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/12801672555?asset_id=3248203968",
+"https://spigen.monday.com/boards/4453971876/pulses/12801672555?asset_id=3248203958"
 ]
 },
 "3ST128640": {
