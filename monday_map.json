@@ -1,17 +1,17 @@
 {
 "_meta": {
-"generated_at": "2026-09-16T06:58:35Z",
+"generated_at": "2026-09-16T12:26:05Z",
 "mode": "incremental",
 "account": "spigen",
 "boards": 2,
 "files_column": [
 "최종도안"
 ],
-"items": 52,
-"subitems": 282,
-"files": 1115,
-"title_hits": 282,
-"codes": 3163,
+"items": 4,
+"subitems": 30,
+"files": 113,
+"title_hits": 30,
+"codes": 3167,
 "no_gallery": []
 },
 "map": {
@@ -75189,6 +75189,48 @@
 "https://spigen.monday.com/boards/4453971876/pulses/12264195002?asset_id=3095831939"
 ]
 },
+"3BS220290": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/18304451867?asset_id=3251141658",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/18304442562",
+"board": "*[Mobile] 패키지 현황",
+"item": "#MacBook Pro 14\" (M5,2025/) Urban Fit Pro",
+"sub": "ACS11270",
+"file": "3BS220290_ACS11270_McBP14(M5Mx,26)_UbFPro_BK.jpg",
+"updated": "2026-09-16",
+"files": [
+{
+"name": "3BS220290_ACS11270_McBP14(M5Mx,26)_UbFPro_BK.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/18304451867?asset_id=3251141658",
+"updated": "2026-09-16",
+"code": "3BS220290",
+"sub": "ACS11270",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "18304442562"
+},
+{
+"name": "3BS220290_ACS11270_McBP14(M5Mx,26)_UbFPro_BK.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/18304451867?asset_id=3251141820",
+"updated": "2026-09-16",
+"code": "3BS220290",
+"sub": "ACS11270",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "18304442562"
+},
+{
+"name": "3BS220290_ACS11270_McBP14(M5Mx,26)_UbFPro_BK.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/18304451867?asset_id=3251141652",
+"updated": "2026-09-16",
+"code": "3BS220290",
+"sub": "ACS11270",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "18304442562"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/18304451867?asset_id=3251141820",
+"https://spigen.monday.com/boards/4453971876/pulses/18304451867?asset_id=3251141652"
+]
+},
 "3BS220450": {
 "url": "https://spigen.monday.com/boards/4453971876/pulses/12547689620?asset_id=3114145406",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/10552940893",
@@ -80941,6 +80983,48 @@
 "alt": [
 "https://spigen.monday.com/boards/4453971876/pulses/12993740485?asset_id=3247741783",
 "https://spigen.monday.com/boards/4453971876/pulses/12993740485?asset_id=3247741678"
+]
+},
+"3BS226470": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12801674772?asset_id=3251139434",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/12801656231",
+"board": "*[Mobile] 패키지 현황",
+"item": "iPad mini (2026) Rugged Armor",
+"sub": "ACS12398",
+"file": "3BS226470_ACS12398_iPadm(26)_Rgd_MttBK.jpg",
+"updated": "2026-09-16",
+"files": [
+{
+"name": "3BS226470_ACS12398_iPadm(26)_Rgd_MttBK.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12801674772?asset_id=3251139434",
+"updated": "2026-09-16",
+"code": "3BS226470",
+"sub": "ACS12398",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "12801656231"
+},
+{
+"name": "3BS226470_ACS12398_iPadm(26)_Rgd_MttBK.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12801674772?asset_id=3251139837",
+"updated": "2026-09-16",
+"code": "3BS226470",
+"sub": "ACS12398",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "12801656231"
+},
+{
+"name": "3BS226470_ACS12398_iPadm(26)_Rgd_MttBK.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12801674772?asset_id=3251139460",
+"updated": "2026-09-16",
+"code": "3BS226470",
+"sub": "ACS12398",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "12801656231"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/12801674772?asset_id=3251139837",
+"https://spigen.monday.com/boards/4453971876/pulses/12801674772?asset_id=3251139460"
 ]
 },
 "3MN214740": {
@@ -138661,6 +138745,48 @@
 "https://spigen.monday.com/boards/4453971876/pulses/18240027566?asset_id=2608980585"
 ]
 },
+"ACS11270": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/18304451867?asset_id=3251141658",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/18304442562",
+"board": "*[Mobile] 패키지 현황",
+"item": "#MacBook Pro 14\" (M5,2025/) Urban Fit Pro",
+"sub": "ACS11270",
+"file": "3BS220290_ACS11270_McBP14(M5Mx,26)_UbFPro_BK.jpg",
+"updated": "2026-09-16",
+"files": [
+{
+"name": "3BS220290_ACS11270_McBP14(M5Mx,26)_UbFPro_BK.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/18304451867?asset_id=3251141658",
+"updated": "2026-09-16",
+"code": "3BS220290",
+"sub": "ACS11270",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "18304442562"
+},
+{
+"name": "3BS220290_ACS11270_McBP14(M5Mx,26)_UbFPro_BK.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/18304451867?asset_id=3251141820",
+"updated": "2026-09-16",
+"code": "3BS220290",
+"sub": "ACS11270",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "18304442562"
+},
+{
+"name": "3BS220290_ACS11270_McBP14(M5Mx,26)_UbFPro_BK.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/18304451867?asset_id=3251141652",
+"updated": "2026-09-16",
+"code": "3BS220290",
+"sub": "ACS11270",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "18304442562"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/18304451867?asset_id=3251141820",
+"https://spigen.monday.com/boards/4453971876/pulses/18304451867?asset_id=3251141652"
+]
+},
 "ACS11276": {
 "url": "https://spigen.monday.com/boards/4453971876/pulses/18323046528?asset_id=2655039071",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/18323044180",
@@ -154459,6 +154585,48 @@
 "alt": [
 "https://spigen.monday.com/boards/4453971876/pulses/12745645516?asset_id=3223238831",
 "https://spigen.monday.com/boards/4453971876/pulses/12745645516?asset_id=3223238792"
+]
+},
+"ACS12398": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12801674772?asset_id=3251139434",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/12801656231",
+"board": "*[Mobile] 패키지 현황",
+"item": "iPad mini (2026) Rugged Armor",
+"sub": "ACS12398",
+"file": "3BS226470_ACS12398_iPadm(26)_Rgd_MttBK.jpg",
+"updated": "2026-09-16",
+"files": [
+{
+"name": "3BS226470_ACS12398_iPadm(26)_Rgd_MttBK.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12801674772?asset_id=3251139434",
+"updated": "2026-09-16",
+"code": "3BS226470",
+"sub": "ACS12398",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "12801656231"
+},
+{
+"name": "3BS226470_ACS12398_iPadm(26)_Rgd_MttBK.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12801674772?asset_id=3251139837",
+"updated": "2026-09-16",
+"code": "3BS226470",
+"sub": "ACS12398",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "12801656231"
+},
+{
+"name": "3BS226470_ACS12398_iPadm(26)_Rgd_MttBK.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12801674772?asset_id=3251139460",
+"updated": "2026-09-16",
+"code": "3BS226470",
+"sub": "ACS12398",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "12801656231"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/12801674772?asset_id=3251139837",
+"https://spigen.monday.com/boards/4453971876/pulses/12801674772?asset_id=3251139460"
 ]
 },
 "ACS12403": {
