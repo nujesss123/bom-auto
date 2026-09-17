@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 # 먼데이닷컴 보드(여러 개) -> 자재코드별 항목 링크 매핑(monday_map.json) 생성 (GitHub Actions용)
-# - 상위/하위 아이템의 파일 컬럼(기본 '최종 도안')에 올라간 파일명 앞부분을 자재코드로 인식
+# - 상위/하위 아이템의 파일 컬럼(기본 '최종 도안')과 카드 첨부파일(파일 탭)을 읽어 파일명 앞부분을 자재코드로 인식
 # - 같은 코드가 여러 곳에 있으면 '가장 최근 업로드' 파일의 항목을 링크, 나머지는 alt로 보관
+# - 업로드한 담당자 이름(uploaded_by)도 함께 저장
 # - 토큰은 환경변수 MONDAY_TOKEN (GitHub Secret)
 import os, re, json, sys, time, datetime, urllib.request, urllib.error
 
 TOKEN = os.environ.get('MONDAY_TOKEN', '').strip()
 BOARD_IDS = [b.strip() for b in os.environ.get('MONDAY_BOARD_IDS', os.environ.get('MONDAY_BOARD_ID', '4057650308')).split(',') if b.strip()]
 ACCOUNT = os.environ.get('MONDAY_ACCOUNT', 'spigen').strip()
-FILES_COLS = [c.strip().lower().replace(' ', '') for c in os.environ.get('MONDAY_FILES_COLUMN', '최종 도안').split(',') if c.strip()]
+FILES_COLS = [c.strip().lower().replace(' ', '') for c in os.environ.get('MONDAY_FILES_COLUMN', '최종 도안, 최종 도안 파일').split(',') if c.strip()]
 CODE_COLS = [c.strip().lower().replace(' ', '') for c in os.environ.get('MONDAY_CODE_COLUMNS', '최신 자재번호, 자재번호, 자재코드, 자재 코드').split(',') if c.strip()]
 CODE_PATTERN = os.environ.get('MONDAY_CODE_PATTERN', r'^[\s\[\(\{]*([A-Za-z0-9]{4,})')
 TOKEN_PATTERN = os.environ.get('MONDAY_TOKEN_PATTERN', r'^\d{0,2}[A-Z]{1,4}\d{3,}[A-Z]{0,2}$')   # 파일명 안 코드 모양 (예: 3BS225550, ACS11690, 3BS17345B)
@@ -27,11 +28,12 @@ class ApiError(Exception): pass
 # 1단계: 아이템 목록만 가볍게 (id, 이름, 하위아이템 id)
 Q_LIST = 'query($b:[ID!],$l:Int!){ boards(ids:$b){ id name items_page(limit:$l){ cursor items{ id name updated_at subitems{ id updated_at } } } } }'
 Q_LIST_NEXT = 'query($c:String!,$l:Int!){ next_items_page(cursor:$c, limit:$l){ cursor items{ id name updated_at subitems{ id updated_at } } } }'
-# 2단계: 상세(파일 컬럼 + 카드 첨부파일)를 id 묶음으로
+# 2단계: 상세(파일 컬럼 + 카드 첨부파일 + 업로더)를 id 묶음으로
+ASSET = 'asset { id name created_at uploaded_by { name } }'
 FILES = ('files { __typename '
-         '... on FileAssetValue { created_at name asset { id name created_at } } '
+         '... on FileAssetValue { created_at name ' + ASSET + ' } '
          '... on FileLinkValue { created_at name url } }')
-FRAG_FULL = ('fragment D on Item { id name board { id } assets(assets_source: gallery) { id name created_at } '
+FRAG_FULL = ('fragment D on Item { id name board { id } assets(assets_source: gallery) { id name created_at uploaded_by { name } } '
              'column_values(types: [file, text]) { id type text column { title } ... on FileValue { ' + FILES + ' } } }')
 FRAG_COLS = ('fragment D on Item { id name board { id } '
              'column_values(types: [file, text]) { id type text column { title } ... on FileValue { ' + FILES + ' } } }')
@@ -130,7 +132,7 @@ TOKEN_RE = re.compile(r'[A-Za-z0-9]+')
 CODE_SHAPE = re.compile(TOKEN_PATTERN)
 def looks_like_code(u): return bool(CODE_SHAPE.match(u))
 def codes_of(fname):
-    """파일명 -> 코드 목록. 맨 앞 토큰(자재코드) + (옵션) 영문+숫자 섞인 5자 이상 토큰(SKU 등)"""
+    """파일명 -> 코드 목록. 맨 앞 토큰(자재코드) + (옵션) 코드 모양의 다른 토큰(SKU 등)"""
     base = re.sub(r'\.[A-Za-z0-9]{2,5}$', '', fname or '')   # 확장자 제거
     out = []
     m = CODE_RE.match(base)
@@ -151,18 +153,21 @@ def view_rank(fname):
 
 def norm_title(t): return (t or '').strip().lower().replace(' ', '')
 
+def uploader(a):
+    return ((a or {}).get('uploaded_by') or {}).get('name') or ''
+
 def files_of(cv):
-    """파일 컬럼 값 -> [(파일명, 업로드시각ISO, asset_id 또는 None, 외부링크 또는 None)]"""
+    """파일 컬럼 값 -> [(파일명, 업로드시각ISO, asset_id 또는 None, 외부링크 또는 None, 업로더)]"""
     out = []
     for f in (cv.get('files') or []):
         tn = f.get('__typename')
         if tn == 'FileAssetValue':
             a = f.get('asset') or {}
             name = a.get('name') or f.get('name'); ts = f.get('created_at') or a.get('created_at') or ''
-            if name: out.append((name, ts, a.get('id'), None))
+            if name: out.append((name, ts, a.get('id'), None, uploader(a)))
         elif tn == 'FileLinkValue':
             name = f.get('name'); ts = f.get('created_at') or ''
-            if name: out.append((name, ts, None, f.get('url')))
+            if name: out.append((name, ts, None, f.get('url'), ''))
     return out
 
 def code_cols(cvs):
@@ -180,7 +185,7 @@ def file_cols(cvs, strict):
     return [cv for cv in (cvs or []) if cv.get('type') == 'file' and (not strict or norm_title((cv.get('column') or {}).get('title')) in FILES_COLS)]
 
 def collect(board_items, stats):
-    """(board_id, board_name, items) -> 후보 목록 [{code, url, parent_url, board, item, sub, file, updated, lead, item_id}]"""
+    """(board_id, board_name, items) -> 후보 목록 [{code, url, parent_url, board, item, sub, file, updated, lead, item_id, by}]"""
     ents = []
     seen_assets = set()
     def push(code, **e): ents.append({'code': code, **e})
@@ -194,7 +199,7 @@ def collect(board_items, stats):
             seen_assets.add(a['id']); stats['files'] += 1; stats['gallery'] = stats.get('gallery', 0) + 1
             cs = with_cols(codes_of(a.get('name')), extra)
             for c in cs:
-                push(c, url=f"{url_base}?asset_id={a['id']}", parent_url=parent_url, board=bname, item=item_name, sub=sub_name, file=a.get('name'), updated=a.get('created_at') or '', lead=cs[0], item_id=item_id)
+                push(c, url=f"{url_base}?asset_id={a['id']}", parent_url=parent_url, board=bname, item=item_name, sub=sub_name, file=a.get('name'), updated=a.get('created_at') or '', lead=cs[0], item_id=item_id, by=uploader(a))
     for bid, bname, items in board_items:
         stats['items'] += len(items)
         hits = 0
@@ -211,26 +216,26 @@ def collect(board_items, stats):
                 extra_i = code_cols(it.get('column_values'))
                 for cv in file_cols(it.get('column_values'), strict):
                     hits += 1
-                    for fn, ts, aid, link in files_of(cv):
+                    for fn, ts, aid, link, by in files_of(cv):
                         if aid and aid in seen_assets: continue
                         if aid: seen_assets.add(aid)
                         stats['files'] += 1
                         url = link or (f'{purl}?asset_id={aid}' if aid else purl)
                         cs = with_cols(codes_of(fn), extra_i)
-                        for c in cs: push(c, url=url, parent_url=purl, board=bname, item=it.get('name'), sub=None, file=fn, updated=ts, lead=cs[0], item_id=it['id'])
+                        for c in cs: push(c, url=url, parent_url=purl, board=bname, item=it.get('name'), sub=None, file=fn, updated=ts, lead=cs[0], item_id=it['id'], by=by)
                 for sub in it.get('subitems') or []:
                     sb = (sub.get('board') or {}).get('id') or bid
                     surl = f'https://{ACCOUNT}.monday.com/boards/{sb}/pulses/{sub["id"]}'
                     extra_s = code_cols(sub.get('column_values'))
                     for cv in file_cols(sub.get('column_values'), strict):
                         hits += 1
-                        for fn, ts, aid, link in files_of(cv):
+                        for fn, ts, aid, link, by in files_of(cv):
                             if aid and aid in seen_assets: continue
                             if aid: seen_assets.add(aid)
                             stats['files'] += 1
                             url = link or (f'{surl}?asset_id={aid}' if aid else surl)
                             cs = with_cols(codes_of(fn), extra_s)
-                            for c in cs: push(c, url=url, parent_url=purl, board=bname, item=it.get('name'), sub=sub.get('name'), file=fn, updated=ts, lead=cs[0], item_id=it['id'])
+                            for c in cs: push(c, url=url, parent_url=purl, board=bname, item=it.get('name'), sub=sub.get('name'), file=fn, updated=ts, lead=cs[0], item_id=it['id'], by=by)
             if hits > 0 or not items: break
             if strict: print(f"INFO 보드 '{bname}': '{', '.join(FILES_COLS)}' 제목의 파일 컬럼이 없어 모든 파일 컬럼(+카드 첨부파일)을 검색합니다.")
         stats['title_hits'] += hits
@@ -245,13 +250,13 @@ def assemble(ents):
         es.sort(key=lambda e: ((e.get('updated') or '')[:10], -view_rank(e.get('file'))), reverse=True)
         top = es[0]
         entry = {'url': top['url'], 'parent_url': top['parent_url'], 'board': top['board'], 'item': top['item'],
-                 'sub': top['sub'], 'file': top['file'], 'updated': (top.get('updated') or '')[:10], 'files': []}
+                 'sub': top['sub'], 'file': top['file'], 'updated': (top.get('updated') or '')[:10], 'by': top.get('by') or '', 'files': []}
         seen = set()
         for e in es:
             if e['url'] in seen: continue
             seen.add(e['url'])
             entry['files'].append({'name': e['file'], 'url': e['url'], 'updated': (e.get('updated') or '')[:10],
-                                   'code': e.get('lead') or code, 'sub': e['sub'], 'board': e['board'], 'item_id': e.get('item_id')})
+                                   'code': e.get('lead') or code, 'sub': e['sub'], 'board': e['board'], 'item_id': e.get('item_id'), 'by': e.get('by') or ''})
         alts = [f['url'] for f in entry['files'][1:]]
         if alts: entry['alt'] = alts
         mapping[code] = entry
@@ -265,7 +270,7 @@ def entries_from_map(mp, exclude_items):
             if not isinstance(f, dict) or 'item_id' not in f: return None
             if f.get('item_id') in exclude_items: continue
             ents.append({'code': code, 'url': f['url'], 'parent_url': e.get('parent_url'), 'board': f.get('board'), 'item': e.get('item'),
-                         'sub': f.get('sub'), 'file': f.get('name'), 'updated': f.get('updated') or '', 'lead': f.get('code'), 'item_id': f.get('item_id')})
+                         'sub': f.get('sub'), 'file': f.get('name'), 'updated': f.get('updated') or '', 'lead': f.get('code'), 'item_id': f.get('item_id'), 'by': f.get('by') or ''})
     return ents
 
 def main():
@@ -284,6 +289,8 @@ def main():
         base_ents = entries_from_map((old or {}).get('map'), set())
         if base_ents is None or not meta_old.get('generated_at'):
             print('INFO 기존 목록이 없거나 구버전 형식 → 전체 갱신으로 전환'); mode = 'full'
+        elif set(meta_old.get('boards') or []) != set(BOARD_IDS):
+            print('INFO 보드 목록이 바뀌어 전체 갱신으로 전환'); mode = 'full'
         else:
             t = datetime.datetime.strptime(meta_old['generated_at'], '%Y-%m-%dT%H:%M:%SZ') - datetime.timedelta(minutes=SINCE_BUFFER_MIN)
             since = t.strftime('%Y-%m-%dT%H:%M:%SZ')

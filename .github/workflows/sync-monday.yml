@@ -28,9 +28,11 @@ jobs:
       - name: Build monday_map.json
         env:
           MONDAY_TOKEN: ${{ secrets.MONDAY_TOKEN }}
-          MONDAY_BOARD_IDS: '4057650308, 7311969215'
+          # 보드 번호를 콤마로 나열 (추가/삭제 시 여기만 수정)
+          MONDAY_BOARD_IDS: '4057650308, 7311969215, 4485989214, 3106368464, 3133983085, 8091356464'
           MONDAY_ACCOUNT: 'spigen'
-          MONDAY_FILES_COLUMN: '최종 도안'
+          # 최종 도안이 들어있는 파일 컬럼 제목들(콤마 구분, 공백/대소문자 무시). 없는 보드는 모든 파일 컬럼+카드 첨부파일을 읽음
+          MONDAY_FILES_COLUMN: '최종 도안, 최종 도안 파일'
           # 06:00 KST 스케줄 = full, 그 외 스케줄 = incremental, 수동 실행 = 선택값
           MONDAY_MODE: ${{ github.event_name == 'schedule' && (github.event.schedule == '0 21 * * *' && 'full' || 'incremental') || (github.event.inputs.mode || 'incremental') }}
         run: python sync_monday.py
