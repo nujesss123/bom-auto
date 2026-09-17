@@ -75,10 +75,16 @@ mark{background:var(--hl); padding:0 1px;}
 .cpybtn:hover{border-color:var(--accent2); color:var(--accent2);}
 .cpybtn.ok{border-color:var(--ok); color:var(--ok);}
 .note{font-size:11.5px; color:var(--muted);}
-.photo{display:inline-block; margin-left:6px; padding:1px 7px; border:1px solid var(--line); border-radius:10px; font-size:11px; color:var(--accent2); text-decoration:none; white-space:nowrap; background:#fff; vertical-align:middle;}
-.photo:hover{border-color:var(--accent2); background:#f0f3fb;}
-.photo sup{font-size:9px; margin-left:2px; color:var(--muted);}
-.photo .by{margin-left:5px; padding-left:5px; border-left:1px solid var(--line); color:var(--ink2); font-weight:600;}
+.photo{display:inline-flex; align-items:center; gap:4px; margin-left:4px; padding:0 7px; height:19px; border:1px solid #d9def0; border-radius:10px; font-size:11px; line-height:1; color:var(--accent2); text-decoration:none; white-space:nowrap; background:#f7f8fd; vertical-align:middle;}
+.photo:hover{border-color:var(--accent2); background:#eef1fb;}
+.photo sup{font-size:9px; color:var(--muted); vertical-align:top; line-height:1;}
+.photo .by{color:var(--ink2); font-weight:500;}
+.photo .by::before{content:'·'; color:#b6bccf; margin-right:4px;}
+.photo.badge-ph{cursor:pointer; background:#fff; color:var(--ink2); font-weight:600;}
+.photos{display:flex; flex-wrap:wrap; align-items:center; gap:5px; margin:2px 0 10px; padding:6px 8px; background:#f7f8fd; border:1px dashed #d9def0; border-radius:8px;}
+.photos .photo{margin-left:0; background:#fff;}
+.photos-l{font-size:11.5px; color:var(--muted); margin-right:2px;}
+td.nw{white-space:nowrap;}
 </style>
 </head>
 <body>
@@ -240,26 +246,37 @@ const fmtQty=(q,b)=> b&&b!==1 ? `${q}/${b}` : `${q}`;
 
 // ---------- 먼데이닷컴 도안 링크 (monday_map.json: 자재코드 -> 항목 링크, GitHub Actions가 동기화) ----------
 let MONDAY=null, lastMat=null;
-function photoBtn(code){
-  if(!MONDAY) return '';
-  const key=String(code||'').trim().toUpperCase(); const e=MONDAY[key]; if(!e) return '';
-  // 파일별 상세(최신순). 구버전 데이터면 단일 항목으로 변환
+function photoGroups(code){
+  if(!MONDAY) return null;
+  const key=String(code||'').trim().toUpperCase(); const e=MONDAY[key]; if(!e) return null;
   const files=(Array.isArray(e.files)&&e.files.length&&typeof e.files[0]==='object')?e.files
-    :[{name:e.file||(e.files&&e.files[0])||'',url:e.url,updated:e.updated,code:key,board:e.board}];
-  // 파일명 앞 자재코드별로 묶기 (같은 코드의 여러 버전은 최신 하나만 열고 개수 표시)
+    :[{name:e.file||(e.files&&e.files[0])||'',url:e.url,updated:e.updated,code:key,board:e.board,by:e.by}];
   const groups=new Map();
   files.forEach(f=>{ const k=String(f.code||key).toUpperCase(); if(!groups.has(k)) groups.set(k,{first:f,n:0}); groups.get(k).n++; });
   const keys=[...groups.keys()].sort((a,b)=>a===key?-1:b===key?1:a.localeCompare(b));
-  const MAX=8; let html='';
-  keys.slice(0,MAX).forEach(k=>{
-    const g=groups.get(k), f=g.first;
-    const label=(k===key||keys.length===1)?'📷 보기':'📷 '+k;
-    const by=(f.by||e.by||'').trim();
-    const t=(f.name||'')+(by?' · 담당 '+by:'')+(f.updated?' · 업로드 '+f.updated:'')+(f.board?' · '+f.board:'')+(g.n>1?` (버전 ${g.n}개 중 최신)`:'');
-    html+=` <a class="photo" href="${esc(f.url)}" target="_blank" rel="noopener" title="${esc(t)}" onclick="event.stopPropagation()">${esc(label)}${by?`<span class="by">${esc(by)}</span>`:''}${g.n>1?`<sup>${g.n}</sup>`:''}</a>`;
-  });
+  return {key,e,groups,keys};
+}
+// 담당자 표시: "이름/팀/HQ" → "이름"
+const byName = s => String(s||'').split('/')[0].trim();
+function photoChip(g,k,key,keysLen){
+  const f=g.first, by=byName(f.by);
+  const label=(k===key||keysLen===1)?'📷 보기':'📷 '+k;
+  const t=(f.name||'')+(f.by?' · 담당 '+f.by:'')+(f.updated?' · 업로드 '+f.updated:'')+(f.board?' · '+f.board:'')+(g.n>1?` (버전 ${g.n}개 중 최신)`:'');
+  return `<a class="photo" href="${esc(f.url)}" target="_blank" rel="noopener" title="${esc(t)}" onclick="event.stopPropagation()">${esc(label)}${by?`<span class="by">${esc(by)}</span>`:''}${g.n>1?`<sup>${g.n}</sup>`:''}</a>`;
+}
+// mode: 'chips'(기본, 인라인) | 'badge'(목록용 요약 배지) | 'block'(상세 카드용 한 줄 묶음)
+function photoBtn(code, mode){
+  const p=photoGroups(code); if(!p) return '';
+  const {key,groups,keys}=p;
+  if(mode==='badge'){
+    const t=keys.map(k=>{const f=groups.get(k).first; return k+(f.by?' · '+byName(f.by):'');}).join('\n');
+    return ` <span class="photo badge-ph" title="${esc('도안 '+keys.length+'건 (클릭하면 아래 상세에 표시)\n'+t)}">📷 ${keys.length}</span>`;
+  }
+  const MAX=mode==='block'?40:8;
+  let html=keys.slice(0,MAX).map(k=>photoChip(groups.get(k),k,key,keys.length)).join(' ');
   if(keys.length>MAX) html+=` <span class="photo" title="${esc(keys.slice(MAX).join(', '))}">+${keys.length-MAX}</span>`;
-  return html;
+  if(mode==='block') return `<div class="photos"><span class="photos-l">📷 도안</span>${html}</div>`;
+  return ' '+html;
 }
 fetch('monday_map.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).then(j=>{
   if(!j) return; MONDAY=j.map||j;
@@ -331,7 +348,7 @@ function searchSku(){
     const s=SKUS[i];
     const tr=document.createElement('tr'); tr.className='click'; tr.dataset.idx=i;
     tr.innerHTML=`<td><span class="badge ${isFin(s)?'fin':'semi'}">${isFin(s)?'완제품':'반제품'}</span></td>
-      <td><b>${hl(s[0],q)}</b> ${cpy(s[0])}${photoBtn(s[0])}</td><td>${esc(s[1])}${skuVersByCode.get(s[0]).length>1?` <span class="note">외 ${skuVersByCode.get(s[0]).length-1}</span>`:''}</td>
+      <td class="nw"><b>${hl(s[0],q)}</b> ${cpy(s[0])}${photoBtn(s[0],'badge')}</td><td>${esc(s[1])}${skuVersByCode.get(s[0]).length>1?` <span class="note">외 ${skuVersByCode.get(s[0]).length-1}</span>`:''}</td>
       <td>${hl(s[2],q)}</td><td>${esc(s[4])}</td><td>${hl(s[6],q)}</td><td>${esc(s[7])}</td><td>${hl(s[8],q)}</td><td>${esc(s[9])}</td>`;
     tr.onclick=()=>{document.querySelectorAll('#r1 tr.sel').forEach(x=>x.classList.remove('sel'));tr.classList.add('sel');
       const el=document.getElementById('skucard-'+i);
@@ -357,7 +374,7 @@ function skuCardHTML(idx, verIdx){
   const cur=verIdx??idx;
   const rows=COMPS[cur];
   const codes=[...new Set(rows.map(r=>MATS[r[1]][0]))];
-  let html=`<div class="card detail"><h2>${esc(s[0])} ${cpy(s[0])}${photoBtn(s[0])} <span style="font-weight:400">${esc(s[2])}</span> <span class="badge ${isFin(s)?'fin':'semi'}">${isFin(s)?'완제품':'반제품'}</span>
+  let html=`<div class="card detail"><h2>${esc(s[0])} ${cpy(s[0])} <span style="font-weight:400">${esc(s[2])}</span> <span class="badge ${isFin(s)?'fin':'semi'}">${isFin(s)?'완제품':'반제품'}</span>
   <button class="cpybtn" style="float:right" title="구성 자재코드를 줄바꿈으로 복사 — SIS 복수검색(클립보드 업로드)에 바로 붙여넣기 가능" data-codes="${codes.join('|')}" onclick="copyCodes(this)">⧉ 자재코드 전체복사 (${codes.length})</button></h2>
   <div class="sub">
     <span class="kv">브랜드 <b>${esc(s[4]||'-')}</b></span><span class="kv">제조사 <b>${esc(s[5]||'-')}</b></span>
@@ -365,7 +382,7 @@ function skuCardHTML(idx, verIdx){
     <span class="kv">모델 <b>${esc(s[8]||'-')}</b></span><span class="kv">제품계층 <b>${esc(s[10]||'-')}</b></span>
     <span class="kv">MRP관리자 <b>${esc(s[12]||'-')}</b></span><span class="kv">초안작성자 <b>${esc(s[13]||'-')}</b></span>
     <span class="kv">영문명 <b>${esc(s[3]||'-')}</b></span>
-  </div>`;
+  </div>${photoBtn(s[0],'block')}`;
   if(vers.length>1){
     html+=`<div class="verbtns">`+vers.map(v=>`<button class="${v===cur?'on':''}" onclick="renderCard(${idx},${v})">${esc(SKUS[v][1])} <span style="font-weight:400;font-size:11px">(${esc(SKUS[v][9])})</span></button>`).join('')+`</div>`;
   } else {
