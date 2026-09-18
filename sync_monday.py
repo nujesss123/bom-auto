@@ -11,7 +11,7 @@ BOARD_IDS = [b.strip() for b in os.environ.get('MONDAY_BOARD_IDS', os.environ.ge
 ACCOUNT = os.environ.get('MONDAY_ACCOUNT', 'spigen').strip()
 FILES_COLS = [c.strip().lower().replace(' ', '') for c in os.environ.get('MONDAY_FILES_COLUMN', '최종 도안, 최종 도안 파일').split(',') if c.strip()]
 CODE_COLS = [c.strip().lower().replace(' ', '') for c in os.environ.get('MONDAY_CODE_COLUMNS', '최신 자재번호, 자재번호, 자재코드, 자재 코드').split(',') if c.strip()]
-CODE_PATTERN = os.environ.get('MONDAY_CODE_PATTERN', r'^[\s\[\(\{]*([A-Za-z0-9]{4,})')
+CODE_PATTERN = os.environ.get('MONDAY_CODE_PATTERN', r'^[\s\[\(\{]*([A-Za-z0-9]{4,12})(?![A-Za-z0-9])')   # 파일명 맨 앞 토큰(4~12자)
 TOKEN_PATTERN = os.environ.get('MONDAY_TOKEN_PATTERN', r'^\d{0,2}[A-Z]{1,4}\d{3,}[A-Z]{0,2}$')   # 파일명 안 코드 모양 (예: 3BS225550, ACS11690, 3BS17345B)
 ALL_TOKENS = os.environ.get('MONDAY_ALL_TOKENS', 'true').lower() == 'true'   # 파일명 안의 다른 코드(예: SKU)도 함께 인식
 PAGE = int(os.environ.get('MONDAY_PAGE_SIZE', '25'))   # 한 번에 가져올 아이템 수(작을수록 안정적)
@@ -41,6 +41,7 @@ Q_DETAIL = 'query($ids:[ID!]){ items(ids:$ids){ ...D } }'
 BATCH = int(os.environ.get('MONDAY_BATCH', '20'))
 USE_GALLERY = True
 gallery_fail = 0
+SKIPPED = []         # 읽기 실패로 건너뛴 항목 id (로그/메타에 기록)
 NO_GALLERY = set()   # 첨부파일 조회가 실패했던 항목 id (다음 실행부터 바로 컬럼 파일만 읽어 시간 절약)
 
 def gql(query, variables, tries=4):
@@ -101,7 +102,7 @@ def fetch_details(ids):
                     return
                 except ApiError as e2:
                     e = e2
-            print(f'WARN 항목 {chunk[0]} 읽기 실패 — 건너뜀 ({str(e)[:120]})')
+            SKIPPED.append(chunk[0]); print(f'WARN 항목 {chunk[0]} 읽기 실패 — 건너뜀 ({str(e)[:120]})')
     good = [i for i in ids if i not in NO_GALLERY]; bad = [i for i in ids if i in NO_GALLERY]
     for lst in (good, bad):
         for i in range(0, len(lst), BATCH):
@@ -289,13 +290,13 @@ def main():
         base_ents = entries_from_map((old or {}).get('map'), set())
         if base_ents is None or not meta_old.get('generated_at'):
             print('INFO 기존 목록이 없거나 구버전 형식 → 전체 갱신으로 전환'); mode = 'full'
-        elif set(meta_old.get('boards') or []) != set(BOARD_IDS):
+        elif not isinstance(meta_old.get('boards'), list) or set(meta_old.get('boards')) != set(BOARD_IDS):
             print('INFO 보드 목록이 바뀌어 전체 갱신으로 전환'); mode = 'full'
         else:
             t = datetime.datetime.strptime(meta_old['generated_at'], '%Y-%m-%dT%H:%M:%SZ') - datetime.timedelta(minutes=SINCE_BUFFER_MIN)
             since = t.strftime('%Y-%m-%dT%H:%M:%SZ')
     print(f"모드: {'전체 갱신' if mode == 'full' else '증분 갱신(' + since + ' 이후 변경분)'}")
-    stats = {'boards': len(BOARD_IDS), 'items': 0, 'subitems': 0, 'files': 0, 'title_hits': 0}
+    stats = {'board_count': len(BOARD_IDS), 'items': 0, 'subitems': 0, 'files': 0, 'title_hits': 0}
     board_items = []
     for bid in BOARD_IDS:
         bname, items = fetch_board(bid, since)
@@ -311,11 +312,12 @@ def main():
         if not mapping and old and (old.get('map') or {}):
             sys.exit(f"ERROR 이번 결과가 0건이라 기존 {len(old['map'])}건 목록을 보존합니다. 파일명/컬럼 제목/토큰 권한을 확인하세요.")
     out = {'_meta': {'generated_at': started, 'mode': mode, 'account': ACCOUNT, 'boards': BOARD_IDS, 'files_column': FILES_COLS,
-                     **stats, 'codes': len(mapping), 'no_gallery': sorted(NO_GALLERY)},
+                     **stats, 'codes': len(mapping), 'no_gallery': sorted(NO_GALLERY), 'skipped': SKIPPED},
            'map': dict(sorted(mapping.items()))}
     json.dump(out, open(OUT, 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
     dup = sum(1 for e in mapping.values() if e.get('alt'))
-    print(f"OK [{mode}] 보드 {stats['boards']} · 조회 아이템 {stats['items']} · 하위 {stats['subitems']} · 파일 {stats['files']}(첨부 {stats.get('gallery',0)}) → 자재코드 {len(mapping)}개 (여러 파일 {dup}개) · 첨부불가 항목 {len(NO_GALLERY)}개")
+    print(f"OK [{mode}] 보드 {stats['board_count']} · 조회 아이템 {stats['items']} · 하위 {stats['subitems']} · 파일 {stats['files']}(첨부 {stats.get('gallery',0)}) → 자재코드 {len(mapping)}개 (여러 파일 {dup}개) · 첨부불가 {len(NO_GALLERY)}개 · 건너뜀 {len(SKIPPED)}개")
+    if SKIPPED: print('WARN 건너뛴 항목 id: ' + ', '.join(SKIPPED[:50]))
     if not mapping: print('WARN 매핑 0건: 파일명이 자재코드로 시작하는지, 컬럼 제목이 맞는지 확인하세요.')
 
 if __name__ == '__main__':
