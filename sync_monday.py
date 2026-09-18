@@ -10,6 +10,9 @@ TOKEN = os.environ.get('MONDAY_TOKEN', '').strip()
 BOARD_IDS = [b.strip() for b in os.environ.get('MONDAY_BOARD_IDS', os.environ.get('MONDAY_BOARD_ID', '4057650308')).split(',') if b.strip()]
 ACCOUNT = os.environ.get('MONDAY_ACCOUNT', 'spigen').strip()
 FILES_COLS = [c.strip().lower().replace(' ', '') for c in os.environ.get('MONDAY_FILES_COLUMN', '최종 도안, 최종 도안 파일').split(',') if c.strip()]
+# Include the WO final-artwork column even when Actions supplies legacy column names.
+if '☄️최종도안파일' not in FILES_COLS:
+    FILES_COLS.append('☄️최종도안파일')
 CODE_COLS = [c.strip().lower().replace(' ', '') for c in os.environ.get('MONDAY_CODE_COLUMNS', '최신 자재번호, 자재번호, 자재코드, 자재 코드').split(',') if c.strip()]
 CODE_PATTERN = os.environ.get('MONDAY_CODE_PATTERN', r'^[\s\[\(\{]*([A-Za-z0-9]{4,12})(?![A-Za-z0-9])')   # 파일명 맨 앞 토큰(4~12자)
 TOKEN_PATTERN = os.environ.get('MONDAY_TOKEN_PATTERN', r'^\d{0,2}[A-Z]{1,4}\d{3,}[A-Z]{0,2}$')   # 파일명 안 코드 모양 (예: 3BS225550, ACS11690, 3BS17345B)
