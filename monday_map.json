@@ -1,6 +1,6 @@
 {
 "_meta": {
-"generated_at": "2026-09-21T07:24:07Z",
+"generated_at": "2026-09-21T14:40:37Z",
 "mode": "incremental",
 "account": "spigen",
 "boards": [
@@ -17,11 +17,11 @@
 "☄️최종도안파일"
 ],
 "board_count": 6,
-"items": 15,
-"subitems": 52,
-"files": 220,
-"title_hits": 82,
-"codes": 7641,
+"items": 10,
+"subitems": 33,
+"files": 200,
+"title_hits": 63,
+"codes": 7647,
 "no_gallery": [],
 "skipped": []
 },
@@ -173911,6 +173911,52 @@
 "https://spigen.monday.com/boards/4453971876/pulses/12036299565?asset_id=2979145465"
 ]
 },
+"3BS21152A": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12036299565?asset_id=3260730997",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/9511263649",
+"board": "*[Mobile] 패키지 현황",
+"item": "iPhone 18 Pro/17 Pro(iPhone Pro 6.3”) Ultra Hybrid C.C",
+"sub": "ACS10064",
+"file": "3BS21152A_ACS10064_iPh18P_UHy_CC.jpg",
+"updated": "2026-09-21",
+"by": "황수범/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS21152A_ACS10064_iPh18P_UHy_CC.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12036299565?asset_id=3260730997",
+"updated": "2026-09-21",
+"code": "3BS21152A",
+"sub": "ACS10064",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9511263649",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS21152A_ACS10064_iPh18P_UHy_CC.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12036299565?asset_id=3260731053",
+"updated": "2026-09-21",
+"code": "3BS21152A",
+"sub": "ACS10064",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9511263649",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS21152A_ACS10064_iPh18P_UHy_CC.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12036299565?asset_id=3260731014",
+"updated": "2026-09-21",
+"code": "3BS21152A",
+"sub": "ACS10064",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9511263649",
+"by": "황수범/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/12036299565?asset_id=3260731053",
+"https://spigen.monday.com/boards/4453971876/pulses/12036299565?asset_id=3260731014"
+]
+},
 "3BS211530": {
 "url": "https://spigen.monday.com/boards/4453971876/pulses/11499711778?asset_id=3035868338",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/9511263744",
@@ -174877,6 +174923,52 @@
 "https://spigen.monday.com/boards/4453971876/pulses/11998791143?asset_id=3002326868"
 ]
 },
+"3BS21168A": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/11998791143?asset_id=3260731624",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/9511263832",
+"board": "*[Mobile] 패키지 현황",
+"item": "iPhone 18 Pro/17 Pro(iPhone Pro 6.3”) Ultra Hybrid Mag Fit C.C",
+"sub": "ACS10066",
+"file": "3BS21168A_ACS10066_iPh18P_UHyMgF_CLWH.jpg",
+"updated": "2026-09-21",
+"by": "황수범/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS21168A_ACS10066_iPh18P_UHyMgF_CLWH.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/11998791143?asset_id=3260731624",
+"updated": "2026-09-21",
+"code": "3BS21168A",
+"sub": "ACS10066",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9511263832",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS21168A_ACS10066_iPh18P_UHyMgF_CLWH.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/11998791143?asset_id=3260731703",
+"updated": "2026-09-21",
+"code": "3BS21168A",
+"sub": "ACS10066",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9511263832",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS21168A_ACS10066_iPh18P_UHyMgF_CLWH.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/11998791143?asset_id=3260731644",
+"updated": "2026-09-21",
+"code": "3BS21168A",
+"sub": "ACS10066",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9511263832",
+"by": "황수범/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/11998791143?asset_id=3260731703",
+"https://spigen.monday.com/boards/4453971876/pulses/11998791143?asset_id=3260731644"
+]
+},
 "3BS211690": {
 "url": "https://spigen.monday.com/boards/4453971876/pulses/11499208807?asset_id=2989294042",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/9511263916",
@@ -175521,6 +175613,52 @@
 "https://spigen.monday.com/boards/4453971876/pulses/11499221970?asset_id=3022792956"
 ]
 },
+"3BS21180A": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/11499221970?asset_id=3260624341",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/9515002577",
+"board": "*[Mobile] 패키지 현황",
+"item": "iPhone 18 Pro/17 Pro(iPhone Pro 6.3”) Classic C1 Mag Fit",
+"sub": "ACS09960",
+"file": "3BS21180A_ACS09960_iPh18P_ClssC1MgF_GP.jpg",
+"updated": "2026-09-21",
+"by": "황수범/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS21180A_ACS09960_iPh18P_ClssC1MgF_GP.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/11499221970?asset_id=3260624341",
+"updated": "2026-09-21",
+"code": "3BS21180A",
+"sub": "ACS09960",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9515002577",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS21180A_ACS09960_iPh18P_ClssC1MgF_GP.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/11499221970?asset_id=3260624556",
+"updated": "2026-09-21",
+"code": "3BS21180A",
+"sub": "ACS09960",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9515002577",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS21180A_ACS09960_iPh18P_ClssC1MgF_GP.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/11499221970?asset_id=3260624367",
+"updated": "2026-09-21",
+"code": "3BS21180A",
+"sub": "ACS09960",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9515002577",
+"by": "황수범/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/11499221970?asset_id=3260624556",
+"https://spigen.monday.com/boards/4453971876/pulses/11499221970?asset_id=3260624367"
+]
+},
 "3BS211810": {
 "url": "https://spigen.monday.com/boards/4453971876/pulses/11499227882?asset_id=3022793232",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/9515002577",
@@ -175600,6 +175738,52 @@
 ],
 "alt": [
 "https://spigen.monday.com/boards/4453971876/pulses/11499209299?asset_id=3022793112"
+]
+},
+"3BS21182A": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/11499209299?asset_id=3260624561",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/9515002577",
+"board": "*[Mobile] 패키지 현황",
+"item": "iPhone 18 Pro/17 Pro(iPhone Pro 6.3”) Classic C1 Mag Fit",
+"sub": "ACS09961",
+"file": "3BS21182A_ACS09961_iPh18P_ClssC1MgF_BondiBL.jpg",
+"updated": "2026-09-21",
+"by": "황수범/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS21182A_ACS09961_iPh18P_ClssC1MgF_BondiBL.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/11499209299?asset_id=3260624561",
+"updated": "2026-09-21",
+"code": "3BS21182A",
+"sub": "ACS09961",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9515002577",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS21182A_ACS09961_iPh18P_ClssC1MgF_BondiBL.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/11499209299?asset_id=3260624721",
+"updated": "2026-09-21",
+"code": "3BS21182A",
+"sub": "ACS09961",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9515002577",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS21182A_ACS09961_iPh18P_ClssC1MgF_BondiBL.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/11499209299?asset_id=3260624567",
+"updated": "2026-09-21",
+"code": "3BS21182A",
+"sub": "ACS09961",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9515002577",
+"by": "황수범/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/11499209299?asset_id=3260624721",
+"https://spigen.monday.com/boards/4453971876/pulses/11499209299?asset_id=3260624567"
 ]
 },
 "3BS211830": {
@@ -179788,6 +179972,52 @@
 "https://spigen.monday.com/boards/4453971876/pulses/11499301109?asset_id=3029499697"
 ]
 },
+"3BS21244A": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/11499301109?asset_id=3260625202",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/9511260709",
+"board": "*[Mobile] 패키지 현황",
+"item": "iPhone 18 Pro Max/17 Pro Max(iPhone Pro Max 6.9”) Classic C1 Mag Fit",
+"sub": "ACS09907",
+"file": "3BS21244A_ACS09907_iPh18PMx_ClssC1MgF_GP.jpg",
+"updated": "2026-09-21",
+"by": "황수범/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS21244A_ACS09907_iPh18PMx_ClssC1MgF_GP.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/11499301109?asset_id=3260625202",
+"updated": "2026-09-21",
+"code": "3BS21244A",
+"sub": "ACS09907",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9511260709",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS21244A_ACS09907_iPh18PMx_ClssC1MgF_GP.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/11499301109?asset_id=3260625381",
+"updated": "2026-09-21",
+"code": "3BS21244A",
+"sub": "ACS09907",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9511260709",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS21244A_ACS09907_iPh18PMx_ClssC1MgF_GP.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/11499301109?asset_id=3260625208",
+"updated": "2026-09-21",
+"code": "3BS21244A",
+"sub": "ACS09907",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9511260709",
+"by": "황수범/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/11499301109?asset_id=3260625381",
+"https://spigen.monday.com/boards/4453971876/pulses/11499301109?asset_id=3260625208"
+]
+},
 "3BS212450": {
 "url": "https://spigen.monday.com/boards/4453971876/pulses/11499318644?asset_id=3032215807",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/9511260709",
@@ -179878,6 +180108,52 @@
 "alt": [
 "https://spigen.monday.com/boards/4453971876/pulses/11499328391?asset_id=3029499873",
 "https://spigen.monday.com/boards/4453971876/pulses/11499328391?asset_id=3029499853"
+]
+},
+"3BS21246A": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/11499328391?asset_id=3260625436",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/9511260709",
+"board": "*[Mobile] 패키지 현황",
+"item": "iPhone 18 Pro Max/17 Pro Max(iPhone Pro Max 6.9”) Classic C1 Mag Fit",
+"sub": "ACS09908",
+"file": "3BS21246A_ACS09908_iPh18PMx_ClssC1MgF_BondiBL.jpg",
+"updated": "2026-09-21",
+"by": "황수범/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS21246A_ACS09908_iPh18PMx_ClssC1MgF_BondiBL.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/11499328391?asset_id=3260625436",
+"updated": "2026-09-21",
+"code": "3BS21246A",
+"sub": "ACS09908",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9511260709",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS21246A_ACS09908_iPh18PMx_ClssC1MgF_BondiBL.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/11499328391?asset_id=3260625583",
+"updated": "2026-09-21",
+"code": "3BS21246A",
+"sub": "ACS09908",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9511260709",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS21246A_ACS09908_iPh18PMx_ClssC1MgF_BondiBL.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/11499328391?asset_id=3260625440",
+"updated": "2026-09-21",
+"code": "3BS21246A",
+"sub": "ACS09908",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9511260709",
+"by": "황수범/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/11499328391?asset_id=3260625583",
+"https://spigen.monday.com/boards/4453971876/pulses/11499328391?asset_id=3260625440"
 ]
 },
 "3BS212470": {
@@ -289323,19 +289599,19 @@
 ]
 },
 "3PK226880": {
-"url": "https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3253367435",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3260756763",
 "parent_url": "https://spigen.monday.com/boards/3106368464/pulses/12954147527",
 "board": "*[HA] 패키지",
 "item": "[LD201-S11] Spigen Slim Fold Laptop Sleeve with Stand 14\"",
 "sub": null,
 "file": "3PK226880_LD201-S11_P.jpg",
-"updated": "2026-09-17",
+"updated": "2026-09-21",
 "by": "문덕훈/패키지디자인팀/HQ",
 "files": [
 {
 "name": "3PK226880_LD201-S11_P.jpg",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3253367435",
-"updated": "2026-09-17",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3260756763",
+"updated": "2026-09-21",
 "code": "3PK226880",
 "sub": null,
 "board": "*[HA] 패키지",
@@ -289344,8 +289620,8 @@
 },
 {
 "name": "3PK226880_LD201-S11_P.pdf",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3253367649",
-"updated": "2026-09-17",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3260756946",
+"updated": "2026-09-21",
 "code": "3PK226880",
 "sub": null,
 "board": "*[HA] 패키지",
@@ -289354,8 +289630,8 @@
 },
 {
 "name": "3PK226880_LD201-S11_P.ai",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3253367475",
-"updated": "2026-09-17",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3260756826",
+"updated": "2026-09-21",
 "code": "3PK226880",
 "sub": null,
 "board": "*[HA] 패키지",
@@ -289364,24 +289640,24 @@
 }
 ],
 "alt": [
-"https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3253367649",
-"https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3253367475"
+"https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3260756946",
+"https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3260756826"
 ]
 },
 "3PK226890": {
-"url": "https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3253367504",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3260756628",
 "parent_url": "https://spigen.monday.com/boards/3106368464/pulses/12954139181",
 "board": "*[HA] 패키지",
 "item": "[LD201-S12] Spigen Slim Fold Laptop Sleeve with Stand 16\"",
 "sub": null,
 "file": "3PK226890_LD201-S12_P.jpg",
-"updated": "2026-09-17",
+"updated": "2026-09-21",
 "by": "문덕훈/패키지디자인팀/HQ",
 "files": [
 {
 "name": "3PK226890_LD201-S12_P.jpg",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3253367504",
-"updated": "2026-09-17",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3260756628",
+"updated": "2026-09-21",
 "code": "3PK226890",
 "sub": null,
 "board": "*[HA] 패키지",
@@ -289390,8 +289666,8 @@
 },
 {
 "name": "3PK226890_LD201-S12_P.pdf",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3253367730",
-"updated": "2026-09-17",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3260756875",
+"updated": "2026-09-21",
 "code": "3PK226890",
 "sub": null,
 "board": "*[HA] 패키지",
@@ -289400,8 +289676,8 @@
 },
 {
 "name": "3PK226890_LD201-S12_P.ai",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3253367553",
-"updated": "2026-09-17",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3260756749",
+"updated": "2026-09-21",
 "code": "3PK226890",
 "sub": null,
 "board": "*[HA] 패키지",
@@ -289410,8 +289686,8 @@
 }
 ],
 "alt": [
-"https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3253367730",
-"https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3253367553"
+"https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3260756875",
+"https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3260756749"
 ]
 },
 "3PK227040": {
@@ -322271,15 +322547,45 @@
 ]
 },
 "ACS09907": {
-"url": "https://spigen.monday.com/boards/4453971876/pulses/11499301109?asset_id=3029499686",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/11499301109?asset_id=3260625202",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/9511260709",
 "board": "*[Mobile] 패키지 현황",
 "item": "iPhone 18 Pro Max/17 Pro Max(iPhone Pro Max 6.9”) Classic C1 Mag Fit",
 "sub": "ACS09907",
-"file": "3BS212440_ACS09907_iPh17ProMax_ClssC1MgF_GP.jpg",
-"updated": "2026-06-09",
+"file": "3BS21244A_ACS09907_iPh18PMx_ClssC1MgF_GP.jpg",
+"updated": "2026-09-21",
 "by": "황수범/패키지디자인팀/HQ",
 "files": [
+{
+"name": "3BS21244A_ACS09907_iPh18PMx_ClssC1MgF_GP.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/11499301109?asset_id=3260625202",
+"updated": "2026-09-21",
+"code": "3BS21244A",
+"sub": "ACS09907",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9511260709",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS21244A_ACS09907_iPh18PMx_ClssC1MgF_GP.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/11499301109?asset_id=3260625381",
+"updated": "2026-09-21",
+"code": "3BS21244A",
+"sub": "ACS09907",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9511260709",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS21244A_ACS09907_iPh18PMx_ClssC1MgF_GP.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/11499301109?asset_id=3260625208",
+"updated": "2026-09-21",
+"code": "3BS21244A",
+"sub": "ACS09907",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9511260709",
+"by": "황수범/패키지디자인팀/HQ"
+},
 {
 "name": "3BS212440_ACS09907_iPh17ProMax_ClssC1MgF_GP.jpg",
 "url": "https://spigen.monday.com/boards/4453971876/pulses/11499301109?asset_id=3029499686",
@@ -322372,6 +322678,9 @@
 }
 ],
 "alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/11499301109?asset_id=3260625381",
+"https://spigen.monday.com/boards/4453971876/pulses/11499301109?asset_id=3260625208",
+"https://spigen.monday.com/boards/4453971876/pulses/11499301109?asset_id=3029499686",
 "https://spigen.monday.com/boards/4453971876/pulses/11499301109?asset_id=3029499987",
 "https://spigen.monday.com/boards/4453971876/pulses/11499301109?asset_id=3029499697",
 "https://spigen.monday.com/boards/4453971876/pulses/9514215270?asset_id=2439147917",
@@ -322383,15 +322692,45 @@
 ]
 },
 "ACS09908": {
-"url": "https://spigen.monday.com/boards/4453971876/pulses/11499328391?asset_id=3029499850",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/11499328391?asset_id=3260625436",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/9511260709",
 "board": "*[Mobile] 패키지 현황",
 "item": "iPhone 18 Pro Max/17 Pro Max(iPhone Pro Max 6.9”) Classic C1 Mag Fit",
 "sub": "ACS09908",
-"file": "3BS212460_ACS09908_iPh17ProMax_ClssC1MgF_BondiBL.jpg",
-"updated": "2026-06-09",
+"file": "3BS21246A_ACS09908_iPh18PMx_ClssC1MgF_BondiBL.jpg",
+"updated": "2026-09-21",
 "by": "황수범/패키지디자인팀/HQ",
 "files": [
+{
+"name": "3BS21246A_ACS09908_iPh18PMx_ClssC1MgF_BondiBL.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/11499328391?asset_id=3260625436",
+"updated": "2026-09-21",
+"code": "3BS21246A",
+"sub": "ACS09908",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9511260709",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS21246A_ACS09908_iPh18PMx_ClssC1MgF_BondiBL.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/11499328391?asset_id=3260625583",
+"updated": "2026-09-21",
+"code": "3BS21246A",
+"sub": "ACS09908",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9511260709",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS21246A_ACS09908_iPh18PMx_ClssC1MgF_BondiBL.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/11499328391?asset_id=3260625440",
+"updated": "2026-09-21",
+"code": "3BS21246A",
+"sub": "ACS09908",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9511260709",
+"by": "황수범/패키지디자인팀/HQ"
+},
 {
 "name": "3BS212460_ACS09908_iPh17ProMax_ClssC1MgF_BondiBL.jpg",
 "url": "https://spigen.monday.com/boards/4453971876/pulses/11499328391?asset_id=3029499850",
@@ -322484,6 +322823,9 @@
 }
 ],
 "alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/11499328391?asset_id=3260625583",
+"https://spigen.monday.com/boards/4453971876/pulses/11499328391?asset_id=3260625440",
+"https://spigen.monday.com/boards/4453971876/pulses/11499328391?asset_id=3029499850",
 "https://spigen.monday.com/boards/4453971876/pulses/11499328391?asset_id=3029499873",
 "https://spigen.monday.com/boards/4453971876/pulses/11499328391?asset_id=3029499853",
 "https://spigen.monday.com/boards/4453971876/pulses/9514216997?asset_id=2439148032",
@@ -327867,15 +328209,45 @@
 ]
 },
 "ACS09960": {
-"url": "https://spigen.monday.com/boards/4453971876/pulses/11499221970?asset_id=3022792947",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/11499221970?asset_id=3260624341",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/9515002577",
 "board": "*[Mobile] 패키지 현황",
 "item": "iPhone 18 Pro/17 Pro(iPhone Pro 6.3”) Classic C1 Mag Fit",
 "sub": "ACS09960",
-"file": "3BS211800_ACS09960_iPh17Pro_ClssC1MgF_GP.jpg",
-"updated": "2026-06-05",
+"file": "3BS21180A_ACS09960_iPh18P_ClssC1MgF_GP.jpg",
+"updated": "2026-09-21",
 "by": "황수범/패키지디자인팀/HQ",
 "files": [
+{
+"name": "3BS21180A_ACS09960_iPh18P_ClssC1MgF_GP.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/11499221970?asset_id=3260624341",
+"updated": "2026-09-21",
+"code": "3BS21180A",
+"sub": "ACS09960",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9515002577",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS21180A_ACS09960_iPh18P_ClssC1MgF_GP.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/11499221970?asset_id=3260624556",
+"updated": "2026-09-21",
+"code": "3BS21180A",
+"sub": "ACS09960",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9515002577",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS21180A_ACS09960_iPh18P_ClssC1MgF_GP.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/11499221970?asset_id=3260624367",
+"updated": "2026-09-21",
+"code": "3BS21180A",
+"sub": "ACS09960",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9515002577",
+"by": "황수범/패키지디자인팀/HQ"
+},
 {
 "name": "3BS211800_ACS09960_iPh17Pro_ClssC1MgF_GP.jpg",
 "url": "https://spigen.monday.com/boards/4453971876/pulses/11499221970?asset_id=3022792947",
@@ -327968,6 +328340,9 @@
 }
 ],
 "alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/11499221970?asset_id=3260624556",
+"https://spigen.monday.com/boards/4453971876/pulses/11499221970?asset_id=3260624367",
+"https://spigen.monday.com/boards/4453971876/pulses/11499221970?asset_id=3022792947",
 "https://spigen.monday.com/boards/4453971876/pulses/11499221970?asset_id=3022792982",
 "https://spigen.monday.com/boards/4453971876/pulses/11499221970?asset_id=3022792956",
 "https://spigen.monday.com/boards/4453971876/pulses/9515235763?asset_id=2439147221",
@@ -327979,15 +328354,45 @@
 ]
 },
 "ACS09961": {
-"url": "https://spigen.monday.com/boards/4453971876/pulses/11499209299?asset_id=3022793160",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/11499209299?asset_id=3260624561",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/9515002577",
 "board": "*[Mobile] 패키지 현황",
 "item": "iPhone 18 Pro/17 Pro(iPhone Pro 6.3”) Classic C1 Mag Fit",
 "sub": "ACS09961",
-"file": "3BS211820_ACS09961_iPh17Pro_ClssC1MgF_BondiBL.pdf",
-"updated": "2026-06-05",
+"file": "3BS21182A_ACS09961_iPh18P_ClssC1MgF_BondiBL.jpg",
+"updated": "2026-09-21",
 "by": "황수범/패키지디자인팀/HQ",
 "files": [
+{
+"name": "3BS21182A_ACS09961_iPh18P_ClssC1MgF_BondiBL.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/11499209299?asset_id=3260624561",
+"updated": "2026-09-21",
+"code": "3BS21182A",
+"sub": "ACS09961",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9515002577",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS21182A_ACS09961_iPh18P_ClssC1MgF_BondiBL.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/11499209299?asset_id=3260624721",
+"updated": "2026-09-21",
+"code": "3BS21182A",
+"sub": "ACS09961",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9515002577",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS21182A_ACS09961_iPh18P_ClssC1MgF_BondiBL.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/11499209299?asset_id=3260624567",
+"updated": "2026-09-21",
+"code": "3BS21182A",
+"sub": "ACS09961",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9515002577",
+"by": "황수범/패키지디자인팀/HQ"
+},
 {
 "name": "3BS211820_ACS09961_iPh17Pro_ClssC1MgF_BondiBL.pdf",
 "url": "https://spigen.monday.com/boards/4453971876/pulses/11499209299?asset_id=3022793160",
@@ -328070,6 +328475,9 @@
 }
 ],
 "alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/11499209299?asset_id=3260624721",
+"https://spigen.monday.com/boards/4453971876/pulses/11499209299?asset_id=3260624567",
+"https://spigen.monday.com/boards/4453971876/pulses/11499209299?asset_id=3022793160",
 "https://spigen.monday.com/boards/4453971876/pulses/11499209299?asset_id=3022793112",
 "https://spigen.monday.com/boards/4453971876/pulses/9515237025?asset_id=2439147320",
 "https://spigen.monday.com/boards/4453971876/pulses/9515237025?asset_id=2439147306",
@@ -335155,15 +335563,45 @@
 ]
 },
 "ACS10064": {
-"url": "https://spigen.monday.com/boards/4453971876/pulses/12036299565?asset_id=2979145460",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12036299565?asset_id=3260730997",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/9511263649",
 "board": "*[Mobile] 패키지 현황",
 "item": "iPhone 18 Pro/17 Pro(iPhone Pro 6.3”) Ultra Hybrid C.C",
 "sub": "ACS10064",
-"file": "3BS211520_ACS10064_iPh17Pro_UHy_CC.jpg",
-"updated": "2026-05-19",
+"file": "3BS21152A_ACS10064_iPh18P_UHy_CC.jpg",
+"updated": "2026-09-21",
 "by": "황수범/패키지디자인팀/HQ",
 "files": [
+{
+"name": "3BS21152A_ACS10064_iPh18P_UHy_CC.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12036299565?asset_id=3260730997",
+"updated": "2026-09-21",
+"code": "3BS21152A",
+"sub": "ACS10064",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9511263649",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS21152A_ACS10064_iPh18P_UHy_CC.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12036299565?asset_id=3260731053",
+"updated": "2026-09-21",
+"code": "3BS21152A",
+"sub": "ACS10064",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9511263649",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS21152A_ACS10064_iPh18P_UHy_CC.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12036299565?asset_id=3260731014",
+"updated": "2026-09-21",
+"code": "3BS21152A",
+"sub": "ACS10064",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9511263649",
+"by": "황수범/패키지디자인팀/HQ"
+},
 {
 "name": "3BS211520_ACS10064_iPh17Pro_UHy_CC.jpg",
 "url": "https://spigen.monday.com/boards/4453971876/pulses/12036299565?asset_id=2979145460",
@@ -335256,6 +335694,9 @@
 }
 ],
 "alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/12036299565?asset_id=3260731053",
+"https://spigen.monday.com/boards/4453971876/pulses/12036299565?asset_id=3260731014",
+"https://spigen.monday.com/boards/4453971876/pulses/12036299565?asset_id=2979145460",
 "https://spigen.monday.com/boards/4453971876/pulses/12036299565?asset_id=2979145475",
 "https://spigen.monday.com/boards/4453971876/pulses/12036299565?asset_id=2979145465",
 "https://spigen.monday.com/boards/4453971876/pulses/9514734400?asset_id=2429974254",
@@ -335379,15 +335820,45 @@
 ]
 },
 "ACS10066": {
-"url": "https://spigen.monday.com/boards/4453971876/pulses/11998791143?asset_id=3002326851",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/11998791143?asset_id=3260731624",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/9511263832",
 "board": "*[Mobile] 패키지 현황",
 "item": "iPhone 18 Pro/17 Pro(iPhone Pro 6.3”) Ultra Hybrid Mag Fit C.C",
 "sub": "ACS10066",
-"file": "3BS211680_ACS10066_iPh17Pro_UHyMgF_CLWH.jpg",
-"updated": "2026-05-28",
+"file": "3BS21168A_ACS10066_iPh18P_UHyMgF_CLWH.jpg",
+"updated": "2026-09-21",
 "by": "황수범/패키지디자인팀/HQ",
 "files": [
+{
+"name": "3BS21168A_ACS10066_iPh18P_UHyMgF_CLWH.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/11998791143?asset_id=3260731624",
+"updated": "2026-09-21",
+"code": "3BS21168A",
+"sub": "ACS10066",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9511263832",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS21168A_ACS10066_iPh18P_UHyMgF_CLWH.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/11998791143?asset_id=3260731703",
+"updated": "2026-09-21",
+"code": "3BS21168A",
+"sub": "ACS10066",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9511263832",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS21168A_ACS10066_iPh18P_UHyMgF_CLWH.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/11998791143?asset_id=3260731644",
+"updated": "2026-09-21",
+"code": "3BS21168A",
+"sub": "ACS10066",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9511263832",
+"by": "황수범/패키지디자인팀/HQ"
+},
 {
 "name": "3BS211680_ACS10066_iPh17Pro_UHyMgF_CLWH.jpg",
 "url": "https://spigen.monday.com/boards/4453971876/pulses/11998791143?asset_id=3002326851",
@@ -335480,6 +335951,9 @@
 }
 ],
 "alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/11998791143?asset_id=3260731703",
+"https://spigen.monday.com/boards/4453971876/pulses/11998791143?asset_id=3260731644",
+"https://spigen.monday.com/boards/4453971876/pulses/11998791143?asset_id=3002326851",
 "https://spigen.monday.com/boards/4453971876/pulses/11998791143?asset_id=3002326874",
 "https://spigen.monday.com/boards/4453971876/pulses/11998791143?asset_id=3002326868",
 "https://spigen.monday.com/boards/4453971876/pulses/9514737603?asset_id=2433688660",
@@ -397846,19 +398320,19 @@
 ]
 },
 "LD201": {
-"url": "https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3253367504",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3260756628",
 "parent_url": "https://spigen.monday.com/boards/3106368464/pulses/12954139181",
 "board": "*[HA] 패키지",
 "item": "[LD201-S12] Spigen Slim Fold Laptop Sleeve with Stand 16\"",
 "sub": null,
 "file": "3PK226890_LD201-S12_P.jpg",
-"updated": "2026-09-17",
+"updated": "2026-09-21",
 "by": "문덕훈/패키지디자인팀/HQ",
 "files": [
 {
 "name": "3PK226890_LD201-S12_P.jpg",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3253367504",
-"updated": "2026-09-17",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3260756628",
+"updated": "2026-09-21",
 "code": "3PK226890",
 "sub": null,
 "board": "*[HA] 패키지",
@@ -397867,8 +398341,8 @@
 },
 {
 "name": "3PK226880_LD201-S11_P.jpg",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3253367435",
-"updated": "2026-09-17",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3260756763",
+"updated": "2026-09-21",
 "code": "3PK226880",
 "sub": null,
 "board": "*[HA] 패키지",
@@ -397877,8 +398351,8 @@
 },
 {
 "name": "3PK226890_LD201-S12_P.pdf",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3253367730",
-"updated": "2026-09-17",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3260756875",
+"updated": "2026-09-21",
 "code": "3PK226890",
 "sub": null,
 "board": "*[HA] 패키지",
@@ -397887,8 +398361,8 @@
 },
 {
 "name": "3PK226880_LD201-S11_P.pdf",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3253367649",
-"updated": "2026-09-17",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3260756946",
+"updated": "2026-09-21",
 "code": "3PK226880",
 "sub": null,
 "board": "*[HA] 패키지",
@@ -397897,8 +398371,8 @@
 },
 {
 "name": "3PK226890_LD201-S12_P.ai",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3253367553",
-"updated": "2026-09-17",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3260756749",
+"updated": "2026-09-21",
 "code": "3PK226890",
 "sub": null,
 "board": "*[HA] 패키지",
@@ -397907,8 +398381,8 @@
 },
 {
 "name": "3PK226880_LD201-S11_P.ai",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3253367475",
-"updated": "2026-09-17",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3260756826",
+"updated": "2026-09-21",
 "code": "3PK226880",
 "sub": null,
 "board": "*[HA] 패키지",
@@ -398377,11 +398851,11 @@
 }
 ],
 "alt": [
-"https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3253367435",
-"https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3253367730",
-"https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3253367649",
-"https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3253367553",
-"https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3253367475",
+"https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3260756763",
+"https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3260756875",
+"https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3260756946",
+"https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3260756749",
+"https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3260756826",
 "https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3247960333",
 "https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3244919117",
 "https://spigen.monday.com/boards/3106368464/pulses/12742387628?asset_id=3207116418",
