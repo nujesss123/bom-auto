@@ -1,7 +1,7 @@
 {
 "_meta": {
-"generated_at": "2026-09-21T14:40:37Z",
-"mode": "incremental",
+"generated_at": "2026-09-21T23:44:03Z",
+"mode": "full",
 "account": "spigen",
 "boards": [
 "4057650308",
@@ -17,13 +17,25 @@
 "☄️최종도안파일"
 ],
 "board_count": 6,
-"items": 10,
-"subitems": 33,
-"files": 200,
-"title_hits": 63,
+"items": 2491,
+"subitems": 2179,
+"files": 21162,
+"title_hits": 6780,
+"gallery": 678,
 "codes": 7647,
 "no_gallery": [],
-"skipped": []
+"skipped": [
+"12899642476",
+"12899645145",
+"12899591894",
+"12899638727",
+"9711067853",
+"12082218575",
+"12742440793",
+"12742425119",
+"12462526423",
+"12462502426"
+]
 },
 "map": {
 "250425": {
@@ -163735,7 +163747,7 @@
 },
 "3BS206110": {
 "url": "https://spigen.monday.com/boards/4453971876/pulses/11077919052?asset_id=2733621421",
-"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/11077922466",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/12452827264",
 "board": "*[Mobile] 패키지 현황",
 "item": "iPhone 18 Pro Max/17 Pro Max(iPhone Pro Max 6.9”) Classic LS Mag Fit (SQ)_N3",
 "sub": "ACS11468",
@@ -163750,7 +163762,7 @@
 "code": "3BS206110",
 "sub": "ACS11468",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "11077922466",
+"item_id": "12452827264",
 "by": "황선혜/브랜드디자인팀/HQ"
 },
 {
@@ -163760,7 +163772,7 @@
 "code": "3BS206110",
 "sub": "ACS11468",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "11077922466",
+"item_id": "12452827264",
 "by": "황선혜/브랜드디자인팀/HQ"
 },
 {
@@ -163770,7 +163782,7 @@
 "code": "3BS206110",
 "sub": "ACS11468",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "11077922466",
+"item_id": "12452827264",
 "by": "황선혜/브랜드디자인팀/HQ"
 }
 ],
@@ -163781,7 +163793,7 @@
 },
 "3BS206130": {
 "url": "https://spigen.monday.com/boards/4453971876/pulses/11077914140?asset_id=2751022791",
-"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/11077926272",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/12452869804",
 "board": "*[Mobile] 패키지 현황",
 "item": "iPhone 18 Pro/17 Pro(iPhone Pro 6.3”) Classic LS Mag Fit (SQ)_N3",
 "sub": "ACS11469",
@@ -163796,7 +163808,7 @@
 "code": "3BS206130",
 "sub": "ACS11469",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "11077926272",
+"item_id": "12452869804",
 "by": "황선혜/브랜드디자인팀/HQ"
 },
 {
@@ -163806,7 +163818,7 @@
 "code": "3BS206130",
 "sub": "ACS11469",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "11077926272",
+"item_id": "12452869804",
 "by": "황선혜/브랜드디자인팀/HQ"
 },
 {
@@ -163816,7 +163828,7 @@
 "code": "3BS206130",
 "sub": "ACS11469",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "11077926272",
+"item_id": "12452869804",
 "by": "황선혜/브랜드디자인팀/HQ"
 }
 ],
@@ -170101,7 +170113,7 @@
 },
 "3BS210840": {
 "url": "https://spigen.monday.com/boards/4453971876/pulses/12036406290?asset_id=3076845457",
-"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/11077926272",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/12452869804",
 "board": "*[Mobile] 패키지 현황",
 "item": "iPhone 18 Pro/17 Pro(iPhone Pro 6.3”) Classic LS Mag Fit (SQ)_N3",
 "sub": "ACS11469",
@@ -170116,7 +170128,7 @@
 "code": "3BS210840",
 "sub": "ACS11469",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "11077926272",
+"item_id": "12452869804",
 "by": "황선혜/브랜드디자인팀/HQ"
 },
 {
@@ -170126,7 +170138,7 @@
 "code": "3BS210840",
 "sub": "ACS11469",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "11077926272",
+"item_id": "12452869804",
 "by": "황선혜/브랜드디자인팀/HQ"
 },
 {
@@ -170136,7 +170148,7 @@
 "code": "3BS210840",
 "sub": "ACS11469",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "11077926272",
+"item_id": "12452869804",
 "by": "황선혜/브랜드디자인팀/HQ"
 }
 ],
@@ -170147,7 +170159,7 @@
 },
 "3BS210850": {
 "url": "https://spigen.monday.com/boards/4453971876/pulses/12036366957?asset_id=2985862809",
-"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/11077922466",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/12452827264",
 "board": "*[Mobile] 패키지 현황",
 "item": "iPhone 18 Pro Max/17 Pro Max(iPhone Pro Max 6.9”) Classic LS Mag Fit (SQ)_N3",
 "sub": "ACS11468",
@@ -170162,7 +170174,7 @@
 "code": "3BS210850",
 "sub": "ACS11468",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "11077922466",
+"item_id": "12452827264",
 "by": "황선혜/브랜드디자인팀/HQ"
 },
 {
@@ -170172,7 +170184,7 @@
 "code": "3BS210850",
 "sub": "ACS11468",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "11077922466",
+"item_id": "12452827264",
 "by": "황선혜/브랜드디자인팀/HQ"
 },
 {
@@ -170182,7 +170194,7 @@
 "code": "3BS210850",
 "sub": "ACS11468",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "11077922466",
+"item_id": "12452827264",
 "by": "황선혜/브랜드디자인팀/HQ"
 }
 ],
@@ -303013,7 +303025,7 @@
 },
 "3ST206120": {
 "url": "https://spigen.monday.com/boards/4453971876/pulses/11077919052?asset_id=2733621396",
-"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/11077922466",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/12452827264",
 "board": "*[Mobile] 패키지 현황",
 "item": "iPhone 18 Pro Max/17 Pro Max(iPhone Pro Max 6.9”) Classic LS Mag Fit (SQ)_N3",
 "sub": "ACS11468",
@@ -303028,7 +303040,7 @@
 "code": "3ST206120",
 "sub": "ACS11468",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "11077922466",
+"item_id": "12452827264",
 "by": "황선혜/브랜드디자인팀/HQ"
 },
 {
@@ -303038,7 +303050,7 @@
 "code": "3ST206120",
 "sub": "ACS11468",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "11077922466",
+"item_id": "12452827264",
 "by": "황선혜/브랜드디자인팀/HQ"
 },
 {
@@ -303048,7 +303060,7 @@
 "code": "3ST206120",
 "sub": "ACS11468",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "11077922466",
+"item_id": "12452827264",
 "by": "황선혜/브랜드디자인팀/HQ"
 }
 ],
@@ -303059,7 +303071,7 @@
 },
 "3ST206140": {
 "url": "https://spigen.monday.com/boards/4453971876/pulses/11077914140?asset_id=2747747898",
-"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/11077926272",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/12452869804",
 "board": "*[Mobile] 패키지 현황",
 "item": "iPhone 18 Pro/17 Pro(iPhone Pro 6.3”) Classic LS Mag Fit (SQ)_N3",
 "sub": "ACS11469",
@@ -303074,7 +303086,7 @@
 "code": "3ST206140",
 "sub": "ACS11469",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "11077926272",
+"item_id": "12452869804",
 "by": "황선혜/브랜드디자인팀/HQ"
 },
 {
@@ -303084,7 +303096,7 @@
 "code": "3ST206140",
 "sub": "ACS11469",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "11077926272",
+"item_id": "12452869804",
 "by": "황선혜/브랜드디자인팀/HQ"
 },
 {
@@ -303094,7 +303106,7 @@
 "code": "3ST206140",
 "sub": "ACS11469",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "11077926272",
+"item_id": "12452869804",
 "by": "황선혜/브랜드디자인팀/HQ"
 }
 ],
@@ -363854,7 +363866,7 @@
 "code": "3BS210850",
 "sub": "ACS11468",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "11077922466",
+"item_id": "12452827264",
 "by": "황선혜/브랜드디자인팀/HQ"
 },
 {
@@ -363864,7 +363876,7 @@
 "code": "3BS210850",
 "sub": "ACS11468",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "11077922466",
+"item_id": "12452827264",
 "by": "황선혜/브랜드디자인팀/HQ"
 },
 {
@@ -363874,7 +363886,7 @@
 "code": "3BS210850",
 "sub": "ACS11468",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "11077922466",
+"item_id": "12452827264",
 "by": "황선혜/브랜드디자인팀/HQ"
 },
 {
@@ -363884,7 +363896,7 @@
 "code": "3BS206110",
 "sub": "ACS11468",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "11077922466",
+"item_id": "12452827264",
 "by": "황선혜/브랜드디자인팀/HQ"
 },
 {
@@ -363894,7 +363906,7 @@
 "code": "3ST206120",
 "sub": "ACS11468",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "11077922466",
+"item_id": "12452827264",
 "by": "황선혜/브랜드디자인팀/HQ"
 },
 {
@@ -363904,7 +363916,7 @@
 "code": "3BS206110",
 "sub": "ACS11468",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "11077922466",
+"item_id": "12452827264",
 "by": "황선혜/브랜드디자인팀/HQ"
 },
 {
@@ -363914,7 +363926,7 @@
 "code": "3ST206120",
 "sub": "ACS11468",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "11077922466",
+"item_id": "12452827264",
 "by": "황선혜/브랜드디자인팀/HQ"
 },
 {
@@ -363924,7 +363936,7 @@
 "code": "3BS206110",
 "sub": "ACS11468",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "11077922466",
+"item_id": "12452827264",
 "by": "황선혜/브랜드디자인팀/HQ"
 },
 {
@@ -363934,7 +363946,7 @@
 "code": "3ST206120",
 "sub": "ACS11468",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "11077922466",
+"item_id": "12452827264",
 "by": "황선혜/브랜드디자인팀/HQ"
 }
 ],
@@ -363999,7 +364011,7 @@
 "code": "3BS210840",
 "sub": "ACS11469",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "11077926272",
+"item_id": "12452869804",
 "by": "황선혜/브랜드디자인팀/HQ"
 },
 {
@@ -364009,7 +364021,7 @@
 "code": "3BS210840",
 "sub": "ACS11469",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "11077926272",
+"item_id": "12452869804",
 "by": "황선혜/브랜드디자인팀/HQ"
 },
 {
@@ -364019,7 +364031,7 @@
 "code": "3BS210840",
 "sub": "ACS11469",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "11077926272",
+"item_id": "12452869804",
 "by": "황선혜/브랜드디자인팀/HQ"
 },
 {
@@ -364029,7 +364041,7 @@
 "code": "3BS206130",
 "sub": "ACS11469",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "11077926272",
+"item_id": "12452869804",
 "by": "황선혜/브랜드디자인팀/HQ"
 },
 {
@@ -364039,7 +364051,7 @@
 "code": "3BS206130",
 "sub": "ACS11469",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "11077926272",
+"item_id": "12452869804",
 "by": "황선혜/브랜드디자인팀/HQ"
 },
 {
@@ -364049,7 +364061,7 @@
 "code": "3BS206130",
 "sub": "ACS11469",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "11077926272",
+"item_id": "12452869804",
 "by": "황선혜/브랜드디자인팀/HQ"
 },
 {
@@ -364059,7 +364071,7 @@
 "code": "3ST206140",
 "sub": "ACS11469",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "11077926272",
+"item_id": "12452869804",
 "by": "황선혜/브랜드디자인팀/HQ"
 },
 {
@@ -364069,7 +364081,7 @@
 "code": "3ST206140",
 "sub": "ACS11469",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "11077926272",
+"item_id": "12452869804",
 "by": "황선혜/브랜드디자인팀/HQ"
 },
 {
@@ -364079,7 +364091,7 @@
 "code": "3ST206140",
 "sub": "ACS11469",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "11077926272",
+"item_id": "12452869804",
 "by": "황선혜/브랜드디자인팀/HQ"
 }
 ],
