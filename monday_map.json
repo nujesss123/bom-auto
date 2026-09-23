@@ -1,7 +1,7 @@
 {
 "_meta": {
-"generated_at": "2026-09-23T12:29:49Z",
-"mode": "incremental",
+"generated_at": "2026-09-23T23:20:42Z",
+"mode": "full",
 "account": "spigen",
 "boards": [
 "4057650308",
@@ -17,13 +17,25 @@
 "☄️최종도안파일"
 ],
 "board_count": 6,
-"items": 2,
-"subitems": 0,
-"files": 0,
-"title_hits": 2,
+"items": 2502,
+"subitems": 2199,
+"files": 21378,
+"title_hits": 6821,
+"gallery": 678,
 "codes": 7738,
 "no_gallery": [],
-"skipped": []
+"skipped": [
+"12899642476",
+"12899645145",
+"12899591894",
+"12899638727",
+"9711067853",
+"12082218575",
+"12742440793",
+"12742425119",
+"12462526423",
+"12462502426"
+]
 },
 "map": {
 "250425": {
@@ -114983,12 +114995,12 @@
 },
 {
 "name": "3BS18656B_ACS10039_iPh17ProMax_UHyMgF_FrostWH.pdf",
-"url": "https://spigen.monday.com/boards/4453971876/pulses/9514745363?asset_id=2483759890",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/9514666521?asset_id=2483759890",
 "updated": "2025-10-14",
 "code": "3BS18656B",
-"sub": "ACS10070",
+"sub": "ACS10039",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "9511263832",
+"item_id": "9511262561",
 "by": "한원진/패키지디자인팀/HQ"
 },
 {
@@ -115003,7 +115015,7 @@
 }
 ],
 "alt": [
-"https://spigen.monday.com/boards/4453971876/pulses/9514745363?asset_id=2483759890",
+"https://spigen.monday.com/boards/4453971876/pulses/9514666521?asset_id=2483759890",
 "https://spigen.monday.com/boards/4453971876/pulses/9514666521?asset_id=2483759915"
 ]
 },
@@ -337056,12 +337068,12 @@
 },
 {
 "name": "3BS18656B_ACS10039_iPh17ProMax_UHyMgF_FrostWH.pdf",
-"url": "https://spigen.monday.com/boards/4453971876/pulses/9514745363?asset_id=2483759890",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/9514666521?asset_id=2483759890",
 "updated": "2025-10-14",
 "code": "3BS18656B",
-"sub": "ACS10070",
+"sub": "ACS10039",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "9511263832",
+"item_id": "9511262561",
 "by": "한원진/패키지디자인팀/HQ"
 },
 {
@@ -337139,7 +337151,7 @@
 "https://spigen.monday.com/boards/4453971876/pulses/11499201408?asset_id=2986161793",
 "https://spigen.monday.com/boards/4453971876/pulses/11499201408?asset_id=2986161742",
 "https://spigen.monday.com/boards/4453971876/pulses/9514666521?asset_id=2483759930",
-"https://spigen.monday.com/boards/4453971876/pulses/9514745363?asset_id=2483759890",
+"https://spigen.monday.com/boards/4453971876/pulses/9514666521?asset_id=2483759890",
 "https://spigen.monday.com/boards/4453971876/pulses/9514666521?asset_id=2483759915",
 "https://spigen.monday.com/boards/4453971876/pulses/9514666521?asset_id=2433686963",
 "https://spigen.monday.com/boards/4453971876/pulses/9514666521?asset_id=2433686911",
