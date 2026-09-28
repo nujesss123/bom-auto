@@ -1,7 +1,7 @@
 {
 "_meta": {
-"generated_at": "2026-09-27T23:29:42Z",
-"mode": "full",
+"generated_at": "2026-09-28T07:55:45Z",
+"mode": "incremental",
 "account": "spigen",
 "boards": [
 "4057650308",
@@ -17,25 +17,13 @@
 "☄️최종도안파일"
 ],
 "board_count": 6,
-"items": 2502,
-"subitems": 2199,
-"files": 21378,
-"title_hits": 6821,
-"gallery": 678,
-"codes": 7738,
+"items": 18,
+"subitems": 10,
+"files": 79,
+"title_hits": 65,
+"codes": 7751,
 "no_gallery": [],
-"skipped": [
-"12899642476",
-"12899645145",
-"12899591894",
-"12899638727",
-"9711067853",
-"12082218575",
-"12742440793",
-"12742425119",
-"12462526423",
-"12462502426"
-]
+"skipped": []
 },
 "map": {
 "250425": {
@@ -9157,6 +9145,52 @@
 "alt": [
 "https://spigen.monday.com/boards/3106368464/pulses/12987742157?asset_id=3260551491",
 "https://spigen.monday.com/boards/3106368464/pulses/12987742157?asset_id=3260551454"
+]
+},
+"3BR226760": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805342",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793",
+"board": "*[WO] 패키지",
+"item": "APxSwatch Royal Pop WCBP5",
+"sub": null,
+"file": "3BR226760_RoyalPop_WCBP5_BR.jpg",
+"updated": "2026-09-28",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BR226760_RoyalPop_WCBP5_BR.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805342",
+"updated": "2026-09-28",
+"code": "3BR226760",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889152793",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BR226760_RoyalPop_WCBP5_BR.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805405",
+"updated": "2026-09-28",
+"code": "3BR226760",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889152793",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BR226760_RoyalPop_WCBP5_BR.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805349",
+"updated": "2026-09-28",
+"code": "3BR226760",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889152793",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805405",
+"https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805349"
 ]
 },
 "3BS11065A": {
@@ -211597,6 +211631,374 @@
 "https://spigen.monday.com/boards/4453971876/pulses/12801674772?asset_id=3251139460"
 ]
 },
+"3BS226670": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805554",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793",
+"board": "*[WO] 패키지",
+"item": "APxSwatch Royal Pop WCBP5",
+"sub": null,
+"file": "3BS226670_RoyalPop(12H)_WCBP5_White_BS.jpg",
+"updated": "2026-09-28",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS226670_RoyalPop(12H)_WCBP5_White_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805554",
+"updated": "2026-09-28",
+"code": "3BS226670",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889152793",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS226670_RoyalPop(12H)_WCBP5_White_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805669",
+"updated": "2026-09-28",
+"code": "3BS226670",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889152793",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS226670_RoyalPop(12H)_WCBP5_White_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805562",
+"updated": "2026-09-28",
+"code": "3BS226670",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889152793",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805669",
+"https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805562"
+]
+},
+"3BS226680": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805549",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793",
+"board": "*[WO] 패키지",
+"item": "APxSwatch Royal Pop WCBP5",
+"sub": null,
+"file": "3BS226680_RoyalPop(12H)_WCBP5_Black_BS.jpg",
+"updated": "2026-09-28",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS226680_RoyalPop(12H)_WCBP5_Black_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805549",
+"updated": "2026-09-28",
+"code": "3BS226680",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889152793",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS226680_RoyalPop(12H)_WCBP5_Black_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805733",
+"updated": "2026-09-28",
+"code": "3BS226680",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889152793",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS226680_RoyalPop(12H)_WCBP5_Black_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805590",
+"updated": "2026-09-28",
+"code": "3BS226680",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889152793",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805733",
+"https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805590"
+]
+},
+"3BS226690": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805628",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793",
+"board": "*[WO] 패키지",
+"item": "APxSwatch Royal Pop WCBP5",
+"sub": null,
+"file": "3BS226690_RoyalPop(12H)_WCBP5_Pink_BS.jpg",
+"updated": "2026-09-28",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS226690_RoyalPop(12H)_WCBP5_Pink_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805628",
+"updated": "2026-09-28",
+"code": "3BS226690",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889152793",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS226690_RoyalPop(12H)_WCBP5_Pink_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805765",
+"updated": "2026-09-28",
+"code": "3BS226690",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889152793",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS226690_RoyalPop(12H)_WCBP5_Pink_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805639",
+"updated": "2026-09-28",
+"code": "3BS226690",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889152793",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805765",
+"https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805639"
+]
+},
+"3BS226700": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805672",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793",
+"board": "*[WO] 패키지",
+"item": "APxSwatch Royal Pop WCBP5",
+"sub": null,
+"file": "3BS226700_RoyalPop(3H)_WCBP5_Rose_BS.jpg",
+"updated": "2026-09-28",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS226700_RoyalPop(3H)_WCBP5_Rose_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805672",
+"updated": "2026-09-28",
+"code": "3BS226700",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889152793",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS226700_RoyalPop(3H)_WCBP5_Rose_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805882",
+"updated": "2026-09-28",
+"code": "3BS226700",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889152793",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS226700_RoyalPop(3H)_WCBP5_Rose_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805687",
+"updated": "2026-09-28",
+"code": "3BS226700",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889152793",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805882",
+"https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805687"
+]
+},
+"3BS226710": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805748",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793",
+"board": "*[WO] 패키지",
+"item": "APxSwatch Royal Pop WCBP5",
+"sub": null,
+"file": "3BS226710_RoyalPop(3H)_WCBP5_Blue_BS.jpg",
+"updated": "2026-09-28",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS226710_RoyalPop(3H)_WCBP5_Blue_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805748",
+"updated": "2026-09-28",
+"code": "3BS226710",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889152793",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS226710_RoyalPop(3H)_WCBP5_Blue_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805939",
+"updated": "2026-09-28",
+"code": "3BS226710",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889152793",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS226710_RoyalPop(3H)_WCBP5_Blue_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805766",
+"updated": "2026-09-28",
+"code": "3BS226710",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889152793",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805939",
+"https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805766"
+]
+},
+"3BS226720": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805825",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793",
+"board": "*[WO] 패키지",
+"item": "APxSwatch Royal Pop WCBP5",
+"sub": null,
+"file": "3BS226720_RoyalPop(12H)_WCBP5_Navy_BS.jpg",
+"updated": "2026-09-28",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS226720_RoyalPop(12H)_WCBP5_Navy_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805825",
+"updated": "2026-09-28",
+"code": "3BS226720",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889152793",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS226720_RoyalPop(12H)_WCBP5_Navy_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805985",
+"updated": "2026-09-28",
+"code": "3BS226720",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889152793",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS226720_RoyalPop(12H)_WCBP5_Navy_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805806",
+"updated": "2026-09-28",
+"code": "3BS226720",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889152793",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805985",
+"https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805806"
+]
+},
+"3BS226730": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805914",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793",
+"board": "*[WO] 패키지",
+"item": "APxSwatch Royal Pop WCBP5",
+"sub": null,
+"file": "3BS226730_RoyalPop(12H)_WCBP5_Mint_BS.jpg",
+"updated": "2026-09-28",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS226730_RoyalPop(12H)_WCBP5_Mint_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805914",
+"updated": "2026-09-28",
+"code": "3BS226730",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889152793",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS226730_RoyalPop(12H)_WCBP5_Mint_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275806094",
+"updated": "2026-09-28",
+"code": "3BS226730",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889152793",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS226730_RoyalPop(12H)_WCBP5_Mint_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805916",
+"updated": "2026-09-28",
+"code": "3BS226730",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889152793",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275806094",
+"https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805916"
+]
+},
+"3BS226740": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805979",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793",
+"board": "*[WO] 패키지",
+"item": "APxSwatch Royal Pop WCBP5",
+"sub": null,
+"file": "3BS226740_RoyalPop(12H)_WCBP5_Green_BS.jpg",
+"updated": "2026-09-28",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS226740_RoyalPop(12H)_WCBP5_Green_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805979",
+"updated": "2026-09-28",
+"code": "3BS226740",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889152793",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS226740_RoyalPop(12H)_WCBP5_Green_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275806189",
+"updated": "2026-09-28",
+"code": "3BS226740",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889152793",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS226740_RoyalPop(12H)_WCBP5_Green_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805987",
+"updated": "2026-09-28",
+"code": "3BS226740",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889152793",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275806189",
+"https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805987"
+]
+},
 "3BS226910": {
 "url": "https://spigen.monday.com/boards/4485989214/pulses/11347547662?asset_id=3253581825",
 "parent_url": "https://spigen.monday.com/boards/4485989214/pulses/11347547662",
@@ -231293,6 +231695,52 @@
 "alt": [
 "https://spigen.monday.com/boards/3106368464/pulses/12987742157?asset_id=3260551459",
 "https://spigen.monday.com/boards/3106368464/pulses/12987742157?asset_id=3260551407"
+]
+},
+"3MN226770": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805162",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793",
+"board": "*[WO] 패키지",
+"item": "APxSwatch Royal Pop WCBP5",
+"sub": null,
+"file": "3MN226770_RoyalPop_WCBP5_MN.jpg",
+"updated": "2026-09-28",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3MN226770_RoyalPop_WCBP5_MN.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805162",
+"updated": "2026-09-28",
+"code": "3MN226770",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889152793",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3MN226770_RoyalPop_WCBP5_MN.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805208",
+"updated": "2026-09-28",
+"code": "3MN226770",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889152793",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3MN226770_RoyalPop_WCBP5_MN.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805166",
+"updated": "2026-09-28",
+"code": "3MN226770",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889152793",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805208",
+"https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805166"
 ]
 },
 "3PK0": {
@@ -293025,6 +293473,52 @@
 "alt": [
 "https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3260756875",
 "https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3260756749"
+]
+},
+"3PK226980": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13066226547?asset_id=3275824189",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13066226186",
+"board": "*[Mobile] 패키지 현황",
+"item": "STSab+ Smart Fold (SQ)",
+"sub": "ACS12686",
+"file": "3PK226980_ACS12686_STSab+_SmtFold_BK.jpg",
+"updated": "2026-09-28",
+"by": "한원진/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3PK226980_ACS12686_STSab+_SmtFold_BK.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13066226547?asset_id=3275824189",
+"updated": "2026-09-28",
+"code": "3PK226980",
+"sub": "ACS12686",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13066226186",
+"by": "한원진/패키지디자인팀/HQ"
+},
+{
+"name": "3PK226980_ACS12686_STSab+_SmtFold_BK.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13066226547?asset_id=3275824344",
+"updated": "2026-09-28",
+"code": "3PK226980",
+"sub": "ACS12686",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13066226186",
+"by": "한원진/패키지디자인팀/HQ"
+},
+{
+"name": "3PK226980_ACS12686_STSab+_SmtFold_BK.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13066226547?asset_id=3275824224",
+"updated": "2026-09-28",
+"code": "3PK226980",
+"sub": "ACS12686",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13066226186",
+"by": "한원진/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/13066226547?asset_id=3275824344",
+"https://spigen.monday.com/boards/4453971876/pulses/13066226547?asset_id=3275824224"
 ]
 },
 "3PK227040": {
@@ -385892,6 +386386,52 @@
 "https://spigen.monday.com/boards/4453971876/pulses/12899172280?asset_id=3247752105"
 ]
 },
+"ACS12686": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13066226547?asset_id=3275824189",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13066226186",
+"board": "*[Mobile] 패키지 현황",
+"item": "STSab+ Smart Fold (SQ)",
+"sub": "ACS12686",
+"file": "3PK226980_ACS12686_STSab+_SmtFold_BK.jpg",
+"updated": "2026-09-28",
+"by": "한원진/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3PK226980_ACS12686_STSab+_SmtFold_BK.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13066226547?asset_id=3275824189",
+"updated": "2026-09-28",
+"code": "3PK226980",
+"sub": "ACS12686",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13066226186",
+"by": "한원진/패키지디자인팀/HQ"
+},
+{
+"name": "3PK226980_ACS12686_STSab+_SmtFold_BK.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13066226547?asset_id=3275824344",
+"updated": "2026-09-28",
+"code": "3PK226980",
+"sub": "ACS12686",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13066226186",
+"by": "한원진/패키지디자인팀/HQ"
+},
+{
+"name": "3PK226980_ACS12686_STSab+_SmtFold_BK.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13066226547?asset_id=3275824224",
+"updated": "2026-09-28",
+"code": "3PK226980",
+"sub": "ACS12686",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13066226186",
+"by": "한원진/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/13066226547?asset_id=3275824344",
+"https://spigen.monday.com/boards/4453971876/pulses/13066226547?asset_id=3275824224"
+]
+},
 "AFA10753": {
 "url": "https://spigen.monday.com/boards/3106368464/pulses/10535453261?asset_id=2677159832",
 "parent_url": "https://spigen.monday.com/boards/3106368464/pulses/10535453261",
@@ -405613,6 +406153,28 @@
 "https://spigen.monday.com/boards/3106368464/pulses/12437858209?asset_id=3163901279",
 "https://spigen.monday.com/boards/3106368464/pulses/12437858209?asset_id=3163901160",
 "https://spigen.monday.com/boards/3106368464/pulses/12437858209?asset_id=3155305202"
+]
+},
+"LD301": {
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022830292?asset_id=3275592037",
+"parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13022830292",
+"board": "*[HA] 패키지",
+"item": "[LD301-1] Spigen Ergonomic Mouse Pad - Black",
+"sub": null,
+"file": "Draft_LD301-1_ST.jpg",
+"updated": "2026-09-28",
+"by": "문덕훈/패키지디자인팀/HQ",
+"files": [
+{
+"name": "Draft_LD301-1_ST.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022830292?asset_id=3275592037",
+"updated": "2026-09-28",
+"code": "LD301",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022830292",
+"by": "문덕훈/패키지디자인팀/HQ"
+}
 ]
 },
 "LD401": {
