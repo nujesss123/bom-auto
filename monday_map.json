@@ -1,6 +1,6 @@
 {
 "_meta": {
-"generated_at": "2026-09-29T07:39:30Z",
+"generated_at": "2026-09-29T14:26:55Z",
 "mode": "incremental",
 "account": "spigen",
 "boards": [
@@ -17,11 +17,11 @@
 "☄️최종도안파일"
 ],
 "board_count": 6,
-"items": 28,
-"subitems": 129,
-"files": 594,
-"title_hits": 180,
-"codes": 7797,
+"items": 15,
+"subitems": 9,
+"files": 61,
+"title_hits": 64,
+"codes": 7806,
 "no_gallery": [],
 "skipped": []
 },
@@ -213885,6 +213885,190 @@
 "https://spigen.monday.com/boards/4485989214/pulses/11347558530?asset_id=3253582348"
 ]
 },
+"3BS229420": {
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022804802?asset_id=3279196490",
+"parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13022804802",
+"board": "*[HA] 패키지",
+"item": "[LD407] Spigen Under-Desk Rotating Desk Organizer Tray - Black",
+"sub": null,
+"file": "3BS229420_LD407_BS.jpg",
+"updated": "2026-09-29",
+"by": "문덕훈/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS229420_LD407_BS.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022804802?asset_id=3279196490",
+"updated": "2026-09-29",
+"code": "3BS229420",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022804802",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229420_LD407_BS.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022804802?asset_id=3279196577",
+"updated": "2026-09-29",
+"code": "3BS229420",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022804802",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229420_LD407_BS.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022804802?asset_id=3279196503",
+"updated": "2026-09-29",
+"code": "3BS229420",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022804802",
+"by": "문덕훈/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/3106368464/pulses/13022804802?asset_id=3279196577",
+"https://spigen.monday.com/boards/3106368464/pulses/13022804802?asset_id=3279196503"
+]
+},
+"3BS229460": {
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3279196795",
+"parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13022810834",
+"board": "*[HA] 패키지",
+"item": "[LD408-1] Spigen Under-Desk Rotating Desk Organizer - Black",
+"sub": null,
+"file": "3BS229460_LD408-1_BS.jpg",
+"updated": "2026-09-29",
+"by": "문덕훈/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS229460_LD408-1_BS.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3279196795",
+"updated": "2026-09-29",
+"code": "3BS229460",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022810834",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229460_LD408-1_BS.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3279196908",
+"updated": "2026-09-29",
+"code": "3BS229460",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022810834",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229460_LD408-1_BS.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3279196812",
+"updated": "2026-09-29",
+"code": "3BS229460",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022810834",
+"by": "문덕훈/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3279196908",
+"https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3279196812"
+]
+},
+"3BS229500": {
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197177",
+"parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13022798908",
+"board": "*[HA] 패키지",
+"item": "[LD408-2] Spigen Under-Desk Pull-out Drawer Desk Organizer - Black",
+"sub": null,
+"file": "3BS229500_LD408-2_BS.jpg",
+"updated": "2026-09-29",
+"by": "문덕훈/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS229500_LD408-2_BS.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197177",
+"updated": "2026-09-29",
+"code": "3BS229500",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022798908",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229500_LD408-2_BS.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197253",
+"updated": "2026-09-29",
+"code": "3BS229500",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022798908",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229500_LD408-2_BS.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197205",
+"updated": "2026-09-29",
+"code": "3BS229500",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022798908",
+"by": "문덕훈/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197253",
+"https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197205"
+]
+},
+"3BS229590": {
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022830292?asset_id=3279197441",
+"parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13022830292",
+"board": "*[HA] 패키지",
+"item": "[LD301-1] Spigen Ergonomic Mouse Pad - Black",
+"sub": null,
+"file": "3BS229590_LD301-1_BS.jpg",
+"updated": "2026-09-29",
+"by": "문덕훈/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS229590_LD301-1_BS.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022830292?asset_id=3279197441",
+"updated": "2026-09-29",
+"code": "3BS229590",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022830292",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229590_LD301-1_BS.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022830292?asset_id=3279197594",
+"updated": "2026-09-29",
+"code": "3BS229590",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022830292",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229590_LD301-1_BS.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022830292?asset_id=3279197481",
+"updated": "2026-09-29",
+"code": "3BS229590",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022830292",
+"by": "문덕훈/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/3106368464/pulses/13022830292?asset_id=3279197594",
+"https://spigen.monday.com/boards/3106368464/pulses/13022830292?asset_id=3279197481"
+]
+},
 "3IP06664A": {
 "url": "https://spigen.monday.com/boards/4485989214/pulses/11507054675?asset_id=2869814850",
 "parent_url": "https://spigen.monday.com/boards/4485989214/pulses/11507054675",
@@ -233581,6 +233765,144 @@
 "alt": [
 "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805208",
 "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805166"
+]
+},
+"3MN229440": {
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022804802?asset_id=3279196649",
+"parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13022804802",
+"board": "*[HA] 패키지",
+"item": "[LD407] Spigen Under-Desk Rotating Desk Organizer Tray - Black",
+"sub": null,
+"file": "3MN229440_LD407_MN.jpg",
+"updated": "2026-09-29",
+"by": "문덕훈/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3MN229440_LD407_MN.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022804802?asset_id=3279196649",
+"updated": "2026-09-29",
+"code": "3MN229440",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022804802",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3MN229440_LD407_MN.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022804802?asset_id=3279196675",
+"updated": "2026-09-29",
+"code": "3MN229440",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022804802",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3MN229440_LD407_MN.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022804802?asset_id=3279196655",
+"updated": "2026-09-29",
+"code": "3MN229440",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022804802",
+"by": "문덕훈/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/3106368464/pulses/13022804802?asset_id=3279196675",
+"https://spigen.monday.com/boards/3106368464/pulses/13022804802?asset_id=3279196655"
+]
+},
+"3MN229480": {
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3279197007",
+"parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13022810834",
+"board": "*[HA] 패키지",
+"item": "[LD408-1] Spigen Under-Desk Rotating Desk Organizer - Black",
+"sub": null,
+"file": "3MN229480_LD408-1_MN.jpg",
+"updated": "2026-09-29",
+"by": "문덕훈/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3MN229480_LD408-1_MN.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3279197007",
+"updated": "2026-09-29",
+"code": "3MN229480",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022810834",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3MN229480_LD408-1_MN.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3279197032",
+"updated": "2026-09-29",
+"code": "3MN229480",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022810834",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3MN229480_LD408-1_MN.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3279197015",
+"updated": "2026-09-29",
+"code": "3MN229480",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022810834",
+"by": "문덕훈/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3279197032",
+"https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3279197015"
+]
+},
+"3MN229520": {
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197321",
+"parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13022798908",
+"board": "*[HA] 패키지",
+"item": "[LD408-2] Spigen Under-Desk Pull-out Drawer Desk Organizer - Black",
+"sub": null,
+"file": "3MN229520_LD408-2_MN.jpg",
+"updated": "2026-09-29",
+"by": "문덕훈/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3MN229520_LD408-2_MN.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197321",
+"updated": "2026-09-29",
+"code": "3MN229520",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022798908",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3MN229520_LD408-2_MN.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197335",
+"updated": "2026-09-29",
+"code": "3MN229520",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022798908",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3MN229520_LD408-2_MN.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197330",
+"updated": "2026-09-29",
+"code": "3MN229520",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022798908",
+"by": "문덕훈/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197335",
+"https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197330"
 ]
 },
 "3PK0": {
@@ -295451,6 +295773,98 @@
 "alt": [
 "https://spigen.monday.com/boards/3106368464/pulses/12988041847?asset_id=3260396830",
 "https://spigen.monday.com/boards/3106368464/pulses/12988041847?asset_id=3260396809"
+]
+},
+"3PK229270": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13147195273?asset_id=3278985945",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13147221344",
+"board": "*[Mobile] 패키지 현황",
+"item": "iPhone Duo Thintect Pro Mag Fit (SQ)_원자재변경",
+"sub": "ACS11696",
+"file": "3PK229270_ACS11696_iPhduo_TtectProMgF_BK_N2.jpg",
+"updated": "2026-09-29",
+"by": "한원진/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3PK229270_ACS11696_iPhduo_TtectProMgF_BK_N2.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13147195273?asset_id=3278985945",
+"updated": "2026-09-29",
+"code": "3PK229270",
+"sub": "ACS11696",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13147221344",
+"by": "한원진/패키지디자인팀/HQ"
+},
+{
+"name": "3PK229270_ACS11696_iPhduo_TtectProMgF_BK_N2.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13147195273?asset_id=3278986049",
+"updated": "2026-09-29",
+"code": "3PK229270",
+"sub": "ACS11696",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13147221344",
+"by": "한원진/패키지디자인팀/HQ"
+},
+{
+"name": "3PK229270_ACS11696_iPhduo_TtectProMgF_BK_N2.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13147195273?asset_id=3278985969",
+"updated": "2026-09-29",
+"code": "3PK229270",
+"sub": "ACS11696",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13147221344",
+"by": "한원진/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/13147195273?asset_id=3278986049",
+"https://spigen.monday.com/boards/4453971876/pulses/13147195273?asset_id=3278985969"
+]
+},
+"3PK229280": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13147211561?asset_id=3278986160",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13147195514",
+"board": "*[Mobile] 패키지 현황",
+"item": "iPhone Duo Crystal Hybrid Pro Mag Fit C.C (SQ)_원자재변경",
+"sub": "ACS11697",
+"file": "3PK229280_ACS11697_iPhDuo_CRHyProMgF_CLWH_N2.jpg",
+"updated": "2026-09-29",
+"by": "한원진/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3PK229280_ACS11697_iPhDuo_CRHyProMgF_CLWH_N2.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13147211561?asset_id=3278986160",
+"updated": "2026-09-29",
+"code": "3PK229280",
+"sub": "ACS11697",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13147195514",
+"by": "한원진/패키지디자인팀/HQ"
+},
+{
+"name": "3PK229280_ACS11697_iPhDuo_CRHyProMgF_CLWH_N2.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13147211561?asset_id=3278986267",
+"updated": "2026-09-29",
+"code": "3PK229280",
+"sub": "ACS11697",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13147195514",
+"by": "한원진/패키지디자인팀/HQ"
+},
+{
+"name": "3PK229280_ACS11697_iPhDuo_CRHyProMgF_CLWH_N2.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13147211561?asset_id=3278986192",
+"updated": "2026-09-29",
+"code": "3PK229280",
+"sub": "ACS11697",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13147195514",
+"by": "한원진/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/13147211561?asset_id=3278986267",
+"https://spigen.monday.com/boards/4453971876/pulses/13147211561?asset_id=3278986192"
 ]
 },
 "3ST126520": {
@@ -376039,15 +376453,45 @@
 ]
 },
 "ACS11696": {
-"url": "https://spigen.monday.com/boards/4453971876/pulses/13014163605?asset_id=3244966862",
-"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/11554426474",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13147195273?asset_id=3278985945",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13147221344",
 "board": "*[Mobile] 패키지 현황",
-"item": "iPhone Duo(iPhone Fold) Thintect Pro Mag fit (SQ)",
+"item": "iPhone Duo Thintect Pro Mag Fit (SQ)_원자재변경",
 "sub": "ACS11696",
-"file": "3PK226240_ACS11696_iPhduo_TtectProMgF_BK.jpg",
-"updated": "2026-09-14",
-"by": "이정은/패키지디자인팀/HQ",
+"file": "3PK229270_ACS11696_iPhduo_TtectProMgF_BK_N2.jpg",
+"updated": "2026-09-29",
+"by": "한원진/패키지디자인팀/HQ",
 "files": [
+{
+"name": "3PK229270_ACS11696_iPhduo_TtectProMgF_BK_N2.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13147195273?asset_id=3278985945",
+"updated": "2026-09-29",
+"code": "3PK229270",
+"sub": "ACS11696",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13147221344",
+"by": "한원진/패키지디자인팀/HQ"
+},
+{
+"name": "3PK229270_ACS11696_iPhduo_TtectProMgF_BK_N2.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13147195273?asset_id=3278986049",
+"updated": "2026-09-29",
+"code": "3PK229270",
+"sub": "ACS11696",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13147221344",
+"by": "한원진/패키지디자인팀/HQ"
+},
+{
+"name": "3PK229270_ACS11696_iPhduo_TtectProMgF_BK_N2.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13147195273?asset_id=3278985969",
+"updated": "2026-09-29",
+"code": "3PK229270",
+"sub": "ACS11696",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13147221344",
+"by": "한원진/패키지디자인팀/HQ"
+},
 {
 "name": "3PK226240_ACS11696_iPhduo_TtectProMgF_BK.jpg",
 "url": "https://spigen.monday.com/boards/4453971876/pulses/13014163605?asset_id=3244966862",
@@ -376110,6 +376554,9 @@
 }
 ],
 "alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/13147195273?asset_id=3278986049",
+"https://spigen.monday.com/boards/4453971876/pulses/13147195273?asset_id=3278985969",
+"https://spigen.monday.com/boards/4453971876/pulses/13014163605?asset_id=3244966862",
 "https://spigen.monday.com/boards/4453971876/pulses/13014163605?asset_id=3244967019",
 "https://spigen.monday.com/boards/4453971876/pulses/13014163605?asset_id=3244966882",
 "https://spigen.monday.com/boards/4453971876/pulses/11554439914?asset_id=3152597661",
@@ -376118,15 +376565,45 @@
 ]
 },
 "ACS11697": {
-"url": "https://spigen.monday.com/boards/4453971876/pulses/11554441404?asset_id=3152592542",
-"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/11554429539",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13147211561?asset_id=3278986160",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13147195514",
 "board": "*[Mobile] 패키지 현황",
-"item": "iPhone Duo(iPhone Fold) Crystal Hybrid Pro Mag Fit C.C (SQ)",
+"item": "iPhone Duo Crystal Hybrid Pro Mag Fit C.C (SQ)_원자재변경",
 "sub": "ACS11697",
-"file": "3ST220260_ACS11697_iPhFold_CRHyProMgF_CLWH_SKU.jpg",
-"updated": "2026-08-03",
-"by": "황선혜/브랜드디자인팀/HQ",
+"file": "3PK229280_ACS11697_iPhDuo_CRHyProMgF_CLWH_N2.jpg",
+"updated": "2026-09-29",
+"by": "한원진/패키지디자인팀/HQ",
 "files": [
+{
+"name": "3PK229280_ACS11697_iPhDuo_CRHyProMgF_CLWH_N2.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13147211561?asset_id=3278986160",
+"updated": "2026-09-29",
+"code": "3PK229280",
+"sub": "ACS11697",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13147195514",
+"by": "한원진/패키지디자인팀/HQ"
+},
+{
+"name": "3PK229280_ACS11697_iPhDuo_CRHyProMgF_CLWH_N2.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13147211561?asset_id=3278986267",
+"updated": "2026-09-29",
+"code": "3PK229280",
+"sub": "ACS11697",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13147195514",
+"by": "한원진/패키지디자인팀/HQ"
+},
+{
+"name": "3PK229280_ACS11697_iPhDuo_CRHyProMgF_CLWH_N2.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13147211561?asset_id=3278986192",
+"updated": "2026-09-29",
+"code": "3PK229280",
+"sub": "ACS11697",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13147195514",
+"by": "한원진/패키지디자인팀/HQ"
+},
 {
 "name": "3ST220260_ACS11697_iPhFold_CRHyProMgF_CLWH_SKU.jpg",
 "url": "https://spigen.monday.com/boards/4453971876/pulses/11554441404?asset_id=3152592542",
@@ -376159,6 +376636,9 @@
 }
 ],
 "alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/13147211561?asset_id=3278986267",
+"https://spigen.monday.com/boards/4453971876/pulses/13147211561?asset_id=3278986192",
+"https://spigen.monday.com/boards/4453971876/pulses/11554441404?asset_id=3152592542",
 "https://spigen.monday.com/boards/4453971876/pulses/11554441404?asset_id=3152592667",
 "https://spigen.monday.com/boards/4453971876/pulses/11554441404?asset_id=3152592540"
 ]
@@ -409361,15 +409841,45 @@
 ]
 },
 "LD301": {
-"url": "https://spigen.monday.com/boards/3106368464/pulses/13022830292?asset_id=3275592037",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022830292?asset_id=3279197441",
 "parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13022830292",
 "board": "*[HA] 패키지",
 "item": "[LD301-1] Spigen Ergonomic Mouse Pad - Black",
 "sub": null,
-"file": "Draft_LD301-1_ST.jpg",
-"updated": "2026-09-28",
+"file": "3BS229590_LD301-1_BS.jpg",
+"updated": "2026-09-29",
 "by": "문덕훈/패키지디자인팀/HQ",
 "files": [
+{
+"name": "3BS229590_LD301-1_BS.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022830292?asset_id=3279197441",
+"updated": "2026-09-29",
+"code": "3BS229590",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022830292",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229590_LD301-1_BS.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022830292?asset_id=3279197594",
+"updated": "2026-09-29",
+"code": "3BS229590",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022830292",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229590_LD301-1_BS.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022830292?asset_id=3279197481",
+"updated": "2026-09-29",
+"code": "3BS229590",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022830292",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
 {
 "name": "Draft_LD301-1_ST.jpg",
 "url": "https://spigen.monday.com/boards/3106368464/pulses/13022830292?asset_id=3275592037",
@@ -409380,6 +409890,11 @@
 "item_id": "13022830292",
 "by": "문덕훈/패키지디자인팀/HQ"
 }
+],
+"alt": [
+"https://spigen.monday.com/boards/3106368464/pulses/13022830292?asset_id=3279197594",
+"https://spigen.monday.com/boards/3106368464/pulses/13022830292?asset_id=3279197481",
+"https://spigen.monday.com/boards/3106368464/pulses/13022830292?asset_id=3275592037"
 ]
 },
 "LD401": {
@@ -409767,15 +410282,75 @@
 ]
 },
 "LD407": {
-"url": "https://spigen.monday.com/boards/3106368464/pulses/13022804802?asset_id=3253549303",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022804802?asset_id=3279196649",
 "parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13022804802",
 "board": "*[HA] 패키지",
 "item": "[LD407] Spigen Under-Desk Rotating Desk Organizer Tray - Black",
 "sub": null,
-"file": "Draft_LD407_MN.jpg",
-"updated": "2026-09-17",
+"file": "3MN229440_LD407_MN.jpg",
+"updated": "2026-09-29",
 "by": "문덕훈/패키지디자인팀/HQ",
 "files": [
+{
+"name": "3MN229440_LD407_MN.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022804802?asset_id=3279196649",
+"updated": "2026-09-29",
+"code": "3MN229440",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022804802",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229420_LD407_BS.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022804802?asset_id=3279196490",
+"updated": "2026-09-29",
+"code": "3BS229420",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022804802",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3MN229440_LD407_MN.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022804802?asset_id=3279196675",
+"updated": "2026-09-29",
+"code": "3MN229440",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022804802",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229420_LD407_BS.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022804802?asset_id=3279196577",
+"updated": "2026-09-29",
+"code": "3BS229420",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022804802",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3MN229440_LD407_MN.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022804802?asset_id=3279196655",
+"updated": "2026-09-29",
+"code": "3MN229440",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022804802",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229420_LD407_BS.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022804802?asset_id=3279196503",
+"updated": "2026-09-29",
+"code": "3BS229420",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022804802",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
 {
 "name": "Draft_LD407_MN.jpg",
 "url": "https://spigen.monday.com/boards/3106368464/pulses/13022804802?asset_id=3253549303",
@@ -409798,19 +410373,145 @@
 }
 ],
 "alt": [
+"https://spigen.monday.com/boards/3106368464/pulses/13022804802?asset_id=3279196490",
+"https://spigen.monday.com/boards/3106368464/pulses/13022804802?asset_id=3279196675",
+"https://spigen.monday.com/boards/3106368464/pulses/13022804802?asset_id=3279196577",
+"https://spigen.monday.com/boards/3106368464/pulses/13022804802?asset_id=3279196655",
+"https://spigen.monday.com/boards/3106368464/pulses/13022804802?asset_id=3279196503",
+"https://spigen.monday.com/boards/3106368464/pulses/13022804802?asset_id=3253549303",
 "https://spigen.monday.com/boards/3106368464/pulses/13022804802?asset_id=3253549305"
 ]
 },
 "LD408": {
-"url": "https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3253549399",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3279197007",
 "parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13022810834",
 "board": "*[HA] 패키지",
 "item": "[LD408-1] Spigen Under-Desk Rotating Desk Organizer - Black",
 "sub": null,
-"file": "Draft_LD408-1_MN.jpg",
-"updated": "2026-09-17",
+"file": "3MN229480_LD408-1_MN.jpg",
+"updated": "2026-09-29",
 "by": "문덕훈/패키지디자인팀/HQ",
 "files": [
+{
+"name": "3MN229480_LD408-1_MN.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3279197007",
+"updated": "2026-09-29",
+"code": "3MN229480",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022810834",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229460_LD408-1_BS.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3279196795",
+"updated": "2026-09-29",
+"code": "3BS229460",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022810834",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3MN229520_LD408-2_MN.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197321",
+"updated": "2026-09-29",
+"code": "3MN229520",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022798908",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229500_LD408-2_BS.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197177",
+"updated": "2026-09-29",
+"code": "3BS229500",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022798908",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3MN229480_LD408-1_MN.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3279197032",
+"updated": "2026-09-29",
+"code": "3MN229480",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022810834",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229460_LD408-1_BS.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3279196908",
+"updated": "2026-09-29",
+"code": "3BS229460",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022810834",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3MN229520_LD408-2_MN.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197335",
+"updated": "2026-09-29",
+"code": "3MN229520",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022798908",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229500_LD408-2_BS.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197253",
+"updated": "2026-09-29",
+"code": "3BS229500",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022798908",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3MN229480_LD408-1_MN.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3279197015",
+"updated": "2026-09-29",
+"code": "3MN229480",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022810834",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229460_LD408-1_BS.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3279196812",
+"updated": "2026-09-29",
+"code": "3BS229460",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022810834",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3MN229520_LD408-2_MN.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197330",
+"updated": "2026-09-29",
+"code": "3MN229520",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022798908",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229500_LD408-2_BS.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197205",
+"updated": "2026-09-29",
+"code": "3BS229500",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022798908",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
 {
 "name": "Draft_LD408-1_MN.jpg",
 "url": "https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3253549399",
@@ -409853,6 +410554,18 @@
 }
 ],
 "alt": [
+"https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3279196795",
+"https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197321",
+"https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197177",
+"https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3279197032",
+"https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3279196908",
+"https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197335",
+"https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197253",
+"https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3279197015",
+"https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3279196812",
+"https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197330",
+"https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197205",
+"https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3253549399",
 "https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3253549397",
 "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3253549559",
 "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3253549560"
