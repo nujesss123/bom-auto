@@ -1,7 +1,7 @@
 {
 "_meta": {
-"generated_at": "2026-09-28T16:16:59Z",
-"mode": "incremental",
+"generated_at": "2026-09-29T00:44:28Z",
+"mode": "full",
 "account": "spigen",
 "boards": [
 "4057650308",
@@ -17,13 +17,25 @@
 "☄️최종도안파일"
 ],
 "board_count": 6,
-"items": 22,
-"subitems": 83,
-"files": 533,
-"title_hits": 132,
-"codes": 7776,
+"items": 2505,
+"subitems": 2192,
+"files": 21488,
+"title_hits": 6817,
+"gallery": 678,
+"codes": 7777,
 "no_gallery": [],
-"skipped": []
+"skipped": [
+"12899642476",
+"12899645145",
+"12899591894",
+"12899638727",
+"9711067853",
+"12082218575",
+"12742440793",
+"12742425119",
+"12462526423",
+"12462502426"
+]
 },
 "map": {
 "250425": {
@@ -9191,6 +9203,52 @@
 "alt": [
 "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805405",
 "https://spigen.monday.com/boards/4485989214/pulses/12889152793?asset_id=3275805349"
+]
+},
+"3BR227450": {
+"url": "https://spigen.monday.com/boards/3106368464/pulses/12485510594?asset_id=3278538865",
+"parent_url": "https://spigen.monday.com/boards/3106368464/pulses/12485510594",
+"board": "*[HA] 패키지",
+"item": "[VG221] Spigen Steam Machine Wall Mount",
+"sub": null,
+"file": "3BR227450-VG221_BR.jpg",
+"updated": "2026-09-29",
+"by": "문덕훈/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BR227450-VG221_BR.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/12485510594?asset_id=3278538865",
+"updated": "2026-09-29",
+"code": "3BR227450",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "12485510594",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BR227450 VG221_BR.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/12485510594?asset_id=3278538880",
+"updated": "2026-09-29",
+"code": "3BR227450",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "12485510594",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BR227450 VG221_BR.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/12485510594?asset_id=3278538858",
+"updated": "2026-09-29",
+"code": "3BR227450",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "12485510594",
+"by": "문덕훈/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/3106368464/pulses/12485510594?asset_id=3278538880",
+"https://spigen.monday.com/boards/3106368464/pulses/12485510594?asset_id=3278538858"
 ]
 },
 "3BS11065A": {
@@ -453371,15 +453429,45 @@
 ]
 },
 "VG221": {
-"url": "https://spigen.monday.com/boards/3106368464/pulses/12485510594?asset_id=3147946352",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/12485510594?asset_id=3278538865",
 "parent_url": "https://spigen.monday.com/boards/3106368464/pulses/12485510594",
 "board": "*[HA] 패키지",
 "item": "[VG221] Spigen Steam Machine Wall Mount",
 "sub": null,
-"file": "3PK221760_VG221_P.jpg",
-"updated": "2026-07-31",
+"file": "3BR227450-VG221_BR.jpg",
+"updated": "2026-09-29",
 "by": "문덕훈/패키지디자인팀/HQ",
 "files": [
+{
+"name": "3BR227450-VG221_BR.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/12485510594?asset_id=3278538865",
+"updated": "2026-09-29",
+"code": "3BR227450",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "12485510594",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BR227450 VG221_BR.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/12485510594?asset_id=3278538880",
+"updated": "2026-09-29",
+"code": "3BR227450",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "12485510594",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BR227450 VG221_BR.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/12485510594?asset_id=3278538858",
+"updated": "2026-09-29",
+"code": "3BR227450",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "12485510594",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
 {
 "name": "3PK221760_VG221_P.jpg",
 "url": "https://spigen.monday.com/boards/3106368464/pulses/12485510594?asset_id=3147946352",
@@ -453462,6 +453550,9 @@
 }
 ],
 "alt": [
+"https://spigen.monday.com/boards/3106368464/pulses/12485510594?asset_id=3278538880",
+"https://spigen.monday.com/boards/3106368464/pulses/12485510594?asset_id=3278538858",
+"https://spigen.monday.com/boards/3106368464/pulses/12485510594?asset_id=3147946352",
 "https://spigen.monday.com/boards/3106368464/pulses/12485510594?asset_id=3147946435",
 "https://spigen.monday.com/boards/3106368464/pulses/12485510594?asset_id=3147946439",
 "https://spigen.monday.com/boards/3106368464/pulses/12485510594?asset_id=3147946441",
