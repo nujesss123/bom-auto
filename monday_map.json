@@ -1,7 +1,7 @@
 {
 "_meta": {
-"generated_at": "2026-09-29T14:26:55Z",
-"mode": "incremental",
+"generated_at": "2026-09-30T00:00:01Z",
+"mode": "full",
 "account": "spigen",
 "boards": [
 "4057650308",
@@ -17,13 +17,25 @@
 "☄️최종도안파일"
 ],
 "board_count": 6,
-"items": 15,
-"subitems": 9,
-"files": 61,
-"title_hits": 64,
+"items": 2507,
+"subitems": 2193,
+"files": 21569,
+"title_hits": 6820,
+"gallery": 678,
 "codes": 7806,
 "no_gallery": [],
-"skipped": []
+"skipped": [
+"12899642476",
+"12899645145",
+"12899591894",
+"12899638727",
+"9711067853",
+"12082218575",
+"12742440793",
+"12742425119",
+"12462526423",
+"12462502426"
+]
 },
 "map": {
 "250425": {
@@ -139139,49 +139151,49 @@
 ]
 },
 "3BS19220A": {
-"url": "https://spigen.monday.com/boards/4453971876/pulses/9511641569?asset_id=2441924031",
-"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/9511265625",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/9511598640?asset_id=2441924031",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/9511265250",
 "board": "*[Mobile] 패키지 현황",
-"item": "iPhone 18 Pro/17 Pro(iPhone Pro 6.3”) Nano Pop Mag Fit",
-"sub": "ACS09966",
+"item": "iPhone 17 Nano Pop Mag Fit",
+"sub": "ACS09991",
 "file": "3BS19220A_ACS09992_iPh17_NnPopMgF_BKSsm.jpg",
 "updated": "2025-09-25",
 "by": "황수범/패키지디자인팀/HQ",
 "files": [
 {
 "name": "3BS19220A_ACS09992_iPh17_NnPopMgF_BKSsm.jpg",
-"url": "https://spigen.monday.com/boards/4453971876/pulses/9511641569?asset_id=2441924031",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/9511598640?asset_id=2441924031",
 "updated": "2025-09-25",
 "code": "3BS19220A",
-"sub": "ACS09966",
+"sub": "ACS09991",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "9511265625",
+"item_id": "9511265250",
 "by": "황수범/패키지디자인팀/HQ"
 },
 {
 "name": "3BS19220A_ACS09992_iPh17_NnPopMgF_BKSsm.pdf",
-"url": "https://spigen.monday.com/boards/4453971876/pulses/9511641569?asset_id=2441924010",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/9511598640?asset_id=2441924010",
 "updated": "2025-09-25",
 "code": "3BS19220A",
-"sub": "ACS09966",
+"sub": "ACS09991",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "9511265625",
+"item_id": "9511265250",
 "by": "황수범/패키지디자인팀/HQ"
 },
 {
 "name": "3BS19220A_ACS09992_iPh17_NnPopMgF_BKSsm.ai",
-"url": "https://spigen.monday.com/boards/4453971876/pulses/9511641569?asset_id=2441924036",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/9511598640?asset_id=2441924036",
 "updated": "2025-09-25",
 "code": "3BS19220A",
-"sub": "ACS09966",
+"sub": "ACS09991",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "9511265625",
+"item_id": "9511265250",
 "by": "황수범/패키지디자인팀/HQ"
 }
 ],
 "alt": [
-"https://spigen.monday.com/boards/4453971876/pulses/9511641569?asset_id=2441924010",
-"https://spigen.monday.com/boards/4453971876/pulses/9511641569?asset_id=2441924036"
+"https://spigen.monday.com/boards/4453971876/pulses/9511598640?asset_id=2441924010",
+"https://spigen.monday.com/boards/4453971876/pulses/9511598640?asset_id=2441924036"
 ]
 },
 "3BS192210": {
@@ -338967,6 +338979,16 @@
 "by": "황선혜/브랜드디자인팀/HQ"
 },
 {
+"name": "3BS19220A_ACS09992_iPh17_NnPopMgF_BKSsm.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/9511598640?asset_id=2441924031",
+"updated": "2025-09-25",
+"code": "3BS19220A",
+"sub": "ACS09991",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9511265250",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
 "name": "3BS192200_ACS09992_iPh6.3(25)_NnPopMgF_BKSsm.jpg",
 "url": "https://spigen.monday.com/boards/4453971876/pulses/9511599602?asset_id=2441890740",
 "updated": "2025-09-25",
@@ -338977,13 +338999,13 @@
 "by": "한원진/패키지디자인팀/HQ"
 },
 {
-"name": "3BS19220A_ACS09992_iPh17_NnPopMgF_BKSsm.jpg",
-"url": "https://spigen.monday.com/boards/4453971876/pulses/9511641569?asset_id=2441924031",
+"name": "3BS19220A_ACS09992_iPh17_NnPopMgF_BKSsm.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/9511598640?asset_id=2441924010",
 "updated": "2025-09-25",
 "code": "3BS19220A",
-"sub": "ACS09966",
+"sub": "ACS09991",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "9511265625",
+"item_id": "9511265250",
 "by": "황수범/패키지디자인팀/HQ"
 },
 {
@@ -338997,23 +339019,13 @@
 "by": "한원진/패키지디자인팀/HQ"
 },
 {
-"name": "3BS19220A_ACS09992_iPh17_NnPopMgF_BKSsm.pdf",
-"url": "https://spigen.monday.com/boards/4453971876/pulses/9511641569?asset_id=2441924010",
-"updated": "2025-09-25",
-"code": "3BS19220A",
-"sub": "ACS09966",
-"board": "*[Mobile] 패키지 현황",
-"item_id": "9511265625",
-"by": "황수범/패키지디자인팀/HQ"
-},
-{
 "name": "3BS19220A_ACS09992_iPh17_NnPopMgF_BKSsm.ai",
-"url": "https://spigen.monday.com/boards/4453971876/pulses/9511641569?asset_id=2441924036",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/9511598640?asset_id=2441924036",
 "updated": "2025-09-25",
 "code": "3BS19220A",
-"sub": "ACS09966",
+"sub": "ACS09991",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "9511265625",
+"item_id": "9511265250",
 "by": "황수범/패키지디자인팀/HQ"
 },
 {
@@ -339033,11 +339045,11 @@
 "https://spigen.monday.com/boards/4453971876/pulses/11499318622?asset_id=2979025105",
 "https://spigen.monday.com/boards/4453971876/pulses/11499318622?asset_id=2979025118",
 "https://spigen.monday.com/boards/4453971876/pulses/11499318622?asset_id=2979025117",
+"https://spigen.monday.com/boards/4453971876/pulses/9511598640?asset_id=2441924031",
 "https://spigen.monday.com/boards/4453971876/pulses/9511599602?asset_id=2441890740",
-"https://spigen.monday.com/boards/4453971876/pulses/9511641569?asset_id=2441924031",
+"https://spigen.monday.com/boards/4453971876/pulses/9511598640?asset_id=2441924010",
 "https://spigen.monday.com/boards/4453971876/pulses/9511599602?asset_id=2441889603",
-"https://spigen.monday.com/boards/4453971876/pulses/9511641569?asset_id=2441924010",
-"https://spigen.monday.com/boards/4453971876/pulses/9511641569?asset_id=2441924036",
+"https://spigen.monday.com/boards/4453971876/pulses/9511598640?asset_id=2441924036",
 "https://spigen.monday.com/boards/4453971876/pulses/9511599602?asset_id=2302310069"
 ]
 },
