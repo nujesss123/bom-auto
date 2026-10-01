@@ -1,7 +1,7 @@
 {
 "_meta": {
-"generated_at": "2026-10-01T00:16:02Z",
-"mode": "full",
+"generated_at": "2026-10-01T07:59:28Z",
+"mode": "incremental",
 "account": "spigen",
 "boards": [
 "4057650308",
@@ -17,25 +17,14 @@
 "☄️최종도안파일"
 ],
 "board_count": 6,
-"items": 2510,
-"subitems": 2193,
-"files": 21617,
-"title_hits": 6828,
-"gallery": 678,
-"codes": 7822,
+"items": 27,
+"subitems": 12,
+"files": 70,
+"title_hits": 37,
+"gallery": 2,
+"codes": 7831,
 "no_gallery": [],
-"skipped": [
-"12899642476",
-"12899645145",
-"12899591894",
-"12899638727",
-"9711067853",
-"12082218575",
-"12742440793",
-"12742425119",
-"12462526423",
-"12462502426"
-]
+"skipped": []
 },
 "map": {
 "250425": {
@@ -212199,7 +212188,7 @@
 "url": "https://spigen.monday.com/boards/4485989214/pulses/12758445671?asset_id=3223655961",
 "parent_url": "https://spigen.monday.com/boards/4485989214/pulses/12758445671",
 "board": "*[WO] 패키지",
-"item": "SSTc Rugged Armor",
+"item": "Galaxy SmartTag3 Rugged Armor",
 "sub": null,
 "file": "3BS225140_BS-SSTc_Rgd_MttBK_KeyRg.jpg",
 "updated": "2026-09-03",
@@ -214631,6 +214620,190 @@
 "alt": [
 "https://spigen.monday.com/boards/4453971876/pulses/13100500659?asset_id=3281733581",
 "https://spigen.monday.com/boards/4453971876/pulses/13100500659?asset_id=3281733555"
+]
+},
+"3BS227320": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110533388?asset_id=3285360532",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/13110533388",
+"board": "*[WO] 패키지",
+"item": "AirPods 5/4 Rugged Armor",
+"sub": null,
+"file": "3BS227320_AirPods5_RuggedArmor_MatteBlack_BS.jpg",
+"updated": "2026-10-01",
+"by": "황이슬/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS227320_AirPods5_RuggedArmor_MatteBlack_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110533388?asset_id=3285360532",
+"updated": "2026-10-01",
+"code": "3BS227320",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13110533388",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3BS227320_AirPods5_RuggedArmor_MatteBlack_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110533388?asset_id=3285360559",
+"updated": "2026-10-01",
+"code": "3BS227320",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13110533388",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3BS227320_AirPods5_RuggedArmor_MatteBlack_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110533388?asset_id=3285360550",
+"updated": "2026-10-01",
+"code": "3BS227320",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13110533388",
+"by": "황이슬/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/13110533388?asset_id=3285360559",
+"https://spigen.monday.com/boards/4485989214/pulses/13110533388?asset_id=3285360550"
+]
+},
+"3BS227380": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110561514?asset_id=3285403277",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/13110561514",
+"board": "*[WO] 패키지",
+"item": "AirPods 5/4 Urban Fit",
+"sub": null,
+"file": "3BS227380_V2_AirPods5_UrbanFit_Black_BS.jpg",
+"updated": "2026-10-01",
+"by": "황이슬/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS227380_V2_AirPods5_UrbanFit_Black_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110561514?asset_id=3285403277",
+"updated": "2026-10-01",
+"code": "3BS227380",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13110561514",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3BS227380_V2_AirPods5_UrbanFit_Black_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110561514?asset_id=3285403450",
+"updated": "2026-10-01",
+"code": "3BS227380",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13110561514",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3BS227380_V2_AirPods5_UrbanFit_Black_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110561514?asset_id=3285403321",
+"updated": "2026-10-01",
+"code": "3BS227380",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13110561514",
+"by": "황이슬/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/13110561514?asset_id=3285403450",
+"https://spigen.monday.com/boards/4485989214/pulses/13110561514?asset_id=3285403321"
+]
+},
+"3BS227390": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110561514?asset_id=3285403283",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/13110561514",
+"board": "*[WO] 패키지",
+"item": "AirPods 5/4 Urban Fit",
+"sub": null,
+"file": "3BS227390_V2_AirPods5_UrbanFit_RoseGold_BS.jpg",
+"updated": "2026-10-01",
+"by": "황이슬/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS227390_V2_AirPods5_UrbanFit_RoseGold_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110561514?asset_id=3285403283",
+"updated": "2026-10-01",
+"code": "3BS227390",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13110561514",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3BS227390_V2_AirPods5_UrbanFit_RoseGold_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110561514?asset_id=3285403480",
+"updated": "2026-10-01",
+"code": "3BS227390",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13110561514",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3BS227390_V2_AirPods5_UrbanFit_RoseGold_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110561514?asset_id=3285403316",
+"updated": "2026-10-01",
+"code": "3BS227390",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13110561514",
+"by": "황이슬/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/13110561514?asset_id=3285403480",
+"https://spigen.monday.com/boards/4485989214/pulses/13110561514?asset_id=3285403316"
+]
+},
+"3BS227410": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110561514?asset_id=3285403349",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/13110561514",
+"board": "*[WO] 패키지",
+"item": "AirPods 5/4 Urban Fit",
+"sub": null,
+"file": "3BS227410_V2_AirPods5_UrbanFit_MidGN_BS.jpg",
+"updated": "2026-10-01",
+"by": "황이슬/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS227410_V2_AirPods5_UrbanFit_MidGN_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110561514?asset_id=3285403349",
+"updated": "2026-10-01",
+"code": "3BS227410",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13110561514",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3BS227410_V2_AirPods5_UrbanFit_MidGN_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110561514?asset_id=3285403530",
+"updated": "2026-10-01",
+"code": "3BS227410",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13110561514",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3BS227410_V2_AirPods5_UrbanFit_MidGN_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110561514?asset_id=3285403341",
+"updated": "2026-10-01",
+"code": "3BS227410",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13110561514",
+"by": "황이슬/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/13110561514?asset_id=3285403530",
+"https://spigen.monday.com/boards/4485989214/pulses/13110561514?asset_id=3285403341"
 ]
 },
 "3BS229420": {
@@ -293585,7 +293758,7 @@
 "url": "https://spigen.monday.com/boards/4485989214/pulses/12296519209?asset_id=3138828175",
 "parent_url": "https://spigen.monday.com/boards/4485989214/pulses/12296519209",
 "board": "*[WO] 패키지",
-"item": "SSTc Tag Armor 2",
+"item": "Galaxy SmartTag3 Tag Armor 2",
 "sub": null,
 "file": "3PK220510_SSTc_comforTag_P.jpg",
 "updated": "2026-07-28",
@@ -295465,11 +295638,103 @@
 "https://spigen.monday.com/boards/3106368464/pulses/12954138116?asset_id=3253315658"
 ]
 },
+"3PK225720": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/11147964822?asset_id=3285510406",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/11147964822",
+"board": "*[WO] 패키지",
+"item": "Running Belt A711 (S/M)",
+"sub": null,
+"file": "3PK225720_DynamicShield_A711_WaistPack(S,M)_Black_P.jpg",
+"updated": "2026-10-01",
+"by": "황이슬/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3PK225720_DynamicShield_A711_WaistPack(S,M)_Black_P.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/11147964822?asset_id=3285510406",
+"updated": "2026-10-01",
+"code": "3PK225720",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "11147964822",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3PK225720_DynamicShield_A711_WaistPack(S,M)_Black_P.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/11147964822?asset_id=3285510485",
+"updated": "2026-10-01",
+"code": "3PK225720",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "11147964822",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3PK225720_DynamicShield_A711_WaistPack(S,M)_Black_P.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/11147964822?asset_id=3285510456",
+"updated": "2026-10-01",
+"code": "3PK225720",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "11147964822",
+"by": "황이슬/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/11147964822?asset_id=3285510485",
+"https://spigen.monday.com/boards/4485989214/pulses/11147964822?asset_id=3285510456"
+]
+},
+"3PK225730": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/11148070960?asset_id=3285510727",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/11148070960",
+"board": "*[WO] 패키지",
+"item": "Running Belt A711 (L/XL)",
+"sub": null,
+"file": "3PK225730_DynamicShield_A711_WaistPack(L,XL)_Black_P.jpg",
+"updated": "2026-10-01",
+"by": "황이슬/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3PK225730_DynamicShield_A711_WaistPack(L,XL)_Black_P.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/11148070960?asset_id=3285510727",
+"updated": "2026-10-01",
+"code": "3PK225730",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "11148070960",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3PK225730_DynamicShield_A711_WaistPack(L,XL)_Black_P.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/11148070960?asset_id=3285510827",
+"updated": "2026-10-01",
+"code": "3PK225730",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "11148070960",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3PK225730_DynamicShield_A711_WaistPack(L,XL)_Black_P.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/11148070960?asset_id=3285510779",
+"updated": "2026-10-01",
+"code": "3PK225730",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "11148070960",
+"by": "황이슬/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/11148070960?asset_id=3285510827",
+"https://spigen.monday.com/boards/4485989214/pulses/11148070960?asset_id=3285510779"
+]
+},
 "3PK225740": {
 "url": "https://spigen.monday.com/boards/4485989214/pulses/12296519209?asset_id=3226566176",
 "parent_url": "https://spigen.monday.com/boards/4485989214/pulses/12296519209",
 "board": "*[WO] 패키지",
-"item": "SSTc Tag Armor 2",
+"item": "Galaxy SmartTag3 Tag Armor 2",
 "sub": null,
 "file": "3PK225740_US_ACS12068_GalaxySmartTag3_ComforTag_P.jpg",
 "updated": "2026-09-04",
@@ -313695,6 +313960,98 @@
 "https://spigen.monday.com/boards/3133983085/pulses/12862539695?asset_id=3198427167"
 ]
 },
+"3ST227430": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110561514?asset_id=3285383766",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/13110561514",
+"board": "*[WO] 패키지",
+"item": "AirPods 5/4 Urban Fit",
+"sub": null,
+"file": "3ST227430_CN_APods5_UbF-Comp_ST.jpg",
+"updated": "2026-10-01",
+"by": "황이슬/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3ST227430_CN_APods5_UbF-Comp_ST.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110561514?asset_id=3285383766",
+"updated": "2026-10-01",
+"code": "3ST227430",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13110561514",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3ST227430_CN_APods5_UbF Comp_ST.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110561514?asset_id=3285383800",
+"updated": "2026-10-01",
+"code": "3ST227430",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13110561514",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3ST227430_CN_APods5_UbF Comp_ST.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110561514?asset_id=3285383773",
+"updated": "2026-10-01",
+"code": "3ST227430",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13110561514",
+"by": "황이슬/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/13110561514?asset_id=3285383800",
+"https://spigen.monday.com/boards/4485989214/pulses/13110561514?asset_id=3285383773"
+]
+},
+"3ST227440": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110560821?asset_id=3285366347",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/13110560821",
+"board": "*[WO] 패키지",
+"item": "AirPods 5/4 Core Armor",
+"sub": null,
+"file": "3ST227440_KR_APods5_UbF-Comp_ST.jpg",
+"updated": "2026-10-01",
+"by": "황이슬/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3ST227440_KR_APods5_UbF-Comp_ST.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110560821?asset_id=3285366347",
+"updated": "2026-10-01",
+"code": "3ST227440",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13110560821",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3ST227440_KR_APods5_UbF Comp_ST.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110560821?asset_id=3285366611",
+"updated": "2026-10-01",
+"code": "3ST227440",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13110560821",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3ST227440_KR_APods5_UbF Comp_ST.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110560821?asset_id=3285366388",
+"updated": "2026-10-01",
+"code": "3ST227440",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13110560821",
+"by": "황이슬/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/13110560821?asset_id=3285366611",
+"https://spigen.monday.com/boards/4485989214/pulses/13110560821?asset_id=3285366388"
+]
+},
 "3VB108240": {
 "url": "https://spigen.monday.com/boards/3133983085/pulses/7293099338?asset_id=1648500527",
 "parent_url": "https://spigen.monday.com/boards/3133983085/pulses/7293099338",
@@ -314270,6 +314627,85 @@
 "alt": [
 "https://spigen.monday.com/boards/4057650308/pulses/7168486903?asset_id=1887720258",
 "https://spigen.monday.com/boards/4057650308/pulses/7168486903?asset_id=1887720294"
+]
+},
+"A711": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/11147964822?asset_id=3285510406",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/11147964822",
+"board": "*[WO] 패키지",
+"item": "Running Belt A711 (S/M)",
+"sub": null,
+"file": "3PK225720_DynamicShield_A711_WaistPack(S,M)_Black_P.jpg",
+"updated": "2026-10-01",
+"by": "황이슬/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3PK225720_DynamicShield_A711_WaistPack(S,M)_Black_P.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/11147964822?asset_id=3285510406",
+"updated": "2026-10-01",
+"code": "3PK225720",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "11147964822",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3PK225730_DynamicShield_A711_WaistPack(L,XL)_Black_P.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/11148070960?asset_id=3285510727",
+"updated": "2026-10-01",
+"code": "3PK225730",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "11148070960",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3PK225720_DynamicShield_A711_WaistPack(S,M)_Black_P.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/11147964822?asset_id=3285510485",
+"updated": "2026-10-01",
+"code": "3PK225720",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "11147964822",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3PK225730_DynamicShield_A711_WaistPack(L,XL)_Black_P.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/11148070960?asset_id=3285510827",
+"updated": "2026-10-01",
+"code": "3PK225730",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "11148070960",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3PK225720_DynamicShield_A711_WaistPack(S,M)_Black_P.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/11147964822?asset_id=3285510456",
+"updated": "2026-10-01",
+"code": "3PK225720",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "11147964822",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3PK225730_DynamicShield_A711_WaistPack(L,XL)_Black_P.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/11148070960?asset_id=3285510779",
+"updated": "2026-10-01",
+"code": "3PK225730",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "11148070960",
+"by": "황이슬/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/11148070960?asset_id=3285510727",
+"https://spigen.monday.com/boards/4485989214/pulses/11147964822?asset_id=3285510485",
+"https://spigen.monday.com/boards/4485989214/pulses/11148070960?asset_id=3285510827",
+"https://spigen.monday.com/boards/4485989214/pulses/11147964822?asset_id=3285510456",
+"https://spigen.monday.com/boards/4485989214/pulses/11148070960?asset_id=3285510779"
 ]
 },
 "A712": {
@@ -383182,7 +383618,7 @@
 "url": "https://spigen.monday.com/boards/4485989214/pulses/12296519209?asset_id=3226566176",
 "parent_url": "https://spigen.monday.com/boards/4485989214/pulses/12296519209",
 "board": "*[WO] 패키지",
-"item": "SSTc Tag Armor 2",
+"item": "Galaxy SmartTag3 Tag Armor 2",
 "sub": null,
 "file": "3PK225740_US_ACS12068_GalaxySmartTag3_ComforTag_P.jpg",
 "updated": "2026-09-04",
