@@ -1,6 +1,6 @@
 {
 "_meta": {
-"generated_at": "2026-10-01T07:59:28Z",
+"generated_at": "2026-10-01T15:10:52Z",
 "mode": "incremental",
 "account": "spigen",
 "boards": [
@@ -17,12 +17,12 @@
 "☄️최종도안파일"
 ],
 "board_count": 6,
-"items": 27,
-"subitems": 12,
-"files": 70,
-"title_hits": 37,
+"items": 3,
+"subitems": 0,
+"files": 20,
+"title_hits": 3,
 "gallery": 2,
-"codes": 7831,
+"codes": 7837,
 "no_gallery": [],
 "skipped": []
 },
@@ -9100,6 +9100,52 @@
 "alt": [
 "https://spigen.monday.com/boards/3133983085/pulses/12058702717?asset_id=3138807094",
 "https://spigen.monday.com/boards/3133983085/pulses/12058702717?asset_id=3138807069"
+]
+},
+"3BR226100": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889168236?asset_id=3285517325",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/12889168236",
+"board": "*[WO] 패키지",
+"item": "APxSwatch Royal Pop Modern Fit Pro",
+"sub": null,
+"file": "3BR226100_RoyalPop_Modern-Fit-Pro_BR.jpg",
+"updated": "2026-10-01",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BR226100_RoyalPop_Modern-Fit-Pro_BR.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889168236?asset_id=3285517325",
+"updated": "2026-10-01",
+"code": "3BR226100",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889168236",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BR226100_RoyalPop_Modern Fit Pro_BR.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889168236?asset_id=3285517389",
+"updated": "2026-10-01",
+"code": "3BR226100",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889168236",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BR226100_RoyalPop_Modern Fit Pro_BR.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889168236?asset_id=3285517351",
+"updated": "2026-10-01",
+"code": "3BR226100",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889168236",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/12889168236?asset_id=3285517389",
+"https://spigen.monday.com/boards/4485989214/pulses/12889168236?asset_id=3285517351"
 ]
 },
 "3BR226620": {
@@ -212828,6 +212874,98 @@
 "https://spigen.monday.com/boards/3106368464/pulses/12722730580?asset_id=3223593689"
 ]
 },
+"3BS226040": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889168236?asset_id=3285517690",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/12889168236",
+"board": "*[WO] 패키지",
+"item": "APxSwatch Royal Pop Modern Fit Pro",
+"sub": null,
+"file": "3BS226040_ACS12503_MdnFPro_SV_Crown3HRoyalPop.jpg",
+"updated": "2026-10-01",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS226040_ACS12503_MdnFPro_SV_Crown3HRoyalPop.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889168236?asset_id=3285517690",
+"updated": "2026-10-01",
+"code": "3BS226040",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889168236",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS226040_ACS12503_MdnFPro_SV_Crown3HRoyalPop.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889168236?asset_id=3285517803",
+"updated": "2026-10-01",
+"code": "3BS226040",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889168236",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS226040_ACS12503_MdnFPro_SV_Crown3HRoyalPop.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889168236?asset_id=3285517742",
+"updated": "2026-10-01",
+"code": "3BS226040",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889168236",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/12889168236?asset_id=3285517803",
+"https://spigen.monday.com/boards/4485989214/pulses/12889168236?asset_id=3285517742"
+]
+},
+"3BS226050": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889168236?asset_id=3285517682",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/12889168236",
+"board": "*[WO] 패키지",
+"item": "APxSwatch Royal Pop Modern Fit Pro",
+"sub": null,
+"file": "3BS226050_ACS12504_MdnFPro_SV_Crown12HRoyalPop.jpg",
+"updated": "2026-10-01",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS226050_ACS12504_MdnFPro_SV_Crown12HRoyalPop.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889168236?asset_id=3285517682",
+"updated": "2026-10-01",
+"code": "3BS226050",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889168236",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS226050_ACS12504_MdnFPro_SV_Crown12HRoyalPop.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889168236?asset_id=3285517992",
+"updated": "2026-10-01",
+"code": "3BS226050",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889168236",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS226050_ACS12504_MdnFPro_SV_Crown12HRoyalPop.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889168236?asset_id=3285517746",
+"updated": "2026-10-01",
+"code": "3BS226050",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889168236",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/12889168236?asset_id=3285517992",
+"https://spigen.monday.com/boards/4485989214/pulses/12889168236?asset_id=3285517746"
+]
+},
 "3BS226180": {
 "url": "https://spigen.monday.com/boards/4453971876/pulses/13014149088?asset_id=3241261601",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/11554432309",
@@ -234502,6 +234640,52 @@
 "alt": [
 "https://spigen.monday.com/boards/3106368464/pulses/12851569821?asset_id=3238497346",
 "https://spigen.monday.com/boards/3106368464/pulses/12851569821?asset_id=3238496689"
+]
+},
+"3MN226110": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889168236?asset_id=3285517330",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/12889168236",
+"board": "*[WO] 패키지",
+"item": "APxSwatch Royal Pop Modern Fit Pro",
+"sub": null,
+"file": "3MN226110_RoyalPop_Modern Fit Pro_MN.jpg",
+"updated": "2026-10-01",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3MN226110_RoyalPop_Modern Fit Pro_MN.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889168236?asset_id=3285517330",
+"updated": "2026-10-01",
+"code": "3MN226110",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889168236",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3MN226110_RoyalPop_Modern Fit Pro_MN.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889168236?asset_id=3285517430",
+"updated": "2026-10-01",
+"code": "3MN226110",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889168236",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3MN226110_RoyalPop_Modern Fit Pro_MN.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889168236?asset_id=3285517321",
+"updated": "2026-10-01",
+"code": "3MN226110",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889168236",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/12889168236?asset_id=3285517430",
+"https://spigen.monday.com/boards/4485989214/pulses/12889168236?asset_id=3285517321"
 ]
 },
 "3MN226400": {
@@ -391518,6 +391702,98 @@
 "alt": [
 "https://spigen.monday.com/boards/4453971876/pulses/12801466298?asset_id=3220807045",
 "https://spigen.monday.com/boards/4453971876/pulses/12801466298?asset_id=3220806990"
+]
+},
+"ACS12503": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889168236?asset_id=3285517690",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/12889168236",
+"board": "*[WO] 패키지",
+"item": "APxSwatch Royal Pop Modern Fit Pro",
+"sub": null,
+"file": "3BS226040_ACS12503_MdnFPro_SV_Crown3HRoyalPop.jpg",
+"updated": "2026-10-01",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS226040_ACS12503_MdnFPro_SV_Crown3HRoyalPop.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889168236?asset_id=3285517690",
+"updated": "2026-10-01",
+"code": "3BS226040",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889168236",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS226040_ACS12503_MdnFPro_SV_Crown3HRoyalPop.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889168236?asset_id=3285517803",
+"updated": "2026-10-01",
+"code": "3BS226040",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889168236",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS226040_ACS12503_MdnFPro_SV_Crown3HRoyalPop.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889168236?asset_id=3285517742",
+"updated": "2026-10-01",
+"code": "3BS226040",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889168236",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/12889168236?asset_id=3285517803",
+"https://spigen.monday.com/boards/4485989214/pulses/12889168236?asset_id=3285517742"
+]
+},
+"ACS12504": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889168236?asset_id=3285517682",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/12889168236",
+"board": "*[WO] 패키지",
+"item": "APxSwatch Royal Pop Modern Fit Pro",
+"sub": null,
+"file": "3BS226050_ACS12504_MdnFPro_SV_Crown12HRoyalPop.jpg",
+"updated": "2026-10-01",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS226050_ACS12504_MdnFPro_SV_Crown12HRoyalPop.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889168236?asset_id=3285517682",
+"updated": "2026-10-01",
+"code": "3BS226050",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889168236",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS226050_ACS12504_MdnFPro_SV_Crown12HRoyalPop.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889168236?asset_id=3285517992",
+"updated": "2026-10-01",
+"code": "3BS226050",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889168236",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS226050_ACS12504_MdnFPro_SV_Crown12HRoyalPop.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12889168236?asset_id=3285517746",
+"updated": "2026-10-01",
+"code": "3BS226050",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12889168236",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/12889168236?asset_id=3285517992",
+"https://spigen.monday.com/boards/4485989214/pulses/12889168236?asset_id=3285517746"
 ]
 },
 "ACS12514": {
