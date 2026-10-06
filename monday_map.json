@@ -1,6 +1,6 @@
 {
 "_meta": {
-"generated_at": "2026-10-06T08:17:53Z",
+"generated_at": "2026-10-06T15:32:40Z",
 "mode": "incremental",
 "account": "spigen",
 "boards": [
@@ -17,11 +17,10 @@
 "☄️최종도안파일"
 ],
 "board_count": 6,
-"items": 9,
-"subitems": 13,
-"files": 124,
-"title_hits": 40,
-"gallery": 2,
+"items": 4,
+"subitems": 1,
+"files": 3,
+"title_hits": 8,
 "codes": 7859,
 "no_gallery": [],
 "skipped": []
@@ -213614,7 +213613,7 @@
 "url": "https://spigen.monday.com/boards/4453971876/pulses/12801672770?asset_id=3296027694",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/12801674734",
 "board": "*[Mobile] 패키지 현황",
-"item": "iPad mini (2026) Liquid Air Folio",
+"item": "iPad mini (2026) Airskin Folio",
 "sub": "ACS12395",
 "file": "3BS226440_ACS12395_iPadm(26)_ASkinFol_BK.jpg",
 "updated": "2026-10-06",
@@ -392728,7 +392727,7 @@
 "url": "https://spigen.monday.com/boards/4453971876/pulses/12801672770?asset_id=3296027694",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/12801674734",
 "board": "*[Mobile] 패키지 현황",
-"item": "iPad mini (2026) Liquid Air Folio",
+"item": "iPad mini (2026) Airskin Folio",
 "sub": "ACS12395",
 "file": "3BS226440_ACS12395_iPadm(26)_ASkinFol_BK.jpg",
 "updated": "2026-10-06",
