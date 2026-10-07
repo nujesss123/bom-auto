@@ -1,6 +1,6 @@
 {
 "_meta": {
-"generated_at": "2026-10-07T07:53:48Z",
+"generated_at": "2026-10-07T14:53:32Z",
 "mode": "incremental",
 "account": "spigen",
 "boards": [
@@ -17,11 +17,11 @@
 "☄️최종도안파일"
 ],
 "board_count": 6,
-"items": 34,
-"subitems": 64,
-"files": 31,
-"title_hits": 107,
-"codes": 7862,
+"items": 14,
+"subitems": 7,
+"files": 51,
+"title_hits": 26,
+"codes": 7870,
 "no_gallery": [],
 "skipped": []
 },
@@ -215265,6 +215265,236 @@
 "https://spigen.monday.com/boards/4485989214/pulses/13110533388?asset_id=3285360550"
 ]
 },
+"3BS227330": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110533723?asset_id=3300088976",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/13110533723",
+"board": "*[WO] 패키지",
+"item": "AirPods 5/4 Ultra Hybrid",
+"sub": null,
+"file": "3BS227330_AirPods5_UltraHybrid_JetWhite_BS.jpg",
+"updated": "2026-10-07",
+"by": "황이슬/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS227330_AirPods5_UltraHybrid_JetWhite_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110533723?asset_id=3300088976",
+"updated": "2026-10-07",
+"code": "3BS227330",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13110533723",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3BS227330_AirPods5_UltraHybrid_JetWhite_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110533723?asset_id=3300089055",
+"updated": "2026-10-07",
+"code": "3BS227330",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13110533723",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3BS227330_AirPods5_UltraHybrid_JetWhite_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110533723?asset_id=3300088989",
+"updated": "2026-10-07",
+"code": "3BS227330",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13110533723",
+"by": "황이슬/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/13110533723?asset_id=3300089055",
+"https://spigen.monday.com/boards/4485989214/pulses/13110533723?asset_id=3300088989"
+]
+},
+"3BS227340": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110560792?asset_id=3300092027",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/13110560792",
+"board": "*[WO] 패키지",
+"item": "AirPods 5/4 Classic C1",
+"sub": null,
+"file": "3BS227340_AirPods5_ClassicC1_BondiBlue_BS.jpg",
+"updated": "2026-10-07",
+"by": "황이슬/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS227340_AirPods5_ClassicC1_BondiBlue_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110560792?asset_id=3300092027",
+"updated": "2026-10-07",
+"code": "3BS227340",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13110560792",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3BS227340_AirPods5_ClassicC1_BondiBlue_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110560792?asset_id=3300092072",
+"updated": "2026-10-07",
+"code": "3BS227340",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13110560792",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3BS227340_AirPods5_ClassicC1_BondiBlue_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110560792?asset_id=3300092019",
+"updated": "2026-10-07",
+"code": "3BS227340",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13110560792",
+"by": "황이슬/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/13110560792?asset_id=3300092072",
+"https://spigen.monday.com/boards/4485989214/pulses/13110560792?asset_id=3300092019"
+]
+},
+"3BS227350": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110560792?asset_id=3300092011",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/13110560792",
+"board": "*[WO] 패키지",
+"item": "AirPods 5/4 Classic C1",
+"sub": null,
+"file": "3BS227350_AirPods5_ClassicC1_Graphite_BS.jpg",
+"updated": "2026-10-07",
+"by": "황이슬/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS227350_AirPods5_ClassicC1_Graphite_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110560792?asset_id=3300092011",
+"updated": "2026-10-07",
+"code": "3BS227350",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13110560792",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3BS227350_AirPods5_ClassicC1_Graphite_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110560792?asset_id=3300092172",
+"updated": "2026-10-07",
+"code": "3BS227350",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13110560792",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3BS227350_AirPods5_ClassicC1_Graphite_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110560792?asset_id=3300092026",
+"updated": "2026-10-07",
+"code": "3BS227350",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13110560792",
+"by": "황이슬/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/13110560792?asset_id=3300092172",
+"https://spigen.monday.com/boards/4485989214/pulses/13110560792?asset_id=3300092026"
+]
+},
+"3BS227360": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110560792?asset_id=3300092128",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/13110560792",
+"board": "*[WO] 패키지",
+"item": "AirPods 5/4 Classic C1",
+"sub": null,
+"file": "3BS227360_AirPods5_ClassicC1_Ruby_BS.jpg",
+"updated": "2026-10-07",
+"by": "황이슬/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS227360_AirPods5_ClassicC1_Ruby_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110560792?asset_id=3300092128",
+"updated": "2026-10-07",
+"code": "3BS227360",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13110560792",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3BS227360_AirPods5_ClassicC1_Ruby_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110560792?asset_id=3300092178",
+"updated": "2026-10-07",
+"code": "3BS227360",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13110560792",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3BS227360_AirPods5_ClassicC1_Ruby_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110560792?asset_id=3300092120",
+"updated": "2026-10-07",
+"code": "3BS227360",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13110560792",
+"by": "황이슬/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/13110560792?asset_id=3300092178",
+"https://spigen.monday.com/boards/4485989214/pulses/13110560792?asset_id=3300092120"
+]
+},
+"3BS227370": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110560792?asset_id=3300092225",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/13110560792",
+"board": "*[WO] 패키지",
+"item": "AirPods 5/4 Classic C1",
+"sub": null,
+"file": "3BS227370_AirPods5_ClassicC1_Tangerine_BS.jpg",
+"updated": "2026-10-07",
+"by": "황이슬/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS227370_AirPods5_ClassicC1_Tangerine_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110560792?asset_id=3300092225",
+"updated": "2026-10-07",
+"code": "3BS227370",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13110560792",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3BS227370_AirPods5_ClassicC1_Tangerine_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110560792?asset_id=3300092373",
+"updated": "2026-10-07",
+"code": "3BS227370",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13110560792",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3BS227370_AirPods5_ClassicC1_Tangerine_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110560792?asset_id=3300092167",
+"updated": "2026-10-07",
+"code": "3BS227370",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13110560792",
+"by": "황이슬/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/13110560792?asset_id=3300092373",
+"https://spigen.monday.com/boards/4485989214/pulses/13110560792?asset_id=3300092167"
+]
+},
 "3BS227380": {
 "url": "https://spigen.monday.com/boards/4485989214/pulses/13110561514?asset_id=3285403277",
 "parent_url": "https://spigen.monday.com/boards/4485989214/pulses/13110561514",
@@ -215401,6 +215631,52 @@
 "alt": [
 "https://spigen.monday.com/boards/4485989214/pulses/13110561514?asset_id=3285403530",
 "https://spigen.monday.com/boards/4485989214/pulses/13110561514?asset_id=3285403341"
+]
+},
+"3BS227420": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110561000?asset_id=3300091691",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/13110561000",
+"board": "*[WO] 패키지",
+"item": "AirPods 5/4 Lock Fit",
+"sub": null,
+"file": "3BS227420_AirPods5_LockFit_MttBlack_BS.jpg",
+"updated": "2026-10-07",
+"by": "황이슬/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS227420_AirPods5_LockFit_MttBlack_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110561000?asset_id=3300091691",
+"updated": "2026-10-07",
+"code": "3BS227420",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13110561000",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3BS227420_AirPods5_LockFit_MttBlack_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110561000?asset_id=3300091735",
+"updated": "2026-10-07",
+"code": "3BS227420",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13110561000",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3BS227420_AirPods5_LockFit_MttBlack_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13110561000?asset_id=3300091705",
+"updated": "2026-10-07",
+"code": "3BS227420",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13110561000",
+"by": "황이슬/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/13110561000?asset_id=3300091735",
+"https://spigen.monday.com/boards/4485989214/pulses/13110561000?asset_id=3300091705"
 ]
 },
 "3BS229310": {
@@ -298095,6 +298371,52 @@
 "https://spigen.monday.com/boards/4453971876/pulses/13147211561?asset_id=3278986192"
 ]
 },
+"3PK229600": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12899602060?asset_id=3300335246",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/11998515997",
+"board": "*[Mobile] 패키지 현황",
+"item": "Common A604",
+"sub": "ACS12509",
+"file": "3PK229600_A604_WH.jpg",
+"updated": "2026-10-07",
+"by": "조혜영/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3PK229600_A604_WH.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12899602060?asset_id=3300335246",
+"updated": "2026-10-07",
+"code": "3PK229600",
+"sub": "ACS12509",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "11998515997",
+"by": "조혜영/패키지디자인팀/HQ"
+},
+{
+"name": "3PK229600_A604_WH.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12899602060?asset_id=3300335426",
+"updated": "2026-10-07",
+"code": "3PK229600",
+"sub": "ACS12509",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "11998515997",
+"by": "조혜영/패키지디자인팀/HQ"
+},
+{
+"name": "3PK229600_A604_WH.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12899602060?asset_id=3300335273",
+"updated": "2026-10-07",
+"code": "3PK229600",
+"sub": "ACS12509",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "11998515997",
+"by": "조혜영/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/12899602060?asset_id=3300335426",
+"https://spigen.monday.com/boards/4453971876/pulses/12899602060?asset_id=3300335273"
+]
+},
 "3PK229880": {
 "url": "https://spigen.monday.com/boards/3133983085/pulses/12889088973?asset_id=3296004178",
 "parent_url": "https://spigen.monday.com/boards/3133983085/pulses/12889088973",
@@ -315766,15 +316088,45 @@
 ]
 },
 "A604": {
-"url": "https://spigen.monday.com/boards/4453971876/pulses/11998477659?asset_id=3026913070",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12899602060?asset_id=3300335246",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/11998515997",
 "board": "*[Mobile] 패키지 현황",
 "item": "Common A604",
-"sub": "ACS11675",
-"file": "3PK214730_A604_BK.jpg",
-"updated": "2026-06-08",
+"sub": "ACS12509",
+"file": "3PK229600_A604_WH.jpg",
+"updated": "2026-10-07",
 "by": "조혜영/패키지디자인팀/HQ",
 "files": [
+{
+"name": "3PK229600_A604_WH.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12899602060?asset_id=3300335246",
+"updated": "2026-10-07",
+"code": "3PK229600",
+"sub": "ACS12509",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "11998515997",
+"by": "조혜영/패키지디자인팀/HQ"
+},
+{
+"name": "3PK229600_A604_WH.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12899602060?asset_id=3300335426",
+"updated": "2026-10-07",
+"code": "3PK229600",
+"sub": "ACS12509",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "11998515997",
+"by": "조혜영/패키지디자인팀/HQ"
+},
+{
+"name": "3PK229600_A604_WH.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12899602060?asset_id=3300335273",
+"updated": "2026-10-07",
+"code": "3PK229600",
+"sub": "ACS12509",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "11998515997",
+"by": "조혜영/패키지디자인팀/HQ"
+},
 {
 "name": "3PK214730_A604_BK.jpg",
 "url": "https://spigen.monday.com/boards/4453971876/pulses/11998477659?asset_id=3026913070",
@@ -315837,6 +316189,9 @@
 }
 ],
 "alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/12899602060?asset_id=3300335426",
+"https://spigen.monday.com/boards/4453971876/pulses/12899602060?asset_id=3300335273",
+"https://spigen.monday.com/boards/4453971876/pulses/11998477659?asset_id=3026913070",
 "https://spigen.monday.com/boards/4453971876/pulses/11998477659?asset_id=3026913071",
 "https://spigen.monday.com/boards/4453971876/pulses/11998477659?asset_id=3026913089",
 "https://spigen.monday.com/boards/4453971876/pulses/11998477659?asset_id=3026913102",
@@ -411864,6 +412219,41 @@
 "https://spigen.monday.com/boards/3106368464/pulses/11232883497?asset_id=2830393183",
 "https://spigen.monday.com/boards/3106368464/pulses/11232883497?asset_id=2807808284",
 "https://spigen.monday.com/boards/3106368464/pulses/11232883497?asset_id=2807834315"
+]
+},
+"LD105": {
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3300153112",
+"parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750",
+"board": "*[HA] 패키지",
+"item": "[LD105] Spigen Cable Management Net - Black",
+"sub": null,
+"file": "Draft_LD105_MN.jpg",
+"updated": "2026-10-07",
+"by": "문덕훈/패키지디자인팀/HQ",
+"files": [
+{
+"name": "Draft_LD105_MN.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3300153112",
+"updated": "2026-10-07",
+"code": "LD105",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022792750",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "Draft_LD105_P.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3300153114",
+"updated": "2026-10-07",
+"code": "LD105",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022792750",
+"by": "문덕훈/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3300153114"
 ]
 },
 "LD201": {
