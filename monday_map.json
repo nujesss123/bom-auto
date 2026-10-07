@@ -1,7 +1,7 @@
 {
 "_meta": {
-"generated_at": "2026-10-07T00:14:20Z",
-"mode": "full",
+"generated_at": "2026-10-07T07:53:48Z",
+"mode": "incremental",
 "account": "spigen",
 "boards": [
 "4057650308",
@@ -17,25 +17,13 @@
 "☄️최종도안파일"
 ],
 "board_count": 6,
-"items": 2630,
-"subitems": 2364,
-"files": 21724,
-"title_hits": 7115,
-"gallery": 680,
-"codes": 7859,
+"items": 34,
+"subitems": 64,
+"files": 31,
+"title_hits": 107,
+"codes": 7862,
 "no_gallery": [],
-"skipped": [
-"12899642476",
-"12899645145",
-"12899591894",
-"12899638727",
-"9711067853",
-"12082218575",
-"12742440793",
-"12742425119",
-"12462526423",
-"12462502426"
-]
+"skipped": []
 },
 "map": {
 "250425": {
@@ -215281,7 +215269,7 @@
 "url": "https://spigen.monday.com/boards/4485989214/pulses/13110561514?asset_id=3285403277",
 "parent_url": "https://spigen.monday.com/boards/4485989214/pulses/13110561514",
 "board": "*[WO] 패키지",
-"item": "AirPods 5/4 Urban Fit",
+"item": "AirPods 5/4 Urban Fit (오픈형_오프라인용)",
 "sub": null,
 "file": "3BS227380_V2_AirPods5_UrbanFit_Black_BS.jpg",
 "updated": "2026-10-01",
@@ -215327,7 +215315,7 @@
 "url": "https://spigen.monday.com/boards/4485989214/pulses/13110561514?asset_id=3285403283",
 "parent_url": "https://spigen.monday.com/boards/4485989214/pulses/13110561514",
 "board": "*[WO] 패키지",
-"item": "AirPods 5/4 Urban Fit",
+"item": "AirPods 5/4 Urban Fit (오픈형_오프라인용)",
 "sub": null,
 "file": "3BS227390_V2_AirPods5_UrbanFit_RoseGold_BS.jpg",
 "updated": "2026-10-01",
@@ -215373,7 +215361,7 @@
 "url": "https://spigen.monday.com/boards/4485989214/pulses/13110561514?asset_id=3285403349",
 "parent_url": "https://spigen.monday.com/boards/4485989214/pulses/13110561514",
 "board": "*[WO] 패키지",
-"item": "AirPods 5/4 Urban Fit",
+"item": "AirPods 5/4 Urban Fit (오픈형_오프라인용)",
 "sub": null,
 "file": "3BS227410_V2_AirPods5_UrbanFit_MidGN_BS.jpg",
 "updated": "2026-10-01",
@@ -215965,6 +215953,52 @@
 "alt": [
 "https://spigen.monday.com/boards/3106368464/pulses/13022830292?asset_id=3279197594",
 "https://spigen.monday.com/boards/3106368464/pulses/13022830292?asset_id=3279197481"
+]
+},
+"3BS229800": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13075506518?asset_id=3299953359",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/13075506518",
+"board": "*[WO] 패키지",
+"item": "Spigen Life LF102 Compact Carabiner",
+"sub": null,
+"file": "3BS229800_Carabiner_LF102_Gunmetal_BS.jpg",
+"updated": "2026-10-07",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS229800_Carabiner_LF102_Gunmetal_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13075506518?asset_id=3299953359",
+"updated": "2026-10-07",
+"code": "3BS229800",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13075506518",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229800_Carabiner_LF102_Gunmetal_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13075506518?asset_id=3299953380",
+"updated": "2026-10-07",
+"code": "3BS229800",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13075506518",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229800_Carabiner_LF102_Gunmetal_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13075506518?asset_id=3299953358",
+"updated": "2026-10-07",
+"code": "3BS229800",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13075506518",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/13075506518?asset_id=3299953380",
+"https://spigen.monday.com/boards/4485989214/pulses/13075506518?asset_id=3299953358"
 ]
 },
 "3IP06664A": {
@@ -294814,7 +294848,7 @@
 "url": "https://spigen.monday.com/boards/4453971876/pulses/11976451198?asset_id=3111030016",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/11976337361",
 "board": "*[Mobile] 패키지 현황",
-"item": "SSbfFE Optik Armor (M)_WW",
+"item": "GalS26FE(SSbfFE) Optik Armor (M)_WW",
 "sub": "ACS11801",
 "file": "3PK220430_삼성_ACS11801_SSbfFE_OptikArmor_BK.jpg",
 "updated": "2026-07-15",
@@ -315191,7 +315225,7 @@
 "url": "https://spigen.monday.com/boards/4485989214/pulses/13110561514?asset_id=3285383766",
 "parent_url": "https://spigen.monday.com/boards/4485989214/pulses/13110561514",
 "board": "*[WO] 패키지",
-"item": "AirPods 5/4 Urban Fit",
+"item": "AirPods 5/4 Urban Fit (오픈형_오프라인용)",
 "sub": null,
 "file": "3ST227430_CN_APods5_UbF-Comp_ST.jpg",
 "updated": "2026-10-01",
@@ -380837,7 +380871,7 @@
 "url": "https://spigen.monday.com/boards/4453971876/pulses/11976451198?asset_id=3111030016",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/11976337361",
 "board": "*[Mobile] 패키지 현황",
-"item": "SSbfFE Optik Armor (M)_WW",
+"item": "GalS26FE(SSbfFE) Optik Armor (M)_WW",
 "sub": "ACS11801",
 "file": "3PK220430_삼성_ACS11801_SSbfFE_OptikArmor_BK.jpg",
 "updated": "2026-07-15",
@@ -414013,6 +414047,52 @@
 "alt": [
 "https://spigen.monday.com/boards/4485989214/pulses/7691818031?asset_id=2033386936",
 "https://spigen.monday.com/boards/4485989214/pulses/7691818031?asset_id=2033386942"
+]
+},
+"LF102": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13075506518?asset_id=3299953359",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/13075506518",
+"board": "*[WO] 패키지",
+"item": "Spigen Life LF102 Compact Carabiner",
+"sub": null,
+"file": "3BS229800_Carabiner_LF102_Gunmetal_BS.jpg",
+"updated": "2026-10-07",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS229800_Carabiner_LF102_Gunmetal_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13075506518?asset_id=3299953359",
+"updated": "2026-10-07",
+"code": "3BS229800",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13075506518",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229800_Carabiner_LF102_Gunmetal_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13075506518?asset_id=3299953380",
+"updated": "2026-10-07",
+"code": "3BS229800",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13075506518",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229800_Carabiner_LF102_Gunmetal_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13075506518?asset_id=3299953358",
+"updated": "2026-10-07",
+"code": "3BS229800",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13075506518",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/13075506518?asset_id=3299953380",
+"https://spigen.monday.com/boards/4485989214/pulses/13075506518?asset_id=3299953358"
 ]
 },
 "LF300": {
@@ -451097,6 +451177,28 @@
 "https://spigen.monday.com/boards/3106368464/pulses/12851569821?asset_id=3238496689",
 "https://spigen.monday.com/boards/3106368464/pulses/12851569821?asset_id=3229950925",
 "https://spigen.monday.com/boards/3106368464/pulses/12851569821?asset_id=3229950929"
+]
+},
+"TG140": {
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13102369663?asset_id=3299519081",
+"parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13102369663",
+"board": "*[HA] 패키지",
+"item": "[TG140-YJ] Tesla Display Cover Set for Tesla Model Y Juniper",
+"sub": null,
+"file": "Draft_TG140-YJ_Black_P.jpg",
+"updated": "2026-10-07",
+"by": "문덕훈/패키지디자인팀/HQ",
+"files": [
+{
+"name": "Draft_TG140-YJ_Black_P.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13102369663?asset_id=3299519081",
+"updated": "2026-10-07",
+"code": "TG140",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13102369663",
+"by": "문덕훈/패키지디자인팀/HQ"
+}
 ]
 },
 "TG200": {
