@@ -1,6 +1,6 @@
 {
 "_meta": {
-"generated_at": "2026-10-08T08:09:30Z",
+"generated_at": "2026-10-08T15:56:59Z",
 "mode": "incremental",
 "account": "spigen",
 "boards": [
@@ -17,15 +17,13 @@
 "☄️최종도안파일"
 ],
 "board_count": 6,
-"items": 34,
-"subitems": 34,
-"files": 78,
-"title_hits": 78,
-"codes": 7880,
+"items": 1,
+"subitems": 2,
+"files": 9,
+"title_hits": 3,
+"codes": 7883,
 "no_gallery": [],
-"skipped": [
-"12742425119"
-]
+"skipped": []
 },
 "map": {
 "250425": {
@@ -298925,6 +298923,52 @@
 "https://spigen.monday.com/boards/3106368464/pulses/13102369663?asset_id=3302672688"
 ]
 },
+"3PK230150": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13236114947?asset_id=3302902138",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13147221344",
+"board": "*[Mobile] 패키지 현황",
+"item": "iPhone Duo Thintect Pro Mag Fit (SQ)_원자재변경",
+"sub": "ACS12798",
+"file": "3PK230150_ACS12798_iPhduo_TtectProMgF_BK_V2.jpg",
+"updated": "2026-10-08",
+"by": "한원진/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3PK230150_ACS12798_iPhduo_TtectProMgF_BK_V2.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13236114947?asset_id=3302902138",
+"updated": "2026-10-08",
+"code": "3PK230150",
+"sub": "ACS12798",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13147221344",
+"by": "한원진/패키지디자인팀/HQ"
+},
+{
+"name": "3PK230150_ACS12798_iPhduo_TtectProMgF_BK_V2.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13236114947?asset_id=3302902176",
+"updated": "2026-10-08",
+"code": "3PK230150",
+"sub": "ACS12798",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13147221344",
+"by": "한원진/패키지디자인팀/HQ"
+},
+{
+"name": "3PK230150_ACS12798_iPhduo_TtectProMgF_BK_V2.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13236114947?asset_id=3302902160",
+"updated": "2026-10-08",
+"code": "3PK230150",
+"sub": "ACS12798",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13147221344",
+"by": "한원진/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/13236114947?asset_id=3302902176",
+"https://spigen.monday.com/boards/4453971876/pulses/13236114947?asset_id=3302902160"
+]
+},
 "3ST126520": {
 "url": "https://spigen.monday.com/boards/4057650308/pulses/4602269706?asset_id=975000460",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/4602269706",
@@ -316095,6 +316139,52 @@
 "alt": [
 "https://spigen.monday.com/boards/4485989214/pulses/13110560821?asset_id=3285366611",
 "https://spigen.monday.com/boards/4485989214/pulses/13110560821?asset_id=3285366388"
+]
+},
+"3ST230160": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13236114947?asset_id=3302902119",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13147221344",
+"board": "*[Mobile] 패키지 현황",
+"item": "iPhone Duo Thintect Pro Mag Fit (SQ)_원자재변경",
+"sub": "ACS12798",
+"file": "3ST230160_iPhFold-TtectProMgF-BK_V2.jpg",
+"updated": "2026-10-08",
+"by": "한원진/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3ST230160_iPhFold-TtectProMgF-BK_V2.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13236114947?asset_id=3302902119",
+"updated": "2026-10-08",
+"code": "3ST230160",
+"sub": "ACS12798",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13147221344",
+"by": "한원진/패키지디자인팀/HQ"
+},
+{
+"name": "3ST230160_iPhFold TtectProMgF BK_V2.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13236114947?asset_id=3302902181",
+"updated": "2026-10-08",
+"code": "3ST230160",
+"sub": "ACS12798",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13147221344",
+"by": "한원진/패키지디자인팀/HQ"
+},
+{
+"name": "3ST230160_iPhFold TtectProMgF BK_V2.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13236114947?asset_id=3302902136",
+"updated": "2026-10-08",
+"code": "3ST230160",
+"sub": "ACS12798",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13147221344",
+"by": "한원진/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/13236114947?asset_id=3302902181",
+"https://spigen.monday.com/boards/4453971876/pulses/13236114947?asset_id=3302902136"
 ]
 },
 "3VB108240": {
@@ -394202,6 +394292,52 @@
 "alt": [
 "https://spigen.monday.com/boards/4453971876/pulses/13066226547?asset_id=3275824344",
 "https://spigen.monday.com/boards/4453971876/pulses/13066226547?asset_id=3275824224"
+]
+},
+"ACS12798": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13236114947?asset_id=3302902138",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13147221344",
+"board": "*[Mobile] 패키지 현황",
+"item": "iPhone Duo Thintect Pro Mag Fit (SQ)_원자재변경",
+"sub": "ACS12798",
+"file": "3PK230150_ACS12798_iPhduo_TtectProMgF_BK_V2.jpg",
+"updated": "2026-10-08",
+"by": "한원진/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3PK230150_ACS12798_iPhduo_TtectProMgF_BK_V2.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13236114947?asset_id=3302902138",
+"updated": "2026-10-08",
+"code": "3PK230150",
+"sub": "ACS12798",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13147221344",
+"by": "한원진/패키지디자인팀/HQ"
+},
+{
+"name": "3PK230150_ACS12798_iPhduo_TtectProMgF_BK_V2.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13236114947?asset_id=3302902176",
+"updated": "2026-10-08",
+"code": "3PK230150",
+"sub": "ACS12798",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13147221344",
+"by": "한원진/패키지디자인팀/HQ"
+},
+{
+"name": "3PK230150_ACS12798_iPhduo_TtectProMgF_BK_V2.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13236114947?asset_id=3302902160",
+"updated": "2026-10-08",
+"code": "3PK230150",
+"sub": "ACS12798",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13147221344",
+"by": "한원진/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/13236114947?asset_id=3302902176",
+"https://spigen.monday.com/boards/4453971876/pulses/13236114947?asset_id=3302902160"
 ]
 },
 "AFA10753": {
