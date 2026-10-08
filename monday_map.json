@@ -1,7 +1,7 @@
 {
 "_meta": {
-"generated_at": "2026-10-08T00:35:11Z",
-"mode": "full",
+"generated_at": "2026-10-08T08:09:30Z",
+"mode": "incremental",
 "account": "spigen",
 "boards": [
 "4057650308",
@@ -17,24 +17,14 @@
 "☄️최종도안파일"
 ],
 "board_count": 6,
-"items": 2649,
-"subitems": 2373,
-"files": 21751,
-"title_hits": 7149,
-"gallery": 680,
-"codes": 7870,
+"items": 34,
+"subitems": 34,
+"files": 78,
+"title_hits": 78,
+"codes": 7880,
 "no_gallery": [],
 "skipped": [
-"12899642476",
-"12899645145",
-"12899591894",
-"12899638727",
-"9711067853",
-"12082218575",
-"12742425119",
-"12742440793",
-"12462526423",
-"12462502426"
+"12742425119"
 ]
 },
 "map": {
@@ -216197,6 +216187,52 @@
 "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197205"
 ]
 },
+"3BS229560": {
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672454",
+"parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750",
+"board": "*[HA] 패키지",
+"item": "[LD105] Spigen Cable Management Net - Black",
+"sub": null,
+"file": "3BS229560_LD105_BS.jpg",
+"updated": "2026-10-08",
+"by": "문덕훈/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS229560_LD105_BS.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672454",
+"updated": "2026-10-08",
+"code": "3BS229560",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022792750",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229560_LD105_BS.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672482",
+"updated": "2026-10-08",
+"code": "3BS229560",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022792750",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229560_LD105_BS.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672462",
+"updated": "2026-10-08",
+"code": "3BS229560",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022792750",
+"by": "문덕훈/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672482",
+"https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672462"
+]
+},
 "3BS229590": {
 "url": "https://spigen.monday.com/boards/3106368464/pulses/13022830292?asset_id=3279197441",
 "parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13022830292",
@@ -216287,6 +216323,190 @@
 "alt": [
 "https://spigen.monday.com/boards/4485989214/pulses/13075506518?asset_id=3299953380",
 "https://spigen.monday.com/boards/4485989214/pulses/13075506518?asset_id=3299953358"
+]
+},
+"3BS229840": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13190563752?asset_id=3302868392",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/13190563752",
+"board": "*[WO] 패키지",
+"item": "Mac mini (M6/M5 Pro,2026/M4 Pro/M4,2024) Klasden",
+"sub": null,
+"file": "3BS229840_Macmini_Klasden-Pouch_CharcoalGray_V1_BS.jpg",
+"updated": "2026-10-08",
+"by": "황이슬/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS229840_Macmini_Klasden-Pouch_CharcoalGray_V1_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13190563752?asset_id=3302868392",
+"updated": "2026-10-08",
+"code": "3BS229840",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13190563752",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229840_Macmini_Klasden Pouch_CharcoalGray_V1_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13190563752?asset_id=3302868473",
+"updated": "2026-10-08",
+"code": "3BS229840",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13190563752",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229840_Macmini_Klasden Pouch_CharcoalGray_V1_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13190563752?asset_id=3302868400",
+"updated": "2026-10-08",
+"code": "3BS229840",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13190563752",
+"by": "황이슬/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/13190563752?asset_id=3302868473",
+"https://spigen.monday.com/boards/4485989214/pulses/13190563752?asset_id=3302868400"
+]
+},
+"3BS229850": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13190528584?asset_id=3302869312",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/13190528584",
+"board": "*[WO] 패키지",
+"item": "Mac mini (M6/M5 Pro,2026/M4 Pro/M4,2024) Ultra Hybrid",
+"sub": null,
+"file": "3BS229850_Macmini_UltraHybrid_CC_BS.jpg",
+"updated": "2026-10-08",
+"by": "황이슬/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS229850_Macmini_UltraHybrid_CC_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13190528584?asset_id=3302869312",
+"updated": "2026-10-08",
+"code": "3BS229850",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13190528584",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229850_Macmini_UltraHybrid_CC_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13190528584?asset_id=3302869383",
+"updated": "2026-10-08",
+"code": "3BS229850",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13190528584",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229850_Macmini_UltraHybrid_CC_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13190528584?asset_id=3302869328",
+"updated": "2026-10-08",
+"code": "3BS229850",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13190528584",
+"by": "황이슬/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/13190528584?asset_id=3302869383",
+"https://spigen.monday.com/boards/4485989214/pulses/13190528584?asset_id=3302869328"
+]
+},
+"3BS229860": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13190507386?asset_id=3302868908",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/13190507386",
+"board": "*[WO] 패키지",
+"item": "Mac mini (M6/M5 Pro,2026/M4 Pro/M4,2024) Classic C1",
+"sub": null,
+"file": "3BS229860_Macmini_ClassicC1_BondiBlue_BS.jpg",
+"updated": "2026-10-08",
+"by": "황이슬/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS229860_Macmini_ClassicC1_BondiBlue_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13190507386?asset_id=3302868908",
+"updated": "2026-10-08",
+"code": "3BS229860",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13190507386",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229860_Macmini_ClassicC1_BondiBlue_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13190507386?asset_id=3302869006",
+"updated": "2026-10-08",
+"code": "3BS229860",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13190507386",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229860_Macmini_ClassicC1_BondiBlue_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13190507386?asset_id=3302868910",
+"updated": "2026-10-08",
+"code": "3BS229860",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13190507386",
+"by": "황이슬/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/13190507386?asset_id=3302869006",
+"https://spigen.monday.com/boards/4485989214/pulses/13190507386?asset_id=3302868910"
+]
+},
+"3BS229870": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13190507386?asset_id=3302868902",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/13190507386",
+"board": "*[WO] 패키지",
+"item": "Mac mini (M6/M5 Pro,2026/M4 Pro/M4,2024) Classic C1",
+"sub": null,
+"file": "3BS229870_Macmini_ClassicC1_Tangerine_BS.jpg",
+"updated": "2026-10-08",
+"by": "황이슬/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS229870_Macmini_ClassicC1_Tangerine_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13190507386?asset_id=3302868902",
+"updated": "2026-10-08",
+"code": "3BS229870",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13190507386",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229870_Macmini_ClassicC1_Tangerine_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13190507386?asset_id=3302868961",
+"updated": "2026-10-08",
+"code": "3BS229870",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13190507386",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229870_Macmini_ClassicC1_Tangerine_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13190507386?asset_id=3302868917",
+"updated": "2026-10-08",
+"code": "3BS229870",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13190507386",
+"by": "황이슬/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/13190507386?asset_id=3302868961",
+"https://spigen.monday.com/boards/4485989214/pulses/13190507386?asset_id=3302868917"
 ]
 },
 "3IP06664A": {
@@ -235895,6 +236115,52 @@
 "https://spigen.monday.com/boards/3106368464/pulses/11077709193?asset_id=3244767319"
 ]
 },
+"3MN226550": {
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13047983350?asset_id=3302843350",
+"parent_url": "https://spigen.monday.com/boards/3133983085/pulses/13047983350",
+"board": "*[ArcTech] 패키지",
+"item": "EV25MFTQA",
+"sub": null,
+"file": "3MN226550_EV25MFTQA.jpg",
+"updated": "2026-10-08",
+"by": "김해인/브랜드디자인팀/HQ",
+"files": [
+{
+"name": "3MN226550_EV25MFTQA.jpg",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13047983350?asset_id=3302843350",
+"updated": "2026-10-08",
+"code": "3MN226550",
+"sub": null,
+"board": "*[ArcTech] 패키지",
+"item_id": "13047983350",
+"by": "김해인/브랜드디자인팀/HQ"
+},
+{
+"name": "3MN226550_EV25MFTQA.pdf",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13047983350?asset_id=3302843404",
+"updated": "2026-10-08",
+"code": "3MN226550",
+"sub": null,
+"board": "*[ArcTech] 패키지",
+"item_id": "13047983350",
+"by": "김해인/브랜드디자인팀/HQ"
+},
+{
+"name": "3MN226550_EV25MFTQA_cs3.ai",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13047983350?asset_id=3302843361",
+"updated": "2026-10-08",
+"code": "3MN226550",
+"sub": null,
+"board": "*[ArcTech] 패키지",
+"item_id": "13047983350",
+"by": "김해인/브랜드디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/3133983085/pulses/13047983350?asset_id=3302843404",
+"https://spigen.monday.com/boards/3133983085/pulses/13047983350?asset_id=3302843361"
+]
+},
 "3MN226600": {
 "url": "https://spigen.monday.com/boards/3106368464/pulses/12941863259?asset_id=3260551201",
 "parent_url": "https://spigen.monday.com/boards/3106368464/pulses/12941863259",
@@ -236169,6 +236435,52 @@
 "alt": [
 "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197335",
 "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197330"
+]
+},
+"3MN229570": {
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672395",
+"parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750",
+"board": "*[HA] 패키지",
+"item": "[LD105] Spigen Cable Management Net - Black",
+"sub": null,
+"file": "3MN229570_LD105_MN.jpg",
+"updated": "2026-10-08",
+"by": "문덕훈/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3MN229570_LD105_MN.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672395",
+"updated": "2026-10-08",
+"code": "3MN229570",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022792750",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3MN229570_LD105_MN.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672427",
+"updated": "2026-10-08",
+"code": "3MN229570",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022792750",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3MN229570_LD105_MN.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672396",
+"updated": "2026-10-08",
+"code": "3MN229570",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022792750",
+"by": "문덕훈/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672427",
+"https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672396"
 ]
 },
 "3PK0": {
@@ -298383,6 +298695,52 @@
 "https://spigen.monday.com/boards/4453971876/pulses/13147211561?asset_id=3278986192"
 ]
 },
+"3PK229390": {
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13102369663?asset_id=3302672597",
+"parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13102369663",
+"board": "*[HA] 패키지",
+"item": "[TG140-YJ] Tesla Display Cover Set for Tesla Model Y Juniper",
+"sub": null,
+"file": "3PK229390_TG140-YJ_Black_P.jpg",
+"updated": "2026-10-08",
+"by": "문덕훈/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3PK229390_TG140-YJ_Black_P.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13102369663?asset_id=3302672597",
+"updated": "2026-10-08",
+"code": "3PK229390",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13102369663",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3PK229390_TG140-YJ_Black_P.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13102369663?asset_id=3302672748",
+"updated": "2026-10-08",
+"code": "3PK229390",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13102369663",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3PK229390_TG140-YJ_Black_P.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13102369663?asset_id=3302672702",
+"updated": "2026-10-08",
+"code": "3PK229390",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13102369663",
+"by": "문덕훈/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/3106368464/pulses/13102369663?asset_id=3302672748",
+"https://spigen.monday.com/boards/3106368464/pulses/13102369663?asset_id=3302672702"
+]
+},
 "3PK229600": {
 "url": "https://spigen.monday.com/boards/4453971876/pulses/12899602060?asset_id=3300335246",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/11998515997",
@@ -298429,6 +298787,52 @@
 "https://spigen.monday.com/boards/4453971876/pulses/12899602060?asset_id=3300335273"
 ]
 },
+"3PK229820": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13190551474?asset_id=3302867940",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/13190551474",
+"board": "*[WO] 패키지",
+"item": "Mac mini (M6/M5 Pro,2026/M4 Pro/M4,2024) LD205",
+"sub": null,
+"file": "3PK229820_Mac-mini_LD205_Black_P.jpg",
+"updated": "2026-10-08",
+"by": "황이슬/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3PK229820_Mac-mini_LD205_Black_P.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13190551474?asset_id=3302867940",
+"updated": "2026-10-08",
+"code": "3PK229820",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13190551474",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3PK229820_Mac mini_LD205_Black_P.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13190551474?asset_id=3302867985",
+"updated": "2026-10-08",
+"code": "3PK229820",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13190551474",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3PK229820_Mac mini_LD205_Black_P.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13190551474?asset_id=3302867984",
+"updated": "2026-10-08",
+"code": "3PK229820",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13190551474",
+"by": "황이슬/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/13190551474?asset_id=3302867985",
+"https://spigen.monday.com/boards/4485989214/pulses/13190551474?asset_id=3302867984"
+]
+},
 "3PK229880": {
 "url": "https://spigen.monday.com/boards/3133983085/pulses/12889088973?asset_id=3296004178",
 "parent_url": "https://spigen.monday.com/boards/3133983085/pulses/12889088973",
@@ -298473,6 +298877,52 @@
 "alt": [
 "https://spigen.monday.com/boards/3133983085/pulses/12889088973?asset_id=3296004275",
 "https://spigen.monday.com/boards/3133983085/pulses/12889088973?asset_id=3296004200"
+]
+},
+"3PK229900": {
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13102369663?asset_id=3302672596",
+"parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13102369663",
+"board": "*[HA] 패키지",
+"item": "[TG140-YJ] Tesla Display Cover Set for Tesla Model Y Juniper",
+"sub": null,
+"file": "3PK229900_TG140-YJ_White_P.jpg",
+"updated": "2026-10-08",
+"by": "문덕훈/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3PK229900_TG140-YJ_White_P.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13102369663?asset_id=3302672596",
+"updated": "2026-10-08",
+"code": "3PK229900",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13102369663",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3PK229900_TG140-YJ_White_P.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13102369663?asset_id=3302672770",
+"updated": "2026-10-08",
+"code": "3PK229900",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13102369663",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3PK229900_TG140-YJ_White_P.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13102369663?asset_id=3302672688",
+"updated": "2026-10-08",
+"code": "3PK229900",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13102369663",
+"by": "문덕훈/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/3106368464/pulses/13102369663?asset_id=3302672770",
+"https://spigen.monday.com/boards/3106368464/pulses/13102369663?asset_id=3302672688"
 ]
 },
 "3ST126520": {
@@ -412234,15 +412684,75 @@
 ]
 },
 "LD105": {
-"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3300153112",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672395",
 "parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750",
 "board": "*[HA] 패키지",
 "item": "[LD105] Spigen Cable Management Net - Black",
 "sub": null,
-"file": "Draft_LD105_MN.jpg",
-"updated": "2026-10-07",
+"file": "3MN229570_LD105_MN.jpg",
+"updated": "2026-10-08",
 "by": "문덕훈/패키지디자인팀/HQ",
 "files": [
+{
+"name": "3MN229570_LD105_MN.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672395",
+"updated": "2026-10-08",
+"code": "3MN229570",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022792750",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229560_LD105_BS.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672454",
+"updated": "2026-10-08",
+"code": "3BS229560",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022792750",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3MN229570_LD105_MN.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672427",
+"updated": "2026-10-08",
+"code": "3MN229570",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022792750",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229560_LD105_BS.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672482",
+"updated": "2026-10-08",
+"code": "3BS229560",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022792750",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3MN229570_LD105_MN.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672396",
+"updated": "2026-10-08",
+"code": "3MN229570",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022792750",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229560_LD105_BS.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672462",
+"updated": "2026-10-08",
+"code": "3BS229560",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022792750",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
 {
 "name": "Draft_LD105_MN.jpg",
 "url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3300153112",
@@ -412265,6 +412775,12 @@
 }
 ],
 "alt": [
+"https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672454",
+"https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672427",
+"https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672482",
+"https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672396",
+"https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672462",
+"https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3300153112",
 "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3300153114"
 ]
 },
@@ -413144,15 +413660,45 @@
 ]
 },
 "LD205": {
-"url": "https://spigen.monday.com/boards/4485989214/pulses/7791224995?asset_id=1869458986",
-"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/7791224995",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13190551474?asset_id=3302867940",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/13190551474",
 "board": "*[WO] 패키지",
-"item": "Mac mini (2024) Mount(가칭)",
+"item": "Mac mini (M6/M5 Pro,2026/M4 Pro/M4,2024) LD205",
 "sub": null,
-"file": "3BR173900_MacMini(2024)_LD205_BR.jpg",
-"updated": "2025-01-02",
-"by": "임수빈/패키지디자인팀/HQ",
+"file": "3PK229820_Mac-mini_LD205_Black_P.jpg",
+"updated": "2026-10-08",
+"by": "황이슬/패키지디자인팀/HQ",
 "files": [
+{
+"name": "3PK229820_Mac-mini_LD205_Black_P.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13190551474?asset_id=3302867940",
+"updated": "2026-10-08",
+"code": "3PK229820",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13190551474",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3PK229820_Mac mini_LD205_Black_P.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13190551474?asset_id=3302867985",
+"updated": "2026-10-08",
+"code": "3PK229820",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13190551474",
+"by": "황이슬/패키지디자인팀/HQ"
+},
+{
+"name": "3PK229820_Mac mini_LD205_Black_P.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/13190551474?asset_id=3302867984",
+"updated": "2026-10-08",
+"code": "3PK229820",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "13190551474",
+"by": "황이슬/패키지디자인팀/HQ"
+},
 {
 "name": "3BR173900_MacMini(2024)_LD205_BR.jpg",
 "url": "https://spigen.monday.com/boards/4485989214/pulses/7791224995?asset_id=1869458986",
@@ -413265,6 +413811,9 @@
 }
 ],
 "alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/13190551474?asset_id=3302867985",
+"https://spigen.monday.com/boards/4485989214/pulses/13190551474?asset_id=3302867984",
+"https://spigen.monday.com/boards/4485989214/pulses/7791224995?asset_id=1869458986",
 "https://spigen.monday.com/boards/4485989214/pulses/7791224995?asset_id=1869458980",
 "https://spigen.monday.com/boards/4485989214/pulses/7791224995?asset_id=1869459037",
 "https://spigen.monday.com/boards/4485989214/pulses/7791224995?asset_id=1869459075",
@@ -451582,15 +452131,75 @@
 ]
 },
 "TG140": {
-"url": "https://spigen.monday.com/boards/3106368464/pulses/13102369663?asset_id=3299519081",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13102369663?asset_id=3302672597",
 "parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13102369663",
 "board": "*[HA] 패키지",
 "item": "[TG140-YJ] Tesla Display Cover Set for Tesla Model Y Juniper",
 "sub": null,
-"file": "Draft_TG140-YJ_Black_P.jpg",
-"updated": "2026-10-07",
+"file": "3PK229390_TG140-YJ_Black_P.jpg",
+"updated": "2026-10-08",
 "by": "문덕훈/패키지디자인팀/HQ",
 "files": [
+{
+"name": "3PK229390_TG140-YJ_Black_P.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13102369663?asset_id=3302672597",
+"updated": "2026-10-08",
+"code": "3PK229390",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13102369663",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3PK229900_TG140-YJ_White_P.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13102369663?asset_id=3302672596",
+"updated": "2026-10-08",
+"code": "3PK229900",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13102369663",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3PK229390_TG140-YJ_Black_P.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13102369663?asset_id=3302672748",
+"updated": "2026-10-08",
+"code": "3PK229390",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13102369663",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3PK229900_TG140-YJ_White_P.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13102369663?asset_id=3302672770",
+"updated": "2026-10-08",
+"code": "3PK229900",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13102369663",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3PK229900_TG140-YJ_White_P.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13102369663?asset_id=3302672688",
+"updated": "2026-10-08",
+"code": "3PK229900",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13102369663",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3PK229390_TG140-YJ_Black_P.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13102369663?asset_id=3302672702",
+"updated": "2026-10-08",
+"code": "3PK229390",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13102369663",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
 {
 "name": "Draft_TG140-YJ_Black_P.jpg",
 "url": "https://spigen.monday.com/boards/3106368464/pulses/13102369663?asset_id=3299519081",
@@ -451601,6 +452210,14 @@
 "item_id": "13102369663",
 "by": "문덕훈/패키지디자인팀/HQ"
 }
+],
+"alt": [
+"https://spigen.monday.com/boards/3106368464/pulses/13102369663?asset_id=3302672596",
+"https://spigen.monday.com/boards/3106368464/pulses/13102369663?asset_id=3302672748",
+"https://spigen.monday.com/boards/3106368464/pulses/13102369663?asset_id=3302672770",
+"https://spigen.monday.com/boards/3106368464/pulses/13102369663?asset_id=3302672688",
+"https://spigen.monday.com/boards/3106368464/pulses/13102369663?asset_id=3302672702",
+"https://spigen.monday.com/boards/3106368464/pulses/13102369663?asset_id=3299519081"
 ]
 },
 "TG200": {
