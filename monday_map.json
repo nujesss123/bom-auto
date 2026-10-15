@@ -1,6 +1,6 @@
 {
 "_meta": {
-"generated_at": "2026-10-15T06:41:39Z",
+"generated_at": "2026-10-15T12:16:16Z",
 "mode": "incremental",
 "account": "spigen",
 "boards": [
@@ -18,12 +18,11 @@
 "☄️최종도안파일"
 ],
 "board_count": 7,
-"items": 9,
-"subitems": 6,
-"files": 80,
-"title_hits": 38,
-"gallery": 2,
-"codes": 8771,
+"items": 8,
+"subitems": 1,
+"files": 7,
+"title_hits": 19,
+"codes": 8773,
 "no_gallery": [],
 "skipped": []
 },
@@ -12300,6 +12299,52 @@
 "alt": [
 "https://spigen.monday.com/boards/3106368464/pulses/12485510594?asset_id=3278538880",
 "https://spigen.monday.com/boards/3106368464/pulses/12485510594?asset_id=3278538858"
+]
+},
+"3BR230910": {
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13036032459?asset_id=3318944151",
+"parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13036032459",
+"board": "*[HA] 패키지",
+"item": "[BO202] BYD Seal U Center Console Lower Storage Box",
+"sub": null,
+"file": "3BR230910_BO202_Blister.jpg",
+"updated": "2026-10-15",
+"by": "문덕훈/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BR230910_BO202_Blister.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13036032459?asset_id=3318944151",
+"updated": "2026-10-15",
+"code": "3BR230910",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13036032459",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BR230910_BO202_Blister.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13036032459?asset_id=3318944174",
+"updated": "2026-10-15",
+"code": "3BR230910",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13036032459",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BR230910_BO202_Blister.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13036032459?asset_id=3318944161",
+"updated": "2026-10-15",
+"code": "3BR230910",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13036032459",
+"by": "문덕훈/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/3106368464/pulses/13036032459?asset_id=3318944174",
+"https://spigen.monday.com/boards/3106368464/pulses/13036032459?asset_id=3318944161"
 ]
 },
 "3BS11065A": {
@@ -332353,6 +332398,52 @@
 "https://spigen.monday.com/boards/3106368464/pulses/13102369663?asset_id=3302672688"
 ]
 },
+"3PK230060": {
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13036032459?asset_id=3318943975",
+"parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13036032459",
+"board": "*[HA] 패키지",
+"item": "[BO202] BYD Seal U Center Console Lower Storage Box",
+"sub": null,
+"file": "3PK230060_BO202_P.jpg",
+"updated": "2026-10-15",
+"by": "문덕훈/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3PK230060_BO202_P.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13036032459?asset_id=3318943975",
+"updated": "2026-10-15",
+"code": "3PK230060",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13036032459",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3PK230060_BO202_P.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13036032459?asset_id=3318944019",
+"updated": "2026-10-15",
+"code": "3PK230060",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13036032459",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3PK230060_BO202_P.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13036032459?asset_id=3318943977",
+"updated": "2026-10-15",
+"code": "3PK230060",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13036032459",
+"by": "문덕훈/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/3106368464/pulses/13036032459?asset_id=3318944019",
+"https://spigen.monday.com/boards/3106368464/pulses/13036032459?asset_id=3318943977"
+]
+},
 "3PK230150": {
 "url": "https://spigen.monday.com/boards/4453971876/pulses/13236114947?asset_id=3302902138",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13147221344",
@@ -438073,15 +438164,75 @@
 ]
 },
 "BO202": {
-"url": "https://spigen.monday.com/boards/3106368464/pulses/13036032459?asset_id=3312450894",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13036032459?asset_id=3318943975",
 "parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13036032459",
 "board": "*[HA] 패키지",
 "item": "[BO202] BYD Seal U Center Console Lower Storage Box",
 "sub": null,
-"file": "Draft_BO202_P.jpg",
-"updated": "2026-10-13",
+"file": "3PK230060_BO202_P.jpg",
+"updated": "2026-10-15",
 "by": "문덕훈/패키지디자인팀/HQ",
 "files": [
+{
+"name": "3PK230060_BO202_P.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13036032459?asset_id=3318943975",
+"updated": "2026-10-15",
+"code": "3PK230060",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13036032459",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BR230910_BO202_Blister.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13036032459?asset_id=3318944151",
+"updated": "2026-10-15",
+"code": "3BR230910",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13036032459",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3PK230060_BO202_P.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13036032459?asset_id=3318944019",
+"updated": "2026-10-15",
+"code": "3PK230060",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13036032459",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BR230910_BO202_Blister.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13036032459?asset_id=3318944174",
+"updated": "2026-10-15",
+"code": "3BR230910",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13036032459",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3PK230060_BO202_P.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13036032459?asset_id=3318943977",
+"updated": "2026-10-15",
+"code": "3PK230060",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13036032459",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BR230910_BO202_Blister.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13036032459?asset_id=3318944161",
+"updated": "2026-10-15",
+"code": "3BR230910",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13036032459",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
 {
 "name": "Draft_BO202_P.jpg",
 "url": "https://spigen.monday.com/boards/3106368464/pulses/13036032459?asset_id=3312450894",
@@ -438092,6 +438243,14 @@
 "item_id": "13036032459",
 "by": "문덕훈/패키지디자인팀/HQ"
 }
+],
+"alt": [
+"https://spigen.monday.com/boards/3106368464/pulses/13036032459?asset_id=3318944151",
+"https://spigen.monday.com/boards/3106368464/pulses/13036032459?asset_id=3318944019",
+"https://spigen.monday.com/boards/3106368464/pulses/13036032459?asset_id=3318944174",
+"https://spigen.monday.com/boards/3106368464/pulses/13036032459?asset_id=3318943977",
+"https://spigen.monday.com/boards/3106368464/pulses/13036032459?asset_id=3318944161",
+"https://spigen.monday.com/boards/3106368464/pulses/13036032459?asset_id=3312450894"
 ]
 },
 "BYK100": {
