@@ -1,7 +1,7 @@
 {
 "_meta": {
-"generated_at": "2026-10-15T23:25:43Z",
-"mode": "full",
+"generated_at": "2026-10-16T06:33:21Z",
+"mode": "incremental",
 "account": "spigen",
 "boards": [
 "4057650308",
@@ -18,12 +18,11 @@
 "☄️최종도안파일"
 ],
 "board_count": 7,
-"items": 2799,
-"subitems": 2410,
-"files": 26674,
-"title_hits": 7220,
-"gallery": 5429,
-"codes": 8773,
+"items": 8,
+"subitems": 3,
+"files": 44,
+"title_hits": 34,
+"codes": 8780,
 "no_gallery": [],
 "skipped": []
 },
@@ -12300,6 +12299,52 @@
 "alt": [
 "https://spigen.monday.com/boards/3106368464/pulses/12485510594?asset_id=3278538880",
 "https://spigen.monday.com/boards/3106368464/pulses/12485510594?asset_id=3278538858"
+]
+},
+"3BR229770": {
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792819?asset_id=3321474953",
+"parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13022792819",
+"board": "*[HA] 패키지",
+"item": "[LD409] Desk Organizer Set",
+"sub": null,
+"file": "3BR229770_LD409_Blister.jpg",
+"updated": "2026-10-16",
+"by": "문덕훈/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BR229770_LD409_Blister.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792819?asset_id=3321474953",
+"updated": "2026-10-16",
+"code": "3BR229770",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022792819",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BR229770_LD409_Blister.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792819?asset_id=3321474959",
+"updated": "2026-10-16",
+"code": "3BR229770",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022792819",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BR229770_LD409_Blister.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792819?asset_id=3321474968",
+"updated": "2026-10-16",
+"code": "3BR229770",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022792819",
+"by": "문덕훈/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/3106368464/pulses/13022792819?asset_id=3321474959",
+"https://spigen.monday.com/boards/3106368464/pulses/13022792819?asset_id=3321474968"
 ]
 },
 "3BR230910": {
@@ -223103,6 +223148,98 @@
 "https://spigen.monday.com/boards/4485989214/pulses/13224067380?asset_id=3312944584"
 ]
 },
+"3BS230340": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12017420487?asset_id=3321485847",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/12017420487",
+"board": "*[WO] 패키지",
+"item": "Apple Watch Series 12(42mm) Thin Fit 360",
+"sub": null,
+"file": "3BS230340_AW12(42)_ThinFit360_Black_BS.jpg",
+"updated": "2026-10-16",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS230340_AW12(42)_ThinFit360_Black_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12017420487?asset_id=3321485847",
+"updated": "2026-10-16",
+"code": "3BS230340",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12017420487",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230340_AW12(42)_ThinFit360_Black_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12017420487?asset_id=3321485909",
+"updated": "2026-10-16",
+"code": "3BS230340",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12017420487",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230340_AW12(42)_ThinFit360_Black_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12017420487?asset_id=3321485870",
+"updated": "2026-10-16",
+"code": "3BS230340",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12017420487",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/12017420487?asset_id=3321485909",
+"https://spigen.monday.com/boards/4485989214/pulses/12017420487?asset_id=3321485870"
+]
+},
+"3BS230350": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12017412685?asset_id=3321487274",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/12017412685",
+"board": "*[WO] 패키지",
+"item": "Apple Watch Series 12(46mm) Thin Fit 360",
+"sub": null,
+"file": "3BS230350_AW12(46)_ThinFit360_Black_BS.jpg",
+"updated": "2026-10-16",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS230350_AW12(46)_ThinFit360_Black_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12017412685?asset_id=3321487274",
+"updated": "2026-10-16",
+"code": "3BS230350",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12017412685",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230350_AW12(46)_ThinFit360_Black_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12017412685?asset_id=3321487377",
+"updated": "2026-10-16",
+"code": "3BS230350",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12017412685",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230350_AW12(46)_ThinFit360_Black_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12017412685?asset_id=3321487307",
+"updated": "2026-10-16",
+"code": "3BS230350",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12017412685",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/12017412685?asset_id=3321487377",
+"https://spigen.monday.com/boards/4485989214/pulses/12017412685?asset_id=3321487307"
+]
+},
 "3IP00968A": {
 "url": "https://spigen.monday.com/boards/4470968685/pulses/4786729036?asset_id=1493555713",
 "parent_url": "https://spigen.monday.com/boards/4470968685/pulses/4786729036",
@@ -327193,6 +327330,98 @@
 "https://spigen.monday.com/boards/3133983085/pulses/11837902786?asset_id=3107937665"
 ]
 },
+"3PK220070": {
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3321512039",
+"parent_url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950",
+"board": "*[ArcTech] 패키지",
+"item": "EE1404EU",
+"sub": null,
+"file": "3PK220070_EE1404EU.jpg",
+"updated": "2026-10-16",
+"by": "김해인/브랜드디자인팀/HQ",
+"files": [
+{
+"name": "3PK220070_EE1404EU.jpg",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3321512039",
+"updated": "2026-10-16",
+"code": "3PK220070",
+"sub": null,
+"board": "*[ArcTech] 패키지",
+"item_id": "13065564950",
+"by": "김해인/브랜드디자인팀/HQ"
+},
+{
+"name": "3PK220070_EE1404EU.pdf",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3321512057",
+"updated": "2026-10-16",
+"code": "3PK220070",
+"sub": null,
+"board": "*[ArcTech] 패키지",
+"item_id": "13065564950",
+"by": "김해인/브랜드디자인팀/HQ"
+},
+{
+"name": "3PK220070_EE1404EU_cs3.ai",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3321512040",
+"updated": "2026-10-16",
+"code": "3PK220070",
+"sub": null,
+"board": "*[ArcTech] 패키지",
+"item_id": "13065564950",
+"by": "김해인/브랜드디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3321512057",
+"https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3321512040"
+]
+},
+"3PK220100": {
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3321512198",
+"parent_url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644",
+"board": "*[ArcTech] 패키지",
+"item": "EE1404OC",
+"sub": null,
+"file": "3PK220100_EE1404OC.jpg",
+"updated": "2026-10-16",
+"by": "김해인/브랜드디자인팀/HQ",
+"files": [
+{
+"name": "3PK220100_EE1404OC.jpg",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3321512198",
+"updated": "2026-10-16",
+"code": "3PK220100",
+"sub": null,
+"board": "*[ArcTech] 패키지",
+"item_id": "13065552644",
+"by": "김해인/브랜드디자인팀/HQ"
+},
+{
+"name": "3PK220100_EE1404OC.pdf",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3321512219",
+"updated": "2026-10-16",
+"code": "3PK220100",
+"sub": null,
+"board": "*[ArcTech] 패키지",
+"item_id": "13065552644",
+"by": "김해인/브랜드디자인팀/HQ"
+},
+{
+"name": "3PK220100_EE1404OC_cs3.ai",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3321512200",
+"updated": "2026-10-16",
+"code": "3PK220100",
+"sub": null,
+"board": "*[ArcTech] 패키지",
+"item_id": "13065552644",
+"by": "김해인/브랜드디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3321512219",
+"https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3321512200"
+]
+},
 "3PK220130": {
 "url": "https://spigen.monday.com/boards/3133983085/pulses/12486632257?asset_id=3152459458",
 "parent_url": "https://spigen.monday.com/boards/3133983085/pulses/12486632257",
@@ -332167,6 +332396,52 @@
 "https://spigen.monday.com/boards/4453971876/pulses/12899602060?asset_id=3300335426",
 "https://spigen.monday.com/boards/4453971876/pulses/12899602060?asset_id=3300335273",
 "https://spigen.monday.com/boards/4057650308/pulses/11998515997?asset_id=3296133807"
+]
+},
+"3PK229760": {
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792819?asset_id=3321474897",
+"parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13022792819",
+"board": "*[HA] 패키지",
+"item": "[LD409] Desk Organizer Set",
+"sub": null,
+"file": "3PK229760_LD409_P.jpg",
+"updated": "2026-10-16",
+"by": "문덕훈/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3PK229760_LD409_P.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792819?asset_id=3321474897",
+"updated": "2026-10-16",
+"code": "3PK229760",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022792819",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3PK229760_LD409_P.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792819?asset_id=3321475005",
+"updated": "2026-10-16",
+"code": "3PK229760",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022792819",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3PK229760_LD409_P.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792819?asset_id=3321475052",
+"updated": "2026-10-16",
+"code": "3PK229760",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022792819",
+"by": "문덕훈/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/3106368464/pulses/13022792819?asset_id=3321475005",
+"https://spigen.monday.com/boards/3106368464/pulses/13022792819?asset_id=3321475052"
 ]
 },
 "3PK229790": {
@@ -445946,15 +446221,45 @@
 ]
 },
 "EE1404EU": {
-"url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3310408113",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3321512039",
 "parent_url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950",
 "board": "*[ArcTech] 패키지",
 "item": "EE1404EU",
 "sub": null,
-"file": "3MN220080_EE1404EU.jpg",
-"updated": "2026-10-12",
+"file": "3PK220070_EE1404EU.jpg",
+"updated": "2026-10-16",
 "by": "김해인/브랜드디자인팀/HQ",
 "files": [
+{
+"name": "3PK220070_EE1404EU.jpg",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3321512039",
+"updated": "2026-10-16",
+"code": "3PK220070",
+"sub": null,
+"board": "*[ArcTech] 패키지",
+"item_id": "13065564950",
+"by": "김해인/브랜드디자인팀/HQ"
+},
+{
+"name": "3PK220070_EE1404EU.pdf",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3321512057",
+"updated": "2026-10-16",
+"code": "3PK220070",
+"sub": null,
+"board": "*[ArcTech] 패키지",
+"item_id": "13065564950",
+"by": "김해인/브랜드디자인팀/HQ"
+},
+{
+"name": "3PK220070_EE1404EU_cs3.ai",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3321512040",
+"updated": "2026-10-16",
+"code": "3PK220070",
+"sub": null,
+"board": "*[ArcTech] 패키지",
+"item_id": "13065564950",
+"by": "김해인/브랜드디자인팀/HQ"
+},
 {
 "name": "3MN220080_EE1404EU.jpg",
 "url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3310408113",
@@ -445987,20 +446292,53 @@
 }
 ],
 "alt": [
+"https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3321512057",
+"https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3321512040",
+"https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3310408113",
 "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3310408127",
 "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3310408111"
 ]
 },
 "EE1404OC": {
-"url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3310275623",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3321512198",
 "parent_url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644",
 "board": "*[ArcTech] 패키지",
 "item": "EE1404OC",
 "sub": null,
-"file": "3BR0_EE1404OC.jpg",
-"updated": "2026-10-12",
+"file": "3PK220100_EE1404OC.jpg",
+"updated": "2026-10-16",
 "by": "김해인/브랜드디자인팀/HQ",
 "files": [
+{
+"name": "3PK220100_EE1404OC.jpg",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3321512198",
+"updated": "2026-10-16",
+"code": "3PK220100",
+"sub": null,
+"board": "*[ArcTech] 패키지",
+"item_id": "13065552644",
+"by": "김해인/브랜드디자인팀/HQ"
+},
+{
+"name": "3PK220100_EE1404OC.pdf",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3321512219",
+"updated": "2026-10-16",
+"code": "3PK220100",
+"sub": null,
+"board": "*[ArcTech] 패키지",
+"item_id": "13065552644",
+"by": "김해인/브랜드디자인팀/HQ"
+},
+{
+"name": "3PK220100_EE1404OC_cs3.ai",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3321512200",
+"updated": "2026-10-16",
+"code": "3PK220100",
+"sub": null,
+"board": "*[ArcTech] 패키지",
+"item_id": "13065552644",
+"by": "김해인/브랜드디자인팀/HQ"
+},
 {
 "name": "3BR0_EE1404OC.jpg",
 "url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3310275623",
@@ -446063,6 +446401,9 @@
 }
 ],
 "alt": [
+"https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3321512219",
+"https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3321512200",
+"https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3310275623",
 "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3310408393",
 "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3310275626",
 "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3310408404",
@@ -459738,15 +460079,75 @@
 ]
 },
 "LD409": {
-"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792819?asset_id=3310085450",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792819?asset_id=3321474897",
 "parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13022792819",
 "board": "*[HA] 패키지",
 "item": "[LD409] Desk Organizer Set",
 "sub": null,
-"file": "Draft_LD409_P.jpg",
-"updated": "2026-10-12",
+"file": "3PK229760_LD409_P.jpg",
+"updated": "2026-10-16",
 "by": "문덕훈/패키지디자인팀/HQ",
 "files": [
+{
+"name": "3PK229760_LD409_P.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792819?asset_id=3321474897",
+"updated": "2026-10-16",
+"code": "3PK229760",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022792819",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BR229770_LD409_Blister.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792819?asset_id=3321474953",
+"updated": "2026-10-16",
+"code": "3BR229770",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022792819",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3PK229760_LD409_P.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792819?asset_id=3321475005",
+"updated": "2026-10-16",
+"code": "3PK229760",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022792819",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BR229770_LD409_Blister.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792819?asset_id=3321474959",
+"updated": "2026-10-16",
+"code": "3BR229770",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022792819",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3PK229760_LD409_P.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792819?asset_id=3321475052",
+"updated": "2026-10-16",
+"code": "3PK229760",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022792819",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BR229770_LD409_Blister.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792819?asset_id=3321474968",
+"updated": "2026-10-16",
+"code": "3BR229770",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022792819",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
 {
 "name": "Draft_LD409_P.jpg",
 "url": "https://spigen.monday.com/boards/3106368464/pulses/13022792819?asset_id=3310085450",
@@ -459757,6 +460158,14 @@
 "item_id": "13022792819",
 "by": "문덕훈/패키지디자인팀/HQ"
 }
+],
+"alt": [
+"https://spigen.monday.com/boards/3106368464/pulses/13022792819?asset_id=3321474953",
+"https://spigen.monday.com/boards/3106368464/pulses/13022792819?asset_id=3321475005",
+"https://spigen.monday.com/boards/3106368464/pulses/13022792819?asset_id=3321474959",
+"https://spigen.monday.com/boards/3106368464/pulses/13022792819?asset_id=3321475052",
+"https://spigen.monday.com/boards/3106368464/pulses/13022792819?asset_id=3321474968",
+"https://spigen.monday.com/boards/3106368464/pulses/13022792819?asset_id=3310085450"
 ]
 },
 "LF100": {
@@ -501260,6 +501669,28 @@
 "https://spigen.monday.com/boards/3106368464/pulses/11686307561?asset_id=2949870732",
 "https://spigen.monday.com/boards/3106368464/pulses/11686307561?asset_id=2950089134",
 "https://spigen.monday.com/boards/3106368464/pulses/11686307561?asset_id=2950089219"
+]
+},
+"TA120YJ": {
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13100658091?asset_id=3321439440",
+"parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13100658091",
+"board": "*[HA] 패키지",
+"item": "[TA120YJ] Emergency door release kit for Tesla Model Y Premium / Performance",
+"sub": null,
+"file": "Draft_TA120YJ_P.jpg",
+"updated": "2026-10-16",
+"by": "문덕훈/패키지디자인팀/HQ",
+"files": [
+{
+"name": "Draft_TA120YJ_P.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13100658091?asset_id=3321439440",
+"updated": "2026-10-16",
+"code": "TA120YJ",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13100658091",
+"by": "문덕훈/패키지디자인팀/HQ"
+}
 ]
 },
 "TAM100": {
