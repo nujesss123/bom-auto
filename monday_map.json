@@ -1,6 +1,6 @@
 {
 "_meta": {
-"generated_at": "2026-10-16T06:33:21Z",
+"generated_at": "2026-10-16T12:00:00Z",
 "mode": "incremental",
 "account": "spigen",
 "boards": [
@@ -18,11 +18,12 @@
 "☄️최종도안파일"
 ],
 "board_count": 7,
-"items": 8,
-"subitems": 3,
-"files": 44,
-"title_hits": 34,
-"codes": 8780,
+"items": 3,
+"subitems": 1,
+"files": 21,
+"title_hits": 14,
+"gallery": 4,
+"codes": 8782,
 "no_gallery": [],
 "skipped": []
 },
@@ -223056,6 +223057,52 @@
 "https://spigen.monday.com/boards/4485989214/pulses/13190507386?asset_id=3302868917"
 ]
 },
+"3BS230050": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12768755590?asset_id=3321800147",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/12768805471",
+"board": "*[Mobile] 패키지 현황",
+"item": "MacBook Neo 13\" (A18 Pro,2026) Air Skin S",
+"sub": "ACS12353",
+"file": "3BS230050_ACS12353_McBNeo13(A18P,26)_ASkinS_FrostCL.jpg",
+"updated": "2026-10-16",
+"by": "한원진/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS230050_ACS12353_McBNeo13(A18P,26)_ASkinS_FrostCL.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12768755590?asset_id=3321800147",
+"updated": "2026-10-16",
+"code": "3BS230050",
+"sub": "ACS12353",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "12768805471",
+"by": "한원진/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230050_ACS12353_McBNeo13(A18P,26)_ASkinS_FrostCL.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12768755590?asset_id=3321800194",
+"updated": "2026-10-16",
+"code": "3BS230050",
+"sub": "ACS12353",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "12768805471",
+"by": "한원진/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230050_ACS12353_McBNeo13(A18P,26)_ASkinS_FrostCL.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12768755590?asset_id=3321800178",
+"updated": "2026-10-16",
+"code": "3BS230050",
+"sub": "ACS12353",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "12768805471",
+"by": "한원진/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/12768755590?asset_id=3321800194",
+"https://spigen.monday.com/boards/4453971876/pulses/12768755590?asset_id=3321800178"
+]
+},
 "3BS230110": {
 "url": "https://spigen.monday.com/boards/4453971876/pulses/13224604246?asset_id=3310476315",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13224618662",
@@ -324692,15 +324739,45 @@
 ]
 },
 "3PK213600": {
-"url": "https://spigen.monday.com/boards/3106368464/pulses/11686307561?asset_id=3248062753",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/11686307561?asset_id=3321650258",
 "parent_url": "https://spigen.monday.com/boards/3106368464/pulses/11686307561",
 "board": "*[HA] 패키지",
 "item": "[TA110] Sun visor vanity mirror for Tesla",
 "sub": null,
-"file": "3PK213600_TA110_P_260915.jpg",
-"updated": "2026-09-15",
+"file": "3PK213600_TA110_P_261016.jpg",
+"updated": "2026-10-16",
 "by": "문덕훈/패키지디자인팀/HQ",
 "files": [
+{
+"name": "3PK213600_TA110_P_261016.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/11686307561?asset_id=3321650258",
+"updated": "2026-10-16",
+"code": "3PK213600",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "11686307561",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3PK213600_TA110_P_261016.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/11686307561?asset_id=3321650466",
+"updated": "2026-10-16",
+"code": "3PK213600",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "11686307561",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3PK213600_TA110_P_261016.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/11686307561?asset_id=3321650330",
+"updated": "2026-10-16",
+"code": "3PK213600",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "11686307561",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
 {
 "name": "3PK213600_TA110_P_260915.jpg",
 "url": "https://spigen.monday.com/boards/3106368464/pulses/11686307561?asset_id=3248062753",
@@ -324763,6 +324840,9 @@
 }
 ],
 "alt": [
+"https://spigen.monday.com/boards/3106368464/pulses/11686307561?asset_id=3321650466",
+"https://spigen.monday.com/boards/3106368464/pulses/11686307561?asset_id=3321650330",
+"https://spigen.monday.com/boards/3106368464/pulses/11686307561?asset_id=3248062753",
 "https://spigen.monday.com/boards/3106368464/pulses/11686307561?asset_id=3248062969",
 "https://spigen.monday.com/boards/3106368464/pulses/11686307561?asset_id=3248062872",
 "https://spigen.monday.com/boards/3106368464/pulses/11686307561?asset_id=3207292180",
@@ -436727,6 +436807,52 @@
 "https://spigen.monday.com/boards/4453971876/pulses/12745645516?asset_id=3223238792"
 ]
 },
+"ACS12353": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12768755590?asset_id=3321800147",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/12768805471",
+"board": "*[Mobile] 패키지 현황",
+"item": "MacBook Neo 13\" (A18 Pro,2026) Air Skin S",
+"sub": "ACS12353",
+"file": "3BS230050_ACS12353_McBNeo13(A18P,26)_ASkinS_FrostCL.jpg",
+"updated": "2026-10-16",
+"by": "한원진/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS230050_ACS12353_McBNeo13(A18P,26)_ASkinS_FrostCL.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12768755590?asset_id=3321800147",
+"updated": "2026-10-16",
+"code": "3BS230050",
+"sub": "ACS12353",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "12768805471",
+"by": "한원진/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230050_ACS12353_McBNeo13(A18P,26)_ASkinS_FrostCL.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12768755590?asset_id=3321800194",
+"updated": "2026-10-16",
+"code": "3BS230050",
+"sub": "ACS12353",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "12768805471",
+"by": "한원진/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230050_ACS12353_McBNeo13(A18P,26)_ASkinS_FrostCL.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12768755590?asset_id=3321800178",
+"updated": "2026-10-16",
+"code": "3BS230050",
+"sub": "ACS12353",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "12768805471",
+"by": "한원진/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/12768755590?asset_id=3321800194",
+"https://spigen.monday.com/boards/4453971876/pulses/12768755590?asset_id=3321800178"
+]
+},
 "ACS12395": {
 "url": "https://spigen.monday.com/boards/4453971876/pulses/12801672770?asset_id=3296027694",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/12801674734",
@@ -501494,15 +501620,45 @@
 ]
 },
 "TA110": {
-"url": "https://spigen.monday.com/boards/3106368464/pulses/11686307561?asset_id=3248062753",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/11686307561?asset_id=3321650258",
 "parent_url": "https://spigen.monday.com/boards/3106368464/pulses/11686307561",
 "board": "*[HA] 패키지",
 "item": "[TA110] Sun visor vanity mirror for Tesla",
 "sub": null,
-"file": "3PK213600_TA110_P_260915.jpg",
-"updated": "2026-09-15",
+"file": "3PK213600_TA110_P_261016.jpg",
+"updated": "2026-10-16",
 "by": "문덕훈/패키지디자인팀/HQ",
 "files": [
+{
+"name": "3PK213600_TA110_P_261016.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/11686307561?asset_id=3321650258",
+"updated": "2026-10-16",
+"code": "3PK213600",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "11686307561",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3PK213600_TA110_P_261016.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/11686307561?asset_id=3321650466",
+"updated": "2026-10-16",
+"code": "3PK213600",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "11686307561",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3PK213600_TA110_P_261016.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/11686307561?asset_id=3321650330",
+"updated": "2026-10-16",
+"code": "3PK213600",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "11686307561",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
 {
 "name": "3PK213600_TA110_P_260915.jpg",
 "url": "https://spigen.monday.com/boards/3106368464/pulses/11686307561?asset_id=3248062753",
@@ -501655,6 +501811,9 @@
 }
 ],
 "alt": [
+"https://spigen.monday.com/boards/3106368464/pulses/11686307561?asset_id=3321650466",
+"https://spigen.monday.com/boards/3106368464/pulses/11686307561?asset_id=3321650330",
+"https://spigen.monday.com/boards/3106368464/pulses/11686307561?asset_id=3248062753",
 "https://spigen.monday.com/boards/3106368464/pulses/11686307561?asset_id=3248062969",
 "https://spigen.monday.com/boards/3106368464/pulses/11686307561?asset_id=3248062872",
 "https://spigen.monday.com/boards/3106368464/pulses/11686307561?asset_id=3207292180",
