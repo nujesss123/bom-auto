@@ -1,7 +1,7 @@
 {
 "_meta": {
-"generated_at": "2026-10-18T22:40:43Z",
-"mode": "full",
+"generated_at": "2026-10-19T07:05:57Z",
+"mode": "incremental",
 "account": "spigen",
 "boards": [
 "4057650308",
@@ -18,12 +18,11 @@
 "☄️최종도안파일"
 ],
 "board_count": 7,
-"items": 2799,
-"subitems": 2410,
-"files": 26699,
-"title_hits": 7220,
-"gallery": 5429,
-"codes": 8782,
+"items": 7,
+"subitems": 29,
+"files": 177,
+"title_hits": 42,
+"codes": 8787,
 "no_gallery": [],
 "skipped": []
 },
@@ -119267,12 +119266,12 @@
 },
 {
 "name": "3BS18656B_ACS10039_iPh17ProMax_UHyMgF_FrostWH.pdf",
-"url": "https://spigen.monday.com/boards/4453971876/pulses/9514745363?asset_id=2483759890",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/9514666521?asset_id=2483759890",
 "updated": "2025-10-14",
 "code": "3BS18656B",
-"sub": "ACS10070",
+"sub": "ACS10039",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "9511263832",
+"item_id": "9511262561",
 "by": "한원진/패키지디자인팀/HQ"
 },
 {
@@ -119287,7 +119286,7 @@
 }
 ],
 "alt": [
-"https://spigen.monday.com/boards/4453971876/pulses/9514745363?asset_id=2483759890",
+"https://spigen.monday.com/boards/4453971876/pulses/9514666521?asset_id=2483759890",
 "https://spigen.monday.com/boards/4453971876/pulses/9514666521?asset_id=2483759915"
 ]
 },
@@ -219090,6 +219089,52 @@
 "https://spigen.monday.com/boards/4453971876/pulses/12899176843?asset_id=3247752462"
 ]
 },
+"3BS225410": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12931687445?asset_id=3324836730",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/9511263832",
+"board": "*[Mobile] 패키지 현황",
+"item": "iPhone 18 Pro/17 Pro(iPhone Pro 6.3”) Ultra Hybrid Mag Fit C.C",
+"sub": "ACS12562",
+"file": "3BS225410_ACS12562_iPh18P_UHyMgF_CLLTBL.jpg",
+"updated": "2026-10-19",
+"by": "황수범/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS225410_ACS12562_iPh18P_UHyMgF_CLLTBL.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12931687445?asset_id=3324836730",
+"updated": "2026-10-19",
+"code": "3BS225410",
+"sub": "ACS12562",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9511263832",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS225410_ACS12562_iPh18P_UHyMgF_CLLTBL.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12931687445?asset_id=3324837009",
+"updated": "2026-10-19",
+"code": "3BS225410",
+"sub": "ACS12562",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9511263832",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS225410_ACS12562_iPh18P_UHyMgF_CLLTBL.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12931687445?asset_id=3324836733",
+"updated": "2026-10-19",
+"code": "3BS225410",
+"sub": "ACS12562",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9511263832",
+"by": "황수범/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/12931687445?asset_id=3324837009",
+"https://spigen.monday.com/boards/4453971876/pulses/12931687445?asset_id=3324836733"
+]
+},
 "3BS225530": {
 "url": "https://spigen.monday.com/boards/4453971876/pulses/13014109591?asset_id=3245149956",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/11554433178",
@@ -219410,6 +219455,52 @@
 "alt": [
 "https://spigen.monday.com/boards/3106368464/pulses/12722730580?asset_id=3223593735",
 "https://spigen.monday.com/boards/3106368464/pulses/12722730580?asset_id=3223593689"
+]
+},
+"3BS225710": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12931687160?asset_id=3324836156",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/9511262561",
+"board": "*[Mobile] 패키지 현황",
+"item": "iPhone 18 Pro Max/17 Pro Max(iPhone Pro Max 6.9”) Ultra Hybrid Mag Fit C.C",
+"sub": "ACS12561",
+"file": "3BS225710_ACS12561_iPh18PMx_UHyMgF_CLLTBL.jpg",
+"updated": "2026-10-19",
+"by": "황수범/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS225710_ACS12561_iPh18PMx_UHyMgF_CLLTBL.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12931687160?asset_id=3324836156",
+"updated": "2026-10-19",
+"code": "3BS225710",
+"sub": "ACS12561",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9511262561",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS225710_ACS12561_iPh18PMx_UHyMgF_CLLTBL.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12931687160?asset_id=3324836180",
+"updated": "2026-10-19",
+"code": "3BS225710",
+"sub": "ACS12561",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9511262561",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS225710_ACS12561_iPh18PMx_UHyMgF_CLLTBL.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12931687160?asset_id=3324836165",
+"updated": "2026-10-19",
+"code": "3BS225710",
+"sub": "ACS12561",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9511262561",
+"by": "황수범/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/12931687160?asset_id=3324836180",
+"https://spigen.monday.com/boards/4453971876/pulses/12931687160?asset_id=3324836165"
 ]
 },
 "3BS226040": {
@@ -332524,6 +332615,52 @@
 "https://spigen.monday.com/boards/3106368464/pulses/13022792819?asset_id=3321475052"
 ]
 },
+"3PK229780": {
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13100658091?asset_id=3325000933",
+"parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13100658091",
+"board": "*[HA] 패키지",
+"item": "[TA120YJ] Emergency door release kit for Tesla Model Y Premium / Performance",
+"sub": null,
+"file": "3PK229780_TA120YJ_P.jpg",
+"updated": "2026-10-19",
+"by": "문덕훈/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3PK229780_TA120YJ_P.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13100658091?asset_id=3325000933",
+"updated": "2026-10-19",
+"code": "3PK229780",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13100658091",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3PK229780_TA120YJ_P.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13100658091?asset_id=3325001045",
+"updated": "2026-10-19",
+"code": "3PK229780",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13100658091",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3PK229780_TA120YJ_P.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13100658091?asset_id=3325000967",
+"updated": "2026-10-19",
+"code": "3PK229780",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13100658091",
+"by": "문덕훈/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/3106368464/pulses/13100658091?asset_id=3325001045",
+"https://spigen.monday.com/boards/3106368464/pulses/13100658091?asset_id=3325000967"
+]
+},
 "3PK229790": {
 "url": "https://spigen.monday.com/boards/8091356464/pulses/13215500585?asset_id=3296226025",
 "parent_url": "https://spigen.monday.com/boards/8091356464/pulses/13215500585",
@@ -387420,12 +387557,12 @@
 },
 {
 "name": "3BS18656B_ACS10039_iPh17ProMax_UHyMgF_FrostWH.pdf",
-"url": "https://spigen.monday.com/boards/4453971876/pulses/9514745363?asset_id=2483759890",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/9514666521?asset_id=2483759890",
 "updated": "2025-10-14",
 "code": "3BS18656B",
-"sub": "ACS10070",
+"sub": "ACS10039",
 "board": "*[Mobile] 패키지 현황",
-"item_id": "9511263832",
+"item_id": "9511262561",
 "by": "한원진/패키지디자인팀/HQ"
 },
 {
@@ -387506,7 +387643,7 @@
 "https://spigen.monday.com/boards/4453971876/pulses/11499201408?asset_id=2986161793",
 "https://spigen.monday.com/boards/4453971876/pulses/11499201408?asset_id=2986161742",
 "https://spigen.monday.com/boards/4453971876/pulses/9514666521?asset_id=2483759930",
-"https://spigen.monday.com/boards/4453971876/pulses/9514745363?asset_id=2483759890",
+"https://spigen.monday.com/boards/4453971876/pulses/9514666521?asset_id=2483759890",
 "https://spigen.monday.com/boards/4453971876/pulses/9514666521?asset_id=2483759915",
 "https://spigen.monday.com/boards/4453971876/pulses/9514666521?asset_id=2433686963",
 "https://spigen.monday.com/boards/4453971876/pulses/9514666521?asset_id=2433686911",
@@ -437785,6 +437922,98 @@
 "https://spigen.monday.com/boards/4453971876/pulses/12899172280?asset_id=3247752168",
 "https://spigen.monday.com/boards/4453971876/pulses/12899176843?asset_id=3247752462",
 "https://spigen.monday.com/boards/4453971876/pulses/12899172280?asset_id=3247752105"
+]
+},
+"ACS12561": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12931687160?asset_id=3324836156",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/9511262561",
+"board": "*[Mobile] 패키지 현황",
+"item": "iPhone 18 Pro Max/17 Pro Max(iPhone Pro Max 6.9”) Ultra Hybrid Mag Fit C.C",
+"sub": "ACS12561",
+"file": "3BS225710_ACS12561_iPh18PMx_UHyMgF_CLLTBL.jpg",
+"updated": "2026-10-19",
+"by": "황수범/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS225710_ACS12561_iPh18PMx_UHyMgF_CLLTBL.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12931687160?asset_id=3324836156",
+"updated": "2026-10-19",
+"code": "3BS225710",
+"sub": "ACS12561",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9511262561",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS225710_ACS12561_iPh18PMx_UHyMgF_CLLTBL.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12931687160?asset_id=3324836180",
+"updated": "2026-10-19",
+"code": "3BS225710",
+"sub": "ACS12561",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9511262561",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS225710_ACS12561_iPh18PMx_UHyMgF_CLLTBL.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12931687160?asset_id=3324836165",
+"updated": "2026-10-19",
+"code": "3BS225710",
+"sub": "ACS12561",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9511262561",
+"by": "황수범/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/12931687160?asset_id=3324836180",
+"https://spigen.monday.com/boards/4453971876/pulses/12931687160?asset_id=3324836165"
+]
+},
+"ACS12562": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12931687445?asset_id=3324836730",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/9511263832",
+"board": "*[Mobile] 패키지 현황",
+"item": "iPhone 18 Pro/17 Pro(iPhone Pro 6.3”) Ultra Hybrid Mag Fit C.C",
+"sub": "ACS12562",
+"file": "3BS225410_ACS12562_iPh18P_UHyMgF_CLLTBL.jpg",
+"updated": "2026-10-19",
+"by": "황수범/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS225410_ACS12562_iPh18P_UHyMgF_CLLTBL.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12931687445?asset_id=3324836730",
+"updated": "2026-10-19",
+"code": "3BS225410",
+"sub": "ACS12562",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9511263832",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS225410_ACS12562_iPh18P_UHyMgF_CLLTBL.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12931687445?asset_id=3324837009",
+"updated": "2026-10-19",
+"code": "3BS225410",
+"sub": "ACS12562",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9511263832",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS225410_ACS12562_iPh18P_UHyMgF_CLLTBL.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/12931687445?asset_id=3324836733",
+"updated": "2026-10-19",
+"code": "3BS225410",
+"sub": "ACS12562",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "9511263832",
+"by": "황수범/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/12931687445?asset_id=3324837009",
+"https://spigen.monday.com/boards/4453971876/pulses/12931687445?asset_id=3324836733"
 ]
 },
 "ACS12686": {
@@ -501831,15 +502060,45 @@
 ]
 },
 "TA120YJ": {
-"url": "https://spigen.monday.com/boards/3106368464/pulses/13100658091?asset_id=3321439440",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13100658091?asset_id=3325000933",
 "parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13100658091",
 "board": "*[HA] 패키지",
 "item": "[TA120YJ] Emergency door release kit for Tesla Model Y Premium / Performance",
 "sub": null,
-"file": "Draft_TA120YJ_P.jpg",
-"updated": "2026-10-16",
+"file": "3PK229780_TA120YJ_P.jpg",
+"updated": "2026-10-19",
 "by": "문덕훈/패키지디자인팀/HQ",
 "files": [
+{
+"name": "3PK229780_TA120YJ_P.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13100658091?asset_id=3325000933",
+"updated": "2026-10-19",
+"code": "3PK229780",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13100658091",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3PK229780_TA120YJ_P.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13100658091?asset_id=3325001045",
+"updated": "2026-10-19",
+"code": "3PK229780",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13100658091",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3PK229780_TA120YJ_P.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13100658091?asset_id=3325000967",
+"updated": "2026-10-19",
+"code": "3PK229780",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13100658091",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
 {
 "name": "Draft_TA120YJ_P.jpg",
 "url": "https://spigen.monday.com/boards/3106368464/pulses/13100658091?asset_id=3321439440",
@@ -501850,6 +502109,11 @@
 "item_id": "13100658091",
 "by": "문덕훈/패키지디자인팀/HQ"
 }
+],
+"alt": [
+"https://spigen.monday.com/boards/3106368464/pulses/13100658091?asset_id=3325001045",
+"https://spigen.monday.com/boards/3106368464/pulses/13100658091?asset_id=3325000967",
+"https://spigen.monday.com/boards/3106368464/pulses/13100658091?asset_id=3321439440"
 ]
 },
 "TAM100": {
