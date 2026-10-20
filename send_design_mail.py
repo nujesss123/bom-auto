@@ -84,8 +84,11 @@ def main():
     a = ap.parse_args()
     token = os.environ.get('MONDAY_TOKEN', '').strip()
     sender = os.environ.get('MAIL_USER', '').strip(); pw = os.environ.get('MAIL_PASSWORD', '').strip().replace(' ', '')
-    if not token: sys.exit('ERROR MONDAY_TOKEN 없음')
-    if not a.dry_run and not (sender and pw): sys.exit('ERROR MAIL_USER / MAIL_PASSWORD 시크릿이 없습니다')
+    print('시크릿 확인: ' + ' · '.join(f"{k}={'있음' if v else '없음'}" for k, v in [('MONDAY_TOKEN', token), ('MAIL_USER', sender), ('MAIL_PASSWORD', pw)]))
+    if not token: sys.exit('ERROR MONDAY_TOKEN 시크릿이 없습니다')
+    if not a.dry_run and not (sender and pw):
+        sys.exit('ERROR MAIL_USER / MAIL_PASSWORD 시크릿이 없습니다 — Settings > Secrets and variables > Actions 에서 이름을 정확히 MAIL_USER, MAIL_PASSWORD 로 추가하세요')
+    print(f'입력: 받는 주소 {a.to} · 자재코드 {a.codes} · dry_run {a.dry_run}')
     codes = [c.strip() for c in re.split(r'[\s,]+', a.codes) if c.strip()]
     mapping = json.load(open(a.map, encoding='utf-8')).get('map') or {}
     picks, missing = pick_assets(mapping, codes, a.ext)
