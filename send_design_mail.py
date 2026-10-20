@@ -46,7 +46,7 @@ def gql(token, query, variables):
 
 def download_assets(token, picks):
     ids = [p['asset_id'] for p in picks]
-    data = gql(token, 'query($ids:[ID!]){ assets(ids:$ids){ id name file_size public_url } }', {'ids': ids})
+    data = gql(token, 'query($ids:[ID!]!){ assets(ids:$ids){ id name file_size public_url } }', {'ids': ids})
     by_id = {a['id']: a for a in data.get('assets') or []}
     files = []
     for p in picks:
