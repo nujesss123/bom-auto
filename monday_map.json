@@ -1,7 +1,7 @@
 {
 "_meta": {
-"generated_at": "2026-10-20T12:23:18Z",
-"mode": "incremental",
+"generated_at": "2026-10-20T23:32:23Z",
+"mode": "full",
 "account": "spigen",
 "boards": [
 "4057650308",
@@ -18,12 +18,12 @@
 "☄️최종도안파일"
 ],
 "board_count": 7,
-"items": 9,
-"subitems": 15,
-"files": 58,
-"title_hits": 36,
-"gallery": 3,
-"codes": 8819,
+"items": 2806,
+"subitems": 2412,
+"files": 26797,
+"title_hits": 7259,
+"gallery": 5433,
+"codes": 8820,
 "no_gallery": [],
 "skipped": [],
 "vendor_boards": [
@@ -330722,6 +330722,52 @@
 "https://spigen.monday.com/boards/8091356464/pulses/12731356846?asset_id=3204798362"
 ]
 },
+"3PK222870": {
+"url": "https://spigen.monday.com/boards/8091356464/pulses/12899910949?asset_id=3328598311",
+"parent_url": "https://spigen.monday.com/boards/8091356464/pulses/12899910949",
+"board": "2파트_패키지 마스터",
+"item": "3PK222870 #PKG FbitA WBn Com",
+"sub": null,
+"file": "3PK222870_WatchCase+Band(manual-X)_P_72x62x62.jpg",
+"updated": "2026-10-20",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3PK222870_WatchCase+Band(manual-X)_P_72x62x62.jpg",
+"url": "https://spigen.monday.com/boards/8091356464/pulses/12899910949?asset_id=3328598311",
+"updated": "2026-10-20",
+"code": "3PK222870",
+"sub": null,
+"board": "2파트_패키지 마스터",
+"item_id": "12899910949",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3PK222870_WatchCase+Band(manual X)_P_72x62x62.pdf",
+"url": "https://spigen.monday.com/boards/8091356464/pulses/12899910949?asset_id=3328598354",
+"updated": "2026-10-20",
+"code": "3PK222870",
+"sub": null,
+"board": "2파트_패키지 마스터",
+"item_id": "12899910949",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3PK222870_WatchCase+Band(manual X)_P_72x62x62.ai",
+"url": "https://spigen.monday.com/boards/8091356464/pulses/12899910949?asset_id=3328598333",
+"updated": "2026-10-20",
+"code": "3PK222870",
+"sub": null,
+"board": "2파트_패키지 마스터",
+"item_id": "12899910949",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/8091356464/pulses/12899910949?asset_id=3328598354",
+"https://spigen.monday.com/boards/8091356464/pulses/12899910949?asset_id=3328598333"
+]
+},
 "3PK223160": {
 "url": "https://spigen.monday.com/boards/7499869948/pulses/12722594575?asset_id=3164335339",
 "parent_url": "https://spigen.monday.com/boards/7311969215/pulses/9836428817",
@@ -358710,25 +358756,15 @@
 ]
 },
 "A950": {
-"url": "https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3328162568",
-"parent_url": "https://spigen.monday.com/boards/3133983085/pulses/12791394702",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/12259793024?asset_id=3328591547",
+"parent_url": "https://spigen.monday.com/boards/3133983085/pulses/12259793024",
 "board": "*[ArcTech] 패키지",
-"item": "Humidifier Filter",
+"item": "A950",
 "sub": null,
-"file": "3PK219570_A950_HumidifierFilters.jpg",
+"file": "3MN222680_A950.jpg",
 "updated": "2026-10-20",
 "by": "김해인/브랜드디자인팀/HQ",
 "files": [
-{
-"name": "3PK219570_A950_HumidifierFilters.jpg",
-"url": "https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3328162568",
-"updated": "2026-10-20",
-"code": "3PK219570",
-"sub": null,
-"board": "*[ArcTech] 패키지",
-"item_id": "12791394702",
-"by": "김해인/브랜드디자인팀/HQ"
-},
 {
 "name": "3MN222680_A950.jpg",
 "url": "https://spigen.monday.com/boards/3133983085/pulses/12259793024?asset_id=3328591547",
@@ -358740,8 +358776,8 @@
 "by": "김해인/브랜드디자인팀/HQ"
 },
 {
-"name": "3PK219570_A950_HumidifierFilters.pdf",
-"url": "https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3328162584",
+"name": "3PK219570_A950_HumidifierFilters.jpg",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3328162568",
 "updated": "2026-10-20",
 "code": "3PK219570",
 "sub": null,
@@ -358760,8 +358796,8 @@
 "by": "김해인/브랜드디자인팀/HQ"
 },
 {
-"name": "3PK219570_A950_HumidifierFilters_cs3.ai",
-"url": "https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3328162564",
+"name": "3PK219570_A950_HumidifierFilters.pdf",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3328162584",
 "updated": "2026-10-20",
 "code": "3PK219570",
 "sub": null,
@@ -358777,6 +358813,16 @@
 "sub": null,
 "board": "*[ArcTech] 패키지",
 "item_id": "12259793024",
+"by": "김해인/브랜드디자인팀/HQ"
+},
+{
+"name": "3PK219570_A950_HumidifierFilters_cs3.ai",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3328162564",
+"updated": "2026-10-20",
+"code": "3PK219570",
+"sub": null,
+"board": "*[ArcTech] 패키지",
+"item_id": "12791394702",
 "by": "김해인/브랜드디자인팀/HQ"
 },
 {
@@ -358891,11 +358937,11 @@
 }
 ],
 "alt": [
-"https://spigen.monday.com/boards/3133983085/pulses/12259793024?asset_id=3328591547",
-"https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3328162584",
+"https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3328162568",
 "https://spigen.monday.com/boards/3133983085/pulses/12259793024?asset_id=3328591618",
-"https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3328162564",
+"https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3328162584",
 "https://spigen.monday.com/boards/3133983085/pulses/12259793024?asset_id=3328591551",
+"https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3328162564",
 "https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3232565295",
 "https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3232565290",
 "https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3232565294",
