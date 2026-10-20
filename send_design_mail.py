@@ -2,22 +2,25 @@
 """도안 파일 메일 발송 (GitHub Actions용)
 
 자재코드 목록을 받아 monday_map.json 에서 각 코드의 최신 .ai 도안 파일을 찾고, 먼데이 API로 파일을 내려받아
-받는 주소로 첨부 메일을 보낸다. 비밀은 환경변수로만 받는다(저장소에 두지 않음).
+받는 주소로 첨부 메일(영문)을 보낸다. 문의처(담당자)는 먼데이에서 읽는다: 파일이 있는 아이템의 '담당' 열 사람들
++ 파일 업로더. 비밀은 환경변수로만 받는다(저장소에 두지 않음).
   MONDAY_TOKEN      먼데이 API 토큰 (기존 시크릿)
   MAIL_USER         보내는 메일 주소 (예: Gmail)
   MAIL_PASSWORD     앱 비밀번호
   SMTP_HOST/PORT    기본 smtp.gmail.com:587
-사용: python send_design_mail.py --to 받는주소 --codes 3PK220460,3BS220470 [--subject 제목] [--ext ai]
+사용: python send_design_mail.py --to 받는주소 --codes 3PK220460,3BS220470 [--subject 제목] [--ext ai] [--dry-run]
 """
 import argparse, json, os, re, smtplib, sys, urllib.request
 from email.message import EmailMessage
 
 API = 'https://api.monday.com/v2'
-MAX_TOTAL_MB = 20   # Gmail 첨부 한도(25MB)보다 여유 있게
+MAX_TOTAL_MB = 20          # Gmail 첨부 한도(25MB)보다 여유 있게
+CONTACT_TITLE = '담당'     # 이 글자가 든 열 제목(담당자, 패키지 담당 등)의 사람을 문의처로
+SIGNATURE = os.environ.get('MAIL_SIGNATURE', 'Spigen Package Design Team')
 
 
 def pick_assets(mapping, codes, ext='ai'):
-    """코드별 최신 .ai 파일 (asset id). monday_map.json 의 files 는 최신 날짜 순."""
+    """코드별 최신 .ai 파일 (asset id, 아이템 id). monday_map.json 의 files 는 최신 날짜 순."""
     out, missing = [], []
     for code in codes:
         e = (mapping or {}).get(code.upper()) or {}
@@ -28,7 +31,8 @@ def pick_assets(mapping, codes, ext='ai'):
             m = re.search(r'asset_id=(\d+)', files[0].get('url') or '')
             aid = m.group(1) if m else None
         if aid:
-            out.append({'code': code.upper(), 'name': files[0]['name'], 'asset_id': aid, 'updated': files[0].get('updated') or ''})
+            out.append({'code': code.upper(), 'name': files[0]['name'], 'asset_id': aid,
+                        'updated': files[0].get('updated') or '', 'item_id': str(files[0].get('item_id') or '')})
         else:
             missing.append(code.upper())
     return out, missing
@@ -44,11 +48,67 @@ def gql(token, query, variables):
     return res['data']
 
 
+Q_ASSETS = 'query($ids:[ID!]!){ assets(ids:$ids){ id name file_size public_url uploaded_by { id name email } } }'
+Q_ITEMS = ('query($ids:[ID!]){ items(ids:$ids){ id column_values(types:[people, mirror]){ column { title } '
+           '... on PeopleValue { persons_and_teams { id kind } } ... on MirrorValue { display_value } } } }')
+Q_USERS = 'query($ids:[ID!]){ users(ids:$ids, limit: 200){ id name email } }'
+Q_ALL_USERS = 'query{ users(limit: 1000){ id name email } }'
+
+
+def split_name(full):
+    """'황선혜/브랜드디자인팀/HQ' -> ('황선혜', '브랜드디자인팀')"""
+    parts = [p.strip() for p in str(full or '').split('/') if p.strip()]
+    return (parts[0] if parts else ''), (parts[1] if len(parts) > 1 else '')
+
+
+def contacts_from(items, assets, users_by_id, users_by_name):
+    """문의처 목록 [{name, team, email}] — 아이템의 '담당' 열 사람(people: id, mirror: 이름) + 파일 업로더. 이메일 기준 중복 제거."""
+    found = []
+    for it in items or []:
+        for cv in it.get('column_values') or []:
+            title = ((cv.get('column') or {}).get('title') or '')
+            if CONTACT_TITLE not in title: continue
+            for p in cv.get('persons_and_teams') or []:
+                if p.get('kind') == 'person' and str(p.get('id')) in users_by_id:
+                    found.append(users_by_id[str(p['id'])])
+            for nm in re.split(r'\s*,\s*', cv.get('display_value') or ''):
+                if nm and nm in users_by_name:
+                    found.append(users_by_name[nm])
+    for a in assets or []:
+        u = a.get('uploaded_by') or {}
+        if u.get('email'):
+            found.append({'name': u.get('name') or '', 'email': u['email']})
+    out, seen = [], set()
+    for u in found:
+        em = (u.get('email') or '').strip().lower()
+        if not em or em in seen: continue
+        seen.add(em)
+        nm, team = split_name(u.get('name'))
+        out.append({'name': nm, 'team': team, 'email': em})
+    return out
+
+
+def fetch_contacts(token, picks, assets):
+    item_ids = sorted({p['item_id'] for p in picks if p.get('item_id')})
+    items = (gql(token, Q_ITEMS, {'ids': item_ids}).get('items') or []) if item_ids else []
+    ids, names = set(), set()
+    for it in items:
+        for cv in it.get('column_values') or []:
+            if CONTACT_TITLE not in ((cv.get('column') or {}).get('title') or ''): continue
+            ids.update(str(p['id']) for p in cv.get('persons_and_teams') or [] if p.get('kind') == 'person')
+            names.update(n for n in re.split(r'\s*,\s*', cv.get('display_value') or '') if n)
+    users_by_id, users_by_name = {}, {}
+    if ids:
+        for u in gql(token, Q_USERS, {'ids': sorted(ids)}).get('users') or []: users_by_id[str(u['id'])] = u
+    if names:
+        for u in gql(token, Q_ALL_USERS, {}).get('users') or []: users_by_name[u.get('name') or ''] = u
+    return contacts_from(items, assets, users_by_id, users_by_name)
+
+
 def download_assets(token, picks):
-    ids = [p['asset_id'] for p in picks]
-    data = gql(token, 'query($ids:[ID!]!){ assets(ids:$ids){ id name file_size public_url } }', {'ids': ids})
+    data = gql(token, Q_ASSETS, {'ids': [p['asset_id'] for p in picks]})
     by_id = {a['id']: a for a in data.get('assets') or []}
-    files = []
+    files, used = [], []
     for p in picks:
         a = by_id.get(p['asset_id'])
         if not a or not a.get('public_url'):
@@ -57,21 +117,30 @@ def download_assets(token, picks):
             blob = r.read()
         if not blob.startswith(b'%PDF') and not blob.startswith(b'%!PS'):
             print(f"WARN {p['code']}: {a['name']} 내용이 Illustrator 파일 형식이 아님({blob[:8]!r}) — 그래도 첨부")
-        files.append((a['name'], blob, p['code']))
+        files.append((a['name'], blob, p['code'], p.get('updated') or '')); used.append(a)
         print(f"OK {p['code']}: {a['name']} ({len(blob) / 1024 / 1024:.1f} MB, 업로드 {p['updated']})")
-    return files
+    return files, used
 
 
-def build_message(sender, to, subject, files, missing):
+def build_message(sender, to, subject, files, missing, contacts):
     msg = EmailMessage()
     msg['From'] = sender; msg['To'] = to; msg['Subject'] = subject
-    lines = ['패키지 도안 파일을 보내드립니다.', '', '첨부:']
-    lines += [f' - {code}: {name} ({len(blob) / 1024 / 1024:.1f} MB)' for name, blob, code in files]
+    if contacts:
+        msg['Reply-To'] = ', '.join(c['email'] for c in contacts)   # 답장은 담당자에게
+    lines = ['Hello,', '',
+             'Please find the attached package design file(s) (Adobe Illustrator, .ai).', '',
+             'Attached files:']
+    lines += [f' - {code}: {name} ({len(blob) / 1024 / 1024:.1f} MB, uploaded {upd})' for name, blob, code, upd in files]
     if missing:
-        lines += ['', '도안 파일을 찾지 못한 자재: ' + ', '.join(missing)]
-    lines += ['', '(BOM 검색 도우미 자동 발송)']
+        lines += ['', 'No design file was found for: ' + ', '.join(missing) + '. Please contact us if you need these files.']
+    lines += ['', 'If you have any questions, please contact:']
+    if contacts:
+        lines += [f" - {c['name']}{' (' + c['team'] + ')' if c['team'] else ''} <{c['email']}>" for c in contacts]
+    else:
+        lines += [f' - {sender}']
+    lines += ['', 'Best regards,', SIGNATURE, '', '(This email was sent automatically by the BOM helper system.)']
     msg.set_content('\n'.join(lines))   # 본문 먼저, 첨부는 그 다음
-    for name, blob, _ in files:
+    for name, blob, _, _ in files:
         msg.add_attachment(blob, maintype='application', subtype='postscript', filename=name)
     return msg
 
@@ -94,13 +163,16 @@ def main():
     picks, missing = pick_assets(mapping, codes, a.ext)
     if missing: print('WARN 도안 없음: ' + ', '.join(missing))
     if not picks: sys.exit('ERROR 보낼 파일이 없습니다')
-    files = download_assets(token, picks)
-    total = sum(len(b) for _, b, _ in files) / 1024 / 1024
+    files, used_assets = download_assets(token, picks)
+    total = sum(len(b) for _, b, _, _ in files) / 1024 / 1024
     if total > MAX_TOTAL_MB: sys.exit(f'ERROR 첨부 합계 {total:.1f} MB 가 한도 {MAX_TOTAL_MB} MB 를 넘습니다. 나눠서 보내세요.')
-    subject = a.subject or f"[도안] {', '.join(p['code'] for p in picks)}"
-    msg = build_message(sender or 'dry-run@example.com', a.to, subject, files, missing)
+    contacts = fetch_contacts(token, picks, used_assets)
+    print('문의처: ' + (', '.join(f"{c['name']} <{c['email']}>" for c in contacts) or '(없음 → 보내는 주소 안내)'))
+    subject = a.subject or f"[Spigen] Package design files: {', '.join(p['code'] for p in picks)}"
+    msg = build_message(sender or 'dry-run@example.com', a.to, subject, files, missing, contacts)
     if a.dry_run:
-        print(f'DRY-RUN: {a.to} 에게 {len(files)}개 파일 {total:.1f} MB 보낼 준비 완료 (제목: {subject})'); return
+        print(f'DRY-RUN: {a.to} 에게 {len(files)}개 파일 {total:.1f} MB 보낼 준비 완료 (제목: {subject})')
+        print('--- 본문 ---'); print(msg.get_body().get_content()); return
     host = os.environ.get('SMTP_HOST', 'smtp.gmail.com'); port = int(os.environ.get('SMTP_PORT', '587'))
     with smtplib.SMTP(host, port, timeout=60) as s:
         s.starttls(); s.login(sender, pw); s.send_message(msg)
