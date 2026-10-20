@@ -1,7 +1,7 @@
 {
 "_meta": {
-"generated_at": "2026-10-20T01:19:23Z",
-"mode": "full",
+"generated_at": "2026-10-20T06:50:40Z",
+"mode": "incremental",
 "account": "spigen",
 "boards": [
 "4057650308",
@@ -18,12 +18,12 @@
 "☄️최종도안파일"
 ],
 "board_count": 7,
-"items": 2799,
-"subitems": 2410,
-"files": 26708,
-"title_hits": 7220,
-"gallery": 5429,
-"codes": 8787,
+"items": 23,
+"subitems": 26,
+"files": 336,
+"title_hits": 52,
+"gallery": 143,
+"codes": 8815,
 "no_gallery": [],
 "skipped": [],
 "vendor_boards": [
@@ -33,7 +33,7 @@
 "3106368464"
 ],
 "vendor_failed": [],
-"vendors": 2485
+"vendors": 2493
 },
 "map": {
 "0415": {
@@ -223249,6 +223249,190 @@
 "https://spigen.monday.com/boards/4453971876/pulses/13224604246?asset_id=3310476340"
 ]
 },
+"3BS230200": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13089784107?asset_id=3328135917",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13089784043",
+"board": "*[Mobile] 패키지 현황",
+"item": "iPad 11\" (2025)/10.9\" (2022) Air Skin Folio",
+"sub": "ACS12725",
+"file": "3BS230200_ACS12725_iPad11(25)_ASkinFol_BK.jpg",
+"updated": "2026-10-20",
+"by": "황선혜/브랜드디자인팀/HQ",
+"files": [
+{
+"name": "3BS230200_ACS12725_iPad11(25)_ASkinFol_BK.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13089784107?asset_id=3328135917",
+"updated": "2026-10-20",
+"code": "3BS230200",
+"sub": "ACS12725",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13089784043",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3BS230200_ACS12725_iPad11(25)_ASkinFol_BK.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13089784107?asset_id=3328135945",
+"updated": "2026-10-20",
+"code": "3BS230200",
+"sub": "ACS12725",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13089784043",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3BS230200_ACS12725_iPad11(25)_ASkinFol_BK.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13089784107?asset_id=3328135920",
+"updated": "2026-10-20",
+"code": "3BS230200",
+"sub": "ACS12725",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13089784043",
+"by": "황선혜/브랜드디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/13089784107?asset_id=3328135945",
+"https://spigen.monday.com/boards/4453971876/pulses/13089784107?asset_id=3328135920"
+]
+},
+"3BS230210": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13089774294?asset_id=3328135869",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13089784043",
+"board": "*[Mobile] 패키지 현황",
+"item": "iPad 11\" (2025)/10.9\" (2022) Air Skin Folio",
+"sub": "ACS12726",
+"file": "3BS230210_ACS12726_iPad11(25)_ASkinFol_NYBL.jpg",
+"updated": "2026-10-20",
+"by": "황선혜/브랜드디자인팀/HQ",
+"files": [
+{
+"name": "3BS230210_ACS12726_iPad11(25)_ASkinFol_NYBL.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13089774294?asset_id=3328135869",
+"updated": "2026-10-20",
+"code": "3BS230210",
+"sub": "ACS12726",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13089784043",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3BS230210_ACS12726_iPad11(25)_ASkinFol_NYBL.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13089774294?asset_id=3328135899",
+"updated": "2026-10-20",
+"code": "3BS230210",
+"sub": "ACS12726",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13089784043",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3BS230210_ACS12726_iPad11(25)_ASkinFol_NYBL.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13089774294?asset_id=3328135879",
+"updated": "2026-10-20",
+"code": "3BS230210",
+"sub": "ACS12726",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13089784043",
+"by": "황선혜/브랜드디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/13089774294?asset_id=3328135899",
+"https://spigen.monday.com/boards/4453971876/pulses/13089774294?asset_id=3328135879"
+]
+},
+"3BS230220": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13089784069?asset_id=3328135682",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13089779561",
+"board": "*[Mobile] 패키지 현황",
+"item": "#iPad Air 11\" (2026/)/ Air Skin Folio",
+"sub": "ACS12727",
+"file": "3BS230220_ACS12727_iPadA11(26)_ASkinFol_BK.jpg",
+"updated": "2026-10-20",
+"by": "황선혜/브랜드디자인팀/HQ",
+"files": [
+{
+"name": "3BS230220_ACS12727_iPadA11(26)_ASkinFol_BK.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13089784069?asset_id=3328135682",
+"updated": "2026-10-20",
+"code": "3BS230220",
+"sub": "ACS12727",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13089779561",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3BS230220_ACS12727_iPadA11(26)_ASkinFol_BK.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13089784069?asset_id=3328135802",
+"updated": "2026-10-20",
+"code": "3BS230220",
+"sub": "ACS12727",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13089779561",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3BS230220_ACS12727_iPadA11(26)_ASkinFol_BK.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13089784069?asset_id=3328135690",
+"updated": "2026-10-20",
+"code": "3BS230220",
+"sub": "ACS12727",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13089779561",
+"by": "황선혜/브랜드디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/13089784069?asset_id=3328135802",
+"https://spigen.monday.com/boards/4453971876/pulses/13089784069?asset_id=3328135690"
+]
+},
+"3BS230230": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13089786123?asset_id=3328135763",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13089779561",
+"board": "*[Mobile] 패키지 현황",
+"item": "#iPad Air 11\" (2026/)/ Air Skin Folio",
+"sub": "ACS12728",
+"file": "3BS230230_ACS12728_iPadA11(26)_ASkinFol_NYBL.jpg",
+"updated": "2026-10-20",
+"by": "황선혜/브랜드디자인팀/HQ",
+"files": [
+{
+"name": "3BS230230_ACS12728_iPadA11(26)_ASkinFol_NYBL.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13089786123?asset_id=3328135763",
+"updated": "2026-10-20",
+"code": "3BS230230",
+"sub": "ACS12728",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13089779561",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3BS230230_ACS12728_iPadA11(26)_ASkinFol_NYBL.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13089786123?asset_id=3328135868",
+"updated": "2026-10-20",
+"code": "3BS230230",
+"sub": "ACS12728",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13089779561",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3BS230230_ACS12728_iPadA11(26)_ASkinFol_NYBL.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13089786123?asset_id=3328135777",
+"updated": "2026-10-20",
+"code": "3BS230230",
+"sub": "ACS12728",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13089779561",
+"by": "황선혜/브랜드디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/13089786123?asset_id=3328135868",
+"https://spigen.monday.com/boards/4453971876/pulses/13089786123?asset_id=3328135777"
+]
+},
 "3BS230270": {
 "url": "https://spigen.monday.com/boards/4485989214/pulses/13224067380?asset_id=3312944534",
 "parent_url": "https://spigen.monday.com/boards/4485989214/pulses/13224067380",
@@ -223385,6 +223569,926 @@
 "alt": [
 "https://spigen.monday.com/boards/4485989214/pulses/12017412685?asset_id=3321487377",
 "https://spigen.monday.com/boards/4485989214/pulses/12017412685?asset_id=3321487307"
+]
+},
+"3BS230460": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6808828344?asset_id=3328176156",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/6808828344",
+"board": "*[WO] 패키지",
+"item": "Apple Watch Series 11/10(46mm) Rugged Armor",
+"sub": null,
+"file": "3BS230460_AW10(46)_RuggedArmor_MatteBlack_BS.jpg",
+"updated": "2026-10-20",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS230460_AW10(46)_RuggedArmor_MatteBlack_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6808828344?asset_id=3328176156",
+"updated": "2026-10-20",
+"code": "3BS230460",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6808828344",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230460_AW10(46)_RuggedArmor_MatteBlack_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6808828344?asset_id=3328176181",
+"updated": "2026-10-20",
+"code": "3BS230460",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6808828344",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230460_AW10(46)_RuggedArmor_MatteBlack_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6808828344?asset_id=3328176171",
+"updated": "2026-10-20",
+"code": "3BS230460",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6808828344",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/6808828344?asset_id=3328176181",
+"https://spigen.monday.com/boards/4485989214/pulses/6808828344?asset_id=3328176171"
+]
+},
+"3BS230470": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6808828344?asset_id=3328176155",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/6808828344",
+"board": "*[WO] 패키지",
+"item": "Apple Watch Series 11/10(46mm) Rugged Armor",
+"sub": null,
+"file": "3BS230470_AW10(46)_RuggedArmor_DarkGray_BS.jpg",
+"updated": "2026-10-20",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS230470_AW10(46)_RuggedArmor_DarkGray_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6808828344?asset_id=3328176155",
+"updated": "2026-10-20",
+"code": "3BS230470",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6808828344",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230470_AW10(46)_RuggedArmor_DarkGray_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6808828344?asset_id=3328176216",
+"updated": "2026-10-20",
+"code": "3BS230470",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6808828344",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230470_AW10(46)_RuggedArmor_DarkGray_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6808828344?asset_id=3328176168",
+"updated": "2026-10-20",
+"code": "3BS230470",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6808828344",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/6808828344?asset_id=3328176216",
+"https://spigen.monday.com/boards/4485989214/pulses/6808828344?asset_id=3328176168"
+]
+},
+"3BS230480": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6808828344?asset_id=3328176200",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/6808828344",
+"board": "*[WO] 패키지",
+"item": "Apple Watch Series 11/10(46mm) Rugged Armor",
+"sub": null,
+"file": "3BS230480_AW10(46)_RuggedArmor_NavyBlue_BS.jpg",
+"updated": "2026-10-20",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS230480_AW10(46)_RuggedArmor_NavyBlue_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6808828344?asset_id=3328176200",
+"updated": "2026-10-20",
+"code": "3BS230480",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6808828344",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230480_AW10(46)_RuggedArmor_NavyBlue_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6808828344?asset_id=3328176221",
+"updated": "2026-10-20",
+"code": "3BS230480",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6808828344",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230480_AW10(46)_RuggedArmor_NavyBlue_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6808828344?asset_id=3328176212",
+"updated": "2026-10-20",
+"code": "3BS230480",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6808828344",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/6808828344?asset_id=3328176221",
+"https://spigen.monday.com/boards/4485989214/pulses/6808828344?asset_id=3328176212"
+]
+},
+"3BS230490": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6808828344?asset_id=3328176245",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/6808828344",
+"board": "*[WO] 패키지",
+"item": "Apple Watch Series 11/10(46mm) Rugged Armor",
+"sub": null,
+"file": "3BS230490_AW10(46)_RuggedArmor_DuneBeige_BS.jpg",
+"updated": "2026-10-20",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS230490_AW10(46)_RuggedArmor_DuneBeige_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6808828344?asset_id=3328176245",
+"updated": "2026-10-20",
+"code": "3BS230490",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6808828344",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230490_AW10(46)_RuggedArmor_DuneBeige_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6808828344?asset_id=3328176260",
+"updated": "2026-10-20",
+"code": "3BS230490",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6808828344",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230490_AW10(46)_RuggedArmor_DuneBeige_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6808828344?asset_id=3328176218",
+"updated": "2026-10-20",
+"code": "3BS230490",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6808828344",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/6808828344?asset_id=3328176260",
+"https://spigen.monday.com/boards/4485989214/pulses/6808828344?asset_id=3328176218"
+]
+},
+"3BS230500": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6888107019?asset_id=3328176806",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/6888107019",
+"board": "*[WO] 패키지",
+"item": "Apple Watch Series 11/10(46mm) Thin Fit",
+"sub": null,
+"file": "3BS230500_AW10(46)_ThinFit_Black_BS.jpg",
+"updated": "2026-10-20",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS230500_AW10(46)_ThinFit_Black_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6888107019?asset_id=3328176806",
+"updated": "2026-10-20",
+"code": "3BS230500",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6888107019",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230500_AW10(46)_ThinFit_Black_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6888107019?asset_id=3328176819",
+"updated": "2026-10-20",
+"code": "3BS230500",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6888107019",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230500_AW10(46)_ThinFit_Black_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6888107019?asset_id=3328176817",
+"updated": "2026-10-20",
+"code": "3BS230500",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6888107019",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/6888107019?asset_id=3328176819",
+"https://spigen.monday.com/boards/4485989214/pulses/6888107019?asset_id=3328176817"
+]
+},
+"3BS230510": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6888107019?asset_id=3328176807",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/6888107019",
+"board": "*[WO] 패키지",
+"item": "Apple Watch Series 11/10(46mm) Thin Fit",
+"sub": null,
+"file": "3BS230510_AW10(46)_ThinFit_CrystalClear_BS.jpg",
+"updated": "2026-10-20",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS230510_AW10(46)_ThinFit_CrystalClear_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6888107019?asset_id=3328176807",
+"updated": "2026-10-20",
+"code": "3BS230510",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6888107019",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230510_AW10(46)_ThinFit_CrystalClear_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6888107019?asset_id=3328176843",
+"updated": "2026-10-20",
+"code": "3BS230510",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6888107019",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230510_AW10(46)_ThinFit_CrystalClear_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6888107019?asset_id=3328176814",
+"updated": "2026-10-20",
+"code": "3BS230510",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6888107019",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/6888107019?asset_id=3328176843",
+"https://spigen.monday.com/boards/4485989214/pulses/6888107019?asset_id=3328176814"
+]
+},
+"3BS230520": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6835008363?asset_id=3328176951",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/6835008363",
+"board": "*[WO] 패키지",
+"item": "Apple Watch Series 11/10(46mm) Tough Armor",
+"sub": null,
+"file": "3BS230520_AW10(46)_ToughArmor_Black_BS.jpg",
+"updated": "2026-10-20",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS230520_AW10(46)_ToughArmor_Black_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6835008363?asset_id=3328176951",
+"updated": "2026-10-20",
+"code": "3BS230520",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6835008363",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230520_AW10(46)_ToughArmor_Black_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6835008363?asset_id=3328176970",
+"updated": "2026-10-20",
+"code": "3BS230520",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6835008363",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230520_AW10(46)_ToughArmor_Black_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6835008363?asset_id=3328176958",
+"updated": "2026-10-20",
+"code": "3BS230520",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6835008363",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/6835008363?asset_id=3328176970",
+"https://spigen.monday.com/boards/4485989214/pulses/6835008363?asset_id=3328176958"
+]
+},
+"3BS230530": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6808827284?asset_id=3328177190",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/6808827284",
+"board": "*[WO] 패키지",
+"item": "Apple Watch Series 11/10(46mm) Rugged Armor Pro",
+"sub": null,
+"file": "3BS230530_AW10(46)_RuggedArmorPro_MatteBlack_BS.jpg",
+"updated": "2026-10-20",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS230530_AW10(46)_RuggedArmorPro_MatteBlack_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6808827284?asset_id=3328177190",
+"updated": "2026-10-20",
+"code": "3BS230530",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6808827284",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230530_AW10(46)_RuggedArmorPro_MatteBlack_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6808827284?asset_id=3328177214",
+"updated": "2026-10-20",
+"code": "3BS230530",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6808827284",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230530_AW10(46)_RuggedArmorPro_MatteBlack_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6808827284?asset_id=3328177211",
+"updated": "2026-10-20",
+"code": "3BS230530",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6808827284",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/6808827284?asset_id=3328177214",
+"https://spigen.monday.com/boards/4485989214/pulses/6808827284?asset_id=3328177211"
+]
+},
+"3BS230540": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6808827284?asset_id=3328177194",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/6808827284",
+"board": "*[WO] 패키지",
+"item": "Apple Watch Series 11/10(46mm) Rugged Armor Pro",
+"sub": null,
+"file": "3BS230540_AW10(46)_RuggedArmorPro_DarkGray_BS.jpg",
+"updated": "2026-10-20",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS230540_AW10(46)_RuggedArmorPro_DarkGray_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6808827284?asset_id=3328177194",
+"updated": "2026-10-20",
+"code": "3BS230540",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6808827284",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230540_AW10(46)_RuggedArmorPro_DarkGray_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6808827284?asset_id=3328177257",
+"updated": "2026-10-20",
+"code": "3BS230540",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6808827284",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230540_AW10(46)_RuggedArmorPro_DarkGray_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6808827284?asset_id=3328177207",
+"updated": "2026-10-20",
+"code": "3BS230540",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6808827284",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/6808827284?asset_id=3328177257",
+"https://spigen.monday.com/boards/4485989214/pulses/6808827284?asset_id=3328177207"
+]
+},
+"3BS230550": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6808827284?asset_id=3328177244",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/6808827284",
+"board": "*[WO] 패키지",
+"item": "Apple Watch Series 11/10(46mm) Rugged Armor Pro",
+"sub": null,
+"file": "3BS230550_AW10(46)_RuggedArmorPro_NavyBlue_BS.jpg",
+"updated": "2026-10-20",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS230550_AW10(46)_RuggedArmorPro_NavyBlue_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6808827284?asset_id=3328177244",
+"updated": "2026-10-20",
+"code": "3BS230550",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6808827284",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230550_AW10(46)_RuggedArmorPro_NavyBlue_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6808827284?asset_id=3328177289",
+"updated": "2026-10-20",
+"code": "3BS230550",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6808827284",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230550_AW10(46)_RuggedArmorPro_NavyBlue_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6808827284?asset_id=3328177241",
+"updated": "2026-10-20",
+"code": "3BS230550",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6808827284",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/6808827284?asset_id=3328177289",
+"https://spigen.monday.com/boards/4485989214/pulses/6808827284?asset_id=3328177241"
+]
+},
+"3BS230560": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6808827284?asset_id=3328177293",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/6808827284",
+"board": "*[WO] 패키지",
+"item": "Apple Watch Series 11/10(46mm) Rugged Armor Pro",
+"sub": null,
+"file": "3BS230560_AW10(46)_RuggedArmorPro_DuneBeige_BS.jpg",
+"updated": "2026-10-20",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS230560_AW10(46)_RuggedArmorPro_DuneBeige_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6808827284?asset_id=3328177293",
+"updated": "2026-10-20",
+"code": "3BS230560",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6808827284",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230560_AW10(46)_RuggedArmorPro_DuneBeige_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6808827284?asset_id=3328177328",
+"updated": "2026-10-20",
+"code": "3BS230560",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6808827284",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230560_AW10(46)_RuggedArmorPro_DuneBeige_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6808827284?asset_id=3328177263",
+"updated": "2026-10-20",
+"code": "3BS230560",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6808827284",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/6808827284?asset_id=3328177328",
+"https://spigen.monday.com/boards/4485989214/pulses/6808827284?asset_id=3328177263"
+]
+},
+"3BS230570": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6808827284?asset_id=3328177332",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/6808827284",
+"board": "*[WO] 패키지",
+"item": "Apple Watch Series 11/10(46mm) Rugged Armor Pro",
+"sub": null,
+"file": "3BS230570_AW10(46)_RuggedArmorPro_-VintageKhaki_BS.jpg",
+"updated": "2026-10-20",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS230570_AW10(46)_RuggedArmorPro_-VintageKhaki_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6808827284?asset_id=3328177332",
+"updated": "2026-10-20",
+"code": "3BS230570",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6808827284",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230570_AW10(46)_RuggedArmorPro_ VintageKhaki_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6808827284?asset_id=3328177346",
+"updated": "2026-10-20",
+"code": "3BS230570",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6808827284",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230570_AW10(46)_RuggedArmorPro_ VintageKhaki_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6808827284?asset_id=3328177320",
+"updated": "2026-10-20",
+"code": "3BS230570",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6808827284",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/6808827284?asset_id=3328177346",
+"https://spigen.monday.com/boards/4485989214/pulses/6808827284?asset_id=3328177320"
+]
+},
+"3BS230580": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6861520097?asset_id=3328177630",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/6861520097",
+"board": "*[WO] 패키지",
+"item": "Apple Watch Series 11/10(46mm) Lite Fit Pro",
+"sub": null,
+"file": "3BS230580_AW10(46)_LiteFitPro_MatteBlack_BS.jpg",
+"updated": "2026-10-20",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS230580_AW10(46)_LiteFitPro_MatteBlack_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6861520097?asset_id=3328177630",
+"updated": "2026-10-20",
+"code": "3BS230580",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6861520097",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230580_AW10(46)_LiteFitPro_MatteBlack_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6861520097?asset_id=3328177653",
+"updated": "2026-10-20",
+"code": "3BS230580",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6861520097",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230580_AW10(46)_LiteFitPro_MatteBlack_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6861520097?asset_id=3328177635",
+"updated": "2026-10-20",
+"code": "3BS230580",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6861520097",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/6861520097?asset_id=3328177653",
+"https://spigen.monday.com/boards/4485989214/pulses/6861520097?asset_id=3328177635"
+]
+},
+"3BS230590": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6861520097?asset_id=3328177656",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/6861520097",
+"board": "*[WO] 패키지",
+"item": "Apple Watch Series 11/10(46mm) Lite Fit Pro",
+"sub": null,
+"file": "3BS230590_AW10(46)_LiteFitPro_-NavyBlue_BS.jpg",
+"updated": "2026-10-20",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS230590_AW10(46)_LiteFitPro_-NavyBlue_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6861520097?asset_id=3328177656",
+"updated": "2026-10-20",
+"code": "3BS230590",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6861520097",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230590_AW10(46)_LiteFitPro_ NavyBlue_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6861520097?asset_id=3328177669",
+"updated": "2026-10-20",
+"code": "3BS230590",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6861520097",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230590_AW10(46)_LiteFitPro_ NavyBlue_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/6861520097?asset_id=3328177645",
+"updated": "2026-10-20",
+"code": "3BS230590",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "6861520097",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/6861520097?asset_id=3328177669",
+"https://spigen.monday.com/boards/4485989214/pulses/6861520097?asset_id=3328177645"
+]
+},
+"3BS230600": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/7709380321?asset_id=3328178569",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/7709380321",
+"board": "*[WO] 패키지",
+"item": "Apple Watch Series 11/10(46mm) Liquid Air Pro",
+"sub": null,
+"file": "3BS230600_AW(46)_LiquidAirPro_MatteBlack_BS.jpg",
+"updated": "2026-10-20",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS230600_AW(46)_LiquidAirPro_MatteBlack_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/7709380321?asset_id=3328178569",
+"updated": "2026-10-20",
+"code": "3BS230600",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "7709380321",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230600_AW(46)_LiquidAirPro_MatteBlack_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/7709380321?asset_id=3328178852",
+"updated": "2026-10-20",
+"code": "3BS230600",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "7709380321",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230600_AW(46)_LiquidAirPro_MatteBlack_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/7709380321?asset_id=3328178674",
+"updated": "2026-10-20",
+"code": "3BS230600",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "7709380321",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/7709380321?asset_id=3328178852",
+"https://spigen.monday.com/boards/4485989214/pulses/7709380321?asset_id=3328178674"
+]
+},
+"3BS230610": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/7709380321?asset_id=3328178571",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/7709380321",
+"board": "*[WO] 패키지",
+"item": "Apple Watch Series 11/10(46mm) Liquid Air Pro",
+"sub": null,
+"file": "3BS230610_AW(46)_LiquidAirPro_Gray_BS.jpg",
+"updated": "2026-10-20",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS230610_AW(46)_LiquidAirPro_Gray_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/7709380321?asset_id=3328178571",
+"updated": "2026-10-20",
+"code": "3BS230610",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "7709380321",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230610_AW(46)_LiquidAirPro_Gray_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/7709380321?asset_id=3328179032",
+"updated": "2026-10-20",
+"code": "3BS230610",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "7709380321",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230610_AW(46)_LiquidAirPro_Gray_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/7709380321?asset_id=3328178656",
+"updated": "2026-10-20",
+"code": "3BS230610",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "7709380321",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/7709380321?asset_id=3328179032",
+"https://spigen.monday.com/boards/4485989214/pulses/7709380321?asset_id=3328178656"
+]
+},
+"3BS230790": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/10963913851?asset_id=3328179203",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/10963913851",
+"board": "*[WO] 패키지",
+"item": "Apple Watch Series 11/10(46mm) Thin Fit 360",
+"sub": null,
+"file": "3BS230790_AppleWatchSeries(46mm)_ThinFit360_Black_BS.jpg",
+"updated": "2026-10-20",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS230790_AppleWatchSeries(46mm)_ThinFit360_Black_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/10963913851?asset_id=3328179203",
+"updated": "2026-10-20",
+"code": "3BS230790",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "10963913851",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230790_AppleWatchSeries(46mm)_ThinFit360_Black_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/10963913851?asset_id=3328179252",
+"updated": "2026-10-20",
+"code": "3BS230790",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "10963913851",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230790_AppleWatchSeries(46mm)_ThinFit360_Black_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/10963913851?asset_id=3328179227",
+"updated": "2026-10-20",
+"code": "3BS230790",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "10963913851",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/10963913851?asset_id=3328179252",
+"https://spigen.monday.com/boards/4485989214/pulses/10963913851?asset_id=3328179227"
+]
+},
+"3BS230800": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/10963896714?asset_id=3328179741",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/10963896714",
+"board": "*[WO] 패키지",
+"item": "Apple Watch Series 11/10(42mm) Thin Fit 360",
+"sub": null,
+"file": "3BS230800_AppleWatchSeries(42mm)_ThinFit360_Black_BS.jpg",
+"updated": "2026-10-20",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS230800_AppleWatchSeries(42mm)_ThinFit360_Black_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/10963896714?asset_id=3328179741",
+"updated": "2026-10-20",
+"code": "3BS230800",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "10963896714",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230800_AppleWatchSeries(42mm)_ThinFit360_Black_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/10963896714?asset_id=3328179769",
+"updated": "2026-10-20",
+"code": "3BS230800",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "10963896714",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230800_AppleWatchSeries(42mm)_ThinFit360_Black_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/10963896714?asset_id=3328179743",
+"updated": "2026-10-20",
+"code": "3BS230800",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "10963896714",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/10963896714?asset_id=3328179769",
+"https://spigen.monday.com/boards/4485989214/pulses/10963896714?asset_id=3328179743"
+]
+},
+"3BS230810": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/11522107804?asset_id=3328180133",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/11522107804",
+"board": "*[WO] 패키지",
+"item": "AW 11/10(46mm)   Rugged Armor 2 + AW 44/45/46/49mm Athlex Air 2",
+"sub": null,
+"file": "3BS230810_AW(46)-Case+Band_Rugged-Armor2,-AthlexAir2_Matte-Black,-Active-Black-Gray_BS.jpg",
+"updated": "2026-10-20",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS230810_AW(46)-Case+Band_Rugged-Armor2,-AthlexAir2_Matte-Black,-Active-Black-Gray_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/11522107804?asset_id=3328180133",
+"updated": "2026-10-20",
+"code": "3BS230810",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "11522107804",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230810_AW(46) Case+Band_Rugged Armor2, AthlexAir2_Matte Black, Active Black Gray_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/11522107804?asset_id=3328180153",
+"updated": "2026-10-20",
+"code": "3BS230810",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "11522107804",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230810_AW(46) Case+Band_Rugged Armor2, AthlexAir2_Matte Black, Active Black Gray_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/11522107804?asset_id=3328180142",
+"updated": "2026-10-20",
+"code": "3BS230810",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "11522107804",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/11522107804?asset_id=3328180153",
+"https://spigen.monday.com/boards/4485989214/pulses/11522107804?asset_id=3328180142"
+]
+},
+"3BS230820": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/11522092535?asset_id=3328180330",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/11522092535",
+"board": "*[WO] 패키지",
+"item": "AW 11/10(46mm)   Thin Fit + AW 44/45/46/49mm Lite Fit Ultra",
+"sub": null,
+"file": "3BS230820_AW(46)-Case+Band_Thin-Fit,-Lite-Fit_Black_BS.jpg",
+"updated": "2026-10-20",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS230820_AW(46)-Case+Band_Thin-Fit,-Lite-Fit_Black_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/11522092535?asset_id=3328180330",
+"updated": "2026-10-20",
+"code": "3BS230820",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "11522092535",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230820_AW(46) Case+Band_Thin Fit, Lite Fit_Black_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/11522092535?asset_id=3328180351",
+"updated": "2026-10-20",
+"code": "3BS230820",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "11522092535",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230820_AW(46) Case+Band_Thin Fit, Lite Fit_Black_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/11522092535?asset_id=3328180339",
+"updated": "2026-10-20",
+"code": "3BS230820",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "11522092535",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/11522092535?asset_id=3328180351",
+"https://spigen.monday.com/boards/4485989214/pulses/11522092535?asset_id=3328180339"
 ]
 },
 "3IP00968A": {
@@ -236991,25 +238095,15 @@
 ]
 },
 "3MN176630": {
-"url": "https://spigen.monday.com/boards/4485989214/pulses/7709380321?asset_id=1972268653",
+"url": "https://spigen.monday.com/boards/4470968685/pulses/7168626720?asset_id=1972267755",
 "parent_url": "https://spigen.monday.com/boards/4485989214/pulses/7709380321",
-"board": "*[WO] 패키지",
+"board": "⭐️패키지 통합 관리",
 "item": "Apple Watch Series 11/10(46mm) Liquid Air Pro",
 "sub": null,
 "file": "3MN176630_WBn PinTuckClosure_Manual.jpg",
 "updated": "2025-02-21",
 "by": "임수빈/패키지디자인팀/HQ",
 "files": [
-{
-"name": "3MN176630_WBn PinTuckClosure_Manual.jpg",
-"url": "https://spigen.monday.com/boards/4485989214/pulses/7709380321?asset_id=1972268653",
-"updated": "2025-02-21",
-"code": "3MN176630",
-"sub": null,
-"board": "*[WO] 패키지",
-"item_id": "7709380321",
-"by": "임수빈/패키지디자인팀/HQ"
-},
 {
 "name": "3MN176630_WBn PinTuckClosure_Manual.jpg",
 "url": "https://spigen.monday.com/boards/4470968685/pulses/7168626720?asset_id=1972267755",
@@ -237021,8 +238115,8 @@
 "by": "임수빈/패키지디자인팀/HQ"
 },
 {
-"name": "3MN176630_WBn PinTuckClosure_Manual.pdf",
-"url": "https://spigen.monday.com/boards/4485989214/pulses/7709380321?asset_id=1972268633",
+"name": "3MN176630_WBn PinTuckClosure_Manual.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/7709380321?asset_id=1972268653",
 "updated": "2025-02-21",
 "code": "3MN176630",
 "sub": null,
@@ -237041,8 +238135,8 @@
 "by": "임수빈/패키지디자인팀/HQ"
 },
 {
-"name": "3MN176630_WBn PinTuckClosure_Manual_cs2.ai",
-"url": "https://spigen.monday.com/boards/4485989214/pulses/7709380321?asset_id=1972268644",
+"name": "3MN176630_WBn PinTuckClosure_Manual.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/7709380321?asset_id=1972268633",
 "updated": "2025-02-21",
 "code": "3MN176630",
 "sub": null,
@@ -237059,14 +238153,24 @@
 "board": "⭐️패키지 통합 관리",
 "item_id": "7168626720",
 "by": "임수빈/패키지디자인팀/HQ"
+},
+{
+"name": "3MN176630_WBn PinTuckClosure_Manual_cs2.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/7709380321?asset_id=1972268644",
+"updated": "2025-02-21",
+"code": "3MN176630",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "7709380321",
+"by": "임수빈/패키지디자인팀/HQ"
 }
 ],
 "alt": [
-"https://spigen.monday.com/boards/4470968685/pulses/7168626720?asset_id=1972267755",
-"https://spigen.monday.com/boards/4485989214/pulses/7709380321?asset_id=1972268633",
+"https://spigen.monday.com/boards/4485989214/pulses/7709380321?asset_id=1972268653",
 "https://spigen.monday.com/boards/4470968685/pulses/7168626720?asset_id=1972267736",
-"https://spigen.monday.com/boards/4485989214/pulses/7709380321?asset_id=1972268644",
-"https://spigen.monday.com/boards/4470968685/pulses/7168626720?asset_id=1972267745"
+"https://spigen.monday.com/boards/4485989214/pulses/7709380321?asset_id=1972268633",
+"https://spigen.monday.com/boards/4470968685/pulses/7168626720?asset_id=1972267745",
+"https://spigen.monday.com/boards/4485989214/pulses/7709380321?asset_id=1972268644"
 ]
 },
 "3MN17663A": {
@@ -327224,15 +328328,45 @@
 ]
 },
 "3PK219570": {
-"url": "https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3232565295",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3328162568",
 "parent_url": "https://spigen.monday.com/boards/3133983085/pulses/12791394702",
 "board": "*[ArcTech] 패키지",
 "item": "Humidifier Filter",
 "sub": null,
 "file": "3PK219570_A950_HumidifierFilters.jpg",
-"updated": "2026-09-08",
+"updated": "2026-10-20",
 "by": "김해인/브랜드디자인팀/HQ",
 "files": [
+{
+"name": "3PK219570_A950_HumidifierFilters.jpg",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3328162568",
+"updated": "2026-10-20",
+"code": "3PK219570",
+"sub": null,
+"board": "*[ArcTech] 패키지",
+"item_id": "12791394702",
+"by": "김해인/브랜드디자인팀/HQ"
+},
+{
+"name": "3PK219570_A950_HumidifierFilters.pdf",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3328162584",
+"updated": "2026-10-20",
+"code": "3PK219570",
+"sub": null,
+"board": "*[ArcTech] 패키지",
+"item_id": "12791394702",
+"by": "김해인/브랜드디자인팀/HQ"
+},
+{
+"name": "3PK219570_A950_HumidifierFilters_cs3.ai",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3328162564",
+"updated": "2026-10-20",
+"code": "3PK219570",
+"sub": null,
+"board": "*[ArcTech] 패키지",
+"item_id": "12791394702",
+"by": "김해인/브랜드디자인팀/HQ"
+},
 {
 "name": "3PK219570_A950_HumidifierFilters.jpg",
 "url": "https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3232565295",
@@ -327275,6 +328409,9 @@
 }
 ],
 "alt": [
+"https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3328162584",
+"https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3328162564",
+"https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3232565295",
 "https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3232565290",
 "https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3232565294",
 "https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3232565315"
@@ -357435,15 +358572,45 @@
 ]
 },
 "A950": {
-"url": "https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3232565295",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3328162568",
 "parent_url": "https://spigen.monday.com/boards/3133983085/pulses/12791394702",
 "board": "*[ArcTech] 패키지",
 "item": "Humidifier Filter",
 "sub": null,
 "file": "3PK219570_A950_HumidifierFilters.jpg",
-"updated": "2026-09-08",
+"updated": "2026-10-20",
 "by": "김해인/브랜드디자인팀/HQ",
 "files": [
+{
+"name": "3PK219570_A950_HumidifierFilters.jpg",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3328162568",
+"updated": "2026-10-20",
+"code": "3PK219570",
+"sub": null,
+"board": "*[ArcTech] 패키지",
+"item_id": "12791394702",
+"by": "김해인/브랜드디자인팀/HQ"
+},
+{
+"name": "3PK219570_A950_HumidifierFilters.pdf",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3328162584",
+"updated": "2026-10-20",
+"code": "3PK219570",
+"sub": null,
+"board": "*[ArcTech] 패키지",
+"item_id": "12791394702",
+"by": "김해인/브랜드디자인팀/HQ"
+},
+{
+"name": "3PK219570_A950_HumidifierFilters_cs3.ai",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3328162564",
+"updated": "2026-10-20",
+"code": "3PK219570",
+"sub": null,
+"board": "*[ArcTech] 패키지",
+"item_id": "12791394702",
+"by": "김해인/브랜드디자인팀/HQ"
+},
 {
 "name": "3PK219570_A950_HumidifierFilters.jpg",
 "url": "https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3232565295",
@@ -357556,6 +358723,9 @@
 }
 ],
 "alt": [
+"https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3328162584",
+"https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3328162564",
+"https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3232565295",
 "https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3232565290",
 "https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3232565294",
 "https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3232565315",
@@ -438071,6 +439241,190 @@
 "https://spigen.monday.com/boards/4453971876/pulses/13066226547?asset_id=3275824224"
 ]
 },
+"ACS12725": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13089784107?asset_id=3328135917",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13089784043",
+"board": "*[Mobile] 패키지 현황",
+"item": "iPad 11\" (2025)/10.9\" (2022) Air Skin Folio",
+"sub": "ACS12725",
+"file": "3BS230200_ACS12725_iPad11(25)_ASkinFol_BK.jpg",
+"updated": "2026-10-20",
+"by": "황선혜/브랜드디자인팀/HQ",
+"files": [
+{
+"name": "3BS230200_ACS12725_iPad11(25)_ASkinFol_BK.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13089784107?asset_id=3328135917",
+"updated": "2026-10-20",
+"code": "3BS230200",
+"sub": "ACS12725",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13089784043",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3BS230200_ACS12725_iPad11(25)_ASkinFol_BK.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13089784107?asset_id=3328135945",
+"updated": "2026-10-20",
+"code": "3BS230200",
+"sub": "ACS12725",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13089784043",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3BS230200_ACS12725_iPad11(25)_ASkinFol_BK.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13089784107?asset_id=3328135920",
+"updated": "2026-10-20",
+"code": "3BS230200",
+"sub": "ACS12725",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13089784043",
+"by": "황선혜/브랜드디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/13089784107?asset_id=3328135945",
+"https://spigen.monday.com/boards/4453971876/pulses/13089784107?asset_id=3328135920"
+]
+},
+"ACS12726": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13089774294?asset_id=3328135869",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13089784043",
+"board": "*[Mobile] 패키지 현황",
+"item": "iPad 11\" (2025)/10.9\" (2022) Air Skin Folio",
+"sub": "ACS12726",
+"file": "3BS230210_ACS12726_iPad11(25)_ASkinFol_NYBL.jpg",
+"updated": "2026-10-20",
+"by": "황선혜/브랜드디자인팀/HQ",
+"files": [
+{
+"name": "3BS230210_ACS12726_iPad11(25)_ASkinFol_NYBL.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13089774294?asset_id=3328135869",
+"updated": "2026-10-20",
+"code": "3BS230210",
+"sub": "ACS12726",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13089784043",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3BS230210_ACS12726_iPad11(25)_ASkinFol_NYBL.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13089774294?asset_id=3328135899",
+"updated": "2026-10-20",
+"code": "3BS230210",
+"sub": "ACS12726",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13089784043",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3BS230210_ACS12726_iPad11(25)_ASkinFol_NYBL.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13089774294?asset_id=3328135879",
+"updated": "2026-10-20",
+"code": "3BS230210",
+"sub": "ACS12726",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13089784043",
+"by": "황선혜/브랜드디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/13089774294?asset_id=3328135899",
+"https://spigen.monday.com/boards/4453971876/pulses/13089774294?asset_id=3328135879"
+]
+},
+"ACS12727": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13089784069?asset_id=3328135682",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13089779561",
+"board": "*[Mobile] 패키지 현황",
+"item": "#iPad Air 11\" (2026/)/ Air Skin Folio",
+"sub": "ACS12727",
+"file": "3BS230220_ACS12727_iPadA11(26)_ASkinFol_BK.jpg",
+"updated": "2026-10-20",
+"by": "황선혜/브랜드디자인팀/HQ",
+"files": [
+{
+"name": "3BS230220_ACS12727_iPadA11(26)_ASkinFol_BK.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13089784069?asset_id=3328135682",
+"updated": "2026-10-20",
+"code": "3BS230220",
+"sub": "ACS12727",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13089779561",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3BS230220_ACS12727_iPadA11(26)_ASkinFol_BK.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13089784069?asset_id=3328135802",
+"updated": "2026-10-20",
+"code": "3BS230220",
+"sub": "ACS12727",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13089779561",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3BS230220_ACS12727_iPadA11(26)_ASkinFol_BK.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13089784069?asset_id=3328135690",
+"updated": "2026-10-20",
+"code": "3BS230220",
+"sub": "ACS12727",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13089779561",
+"by": "황선혜/브랜드디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/13089784069?asset_id=3328135802",
+"https://spigen.monday.com/boards/4453971876/pulses/13089784069?asset_id=3328135690"
+]
+},
+"ACS12728": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13089786123?asset_id=3328135763",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13089779561",
+"board": "*[Mobile] 패키지 현황",
+"item": "#iPad Air 11\" (2026/)/ Air Skin Folio",
+"sub": "ACS12728",
+"file": "3BS230230_ACS12728_iPadA11(26)_ASkinFol_NYBL.jpg",
+"updated": "2026-10-20",
+"by": "황선혜/브랜드디자인팀/HQ",
+"files": [
+{
+"name": "3BS230230_ACS12728_iPadA11(26)_ASkinFol_NYBL.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13089786123?asset_id=3328135763",
+"updated": "2026-10-20",
+"code": "3BS230230",
+"sub": "ACS12728",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13089779561",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3BS230230_ACS12728_iPadA11(26)_ASkinFol_NYBL.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13089786123?asset_id=3328135868",
+"updated": "2026-10-20",
+"code": "3BS230230",
+"sub": "ACS12728",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13089779561",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3BS230230_ACS12728_iPadA11(26)_ASkinFol_NYBL.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13089786123?asset_id=3328135777",
+"updated": "2026-10-20",
+"code": "3BS230230",
+"sub": "ACS12728",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13089779561",
+"by": "황선혜/브랜드디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/13089786123?asset_id=3328135868",
+"https://spigen.monday.com/boards/4453971876/pulses/13089786123?asset_id=3328135777"
+]
+},
 "ACS12798": {
 "url": "https://spigen.monday.com/boards/4453971876/pulses/13236114947?asset_id=3302902138",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13147221344",
@@ -512638,6 +513992,11 @@
 "ACP12258": "MIPI",
 "ACP12263": "Dapad-CN",
 "ACP12407": "Longcheng",
+"ACP12679": "High Honest-CN",
+"ACP12680": "High Honest-CN",
+"ACP12795": "BOLI",
+"ACP12796": "BOLI",
+"ACP12797": "BOLI",
 "ACS05423": "영광정공-KR",
 "ACS05463": "HUGO-CN",
 "ACS05592": "CaseSpices-CN, CaseSpices-CN",
@@ -514823,6 +516182,8 @@
 "AFA12842": "HIGH HONEST-CN",
 "AFA12843": "HIGH HONEST-CN",
 "AFL11776": "Strawberry-CN",
+"AFL12787": "Strawberry-CN",
+"AFL12788": "Strawberry-CN",
 "AGP09475": "XINGWANGTAI-CN",
 "AGP09565": "XINGWANGTAI-CN",
 "AGP09756": "XINGWANGTAI-CN",
@@ -514835,6 +516196,7 @@
 "AGP11146": "HIGH HONEST-CN",
 "AGP11345": "JYS-CN",
 "AGP11347": "HIGH HONEST-CN",
+"AGP11427": "Meticore-CN",
 "AGP11737": "Soonleader-CN",
 "AGP11800": "Dapad-CN",
 "AGP11939": "HIGH HONEST-CN",
