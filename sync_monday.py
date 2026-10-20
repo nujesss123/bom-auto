@@ -19,6 +19,11 @@ TOKEN_PATTERN = os.environ.get('MONDAY_TOKEN_PATTERN', r'^\d{0,2}[A-Z]{1,4}\d{3,
 ALL_TOKENS = os.environ.get('MONDAY_ALL_TOKENS', 'true').lower() == 'true'   # 파일명 안의 다른 코드(예: SKU)도 함께 인식
 PAGE = int(os.environ.get('MONDAY_PAGE_SIZE', '25'))   # 한 번에 가져올 아이템 수(작을수록 안정적)
 OUT = 'monday_map.json'
+# SKU별 생산업체(협력사): 아래 보드들의 '협력사'/'업체' 열을 읽어 SKU -> 업체 표를 만든다. 앞 보드 값이 우선(SKU Master → 패키지 보드).
+VENDOR_BOARDS = [b.strip() for b in os.environ.get('MONDAY_VENDOR_BOARDS', '7357291494, 4057650308, 4485989214, 3106368464').split(',') if b.strip()]
+VENDOR_COLS = [c.strip().lower().replace(' ', '') for c in os.environ.get('MONDAY_VENDOR_COLUMNS', '협력사, 업체, SIS 생산업체').split(',') if c.strip()]
+SKU_SHAPE = re.compile(r'^[A-Z]{2,4}\d{4,6}[A-Z]?$')   # 아이템명/연결값이 SKU 코드 모양인지 (예: ACS11769, AFA08860)
+VENDOR_PAGE = 100
 MODE = os.environ.get('MONDAY_MODE', 'auto').strip().lower()   # full | incremental | auto(기존 목록 있으면 증분)
 SINCE_BUFFER_MIN = 20   # 증분 시 마지막 실행시각보다 이만큼 앞부터 다시 확인(누락 방지)
 API = 'https://api.monday.com/v2'
@@ -189,6 +194,87 @@ def code_cols(cvs):
 def file_cols(cvs, strict):
     return [cv for cv in (cvs or []) if cv.get('type') == 'file' and (not strict or norm_title((cv.get('column') or {}).get('title')) in FILES_COLS)]
 
+Q_VCOLS = 'query($b:[ID!]){ boards(ids:$b){ id name columns{ id title type } } }'
+Q_VITEMS = ('query($b:[ID!],$l:Int!,$c:[String!]){ boards(ids:$b){ items_page(limit:$l){ cursor items{ id name '
+            'column_values(ids:$c){ id text ... on MirrorValue{ display_value } ... on BoardRelationValue{ display_value } } } } } }')
+Q_VITEMS_NEXT = ('query($cur:String!,$l:Int!,$c:[String!]){ next_items_page(cursor:$cur, limit:$l){ cursor items{ id name '
+                 'column_values(ids:$c){ id text ... on MirrorValue{ display_value } ... on BoardRelationValue{ display_value } } } } }')
+
+def vendor_cols(columns):
+    """보드 열 목록 -> (업체 열 id 또는 None, SKU 보드연결 열 id 목록)"""
+    vendor = None
+    skus = []
+    for c in columns or []:
+        title = norm_title(c.get('title'))
+        if vendor is None and title in VENDOR_COLS:
+            vendor = c.get('id')
+        elif c.get('type') == 'board_relation' and 'sku' in title:
+            skus.append(c.get('id'))
+    return vendor, skus
+
+def _cv_value(cv):
+    v = cv.get('display_value')
+    if v is None: v = cv.get('text')
+    return (v or '').strip()
+
+def vendors_from_items(items, sku_cols, vendor_col):
+    """아이템 목록 -> {SKU: 업체}. SKU = 보드연결 열의 값(여러 개 콤마 구분) + 아이템명이 SKU 모양이면 그것도."""
+    out = {}
+    for it in items or []:
+        cvs = {cv.get('id'): cv for cv in (it.get('column_values') or [])}
+        vendor = _cv_value(cvs.get(vendor_col) or {}) if vendor_col else ''
+        if not vendor: continue
+        codes = []
+        name = (it.get('name') or '').strip().upper()
+        if SKU_SHAPE.match(name): codes.append(name)
+        for cid in sku_cols:
+            for tok in re.split(r'[,\s]+', _cv_value(cvs.get(cid) or {})):
+                tok = tok.strip().upper()
+                if SKU_SHAPE.match(tok) and tok not in codes: codes.append(tok)
+        for code in codes:
+            out.setdefault(code, vendor)
+    return out
+
+def merge_vendors(dicts):
+    """보드 순서대로 먼저 나온 업체가 우선"""
+    out = {}
+    for d in dicts:
+        for k, v in (d or {}).items():
+            out.setdefault(k, v)
+    return out
+
+def _fetch_vendor_cols(bid):
+    boards = gql(Q_VCOLS, {'b': [bid]}).get('boards') or []
+    if not boards: raise ApiError(f'보드 {bid} 없음')
+    return boards[0].get('name') or bid, boards[0].get('columns') or []
+
+def _fetch_vendor_items(bid, col_ids):
+    page = gql(Q_VITEMS, {'b': [bid], 'l': VENDOR_PAGE, 'c': col_ids})['boards'][0]['items_page']
+    items = list(page['items']); cursor = page.get('cursor')
+    while cursor:
+        page = gql(Q_VITEMS_NEXT, {'cur': cursor, 'l': VENDOR_PAGE, 'c': col_ids})['next_items_page']
+        items += page['items']; cursor = page.get('cursor')
+    return items
+
+def collect_vendors(board_ids, *, _fetch_cols=None, _fetch_items=None):
+    """보드들에서 SKU -> 업체 표. 한 보드가 실패해도 나머지는 반영하고 메타에 기록."""
+    fetch_cols = _fetch_cols or _fetch_vendor_cols
+    fetch_items = _fetch_items or _fetch_vendor_items
+    parts, failed, counts = [], [], {}
+    for bid in board_ids:
+        try:
+            bname, columns = fetch_cols(bid)
+            vcol, scols = vendor_cols(columns)
+            if not vcol:
+                print(f"INFO 보드 '{bname}'({bid}): 업체 열({', '.join(VENDOR_COLS)})이 없어 생산업체 집계에서 제외"); continue
+            items = fetch_items(bid, [vcol] + scols)
+            part = vendors_from_items(items, scols, vcol)
+            counts[bid] = len(part); parts.append(part)
+            print(f"보드 '{bname}'({bid}): 아이템 {len(items)}개 → 생산업체 있는 SKU {len(part)}개")
+        except ApiError as e:
+            failed.append(bid); print(f'WARN 보드 {bid} 생산업체 조회 실패 — 건너뜀 ({str(e)[:120]})')
+    return merge_vendors(parts), {'boards': list(board_ids), 'failed': failed, 'counts': counts}
+
 def collect(board_items, stats):
     """(board_id, board_name, items) -> 후보 목록 [{code, url, parent_url, board, item, sub, file, updated, lead, item_id, by}]"""
     ents = []
@@ -319,12 +405,17 @@ def main():
         mapping = assemble(new_ents)
         if not mapping and old and (old.get('map') or {}):
             sys.exit(f"ERROR 이번 결과가 0건이라 기존 {len(old['map'])}건 목록을 보존합니다. 파일명/컬럼 제목/토큰 권한을 확인하세요.")
+    vendors, vinfo = collect_vendors(VENDOR_BOARDS)
+    old_vendors = (old or {}).get('vendors') or {}
+    if not vendors and old_vendors:
+        print(f'WARN 생산업체 결과가 0건이라 기존 {len(old_vendors)}건을 유지합니다.'); vendors = old_vendors
     out = {'_meta': {'generated_at': started, 'mode': mode, 'account': ACCOUNT, 'boards': BOARD_IDS, 'files_column': FILES_COLS,
-                     **stats, 'codes': len(mapping), 'no_gallery': sorted(NO_GALLERY), 'skipped': SKIPPED},
-           'map': dict(sorted(mapping.items()))}
+                     **stats, 'codes': len(mapping), 'no_gallery': sorted(NO_GALLERY), 'skipped': SKIPPED,
+                     'vendor_boards': vinfo['boards'], 'vendor_failed': vinfo['failed'], 'vendors': len(vendors)},
+           'map': dict(sorted(mapping.items())), 'vendors': dict(sorted(vendors.items()))}
     json.dump(out, open(OUT, 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
     dup = sum(1 for e in mapping.values() if e.get('alt'))
-    print(f"OK [{mode}] 보드 {stats['board_count']} · 조회 아이템 {stats['items']} · 하위 {stats['subitems']} · 파일 {stats['files']}(첨부 {stats.get('gallery',0)}) → 자재코드 {len(mapping)}개 (여러 파일 {dup}개) · 첨부불가 {len(NO_GALLERY)}개 · 건너뜀 {len(SKIPPED)}개")
+    print(f"OK [{mode}] 보드 {stats['board_count']} · 조회 아이템 {stats['items']} · 하위 {stats['subitems']} · 파일 {stats['files']}(첨부 {stats.get('gallery',0)}) → 자재코드 {len(mapping)}개 (여러 파일 {dup}개) · 첨부불가 {len(NO_GALLERY)}개 · 건너뜀 {len(SKIPPED)}개 · 생산업체 SKU {len(vendors)}개")
     if SKIPPED: print('WARN 건너뛴 항목 id: ' + ', '.join(SKIPPED[:50]))
     if not mapping: print('WARN 매핑 0건: 파일명이 자재코드로 시작하는지, 컬럼 제목이 맞는지 확인하세요.')
 

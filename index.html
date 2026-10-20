@@ -126,7 +126,7 @@ td.nw{white-space:nowrap;}
   <div class="hint">여러 개 동시 검색: 코드를 공백·콤마·줄바꿈으로 구분 (예: ACS09599 ACS09600 ACS09601) · * 와일드카드 지원 · 대소문자 무시 · 일치하는 SKU의 BOM이 아래에 표시(최대 30개, 행 클릭 시 이동).</div>
   <div class="count" id="c1"></div>
   <div class="tablewrap"><table id="r1" class="sortable"><thead><tr>
-    <th>구분</th><th>제품코드</th><th>버전</th><th>제품명</th><th>브랜드</th><th>기종</th><th>색상</th><th>모델</th><th>BOM생성일</th>
+    <th>구분</th><th>제품코드</th><th>버전</th><th>제품명</th><th>생산업체</th><th>브랜드</th><th>기종</th><th>색상</th><th>모델</th><th>BOM생성일</th>
   </tr></thead><tbody></tbody></table></div>
   <div id="d1"></div>
 </section>
@@ -286,6 +286,12 @@ const fmtQty=(q,b)=> b&&b!==1 ? `${q}/${b}` : `${q}`;
 
 // ---------- 먼데이닷컴 도안 링크 (monday_map.json: 자재코드 -> 항목 링크, GitHub Actions가 동기화) ----------
 let MONDAY=null, MONDAY_FULL=null, lastMat=null;
+/*VENDOR-BEGIN*/
+// SKU별 생산업체(협력사): monday_map.json 의 vendors (sync_monday.py 가 먼데이 패키지 보드·SKU Master 의 '협력사' 열에서 집계)
+let VENDORS=null;
+function setVendors(v){ VENDORS=null; if(v && typeof v==='object'){ VENDORS=new Map(); for(const k in v) VENDORS.set(String(k).toUpperCase(), String(v[k]||'')); } }
+function vendorOf(code){ if(!VENDORS || !code) return ''; return VENDORS.get(String(code).toUpperCase()) || ''; }
+/*VENDOR-END*/
 function photoGroups(code){
   if(!MONDAY) return null;
   const key=String(code||'').trim().toUpperCase(); const e=MONDAY[key]; if(!e) return null;
@@ -319,7 +325,7 @@ function photoBtn(code, mode){
   return ' '+html;
 }
 fetch('monday_map.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).then(j=>{
-  if(!j) return; MONDAY_FULL=j; MONDAY=j.map||j;
+  if(!j) return; MONDAY_FULL=j; MONDAY=j.map||j; setVendors(j.vendors||{});
   try{ searchMat(); searchSku(); if(lastMat!=null) showMat(lastMat); }catch(e){}
   try{ buildLog(); }catch(e){}
 }).catch(()=>{});
@@ -416,7 +422,7 @@ function searchSku(){
     const tr=document.createElement('tr'); tr.className='click'; tr.dataset.idx=i;
     tr.innerHTML=`<td><span class="badge ${isFin(s)?'fin':'semi'}">${isFin(s)?'완제품':'반제품'}</span></td>
       <td class="nw"><b>${hl(s[0],q)}</b> ${cpy(s[0])}${photoBtn(s[0],'badge')}</td><td>${esc(s[1])}${skuVersByCode.get(s[0]).length>1?` <span class="note">외 ${skuVersByCode.get(s[0]).length-1}</span>`:''}</td>
-      <td>${hl(s[2],q)}</td><td>${esc(s[4])}</td><td>${hl(s[6],q)}</td><td>${esc(s[7])}</td><td>${hl(s[8],q)}</td><td>${esc(s[9])}</td>`;
+      <td>${hl(s[2],q)}</td><td class="nw">${esc(vendorOf(s[0]))}</td><td>${esc(s[4])}</td><td>${hl(s[6],q)}</td><td>${esc(s[7])}</td><td>${hl(s[8],q)}</td><td>${esc(s[9])}</td>`;
     tr.onclick=()=>{document.querySelectorAll('#r1 tr.sel').forEach(x=>x.classList.remove('sel'));tr.classList.add('sel');
       const el=document.getElementById('skucard-'+i);
       if(el) el.scrollIntoView({behavior:'smooth',block:'start'});
@@ -444,7 +450,7 @@ function skuCardHTML(idx, verIdx){
   let html=`<div class="card detail"><h2>${esc(s[0])} ${cpy(s[0])} <span style="font-weight:400">${esc(s[2])}</span> <span class="badge ${isFin(s)?'fin':'semi'}">${isFin(s)?'완제품':'반제품'}</span>
   <button class="cpybtn" style="float:right" title="구성 자재코드를 줄바꿈으로 복사 — SIS 복수검색(클립보드 업로드)에 바로 붙여넣기 가능" data-codes="${codes.join('|')}" onclick="copyCodes(this)">⧉ 자재코드 전체복사 (${codes.length})</button></h2>
   <div class="sub">
-    <span class="kv">브랜드 <b>${esc(s[4]||'-')}</b></span><span class="kv">제조사 <b>${esc(s[5]||'-')}</b></span>
+    <span class="kv">생산업체 <b>${esc(vendorOf(s[0])||'-')}</b></span><span class="kv">브랜드 <b>${esc(s[4]||'-')}</b></span><span class="kv">제조사 <b>${esc(s[5]||'-')}</b></span>
     <span class="kv">기종 <b>${esc(s[6]||'-')}</b></span><span class="kv">색상 <b>${esc(s[7]||'-')}</b></span>
     <span class="kv">모델 <b>${esc(s[8]||'-')}</b></span><span class="kv">제품계층 <b>${esc(s[10]||'-')}</b></span>
     <span class="kv">MRP관리자 <b>${esc(s[12]||'-')}</b></span><span class="kv">초안작성자 <b>${esc(s[13]||'-')}</b></span>
