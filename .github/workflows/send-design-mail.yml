@@ -1,0 +1,37 @@
+name: Send design files by email
+on:
+  workflow_dispatch:
+    inputs:
+      to:
+        description: '받는 메일 주소'
+        required: true
+      codes:
+        description: '자재코드 (콤마 구분, 예: 3PK220460,3BS220470,3MN081410)'
+        required: true
+      subject:
+        description: '메일 제목 (비우면 자동)'
+        required: false
+        default: ''
+      dry_run:
+        description: '테스트만(메일 안 보냄)'
+        type: boolean
+        default: false
+permissions:
+  contents: read
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Send
+        env:
+          MONDAY_TOKEN: ${{ secrets.MONDAY_TOKEN }}
+          MAIL_USER: ${{ secrets.MAIL_USER }}
+          MAIL_PASSWORD: ${{ secrets.MAIL_PASSWORD }}
+        run: |
+          python send_design_mail.py --to "${{ github.event.inputs.to }}" --codes "${{ github.event.inputs.codes }}" --subject "${{ github.event.inputs.subject }}" ${{ github.event.inputs.dry_run == 'true' && '--dry-run' || '' }}
