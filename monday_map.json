@@ -1,7 +1,7 @@
 {
 "_meta": {
-"generated_at": "2026-10-20T06:50:40Z",
-"mode": "incremental",
+"generated_at": "2026-10-20T08:46:10Z",
+"mode": "full",
 "account": "spigen",
 "boards": [
 "4057650308",
@@ -18,12 +18,12 @@
 "☄️최종도안파일"
 ],
 "board_count": 7,
-"items": 23,
-"subitems": 26,
-"files": 336,
-"title_hits": 52,
-"gallery": 143,
-"codes": 8815,
+"items": 2805,
+"subitems": 2412,
+"files": 26790,
+"title_hits": 7253,
+"gallery": 5430,
+"codes": 8817,
 "no_gallery": [],
 "skipped": [],
 "vendor_boards": [
@@ -224491,6 +224491,52 @@
 "https://spigen.monday.com/boards/4485989214/pulses/11522092535?asset_id=3328180339"
 ]
 },
+"3BS231230": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/18351304427?asset_id=3328441963",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/18351304427",
+"board": "*[WO] 패키지",
+"item": "Card Holder Valentinus MagFit (5 Cards)",
+"sub": null,
+"file": "3BS231230_CdHL-VltnusMgF_5Cd_Burgundy_BS.jpg",
+"updated": "2026-10-20",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS231230_CdHL-VltnusMgF_5Cd_Burgundy_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/18351304427?asset_id=3328441963",
+"updated": "2026-10-20",
+"code": "3BS231230",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "18351304427",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS231230_CdHL VltnusMgF_5Cd_Burgundy_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/18351304427?asset_id=3328441989",
+"updated": "2026-10-20",
+"code": "3BS231230",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "18351304427",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS231230_CdHL VltnusMgF_5Cd_Burgundy_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/18351304427?asset_id=3328441977",
+"updated": "2026-10-20",
+"code": "3BS231230",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "18351304427",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/18351304427?asset_id=3328441989",
+"https://spigen.monday.com/boards/4485989214/pulses/18351304427?asset_id=3328441977"
+]
+},
 "3IP00968A": {
 "url": "https://spigen.monday.com/boards/4470968685/pulses/4786729036?asset_id=1493555713",
 "parent_url": "https://spigen.monday.com/boards/4470968685/pulses/4786729036",
@@ -238095,25 +238141,15 @@
 ]
 },
 "3MN176630": {
-"url": "https://spigen.monday.com/boards/4470968685/pulses/7168626720?asset_id=1972267755",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/7709380321?asset_id=1972268653",
 "parent_url": "https://spigen.monday.com/boards/4485989214/pulses/7709380321",
-"board": "⭐️패키지 통합 관리",
+"board": "*[WO] 패키지",
 "item": "Apple Watch Series 11/10(46mm) Liquid Air Pro",
 "sub": null,
 "file": "3MN176630_WBn PinTuckClosure_Manual.jpg",
 "updated": "2025-02-21",
 "by": "임수빈/패키지디자인팀/HQ",
 "files": [
-{
-"name": "3MN176630_WBn PinTuckClosure_Manual.jpg",
-"url": "https://spigen.monday.com/boards/4470968685/pulses/7168626720?asset_id=1972267755",
-"updated": "2025-02-21",
-"code": "3MN176630",
-"sub": null,
-"board": "⭐️패키지 통합 관리",
-"item_id": "7168626720",
-"by": "임수빈/패키지디자인팀/HQ"
-},
 {
 "name": "3MN176630_WBn PinTuckClosure_Manual.jpg",
 "url": "https://spigen.monday.com/boards/4485989214/pulses/7709380321?asset_id=1972268653",
@@ -238125,8 +238161,8 @@
 "by": "임수빈/패키지디자인팀/HQ"
 },
 {
-"name": "3MN176630_WBn PinTuckClosure_Manual.pdf",
-"url": "https://spigen.monday.com/boards/4470968685/pulses/7168626720?asset_id=1972267736",
+"name": "3MN176630_WBn PinTuckClosure_Manual.jpg",
+"url": "https://spigen.monday.com/boards/4470968685/pulses/7168626720?asset_id=1972267755",
 "updated": "2025-02-21",
 "code": "3MN176630",
 "sub": null,
@@ -238145,8 +238181,8 @@
 "by": "임수빈/패키지디자인팀/HQ"
 },
 {
-"name": "3MN176630_WBn PinTuckClosure_Manual_cs2.ai",
-"url": "https://spigen.monday.com/boards/4470968685/pulses/7168626720?asset_id=1972267745",
+"name": "3MN176630_WBn PinTuckClosure_Manual.pdf",
+"url": "https://spigen.monday.com/boards/4470968685/pulses/7168626720?asset_id=1972267736",
 "updated": "2025-02-21",
 "code": "3MN176630",
 "sub": null,
@@ -238163,14 +238199,24 @@
 "board": "*[WO] 패키지",
 "item_id": "7709380321",
 "by": "임수빈/패키지디자인팀/HQ"
+},
+{
+"name": "3MN176630_WBn PinTuckClosure_Manual_cs2.ai",
+"url": "https://spigen.monday.com/boards/4470968685/pulses/7168626720?asset_id=1972267745",
+"updated": "2025-02-21",
+"code": "3MN176630",
+"sub": null,
+"board": "⭐️패키지 통합 관리",
+"item_id": "7168626720",
+"by": "임수빈/패키지디자인팀/HQ"
 }
 ],
 "alt": [
-"https://spigen.monday.com/boards/4485989214/pulses/7709380321?asset_id=1972268653",
-"https://spigen.monday.com/boards/4470968685/pulses/7168626720?asset_id=1972267736",
+"https://spigen.monday.com/boards/4470968685/pulses/7168626720?asset_id=1972267755",
 "https://spigen.monday.com/boards/4485989214/pulses/7709380321?asset_id=1972268633",
-"https://spigen.monday.com/boards/4470968685/pulses/7168626720?asset_id=1972267745",
-"https://spigen.monday.com/boards/4485989214/pulses/7709380321?asset_id=1972268644"
+"https://spigen.monday.com/boards/4470968685/pulses/7168626720?asset_id=1972267736",
+"https://spigen.monday.com/boards/4485989214/pulses/7709380321?asset_id=1972268644",
+"https://spigen.monday.com/boards/4470968685/pulses/7168626720?asset_id=1972267745"
 ]
 },
 "3MN17663A": {
@@ -334127,6 +334173,52 @@
 "alt": [
 "https://spigen.monday.com/boards/4453971876/pulses/13236114947?asset_id=3302902176",
 "https://spigen.monday.com/boards/4453971876/pulses/13236114947?asset_id=3302902160"
+]
+},
+"3PK231220": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/10773113560?asset_id=3328441739",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/10773113560",
+"board": "*[WO] 패키지",
+"item": "Card Holder Valentinus MagFit (3 Cards)",
+"sub": null,
+"file": "3PK231220_CdHL_Valentinus_MagFit_Burgundy_P.jpg",
+"updated": "2026-10-20",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3PK231220_CdHL_Valentinus_MagFit_Burgundy_P.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/10773113560?asset_id=3328441739",
+"updated": "2026-10-20",
+"code": "3PK231220",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "10773113560",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3PK231220_CdHL_Valentinus_MagFit_Burgundy_P.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/10773113560?asset_id=3328441780",
+"updated": "2026-10-20",
+"code": "3PK231220",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "10773113560",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3PK231220_CdHL_Valentinus_MagFit_Burgundy_P.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/10773113560?asset_id=3328441764",
+"updated": "2026-10-20",
+"code": "3PK231220",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "10773113560",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/10773113560?asset_id=3328441780",
+"https://spigen.monday.com/boards/4485989214/pulses/10773113560?asset_id=3328441764"
 ]
 },
 "3ST126520": {
