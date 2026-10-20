@@ -1,7 +1,7 @@
 {
 "_meta": {
-"generated_at": "2026-10-20T08:46:10Z",
-"mode": "full",
+"generated_at": "2026-10-20T12:23:18Z",
+"mode": "incremental",
 "account": "spigen",
 "boards": [
 "4057650308",
@@ -18,12 +18,12 @@
 "☄️최종도안파일"
 ],
 "board_count": 7,
-"items": 2805,
-"subitems": 2412,
-"files": 26790,
-"title_hits": 7253,
-"gallery": 5430,
-"codes": 8817,
+"items": 9,
+"subitems": 15,
+"files": 58,
+"title_hits": 36,
+"gallery": 3,
+"codes": 8819,
 "no_gallery": [],
 "skipped": [],
 "vendor_boards": [
@@ -33,7 +33,7 @@
 "3106368464"
 ],
 "vendor_failed": [],
-"vendors": 2493
+"vendors": 2496
 },
 "map": {
 "0415": {
@@ -158540,7 +158540,7 @@
 "url": "https://spigen.monday.com/boards/4057650308/pulses/9946768609?asset_id=2584474981",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/9946768609",
 "board": "*[Mobile] 패키지 현황",
-"item": "Galaxy S26(SSbf) Core Armor Mag Fit (SQ)",
+"item": "Galaxy S27/S26(SSbg/SSbf) Core Armor Mag Fit (SQ)",
 "sub": null,
 "file": "3BS200180_ACS10741_SSbf_Core.MgF_MttBK.jpg",
 "updated": "2025-11-28",
@@ -158619,7 +158619,7 @@
 "url": "https://spigen.monday.com/boards/4453971876/pulses/9946829495?asset_id=2567277835",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/9946768740",
 "board": "*[Mobile] 패키지 현황",
-"item": "Galaxy S26(SSbf) Slim Armor Mag Fit (SQ)",
+"item": "Galaxy S27/S26(SSbg/SSbf) Slim Armor Mag Fit (SQ)",
 "sub": "ACS10742",
 "file": "3BS200200_ACS10742_SSbf_Sl.MgF_MtlSlate.jpg",
 "updated": "2025-11-20",
@@ -158665,7 +158665,7 @@
 "url": "https://spigen.monday.com/boards/4453971876/pulses/9946830157?asset_id=2567278251",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/9946768740",
 "board": "*[Mobile] 패키지 현황",
-"item": "Galaxy S26(SSbf) Slim Armor Mag Fit (SQ)",
+"item": "Galaxy S27/S26(SSbg/SSbf) Slim Armor Mag Fit (SQ)",
 "sub": "ACS10743",
 "file": "3BS200220_ACS10743_SSbf_Sl.MgF_BK.jpg",
 "updated": "2025-11-20",
@@ -158711,7 +158711,7 @@
 "url": "https://spigen.monday.com/boards/4453971876/pulses/9946832162?asset_id=2574315694",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/9946768986",
 "board": "*[Mobile] 패키지 현황",
-"item": "Galaxy S26(SSbf) Crystal Hybrid Mag Fit C.C (SQ)",
+"item": "Galaxy S27/S26(SSbg/SSbf) Crystal Hybrid Mag Fit C.C (SQ)",
 "sub": "ACS10746",
 "file": "3BS200260_ACS10746_SSbf_CRHyMgF_CLWH.jpg",
 "updated": "2025-11-24",
@@ -158987,7 +158987,7 @@
 "url": "https://spigen.monday.com/boards/4453971876/pulses/10035076381?asset_id=2580259797",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/10035063915",
 "board": "*[Mobile] 패키지 현황",
-"item": "Galaxy S26(SSbf) Crystal Flex Mag Fit (SQ)",
+"item": "Galaxy S27/S26(SSbg/SSbf) Crystal Flex Mag Fit (SQ)",
 "sub": "ACS10957",
 "file": "3BS200380_ACS10957_SSbf_CRFxMgF_CLWH.jpg",
 "updated": "2025-11-26",
@@ -248679,6 +248679,52 @@
 "alt": [
 "https://spigen.monday.com/boards/4453971876/pulses/12633691001?asset_id=3198362814",
 "https://spigen.monday.com/boards/4453971876/pulses/12633691001?asset_id=3198362805"
+]
+},
+"3MN222680": {
+"url": "https://spigen.monday.com/boards/3133983085/pulses/12259793024?asset_id=3328591547",
+"parent_url": "https://spigen.monday.com/boards/3133983085/pulses/12259793024",
+"board": "*[ArcTech] 패키지",
+"item": "A950",
+"sub": null,
+"file": "3MN222680_A950.jpg",
+"updated": "2026-10-20",
+"by": "김해인/브랜드디자인팀/HQ",
+"files": [
+{
+"name": "3MN222680_A950.jpg",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/12259793024?asset_id=3328591547",
+"updated": "2026-10-20",
+"code": "3MN222680",
+"sub": null,
+"board": "*[ArcTech] 패키지",
+"item_id": "12259793024",
+"by": "김해인/브랜드디자인팀/HQ"
+},
+{
+"name": "3MN222680_A950.pdf",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/12259793024?asset_id=3328591618",
+"updated": "2026-10-20",
+"code": "3MN222680",
+"sub": null,
+"board": "*[ArcTech] 패키지",
+"item_id": "12259793024",
+"by": "김해인/브랜드디자인팀/HQ"
+},
+{
+"name": "3MN222680_A950_cs3.ai",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/12259793024?asset_id=3328591551",
+"updated": "2026-10-20",
+"code": "3MN222680",
+"sub": null,
+"board": "*[ArcTech] 패키지",
+"item_id": "12259793024",
+"by": "김해인/브랜드디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/3133983085/pulses/12259793024?asset_id=3328591618",
+"https://spigen.monday.com/boards/3133983085/pulses/12259793024?asset_id=3328591551"
 ]
 },
 "3MN222730": {
@@ -349388,7 +349434,7 @@
 "url": "https://spigen.monday.com/boards/4057650308/pulses/9946768609?asset_id=2584475070",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/9946768609",
 "board": "*[Mobile] 패키지 현황",
-"item": "Galaxy S26(SSbf) Core Armor Mag Fit (SQ)",
+"item": "Galaxy S27/S26(SSbg/SSbf) Core Armor Mag Fit (SQ)",
 "sub": null,
 "file": "3ST200190_ACS10741_SSbf_Core.MgF_MttBKSKU.jpg",
 "updated": "2025-11-28",
@@ -349467,7 +349513,7 @@
 "url": "https://spigen.monday.com/boards/4453971876/pulses/9946829495?asset_id=2567277826",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/9946768740",
 "board": "*[Mobile] 패키지 현황",
-"item": "Galaxy S26(SSbf) Slim Armor Mag Fit (SQ)",
+"item": "Galaxy S27/S26(SSbg/SSbf) Slim Armor Mag Fit (SQ)",
 "sub": "ACS10742",
 "file": "3ST200210_ACS10742_SSbf_Sl.MgF_MtlSlateSKU.jpg",
 "updated": "2025-11-20",
@@ -349513,7 +349559,7 @@
 "url": "https://spigen.monday.com/boards/4453971876/pulses/9946830157?asset_id=2567278241",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/9946768740",
 "board": "*[Mobile] 패키지 현황",
-"item": "Galaxy S26(SSbf) Slim Armor Mag Fit (SQ)",
+"item": "Galaxy S27/S26(SSbg/SSbf) Slim Armor Mag Fit (SQ)",
 "sub": "ACS10743",
 "file": "3ST200230_ACS10743_SSbf_Sl.MgF_BKSKU.jpg",
 "updated": "2025-11-20",
@@ -349559,7 +349605,7 @@
 "url": "https://spigen.monday.com/boards/4453971876/pulses/9946832162?asset_id=2574315682",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/9946768986",
 "board": "*[Mobile] 패키지 현황",
-"item": "Galaxy S26(SSbf) Crystal Hybrid Mag Fit C.C (SQ)",
+"item": "Galaxy S27/S26(SSbg/SSbf) Crystal Hybrid Mag Fit C.C (SQ)",
 "sub": "ACS10746",
 "file": "3ST200270_ACS10746_SSbf_CRHyMgF_CLWHSKU.jpg",
 "updated": "2025-11-24",
@@ -349835,7 +349881,7 @@
 "url": "https://spigen.monday.com/boards/4453971876/pulses/10035076381?asset_id=2570145021",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/10035063915",
 "board": "*[Mobile] 패키지 현황",
-"item": "Galaxy S26(SSbf) Crystal Flex Mag Fit (SQ)",
+"item": "Galaxy S27/S26(SSbg/SSbf) Crystal Flex Mag Fit (SQ)",
 "sub": "ACS10957",
 "file": "3ST200390_ACS10957_SSbf_CRFxMgF_CLWHSKU.jpg",
 "updated": "2025-11-21",
@@ -358684,6 +358730,16 @@
 "by": "김해인/브랜드디자인팀/HQ"
 },
 {
+"name": "3MN222680_A950.jpg",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/12259793024?asset_id=3328591547",
+"updated": "2026-10-20",
+"code": "3MN222680",
+"sub": null,
+"board": "*[ArcTech] 패키지",
+"item_id": "12259793024",
+"by": "김해인/브랜드디자인팀/HQ"
+},
+{
 "name": "3PK219570_A950_HumidifierFilters.pdf",
 "url": "https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3328162584",
 "updated": "2026-10-20",
@@ -358694,6 +358750,16 @@
 "by": "김해인/브랜드디자인팀/HQ"
 },
 {
+"name": "3MN222680_A950.pdf",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/12259793024?asset_id=3328591618",
+"updated": "2026-10-20",
+"code": "3MN222680",
+"sub": null,
+"board": "*[ArcTech] 패키지",
+"item_id": "12259793024",
+"by": "김해인/브랜드디자인팀/HQ"
+},
+{
 "name": "3PK219570_A950_HumidifierFilters_cs3.ai",
 "url": "https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3328162564",
 "updated": "2026-10-20",
@@ -358701,6 +358767,16 @@
 "sub": null,
 "board": "*[ArcTech] 패키지",
 "item_id": "12791394702",
+"by": "김해인/브랜드디자인팀/HQ"
+},
+{
+"name": "3MN222680_A950_cs3.ai",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/12259793024?asset_id=3328591551",
+"updated": "2026-10-20",
+"code": "3MN222680",
+"sub": null,
+"board": "*[ArcTech] 패키지",
+"item_id": "12259793024",
 "by": "김해인/브랜드디자인팀/HQ"
 },
 {
@@ -358815,8 +358891,11 @@
 }
 ],
 "alt": [
+"https://spigen.monday.com/boards/3133983085/pulses/12259793024?asset_id=3328591547",
 "https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3328162584",
+"https://spigen.monday.com/boards/3133983085/pulses/12259793024?asset_id=3328591618",
 "https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3328162564",
+"https://spigen.monday.com/boards/3133983085/pulses/12259793024?asset_id=3328591551",
 "https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3232565295",
 "https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3232565290",
 "https://spigen.monday.com/boards/3133983085/pulses/12791394702?asset_id=3232565294",
@@ -409946,7 +410025,7 @@
 "url": "https://spigen.monday.com/boards/4057650308/pulses/9946768609?asset_id=2584474981",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/9946768609",
 "board": "*[Mobile] 패키지 현황",
-"item": "Galaxy S26(SSbf) Core Armor Mag Fit (SQ)",
+"item": "Galaxy S27/S26(SSbg/SSbf) Core Armor Mag Fit (SQ)",
 "sub": null,
 "file": "3BS200180_ACS10741_SSbf_Core.MgF_MttBK.jpg",
 "updated": "2025-11-28",
@@ -410091,7 +410170,7 @@
 "url": "https://spigen.monday.com/boards/4453971876/pulses/9946829495?asset_id=2567277835",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/9946768740",
 "board": "*[Mobile] 패키지 현황",
-"item": "Galaxy S26(SSbf) Slim Armor Mag Fit (SQ)",
+"item": "Galaxy S27/S26(SSbg/SSbf) Slim Armor Mag Fit (SQ)",
 "sub": "ACS10742",
 "file": "3BS200200_ACS10742_SSbf_Sl.MgF_MtlSlate.jpg",
 "updated": "2025-11-20",
@@ -410170,7 +410249,7 @@
 "url": "https://spigen.monday.com/boards/4453971876/pulses/9946830157?asset_id=2567278251",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/9946768740",
 "board": "*[Mobile] 패키지 현황",
-"item": "Galaxy S26(SSbf) Slim Armor Mag Fit (SQ)",
+"item": "Galaxy S27/S26(SSbg/SSbf) Slim Armor Mag Fit (SQ)",
 "sub": "ACS10743",
 "file": "3BS200220_ACS10743_SSbf_Sl.MgF_BK.jpg",
 "updated": "2025-11-20",
@@ -410328,7 +410407,7 @@
 "url": "https://spigen.monday.com/boards/4453971876/pulses/9946832162?asset_id=2574315694",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/9946768986",
 "board": "*[Mobile] 패키지 현황",
-"item": "Galaxy S26(SSbf) Crystal Hybrid Mag Fit C.C (SQ)",
+"item": "Galaxy S27/S26(SSbg/SSbf) Crystal Hybrid Mag Fit C.C (SQ)",
 "sub": "ACS10746",
 "file": "3BS200260_ACS10746_SSbf_CRHyMgF_CLWH.jpg",
 "updated": "2025-11-24",
@@ -411548,7 +411627,7 @@
 "url": "https://spigen.monday.com/boards/4453971876/pulses/10035076381?asset_id=2580259797",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/10035063915",
 "board": "*[Mobile] 패키지 현황",
-"item": "Galaxy S26(SSbf) Crystal Flex Mag Fit (SQ)",
+"item": "Galaxy S27/S26(SSbg/SSbf) Crystal Flex Mag Fit (SQ)",
 "sub": "ACS10957",
 "file": "3BS200380_ACS10957_SSbf_CRFxMgF_CLWH.jpg",
 "updated": "2025-11-26",
@@ -455951,6 +456030,28 @@
 "sub": null,
 "board": "*[ArcTech] 패키지",
 "item_id": "12781245314",
+"by": "김해인/브랜드디자인팀/HQ"
+}
+]
+},
+"EV25MFTQA": {
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13047983350?asset_id=3328608641",
+"parent_url": "https://spigen.monday.com/boards/3133983085/pulses/13047983350",
+"board": "*[ArcTech] 패키지",
+"item": "EV25MFTQA",
+"sub": null,
+"file": "EV25MFTQA_S.jpg",
+"updated": "2026-10-20",
+"by": "김해인/브랜드디자인팀/HQ",
+"files": [
+{
+"name": "EV25MFTQA_S.jpg",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13047983350?asset_id=3328608641",
+"updated": "2026-10-20",
+"code": "EV25MFTQA",
+"sub": null,
+"board": "*[ArcTech] 패키지",
+"item_id": "13047983350",
 "by": "김해인/브랜드디자인팀/HQ"
 }
 ]
@@ -514084,6 +514185,7 @@
 "ACP12258": "MIPI",
 "ACP12263": "Dapad-CN",
 "ACP12407": "Longcheng",
+"ACP12563": "High Honest-CN",
 "ACP12679": "High Honest-CN",
 "ACP12680": "High Honest-CN",
 "ACP12795": "BOLI",
@@ -516115,6 +516217,8 @@
 "ACS12673": "듀센-KR",
 "ACS12674": "듀센-KR",
 "ACS12675": "듀센-KR",
+"ACS12683": "High Honest-CN",
+"ACS12684": "High Honest-CN",
 "ACS12685": "High Honest-CN",
 "ACS12686": "High Honest-CN",
 "ACS12703": "HUGO-CN",
