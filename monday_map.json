@@ -1,7 +1,7 @@
 {
 "_meta": {
-"generated_at": "2026-10-20T23:32:23Z",
-"mode": "full",
+"generated_at": "2026-10-21T06:46:06Z",
+"mode": "incremental",
 "account": "spigen",
 "boards": [
 "4057650308",
@@ -18,12 +18,12 @@
 "☄️최종도안파일"
 ],
 "board_count": 7,
-"items": 2806,
-"subitems": 2412,
-"files": 26797,
-"title_hits": 7259,
-"gallery": 5433,
-"codes": 8820,
+"items": 20,
+"subitems": 21,
+"files": 54,
+"title_hits": 44,
+"gallery": 8,
+"codes": 8822,
 "no_gallery": [],
 "skipped": [],
 "vendor_boards": [
@@ -33,7 +33,7 @@
 "3106368464"
 ],
 "vendor_failed": [],
-"vendors": 2496
+"vendors": 2503
 },
 "map": {
 "0415": {
@@ -212338,6 +212338,52 @@
 "https://spigen.monday.com/boards/4485989214/pulses/12239458473?asset_id=3201768460"
 ]
 },
+"3BS222830": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12365587750?asset_id=3331406789",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/12365587750",
+"board": "*[WO] 패키지",
+"item": "Fitbit Air Silicone Fit",
+"sub": null,
+"file": "3BS222830_Google-Fitbit-Air_Silicone-Fit_Black_BS.jpg",
+"updated": "2026-10-21",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS222830_Google-Fitbit-Air_Silicone-Fit_Black_BS.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12365587750?asset_id=3331406789",
+"updated": "2026-10-21",
+"code": "3BS222830",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12365587750",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS222830_Google Fitbit Air_Silicone Fit_Black_BS.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12365587750?asset_id=3331406809",
+"updated": "2026-10-21",
+"code": "3BS222830",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12365587750",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3BS222830_Google Fitbit Air_Silicone Fit_Black_BS.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12365587750?asset_id=3331406794",
+"updated": "2026-10-21",
+"code": "3BS222830",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12365587750",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/12365587750?asset_id=3331406809",
+"https://spigen.monday.com/boards/4485989214/pulses/12365587750?asset_id=3331406794"
+]
+},
 "3BS222880": {
 "url": "https://spigen.monday.com/boards/4453971876/pulses/12019421015?asset_id=3201873891",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/12019417002",
@@ -248771,6 +248817,52 @@
 "alt": [
 "https://spigen.monday.com/boards/3133983085/pulses/12781245314?asset_id=3247829202",
 "https://spigen.monday.com/boards/3133983085/pulses/12781245314?asset_id=3247829217"
+]
+},
+"3MN222860": {
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12365587750?asset_id=3331406670",
+"parent_url": "https://spigen.monday.com/boards/4485989214/pulses/12365587750",
+"board": "*[WO] 패키지",
+"item": "Fitbit Air Silicone Fit",
+"sub": null,
+"file": "3MN222860_Google Fitbit Air_Installation_M.jpg",
+"updated": "2026-10-21",
+"by": "황은별/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3MN222860_Google Fitbit Air_Installation_M.jpg",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12365587750?asset_id=3331406670",
+"updated": "2026-10-21",
+"code": "3MN222860",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12365587750",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3MN222860_Google Fitbit Air_Installation_M.pdf",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12365587750?asset_id=3331406689",
+"updated": "2026-10-21",
+"code": "3MN222860",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12365587750",
+"by": "황은별/패키지디자인팀/HQ"
+},
+{
+"name": "3MN222860_Google Fitbit Air_Installation_M.ai",
+"url": "https://spigen.monday.com/boards/4485989214/pulses/12365587750?asset_id=3331406672",
+"updated": "2026-10-21",
+"code": "3MN222860",
+"sub": null,
+"board": "*[WO] 패키지",
+"item_id": "12365587750",
+"by": "황은별/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4485989214/pulses/12365587750?asset_id=3331406689",
+"https://spigen.monday.com/boards/4485989214/pulses/12365587750?asset_id=3331406672"
 ]
 },
 "3MN223580": {
@@ -514237,6 +514329,7 @@
 "ACP12795": "BOLI",
 "ACP12796": "BOLI",
 "ACP12797": "BOLI",
+"ACP12828": "High Honest-CN",
 "ACS05423": "영광정공-KR",
 "ACS05463": "HUGO-CN",
 "ACS05592": "CaseSpices-CN, CaseSpices-CN",
@@ -516044,6 +516137,7 @@
 "ACS12405": "Alot-CN",
 "ACS12414": "High Honest-CN",
 "ACS12415": "Kangchentai-CN",
+"ACS12417": "High Honest-CN",
 "ACS12418": "Circle Dot-CN",
 "ACS12419": "Dapad-CN",
 "ACS12420": "Dapad-CN",
@@ -516067,6 +516161,7 @@
 "ACS12438": "Meticore-CN",
 "ACS12439": "Meticore-CN",
 "ACS12440": "High Honest-CN",
+"ACS12441": "High Honest-CN",
 "ACS12442": "Meticore-CN",
 "ACS12443": "Circle Dot-CN",
 "ACS12444": "Circle Dot-CN",
@@ -516139,6 +516234,7 @@
 "ACS12524": "High Honest-CN",
 "ACS12529": "High Honest-CN",
 "ACS12530": "Kangchentai-CN",
+"ACS12532": "High Honest-CN",
 "ACS12533": "Circle Dot-CN",
 "ACS12534": "Circle Dot-CN",
 "ACS12535": "Circle Dot-CN",
@@ -516150,6 +516246,7 @@
 "ACS12541": "Meticore-CN",
 "ACS12542": "Techson-CN",
 "ACS12543": "High Honest-CN",
+"ACS12544": "High Honest-CN",
 "ACS12545": "Meticore-CN",
 "ACS12546": "Circle Dot-CN",
 "ACS12547": "Circle Dot-CN",
@@ -516263,6 +516360,8 @@
 "ACS12673": "듀센-KR",
 "ACS12674": "듀센-KR",
 "ACS12675": "듀센-KR",
+"ACS12681": "High Honest-CN",
+"ACS12682": "High Honest-CN",
 "ACS12683": "High Honest-CN",
 "ACS12684": "High Honest-CN",
 "ACS12685": "High Honest-CN",
