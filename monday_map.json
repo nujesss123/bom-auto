@@ -1,7 +1,7 @@
 {
 "_meta": {
-"generated_at": "2026-10-22T23:46:49Z",
-"mode": "full",
+"generated_at": "2026-10-23T06:42:40Z",
+"mode": "incremental",
 "account": "spigen",
 "boards": [
 "4057650308",
@@ -18,11 +18,11 @@
 "☄️최종도안파일"
 ],
 "board_count": 7,
-"items": 2807,
-"subitems": 2412,
-"files": 26840,
-"title_hits": 7260,
-"gallery": 5466,
+"items": 7,
+"subitems": 5,
+"files": 62,
+"title_hits": 32,
+"gallery": 2,
 "codes": 8835,
 "no_gallery": [],
 "skipped": [],
@@ -247533,19 +247533,19 @@
 ]
 },
 "3MN209660": {
-"url": "https://spigen.monday.com/boards/3133983085/pulses/11792958774?asset_id=3318648888",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/11792958774?asset_id=3337255975",
 "parent_url": "https://spigen.monday.com/boards/3133983085/pulses/11792958774",
 "board": "*[ArcTech] 패키지",
 "item": "DA14",
 "sub": null,
 "file": "3MN209660_DA14.jpg",
-"updated": "2026-10-15",
+"updated": "2026-10-23",
 "by": "김해인/브랜드디자인팀/HQ",
 "files": [
 {
 "name": "3MN209660_DA14.jpg",
-"url": "https://spigen.monday.com/boards/3133983085/pulses/11792958774?asset_id=3318648888",
-"updated": "2026-10-15",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/11792958774?asset_id=3337255975",
+"updated": "2026-10-23",
 "code": "3MN209660",
 "sub": null,
 "board": "*[ArcTech] 패키지",
@@ -247554,8 +247554,8 @@
 },
 {
 "name": "3MN209660_DA14.pdf",
-"url": "https://spigen.monday.com/boards/3133983085/pulses/11792958774?asset_id=3318648887",
-"updated": "2026-10-15",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/11792958774?asset_id=3337255978",
+"updated": "2026-10-23",
 "code": "3MN209660",
 "sub": null,
 "board": "*[ArcTech] 패키지",
@@ -247564,8 +247564,8 @@
 },
 {
 "name": "3MN209660_DA14_cs3.ai",
-"url": "https://spigen.monday.com/boards/3133983085/pulses/11792958774?asset_id=3318648899",
-"updated": "2026-10-15",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/11792958774?asset_id=3337255987",
+"updated": "2026-10-23",
 "code": "3MN209660",
 "sub": null,
 "board": "*[ArcTech] 패키지",
@@ -247604,8 +247604,8 @@
 }
 ],
 "alt": [
-"https://spigen.monday.com/boards/3133983085/pulses/11792958774?asset_id=3318648887",
-"https://spigen.monday.com/boards/3133983085/pulses/11792958774?asset_id=3318648899",
+"https://spigen.monday.com/boards/3133983085/pulses/11792958774?asset_id=3337255978",
+"https://spigen.monday.com/boards/3133983085/pulses/11792958774?asset_id=3337255987",
 "https://spigen.monday.com/boards/3133983085/pulses/11792958774?asset_id=3213978636",
 "https://spigen.monday.com/boards/3133983085/pulses/11792958774?asset_id=3213978635",
 "https://spigen.monday.com/boards/3133983085/pulses/11792958774?asset_id=3213978657"
@@ -248846,19 +248846,19 @@
 ]
 },
 "3MN220080": {
-"url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3310408113",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3337211492",
 "parent_url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950",
 "board": "*[ArcTech] 패키지",
 "item": "EE1404EU",
 "sub": null,
 "file": "3MN220080_EE1404EU.jpg",
-"updated": "2026-10-12",
+"updated": "2026-10-23",
 "by": "김해인/브랜드디자인팀/HQ",
 "files": [
 {
 "name": "3MN220080_EE1404EU.jpg",
-"url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3310408113",
-"updated": "2026-10-12",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3337211492",
+"updated": "2026-10-23",
 "code": "3MN220080",
 "sub": null,
 "board": "*[ArcTech] 패키지",
@@ -248867,8 +248867,8 @@
 },
 {
 "name": "3MN220080_EE1404EU.pdf",
-"url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3310408127",
-"updated": "2026-10-12",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3337212893",
+"updated": "2026-10-23",
 "code": "3MN220080",
 "sub": null,
 "board": "*[ArcTech] 패키지",
@@ -248877,8 +248877,8 @@
 },
 {
 "name": "3MN220080_EE1404EU_cs3.ai",
-"url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3310408111",
-"updated": "2026-10-12",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3337210379",
+"updated": "2026-10-23",
 "code": "3MN220080",
 "sub": null,
 "board": "*[ArcTech] 패키지",
@@ -248887,24 +248887,24 @@
 }
 ],
 "alt": [
-"https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3310408127",
-"https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3310408111"
+"https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3337212893",
+"https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3337210379"
 ]
 },
 "3MN220110": {
-"url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3310408393",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3337215732",
 "parent_url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644",
 "board": "*[ArcTech] 패키지",
 "item": "EE1404OC",
 "sub": null,
 "file": "3MN220110_EE1404OC.jpg",
-"updated": "2026-10-12",
+"updated": "2026-10-23",
 "by": "김해인/브랜드디자인팀/HQ",
 "files": [
 {
 "name": "3MN220110_EE1404OC.jpg",
-"url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3310408393",
-"updated": "2026-10-12",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3337215732",
+"updated": "2026-10-23",
 "code": "3MN220110",
 "sub": null,
 "board": "*[ArcTech] 패키지",
@@ -248913,8 +248913,8 @@
 },
 {
 "name": "3MN220110_EE1404OC.pdf",
-"url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3310408404",
-"updated": "2026-10-12",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3337216011",
+"updated": "2026-10-23",
 "code": "3MN220110",
 "sub": null,
 "board": "*[ArcTech] 패키지",
@@ -248923,8 +248923,8 @@
 },
 {
 "name": "3MN220110_EE1404OC_cs3.ai",
-"url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3310408395",
-"updated": "2026-10-12",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3337215522",
+"updated": "2026-10-23",
 "code": "3MN220110",
 "sub": null,
 "board": "*[ArcTech] 패키지",
@@ -248933,8 +248933,8 @@
 }
 ],
 "alt": [
-"https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3310408404",
-"https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3310408395"
+"https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3337216011",
+"https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3337215522"
 ]
 },
 "3MN220440": {
@@ -249280,19 +249280,19 @@
 ]
 },
 "3MN222730": {
-"url": "https://spigen.monday.com/boards/3133983085/pulses/12781245314?asset_id=3247829195",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/12781245314?asset_id=3337251016",
 "parent_url": "https://spigen.monday.com/boards/3133983085/pulses/12781245314",
 "board": "*[ArcTech] 패키지",
 "item": "EV25MFDQB",
 "sub": null,
 "file": "3MN222730_EV25MFDQB.jpg",
-"updated": "2026-09-15",
+"updated": "2026-10-23",
 "by": "김해인/브랜드디자인팀/HQ",
 "files": [
 {
 "name": "3MN222730_EV25MFDQB.jpg",
-"url": "https://spigen.monday.com/boards/3133983085/pulses/12781245314?asset_id=3247829195",
-"updated": "2026-09-15",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/12781245314?asset_id=3337251016",
+"updated": "2026-10-23",
 "code": "3MN222730",
 "sub": null,
 "board": "*[ArcTech] 패키지",
@@ -249301,8 +249301,8 @@
 },
 {
 "name": "3MN222730_EV25MFDQB.pdf",
-"url": "https://spigen.monday.com/boards/3133983085/pulses/12781245314?asset_id=3247829202",
-"updated": "2026-09-15",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/12781245314?asset_id=3337251023",
+"updated": "2026-10-23",
 "code": "3MN222730",
 "sub": null,
 "board": "*[ArcTech] 패키지",
@@ -249311,8 +249311,8 @@
 },
 {
 "name": "3MN222730_EV25MFDQB_cs3.ai",
-"url": "https://spigen.monday.com/boards/3133983085/pulses/12781245314?asset_id=3247829217",
-"updated": "2026-09-15",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/12781245314?asset_id=3337251035",
+"updated": "2026-10-23",
 "code": "3MN222730",
 "sub": null,
 "board": "*[ArcTech] 패키지",
@@ -249321,8 +249321,8 @@
 }
 ],
 "alt": [
-"https://spigen.monday.com/boards/3133983085/pulses/12781245314?asset_id=3247829202",
-"https://spigen.monday.com/boards/3133983085/pulses/12781245314?asset_id=3247829217"
+"https://spigen.monday.com/boards/3133983085/pulses/12781245314?asset_id=3337251023",
+"https://spigen.monday.com/boards/3133983085/pulses/12781245314?asset_id=3337251035"
 ]
 },
 "3MN222860": {
@@ -329338,19 +329338,19 @@
 ]
 },
 "3PK220070": {
-"url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3321512039",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3337214067",
 "parent_url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950",
 "board": "*[ArcTech] 패키지",
 "item": "EE1404EU",
 "sub": null,
 "file": "3PK220070_EE1404EU.jpg",
-"updated": "2026-10-16",
+"updated": "2026-10-23",
 "by": "김해인/브랜드디자인팀/HQ",
 "files": [
 {
 "name": "3PK220070_EE1404EU.jpg",
-"url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3321512039",
-"updated": "2026-10-16",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3337214067",
+"updated": "2026-10-23",
 "code": "3PK220070",
 "sub": null,
 "board": "*[ArcTech] 패키지",
@@ -329359,8 +329359,8 @@
 },
 {
 "name": "3PK220070_EE1404EU.pdf",
-"url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3321512057",
-"updated": "2026-10-16",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3337214461",
+"updated": "2026-10-23",
 "code": "3PK220070",
 "sub": null,
 "board": "*[ArcTech] 패키지",
@@ -329369,8 +329369,8 @@
 },
 {
 "name": "3PK220070_EE1404EU_cs3.ai",
-"url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3321512040",
-"updated": "2026-10-16",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3337213415",
+"updated": "2026-10-23",
 "code": "3PK220070",
 "sub": null,
 "board": "*[ArcTech] 패키지",
@@ -329379,24 +329379,24 @@
 }
 ],
 "alt": [
-"https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3321512057",
-"https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3321512040"
+"https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3337214461",
+"https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3337213415"
 ]
 },
 "3PK220100": {
-"url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3321512198",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3337217034",
 "parent_url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644",
 "board": "*[ArcTech] 패키지",
 "item": "EE1404OC",
 "sub": null,
 "file": "3PK220100_EE1404OC.jpg",
-"updated": "2026-10-16",
+"updated": "2026-10-23",
 "by": "김해인/브랜드디자인팀/HQ",
 "files": [
 {
 "name": "3PK220100_EE1404OC.jpg",
-"url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3321512198",
-"updated": "2026-10-16",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3337217034",
+"updated": "2026-10-23",
 "code": "3PK220100",
 "sub": null,
 "board": "*[ArcTech] 패키지",
@@ -329405,8 +329405,8 @@
 },
 {
 "name": "3PK220100_EE1404OC.pdf",
-"url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3321512219",
-"updated": "2026-10-16",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3337217302",
+"updated": "2026-10-23",
 "code": "3PK220100",
 "sub": null,
 "board": "*[ArcTech] 패키지",
@@ -329415,8 +329415,8 @@
 },
 {
 "name": "3PK220100_EE1404OC_cs3.ai",
-"url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3321512200",
-"updated": "2026-10-16",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3337218332",
+"updated": "2026-10-23",
 "code": "3PK220100",
 "sub": null,
 "board": "*[ArcTech] 패키지",
@@ -329425,8 +329425,8 @@
 }
 ],
 "alt": [
-"https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3321512219",
-"https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3321512200"
+"https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3337217302",
+"https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3337218332"
 ]
 },
 "3PK220130": {
@@ -448800,50 +448800,30 @@
 ]
 },
 "EE1404EU": {
-"url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3321512039",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3337211492",
 "parent_url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950",
 "board": "*[ArcTech] 패키지",
 "item": "EE1404EU",
 "sub": null,
-"file": "3PK220070_EE1404EU.jpg",
-"updated": "2026-10-16",
+"file": "3MN220080_EE1404EU.jpg",
+"updated": "2026-10-23",
 "by": "김해인/브랜드디자인팀/HQ",
 "files": [
 {
-"name": "3PK220070_EE1404EU.jpg",
-"url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3321512039",
-"updated": "2026-10-16",
-"code": "3PK220070",
-"sub": null,
-"board": "*[ArcTech] 패키지",
-"item_id": "13065564950",
-"by": "김해인/브랜드디자인팀/HQ"
-},
-{
-"name": "3PK220070_EE1404EU.pdf",
-"url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3321512057",
-"updated": "2026-10-16",
-"code": "3PK220070",
-"sub": null,
-"board": "*[ArcTech] 패키지",
-"item_id": "13065564950",
-"by": "김해인/브랜드디자인팀/HQ"
-},
-{
-"name": "3PK220070_EE1404EU_cs3.ai",
-"url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3321512040",
-"updated": "2026-10-16",
-"code": "3PK220070",
-"sub": null,
-"board": "*[ArcTech] 패키지",
-"item_id": "13065564950",
-"by": "김해인/브랜드디자인팀/HQ"
-},
-{
 "name": "3MN220080_EE1404EU.jpg",
-"url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3310408113",
-"updated": "2026-10-12",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3337211492",
+"updated": "2026-10-23",
 "code": "3MN220080",
+"sub": null,
+"board": "*[ArcTech] 패키지",
+"item_id": "13065564950",
+"by": "김해인/브랜드디자인팀/HQ"
+},
+{
+"name": "3PK220070_EE1404EU.jpg",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3337214067",
+"updated": "2026-10-23",
+"code": "3PK220070",
 "sub": null,
 "board": "*[ArcTech] 패키지",
 "item_id": "13065564950",
@@ -448851,9 +448831,19 @@
 },
 {
 "name": "3MN220080_EE1404EU.pdf",
-"url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3310408127",
-"updated": "2026-10-12",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3337212893",
+"updated": "2026-10-23",
 "code": "3MN220080",
+"sub": null,
+"board": "*[ArcTech] 패키지",
+"item_id": "13065564950",
+"by": "김해인/브랜드디자인팀/HQ"
+},
+{
+"name": "3PK220070_EE1404EU.pdf",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3337214461",
+"updated": "2026-10-23",
+"code": "3PK220070",
 "sub": null,
 "board": "*[ArcTech] 패키지",
 "item_id": "13065564950",
@@ -448861,9 +448851,19 @@
 },
 {
 "name": "3MN220080_EE1404EU_cs3.ai",
-"url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3310408111",
-"updated": "2026-10-12",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3337210379",
+"updated": "2026-10-23",
 "code": "3MN220080",
+"sub": null,
+"board": "*[ArcTech] 패키지",
+"item_id": "13065564950",
+"by": "김해인/브랜드디자인팀/HQ"
+},
+{
+"name": "3PK220070_EE1404EU_cs3.ai",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3337213415",
+"updated": "2026-10-23",
+"code": "3PK220070",
 "sub": null,
 "board": "*[ArcTech] 패키지",
 "item_id": "13065564950",
@@ -448871,28 +448871,48 @@
 }
 ],
 "alt": [
-"https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3321512057",
-"https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3321512040",
-"https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3310408113",
-"https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3310408127",
-"https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3310408111"
+"https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3337214067",
+"https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3337212893",
+"https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3337214461",
+"https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3337210379",
+"https://spigen.monday.com/boards/3133983085/pulses/13065564950?asset_id=3337213415"
 ]
 },
 "EE1404OC": {
-"url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3321512198",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3337215732",
 "parent_url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644",
 "board": "*[ArcTech] 패키지",
 "item": "EE1404OC",
 "sub": null,
-"file": "3PK220100_EE1404OC.jpg",
-"updated": "2026-10-16",
+"file": "3MN220110_EE1404OC.jpg",
+"updated": "2026-10-23",
 "by": "김해인/브랜드디자인팀/HQ",
 "files": [
 {
+"name": "3MN220110_EE1404OC.jpg",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3337215732",
+"updated": "2026-10-23",
+"code": "3MN220110",
+"sub": null,
+"board": "*[ArcTech] 패키지",
+"item_id": "13065552644",
+"by": "김해인/브랜드디자인팀/HQ"
+},
+{
 "name": "3PK220100_EE1404OC.jpg",
-"url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3321512198",
-"updated": "2026-10-16",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3337217034",
+"updated": "2026-10-23",
 "code": "3PK220100",
+"sub": null,
+"board": "*[ArcTech] 패키지",
+"item_id": "13065552644",
+"by": "김해인/브랜드디자인팀/HQ"
+},
+{
+"name": "3MN220110_EE1404OC.pdf",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3337216011",
+"updated": "2026-10-23",
+"code": "3MN220110",
 "sub": null,
 "board": "*[ArcTech] 패키지",
 "item_id": "13065552644",
@@ -448900,8 +448920,8 @@
 },
 {
 "name": "3PK220100_EE1404OC.pdf",
-"url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3321512219",
-"updated": "2026-10-16",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3337217302",
+"updated": "2026-10-23",
 "code": "3PK220100",
 "sub": null,
 "board": "*[ArcTech] 패키지",
@@ -448909,9 +448929,19 @@
 "by": "김해인/브랜드디자인팀/HQ"
 },
 {
+"name": "3MN220110_EE1404OC_cs3.ai",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3337215522",
+"updated": "2026-10-23",
+"code": "3MN220110",
+"sub": null,
+"board": "*[ArcTech] 패키지",
+"item_id": "13065552644",
+"by": "김해인/브랜드디자인팀/HQ"
+},
+{
 "name": "3PK220100_EE1404OC_cs3.ai",
-"url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3321512200",
-"updated": "2026-10-16",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3337218332",
+"updated": "2026-10-23",
 "code": "3PK220100",
 "sub": null,
 "board": "*[ArcTech] 패키지",
@@ -448929,30 +448959,10 @@
 "by": "김해인/브랜드디자인팀/HQ"
 },
 {
-"name": "3MN220110_EE1404OC.jpg",
-"url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3310408393",
-"updated": "2026-10-12",
-"code": "3MN220110",
-"sub": null,
-"board": "*[ArcTech] 패키지",
-"item_id": "13065552644",
-"by": "김해인/브랜드디자인팀/HQ"
-},
-{
 "name": "3BR0_EE1404OC.pdf",
 "url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3310275626",
 "updated": "2026-10-12",
 "code": "3BR0",
-"sub": null,
-"board": "*[ArcTech] 패키지",
-"item_id": "13065552644",
-"by": "김해인/브랜드디자인팀/HQ"
-},
-{
-"name": "3MN220110_EE1404OC.pdf",
-"url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3310408404",
-"updated": "2026-10-12",
-"code": "3MN220110",
 "sub": null,
 "board": "*[ArcTech] 패키지",
 "item_id": "13065552644",
@@ -448967,27 +448977,17 @@
 "board": "*[ArcTech] 패키지",
 "item_id": "13065552644",
 "by": "김해인/브랜드디자인팀/HQ"
-},
-{
-"name": "3MN220110_EE1404OC_cs3.ai",
-"url": "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3310408395",
-"updated": "2026-10-12",
-"code": "3MN220110",
-"sub": null,
-"board": "*[ArcTech] 패키지",
-"item_id": "13065552644",
-"by": "김해인/브랜드디자인팀/HQ"
 }
 ],
 "alt": [
-"https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3321512219",
-"https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3321512200",
+"https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3337217034",
+"https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3337216011",
+"https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3337217302",
+"https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3337215522",
+"https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3337218332",
 "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3310275623",
-"https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3310408393",
 "https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3310275626",
-"https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3310408404",
-"https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3310275625",
-"https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3310408395"
+"https://spigen.monday.com/boards/3133983085/pulses/13065552644?asset_id=3310275625"
 ]
 },
 "EE201EU": {
