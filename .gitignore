@@ -1,3 +1,7 @@
 export.xlsx
 EXPORT.xlsx
 *.csv
+
+# Python 캐시 (커밋 금지 — 2026-10-26 자동 게시가 이 파일 커밋 때문에 중단됨)
+__pycache__/
+*.pyc
