@@ -1,7 +1,7 @@
 {
 "_meta": {
-"generated_at": "2026-10-27T09:14:25Z",
-"mode": "full",
+"generated_at": "2026-10-27T13:44:09Z",
+"mode": "incremental",
 "account": "spigen",
 "boards": [
 "4057650308",
@@ -18,12 +18,11 @@
 "☄️최종도안파일"
 ],
 "board_count": 7,
-"items": 2811,
-"subitems": 2412,
-"files": 26869,
-"title_hits": 7284,
-"gallery": 5475,
-"codes": 8839,
+"items": 8,
+"subitems": 6,
+"files": 18,
+"title_hits": 14,
+"codes": 8848,
 "no_gallery": [],
 "skipped": [],
 "vendor_boards": [
@@ -33,7 +32,7 @@
 "3106368464"
 ],
 "vendor_failed": [],
-"vendors": 2526
+"vendors": 2529
 },
 "map": {
 "0415": {
@@ -222467,6 +222466,144 @@
 "https://spigen.monday.com/boards/4485989214/pulses/13110561000?asset_id=3300091705"
 ]
 },
+"3BS227950": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189272699?asset_id=3344600532",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13189139567",
+"board": "*[Mobile] 패키지 현황",
+"item": "SSbgU Crystal Hybrid Mag Fit C.C (SQ)",
+"sub": "ACS12459",
+"file": "3BS227950_ACS12459_GalS27U_CRHyMgF_CLWH.jpg",
+"updated": "2026-10-27",
+"by": "황선혜/브랜드디자인팀/HQ",
+"files": [
+{
+"name": "3BS227950_ACS12459_GalS27U_CRHyMgF_CLWH.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189272699?asset_id=3344600532",
+"updated": "2026-10-27",
+"code": "3BS227950",
+"sub": "ACS12459",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189139567",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3BS227950_ACS12459_GalS27U_CRHyMgF_CLWH.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189272699?asset_id=3344600550",
+"updated": "2026-10-27",
+"code": "3BS227950",
+"sub": "ACS12459",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189139567",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3BS227950_ACS12459_GalS27U_CRHyMgF_CLWH.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189272699?asset_id=3344600539",
+"updated": "2026-10-27",
+"code": "3BS227950",
+"sub": "ACS12459",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189139567",
+"by": "황선혜/브랜드디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/13189272699?asset_id=3344600550",
+"https://spigen.monday.com/boards/4453971876/pulses/13189272699?asset_id=3344600539"
+]
+},
+"3BS228340": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189171715?asset_id=3344600390",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13189157254",
+"board": "*[Mobile] 패키지 현황",
+"item": "SSbgP Crystal Hybrid Mag Fit C.C (SQ)",
+"sub": "ACS12493",
+"file": "3BS228340_ACS12493_GalS27P_CRHyMgF_CLWH.jpg",
+"updated": "2026-10-27",
+"by": "황선혜/브랜드디자인팀/HQ",
+"files": [
+{
+"name": "3BS228340_ACS12493_GalS27P_CRHyMgF_CLWH.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189171715?asset_id=3344600390",
+"updated": "2026-10-27",
+"code": "3BS228340",
+"sub": "ACS12493",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189157254",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3BS228340_ACS12493_GalS27P_CRHyMgF_CLWH.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189171715?asset_id=3344600422",
+"updated": "2026-10-27",
+"code": "3BS228340",
+"sub": "ACS12493",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189157254",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3BS228340_ACS12493_GalS27P_CRHyMgF_CLWH.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189171715?asset_id=3344600399",
+"updated": "2026-10-27",
+"code": "3BS228340",
+"sub": "ACS12493",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189157254",
+"by": "황선혜/브랜드디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/13189171715?asset_id=3344600422",
+"https://spigen.monday.com/boards/4453971876/pulses/13189171715?asset_id=3344600399"
+]
+},
+"3BS228880": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189214339?asset_id=3344598675",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13189271005",
+"board": "*[Mobile] 패키지 현황",
+"item": "SSbg+ Crystal Hybrid Mag Fit C.C (SQ)",
+"sub": "ACS12559",
+"file": "3BS228880_ACS12559_GalS27+_CRHyMgF_CLWH.jpg",
+"updated": "2026-10-27",
+"by": "황선혜/브랜드디자인팀/HQ",
+"files": [
+{
+"name": "3BS228880_ACS12559_GalS27+_CRHyMgF_CLWH.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189214339?asset_id=3344598675",
+"updated": "2026-10-27",
+"code": "3BS228880",
+"sub": "ACS12559",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189271005",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3BS228880_ACS12559_GalS27+_CRHyMgF_CLWH.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189214339?asset_id=3344598701",
+"updated": "2026-10-27",
+"code": "3BS228880",
+"sub": "ACS12559",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189271005",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3BS228880_ACS12559_GalS27+_CRHyMgF_CLWH.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189214339?asset_id=3344598697",
+"updated": "2026-10-27",
+"code": "3BS228880",
+"sub": "ACS12559",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189271005",
+"by": "황선혜/브랜드디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/13189214339?asset_id=3344598701",
+"https://spigen.monday.com/boards/4453971876/pulses/13189214339?asset_id=3344598697"
+]
+},
 "3BS229310": {
 "url": "https://spigen.monday.com/boards/4453971876/pulses/18293800141?asset_id=3289034448",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/18293792992",
@@ -355954,6 +356091,144 @@
 "https://spigen.monday.com/boards/4485989214/pulses/8720018153?asset_id=3312928858"
 ]
 },
+"3ST227960": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189272699?asset_id=3344600525",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13189139567",
+"board": "*[Mobile] 패키지 현황",
+"item": "SSbgU Crystal Hybrid Mag Fit C.C (SQ)",
+"sub": "ACS12459",
+"file": "3ST227960_ACS12459_GalS27U_CRHyMgF_CLWHSKU.jpg",
+"updated": "2026-10-27",
+"by": "황선혜/브랜드디자인팀/HQ",
+"files": [
+{
+"name": "3ST227960_ACS12459_GalS27U_CRHyMgF_CLWHSKU.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189272699?asset_id=3344600525",
+"updated": "2026-10-27",
+"code": "3ST227960",
+"sub": "ACS12459",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189139567",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3ST227960_ACS12459_GalS27U_CRHyMgF_CLWHSKU.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189272699?asset_id=3344600582",
+"updated": "2026-10-27",
+"code": "3ST227960",
+"sub": "ACS12459",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189139567",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3ST227960_ACS12459_GalS27U_CRHyMgF_CLWHSKU.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189272699?asset_id=3344600535",
+"updated": "2026-10-27",
+"code": "3ST227960",
+"sub": "ACS12459",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189139567",
+"by": "황선혜/브랜드디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/13189272699?asset_id=3344600582",
+"https://spigen.monday.com/boards/4453971876/pulses/13189272699?asset_id=3344600535"
+]
+},
+"3ST228350": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189171715?asset_id=3344600389",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13189157254",
+"board": "*[Mobile] 패키지 현황",
+"item": "SSbgP Crystal Hybrid Mag Fit C.C (SQ)",
+"sub": "ACS12493",
+"file": "3ST228350_ACS12493_GalS27P_CRHyMgF_CLWHSKU.jpg",
+"updated": "2026-10-27",
+"by": "황선혜/브랜드디자인팀/HQ",
+"files": [
+{
+"name": "3ST228350_ACS12493_GalS27P_CRHyMgF_CLWHSKU.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189171715?asset_id=3344600389",
+"updated": "2026-10-27",
+"code": "3ST228350",
+"sub": "ACS12493",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189157254",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3ST228350_ACS12493_GalS27P_CRHyMgF_CLWHSKU.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189171715?asset_id=3344600465",
+"updated": "2026-10-27",
+"code": "3ST228350",
+"sub": "ACS12493",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189157254",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3ST228350_ACS12493_GalS27P_CRHyMgF_CLWHSKU.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189171715?asset_id=3344600397",
+"updated": "2026-10-27",
+"code": "3ST228350",
+"sub": "ACS12493",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189157254",
+"by": "황선혜/브랜드디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/13189171715?asset_id=3344600465",
+"https://spigen.monday.com/boards/4453971876/pulses/13189171715?asset_id=3344600397"
+]
+},
+"3ST228890": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189214339?asset_id=3344598672",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13189271005",
+"board": "*[Mobile] 패키지 현황",
+"item": "SSbg+ Crystal Hybrid Mag Fit C.C (SQ)",
+"sub": "ACS12559",
+"file": "3ST228890_ACS12559_GalS27+_CRHyMgF_CLWHSKU.jpg",
+"updated": "2026-10-27",
+"by": "황선혜/브랜드디자인팀/HQ",
+"files": [
+{
+"name": "3ST228890_ACS12559_GalS27+_CRHyMgF_CLWHSKU.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189214339?asset_id=3344598672",
+"updated": "2026-10-27",
+"code": "3ST228890",
+"sub": "ACS12559",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189271005",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3ST228890_ACS12559_GalS27+_CRHyMgF_CLWHSKU.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189214339?asset_id=3344598724",
+"updated": "2026-10-27",
+"code": "3ST228890",
+"sub": "ACS12559",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189271005",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3ST228890_ACS12559_GalS27+_CRHyMgF_CLWHSKU.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189214339?asset_id=3344598686",
+"updated": "2026-10-27",
+"code": "3ST228890",
+"sub": "ACS12559",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189271005",
+"by": "황선혜/브랜드디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/13189214339?asset_id=3344598724",
+"https://spigen.monday.com/boards/4453971876/pulses/13189214339?asset_id=3344598686"
+]
+},
 "3ST230160": {
 "url": "https://spigen.monday.com/boards/4453971876/pulses/13236114947?asset_id=3302902119",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13147221344",
@@ -439648,6 +439923,164 @@
 "https://spigen.monday.com/boards/4453971876/pulses/12801466298?asset_id=3220806990"
 ]
 },
+"ACS12459": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189272699?asset_id=3344600525",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13189139567",
+"board": "*[Mobile] 패키지 현황",
+"item": "SSbgU Crystal Hybrid Mag Fit C.C (SQ)",
+"sub": "ACS12459",
+"file": "3ST227960_ACS12459_GalS27U_CRHyMgF_CLWHSKU.jpg",
+"updated": "2026-10-27",
+"by": "황선혜/브랜드디자인팀/HQ",
+"files": [
+{
+"name": "3ST227960_ACS12459_GalS27U_CRHyMgF_CLWHSKU.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189272699?asset_id=3344600525",
+"updated": "2026-10-27",
+"code": "3ST227960",
+"sub": "ACS12459",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189139567",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3BS227950_ACS12459_GalS27U_CRHyMgF_CLWH.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189272699?asset_id=3344600532",
+"updated": "2026-10-27",
+"code": "3BS227950",
+"sub": "ACS12459",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189139567",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3BS227950_ACS12459_GalS27U_CRHyMgF_CLWH.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189272699?asset_id=3344600550",
+"updated": "2026-10-27",
+"code": "3BS227950",
+"sub": "ACS12459",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189139567",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3ST227960_ACS12459_GalS27U_CRHyMgF_CLWHSKU.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189272699?asset_id=3344600582",
+"updated": "2026-10-27",
+"code": "3ST227960",
+"sub": "ACS12459",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189139567",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3ST227960_ACS12459_GalS27U_CRHyMgF_CLWHSKU.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189272699?asset_id=3344600535",
+"updated": "2026-10-27",
+"code": "3ST227960",
+"sub": "ACS12459",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189139567",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3BS227950_ACS12459_GalS27U_CRHyMgF_CLWH.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189272699?asset_id=3344600539",
+"updated": "2026-10-27",
+"code": "3BS227950",
+"sub": "ACS12459",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189139567",
+"by": "황선혜/브랜드디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/13189272699?asset_id=3344600532",
+"https://spigen.monday.com/boards/4453971876/pulses/13189272699?asset_id=3344600550",
+"https://spigen.monday.com/boards/4453971876/pulses/13189272699?asset_id=3344600582",
+"https://spigen.monday.com/boards/4453971876/pulses/13189272699?asset_id=3344600535",
+"https://spigen.monday.com/boards/4453971876/pulses/13189272699?asset_id=3344600539"
+]
+},
+"ACS12493": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189171715?asset_id=3344600389",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13189157254",
+"board": "*[Mobile] 패키지 현황",
+"item": "SSbgP Crystal Hybrid Mag Fit C.C (SQ)",
+"sub": "ACS12493",
+"file": "3ST228350_ACS12493_GalS27P_CRHyMgF_CLWHSKU.jpg",
+"updated": "2026-10-27",
+"by": "황선혜/브랜드디자인팀/HQ",
+"files": [
+{
+"name": "3ST228350_ACS12493_GalS27P_CRHyMgF_CLWHSKU.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189171715?asset_id=3344600389",
+"updated": "2026-10-27",
+"code": "3ST228350",
+"sub": "ACS12493",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189157254",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3BS228340_ACS12493_GalS27P_CRHyMgF_CLWH.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189171715?asset_id=3344600390",
+"updated": "2026-10-27",
+"code": "3BS228340",
+"sub": "ACS12493",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189157254",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3BS228340_ACS12493_GalS27P_CRHyMgF_CLWH.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189171715?asset_id=3344600422",
+"updated": "2026-10-27",
+"code": "3BS228340",
+"sub": "ACS12493",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189157254",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3ST228350_ACS12493_GalS27P_CRHyMgF_CLWHSKU.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189171715?asset_id=3344600465",
+"updated": "2026-10-27",
+"code": "3ST228350",
+"sub": "ACS12493",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189157254",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3BS228340_ACS12493_GalS27P_CRHyMgF_CLWH.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189171715?asset_id=3344600399",
+"updated": "2026-10-27",
+"code": "3BS228340",
+"sub": "ACS12493",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189157254",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3ST228350_ACS12493_GalS27P_CRHyMgF_CLWHSKU.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189171715?asset_id=3344600397",
+"updated": "2026-10-27",
+"code": "3ST228350",
+"sub": "ACS12493",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189157254",
+"by": "황선혜/브랜드디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/13189171715?asset_id=3344600390",
+"https://spigen.monday.com/boards/4453971876/pulses/13189171715?asset_id=3344600422",
+"https://spigen.monday.com/boards/4453971876/pulses/13189171715?asset_id=3344600465",
+"https://spigen.monday.com/boards/4453971876/pulses/13189171715?asset_id=3344600399",
+"https://spigen.monday.com/boards/4453971876/pulses/13189171715?asset_id=3344600397"
+]
+},
 "ACS12503": {
 "url": "https://spigen.monday.com/boards/4485989214/pulses/12889168236?asset_id=3285517690",
 "parent_url": "https://spigen.monday.com/boards/4485989214/pulses/12889168236",
@@ -440212,6 +440645,85 @@
 "https://spigen.monday.com/boards/4453971876/pulses/12899172280?asset_id=3247752168",
 "https://spigen.monday.com/boards/4453971876/pulses/12899176843?asset_id=3247752462",
 "https://spigen.monday.com/boards/4453971876/pulses/12899172280?asset_id=3247752105"
+]
+},
+"ACS12559": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189214339?asset_id=3344598672",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13189271005",
+"board": "*[Mobile] 패키지 현황",
+"item": "SSbg+ Crystal Hybrid Mag Fit C.C (SQ)",
+"sub": "ACS12559",
+"file": "3ST228890_ACS12559_GalS27+_CRHyMgF_CLWHSKU.jpg",
+"updated": "2026-10-27",
+"by": "황선혜/브랜드디자인팀/HQ",
+"files": [
+{
+"name": "3ST228890_ACS12559_GalS27+_CRHyMgF_CLWHSKU.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189214339?asset_id=3344598672",
+"updated": "2026-10-27",
+"code": "3ST228890",
+"sub": "ACS12559",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189271005",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3BS228880_ACS12559_GalS27+_CRHyMgF_CLWH.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189214339?asset_id=3344598675",
+"updated": "2026-10-27",
+"code": "3BS228880",
+"sub": "ACS12559",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189271005",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3BS228880_ACS12559_GalS27+_CRHyMgF_CLWH.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189214339?asset_id=3344598701",
+"updated": "2026-10-27",
+"code": "3BS228880",
+"sub": "ACS12559",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189271005",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3ST228890_ACS12559_GalS27+_CRHyMgF_CLWHSKU.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189214339?asset_id=3344598724",
+"updated": "2026-10-27",
+"code": "3ST228890",
+"sub": "ACS12559",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189271005",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3ST228890_ACS12559_GalS27+_CRHyMgF_CLWHSKU.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189214339?asset_id=3344598686",
+"updated": "2026-10-27",
+"code": "3ST228890",
+"sub": "ACS12559",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189271005",
+"by": "황선혜/브랜드디자인팀/HQ"
+},
+{
+"name": "3BS228880_ACS12559_GalS27+_CRHyMgF_CLWH.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189214339?asset_id=3344598697",
+"updated": "2026-10-27",
+"code": "3BS228880",
+"sub": "ACS12559",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189271005",
+"by": "황선혜/브랜드디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/13189214339?asset_id=3344598675",
+"https://spigen.monday.com/boards/4453971876/pulses/13189214339?asset_id=3344598701",
+"https://spigen.monday.com/boards/4453971876/pulses/13189214339?asset_id=3344598724",
+"https://spigen.monday.com/boards/4453971876/pulses/13189214339?asset_id=3344598686",
+"https://spigen.monday.com/boards/4453971876/pulses/13189214339?asset_id=3344598697"
 ]
 },
 "ACS12561": {
@@ -517322,6 +517834,9 @@
 "ACS12754": "Meticore-CN",
 "ACS12755": "Meticore-CN",
 "ACS12756": "Meticore-CN",
+"ACS12757": "Dapad-CN",
+"ACS12758": "Dapad-CN",
+"ACS12759": "Dapad-CN",
 "ACS12760": "Dapad-CN",
 "ACS12767": "듀센-KR, HIGH HONEST-CN",
 "ACS12768": "HIGH HONEST-CN",
