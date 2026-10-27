@@ -1,7 +1,7 @@
 {
 "_meta": {
-"generated_at": "2026-10-26T14:39:43Z",
-"mode": "incremental",
+"generated_at": "2026-10-27T00:08:24Z",
+"mode": "full",
 "account": "spigen",
 "boards": [
 "4057650308",
@@ -18,10 +18,11 @@
 "☄️최종도안파일"
 ],
 "board_count": 7,
-"items": 0,
-"subitems": 0,
-"files": 0,
-"title_hits": 0,
+"items": 2808,
+"subitems": 2412,
+"files": 26853,
+"title_hits": 7266,
+"gallery": 5470,
 "codes": 8836,
 "no_gallery": [],
 "skipped": [],
@@ -32,7 +33,7 @@
 "3106368464"
 ],
 "vendor_failed": [],
-"vendors": 2517
+"vendors": 2520
 },
 "map": {
 "0415": {
@@ -517420,6 +517421,9 @@
 "AMP12256": "Unicreation33-CN",
 "AMP12765": "SHIDAI-CN",
 "AMP12766": "SHIDAI-CN",
+"AMP12898": "ALOTECH-CN",
+"AMP12899": "ALOTECH-CN",
+"AMP12900": "ALOTECH-CN",
 "APP11145": "High Honest-CN",
 "APP11227": "Unicreation 33",
 "APP11228": "Unicreation 33",
