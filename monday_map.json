@@ -1,7 +1,7 @@
 {
 "_meta": {
-"generated_at": "2026-10-27T13:44:09Z",
-"mode": "incremental",
+"generated_at": "2026-10-28T00:09:02Z",
+"mode": "full",
 "account": "spigen",
 "boards": [
 "4057650308",
@@ -18,10 +18,11 @@
 "☄️최종도안파일"
 ],
 "board_count": 7,
-"items": 8,
-"subitems": 6,
-"files": 18,
-"title_hits": 14,
+"items": 2814,
+"subitems": 2415,
+"files": 26887,
+"title_hits": 7290,
+"gallery": 5475,
 "codes": 8848,
 "no_gallery": [],
 "skipped": [],
@@ -32,7 +33,7 @@
 "3106368464"
 ],
 "vendor_failed": [],
-"vendors": 2529
+"vendors": 2531
 },
 "map": {
 "0415": {
@@ -517970,6 +517971,8 @@
 "AFA12642": "HIGH HONEST-CN",
 "AFA12842": "HIGH HONEST-CN",
 "AFA12843": "HIGH HONEST-CN",
+"AFA12901": "HIGH HONEST(LONGCHENG)-CN",
+"AFA12902": "HIGH HONEST-CN",
 "AFL11776": "Strawberry-CN",
 "AFL12787": "Strawberry-CN",
 "AFL12788": "Strawberry-CN",
