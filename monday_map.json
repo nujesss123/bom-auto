@@ -1,7 +1,7 @@
 {
 "_meta": {
-"generated_at": "2026-10-29T14:45:08Z",
-"mode": "incremental",
+"generated_at": "2026-10-30T00:30:19Z",
+"mode": "full",
 "account": "spigen",
 "boards": [
 "4057650308",
@@ -18,10 +18,11 @@
 "☄️최종도안파일"
 ],
 "board_count": 7,
-"items": 0,
-"subitems": 0,
-"files": 0,
-"title_hits": 0,
+"items": 2819,
+"subitems": 2430,
+"files": 27116,
+"title_hits": 7313,
+"gallery": 5487,
 "codes": 8961,
 "no_gallery": [],
 "skipped": [],
