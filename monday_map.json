@@ -1,7 +1,7 @@
 {
 "_meta": {
-"generated_at": "2026-11-02T00:02:28Z",
-"mode": "full",
+"generated_at": "2026-11-02T08:36:45Z",
+"mode": "incremental",
 "account": "spigen",
 "boards": [
 "4057650308",
@@ -18,12 +18,12 @@
 "☄️최종도안파일"
 ],
 "board_count": 7,
-"items": 2823,
-"subitems": 2431,
-"files": 27213,
-"title_hits": 7318,
-"gallery": 5488,
-"codes": 9018,
+"items": 26,
+"subitems": 16,
+"files": 114,
+"title_hits": 77,
+"gallery": 4,
+"codes": 9025,
 "no_gallery": [],
 "skipped": [],
 "vendor_boards": [
@@ -115886,7 +115886,7 @@
 "url": "https://spigen.monday.com/boards/4485989214/pulses/9016788692?asset_id=2266533056",
 "parent_url": "https://spigen.monday.com/boards/4485989214/pulses/9016788692",
 "board": "*[WO] 패키지",
-"item": "Spigen WBF1 Apple Watch 49/46/45/44mm Band",
+"item": "Apple Watch 49/46/45/44mm Band WBF1",
 "sub": null,
 "file": "3BS185420_AW(49_46_45_44)_WBF1_Black_BS.jpg",
 "updated": "2025-07-03",
@@ -115932,7 +115932,7 @@
 "url": "https://spigen.monday.com/boards/4485989214/pulses/9016788692?asset_id=2266533046",
 "parent_url": "https://spigen.monday.com/boards/4485989214/pulses/9016788692",
 "board": "*[WO] 패키지",
-"item": "Spigen WBF1 Apple Watch 49/46/45/44mm Band",
+"item": "Apple Watch 49/46/45/44mm Band WBF1",
 "sub": null,
 "file": "3BS185430_AW(49_46_45_44)_WBF1_BlackOrange_BS.jpg",
 "updated": "2025-07-03",
@@ -117036,7 +117036,7 @@
 "url": "https://spigen.monday.com/boards/4485989214/pulses/9016788692?asset_id=2266533125",
 "parent_url": "https://spigen.monday.com/boards/4485989214/pulses/9016788692",
 "board": "*[WO] 패키지",
-"item": "Spigen WBF1 Apple Watch 49/46/45/44mm Band",
+"item": "Apple Watch 49/46/45/44mm Band WBF1",
 "sub": null,
 "file": "3BS186260_AW(49_46_45_44)_WBF1_BlackGreen_BS.jpg",
 "updated": "2025-07-03",
@@ -175469,7 +175469,7 @@
 "url": "https://spigen.monday.com/boards/4485989214/pulses/11347560526?asset_id=2979326782",
 "parent_url": "https://spigen.monday.com/boards/4485989214/pulses/11347560526",
 "board": "*[WO] 패키지",
-"item": "SWUb Rugged Armor Pro",
+"item": "Galaxy Watch Ultra 2 Rugged Armor Pro",
 "sub": null,
 "file": "3BS210700_SWUb_Rugged-Armor-Pro_Black_BS.jpg",
 "updated": "2026-05-19",
@@ -223466,6 +223466,52 @@
 "https://spigen.monday.com/boards/4453971876/pulses/13189272699?asset_id=3347001575"
 ]
 },
+"3BS227990": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189046296?asset_id=3358085697",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13189003154",
+"board": "*[Mobile] 패키지 현황",
+"item": "SSbgP Liquid Air Mag Fit",
+"sub": "ACS12461",
+"file": "3BS227990_ACS12461_GalS27P_LqAMgF_MttBK.jpg",
+"updated": "2026-11-02",
+"by": "조혜영/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS227990_ACS12461_GalS27P_LqAMgF_MttBK.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189046296?asset_id=3358085697",
+"updated": "2026-11-02",
+"code": "3BS227990",
+"sub": "ACS12461",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189003154",
+"by": "조혜영/패키지디자인팀/HQ"
+},
+{
+"name": "3BS227990_ACS12461_GalS27P_LqAMgF_MttBK.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189046296?asset_id=3358085733",
+"updated": "2026-11-02",
+"code": "3BS227990",
+"sub": "ACS12461",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189003154",
+"by": "조혜영/패키지디자인팀/HQ"
+},
+{
+"name": "3BS227990_ACS12461_GalS27P_LqAMgF_MttBK.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189046296?asset_id=3358085716",
+"updated": "2026-11-02",
+"code": "3BS227990",
+"sub": "ACS12461",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189003154",
+"by": "조혜영/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/13189046296?asset_id=3358085733",
+"https://spigen.monday.com/boards/4453971876/pulses/13189046296?asset_id=3358085716"
+]
+},
 "3BS228180": {
 "url": "https://spigen.monday.com/boards/4453971876/pulses/13189044288?asset_id=3347402401",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13189002964",
@@ -225122,6 +225168,52 @@
 "https://spigen.monday.com/boards/4453971876/pulses/13189173561?asset_id=3353919509"
 ]
 },
+"3BS229230": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189031141?asset_id=3358084657",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13188998309",
+"board": "*[Mobile] 패키지 현황",
+"item": "SSbgP Liquid Air",
+"sub": "ACS12681",
+"file": "3BS229230_ACS12681_GalS27P_LqA_MttBK.jpg",
+"updated": "2026-11-02",
+"by": "조혜영/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS229230_ACS12681_GalS27P_LqA_MttBK.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189031141?asset_id=3358084657",
+"updated": "2026-11-02",
+"code": "3BS229230",
+"sub": "ACS12681",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13188998309",
+"by": "조혜영/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229230_ACS12681_GalS27P_LqA_MttBK.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189031141?asset_id=3358084686",
+"updated": "2026-11-02",
+"code": "3BS229230",
+"sub": "ACS12681",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13188998309",
+"by": "조혜영/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229230_ACS12681_GalS27P_LqA_MttBK.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189031141?asset_id=3358084665",
+"updated": "2026-11-02",
+"code": "3BS229230",
+"sub": "ACS12681",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13188998309",
+"by": "조혜영/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/13189031141?asset_id=3358084686",
+"https://spigen.monday.com/boards/4453971876/pulses/13189031141?asset_id=3358084665"
+]
+},
 "3BS229240": {
 "url": "https://spigen.monday.com/boards/4453971876/pulses/13189045998?asset_id=3347409062",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13189000952",
@@ -225583,19 +225675,19 @@
 ]
 },
 "3BS229460": {
-"url": "https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3279196795",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3357808052",
 "parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13022810834",
 "board": "*[HA] 패키지",
 "item": "[LD408-1] Spigen Under-Desk Rotating Desk Organizer - Black",
 "sub": null,
 "file": "3BS229460_LD408-1_BS.jpg",
-"updated": "2026-09-29",
+"updated": "2026-11-02",
 "by": "문덕훈/패키지디자인팀/HQ",
 "files": [
 {
 "name": "3BS229460_LD408-1_BS.jpg",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3279196795",
-"updated": "2026-09-29",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3357808052",
+"updated": "2026-11-02",
 "code": "3BS229460",
 "sub": null,
 "board": "*[HA] 패키지",
@@ -225604,8 +225696,8 @@
 },
 {
 "name": "3BS229460_LD408-1_BS.pdf",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3279196908",
-"updated": "2026-09-29",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3357808069",
+"updated": "2026-11-02",
 "code": "3BS229460",
 "sub": null,
 "board": "*[HA] 패키지",
@@ -225614,8 +225706,8 @@
 },
 {
 "name": "3BS229460_LD408-1_BS.ai",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3279196812",
-"updated": "2026-09-29",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3357808053",
+"updated": "2026-11-02",
 "code": "3BS229460",
 "sub": null,
 "board": "*[HA] 패키지",
@@ -225624,24 +225716,24 @@
 }
 ],
 "alt": [
-"https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3279196908",
-"https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3279196812"
+"https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3357808069",
+"https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3357808053"
 ]
 },
 "3BS229500": {
-"url": "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197177",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3357804256",
 "parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13022798908",
 "board": "*[HA] 패키지",
 "item": "[LD408-2] Spigen Under-Desk Pull-out Drawer Desk Organizer - Black",
 "sub": null,
 "file": "3BS229500_LD408-2_BS.jpg",
-"updated": "2026-09-29",
+"updated": "2026-11-02",
 "by": "문덕훈/패키지디자인팀/HQ",
 "files": [
 {
 "name": "3BS229500_LD408-2_BS.jpg",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197177",
-"updated": "2026-09-29",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3357804256",
+"updated": "2026-11-02",
 "code": "3BS229500",
 "sub": null,
 "board": "*[HA] 패키지",
@@ -225650,8 +225742,8 @@
 },
 {
 "name": "3BS229500_LD408-2_BS.pdf",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197253",
-"updated": "2026-09-29",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3357804287",
+"updated": "2026-11-02",
 "code": "3BS229500",
 "sub": null,
 "board": "*[HA] 패키지",
@@ -225660,8 +225752,8 @@
 },
 {
 "name": "3BS229500_LD408-2_BS.ai",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197205",
-"updated": "2026-09-29",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3357804258",
+"updated": "2026-11-02",
 "code": "3BS229500",
 "sub": null,
 "board": "*[HA] 패키지",
@@ -225670,24 +225762,24 @@
 }
 ],
 "alt": [
-"https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197253",
-"https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197205"
+"https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3357804287",
+"https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3357804258"
 ]
 },
 "3BS229560": {
-"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672454",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3357808810",
 "parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750",
 "board": "*[HA] 패키지",
 "item": "[LD105] Spigen Cable Management Net - Black",
 "sub": null,
 "file": "3BS229560_LD105_BS.jpg",
-"updated": "2026-10-08",
+"updated": "2026-11-02",
 "by": "문덕훈/패키지디자인팀/HQ",
 "files": [
 {
 "name": "3BS229560_LD105_BS.jpg",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672454",
-"updated": "2026-10-08",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3357808810",
+"updated": "2026-11-02",
 "code": "3BS229560",
 "sub": null,
 "board": "*[HA] 패키지",
@@ -225696,8 +225788,8 @@
 },
 {
 "name": "3BS229560_LD105_BS.pdf",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672482",
-"updated": "2026-10-08",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3357808842",
+"updated": "2026-11-02",
 "code": "3BS229560",
 "sub": null,
 "board": "*[HA] 패키지",
@@ -225706,8 +225798,8 @@
 },
 {
 "name": "3BS229560_LD105_BS.ai",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672462",
-"updated": "2026-10-08",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3357808811",
+"updated": "2026-11-02",
 "code": "3BS229560",
 "sub": null,
 "board": "*[HA] 패키지",
@@ -225716,8 +225808,8 @@
 }
 ],
 "alt": [
-"https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672482",
-"https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672462"
+"https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3357808842",
+"https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3357808811"
 ]
 },
 "3BS229590": {
@@ -229168,6 +229260,52 @@
 "alt": [
 "https://spigen.monday.com/boards/4453971876/pulses/13262736117?asset_id=3347407878",
 "https://spigen.monday.com/boards/4453971876/pulses/13262736117?asset_id=3347407824"
+]
+},
+"3BS230940": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13262735978?asset_id=3358086053",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13189003154",
+"board": "*[Mobile] 패키지 현황",
+"item": "SSbgP Liquid Air Mag Fit",
+"sub": "ACS12810",
+"file": "3BS230940_ACS12810_GalS27P_LqAMgF_NYBL.jpg",
+"updated": "2026-11-02",
+"by": "조혜영/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS230940_ACS12810_GalS27P_LqAMgF_NYBL.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13262735978?asset_id=3358086053",
+"updated": "2026-11-02",
+"code": "3BS230940",
+"sub": "ACS12810",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189003154",
+"by": "조혜영/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230940_ACS12810_GalS27P_LqAMgF_NYBL.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13262735978?asset_id=3358086079",
+"updated": "2026-11-02",
+"code": "3BS230940",
+"sub": "ACS12810",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189003154",
+"by": "조혜영/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230940_ACS12810_GalS27P_LqAMgF_NYBL.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13262735978?asset_id=3358086048",
+"updated": "2026-11-02",
+"code": "3BS230940",
+"sub": "ACS12810",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189003154",
+"by": "조혜영/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/13262735978?asset_id=3358086079",
+"https://spigen.monday.com/boards/4453971876/pulses/13262735978?asset_id=3358086048"
 ]
 },
 "3BS230950": {
@@ -338632,19 +338770,19 @@
 ]
 },
 "3PK226880": {
-"url": "https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3260756763",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3357989481",
 "parent_url": "https://spigen.monday.com/boards/3106368464/pulses/12954147527",
 "board": "*[HA] 패키지",
 "item": "[LD201-S11] Spigen Slim Fold Laptop Sleeve with Stand 14\"",
 "sub": null,
 "file": "3PK226880_LD201-S11_P.jpg",
-"updated": "2026-09-21",
+"updated": "2026-11-02",
 "by": "문덕훈/패키지디자인팀/HQ",
 "files": [
 {
 "name": "3PK226880_LD201-S11_P.jpg",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3260756763",
-"updated": "2026-09-21",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3357989481",
+"updated": "2026-11-02",
 "code": "3PK226880",
 "sub": null,
 "board": "*[HA] 패키지",
@@ -338653,8 +338791,8 @@
 },
 {
 "name": "3PK226880_LD201-S11_P.pdf",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3260756946",
-"updated": "2026-09-21",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3357989621",
+"updated": "2026-11-02",
 "code": "3PK226880",
 "sub": null,
 "board": "*[HA] 패키지",
@@ -338663,8 +338801,8 @@
 },
 {
 "name": "3PK226880_LD201-S11_P.ai",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3260756826",
-"updated": "2026-09-21",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3357989506",
+"updated": "2026-11-02",
 "code": "3PK226880",
 "sub": null,
 "board": "*[HA] 패키지",
@@ -338673,24 +338811,24 @@
 }
 ],
 "alt": [
-"https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3260756946",
-"https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3260756826"
+"https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3357989621",
+"https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3357989506"
 ]
 },
 "3PK226890": {
-"url": "https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3260756628",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3357989420",
 "parent_url": "https://spigen.monday.com/boards/3106368464/pulses/12954139181",
 "board": "*[HA] 패키지",
 "item": "[LD201-S12] Spigen Slim Fold Laptop Sleeve with Stand 16\"",
 "sub": null,
 "file": "3PK226890_LD201-S12_P.jpg",
-"updated": "2026-09-21",
+"updated": "2026-11-02",
 "by": "문덕훈/패키지디자인팀/HQ",
 "files": [
 {
 "name": "3PK226890_LD201-S12_P.jpg",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3260756628",
-"updated": "2026-09-21",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3357989420",
+"updated": "2026-11-02",
 "code": "3PK226890",
 "sub": null,
 "board": "*[HA] 패키지",
@@ -338699,8 +338837,8 @@
 },
 {
 "name": "3PK226890_LD201-S12_P.pdf",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3260756875",
-"updated": "2026-09-21",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3357989606",
+"updated": "2026-11-02",
 "code": "3PK226890",
 "sub": null,
 "board": "*[HA] 패키지",
@@ -338709,8 +338847,8 @@
 },
 {
 "name": "3PK226890_LD201-S12_P.ai",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3260756749",
-"updated": "2026-09-21",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3357989451",
+"updated": "2026-11-02",
 "code": "3PK226890",
 "sub": null,
 "board": "*[HA] 패키지",
@@ -338719,8 +338857,8 @@
 }
 ],
 "alt": [
-"https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3260756875",
-"https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3260756749"
+"https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3357989606",
+"https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3357989451"
 ]
 },
 "3PK226970": {
@@ -445916,6 +446054,52 @@
 "https://spigen.monday.com/boards/4453971876/pulses/13189272699?asset_id=3344600535"
 ]
 },
+"ACS12461": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189046296?asset_id=3358085697",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13189003154",
+"board": "*[Mobile] 패키지 현황",
+"item": "SSbgP Liquid Air Mag Fit",
+"sub": "ACS12461",
+"file": "3BS227990_ACS12461_GalS27P_LqAMgF_MttBK.jpg",
+"updated": "2026-11-02",
+"by": "조혜영/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS227990_ACS12461_GalS27P_LqAMgF_MttBK.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189046296?asset_id=3358085697",
+"updated": "2026-11-02",
+"code": "3BS227990",
+"sub": "ACS12461",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189003154",
+"by": "조혜영/패키지디자인팀/HQ"
+},
+{
+"name": "3BS227990_ACS12461_GalS27P_LqAMgF_MttBK.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189046296?asset_id=3358085733",
+"updated": "2026-11-02",
+"code": "3BS227990",
+"sub": "ACS12461",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189003154",
+"by": "조혜영/패키지디자인팀/HQ"
+},
+{
+"name": "3BS227990_ACS12461_GalS27P_LqAMgF_MttBK.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189046296?asset_id=3358085716",
+"updated": "2026-11-02",
+"code": "3BS227990",
+"sub": "ACS12461",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189003154",
+"by": "조혜영/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/13189046296?asset_id=3358085733",
+"https://spigen.monday.com/boards/4453971876/pulses/13189046296?asset_id=3358085716"
+]
+},
 "ACS12480": {
 "url": "https://spigen.monday.com/boards/4453971876/pulses/13189044288?asset_id=3347402401",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13189002964",
@@ -448494,6 +448678,52 @@
 "https://spigen.monday.com/boards/4453971876/pulses/13189173561?asset_id=3353919509"
 ]
 },
+"ACS12681": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189031141?asset_id=3358084657",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13188998309",
+"board": "*[Mobile] 패키지 현황",
+"item": "SSbgP Liquid Air",
+"sub": "ACS12681",
+"file": "3BS229230_ACS12681_GalS27P_LqA_MttBK.jpg",
+"updated": "2026-11-02",
+"by": "조혜영/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS229230_ACS12681_GalS27P_LqA_MttBK.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189031141?asset_id=3358084657",
+"updated": "2026-11-02",
+"code": "3BS229230",
+"sub": "ACS12681",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13188998309",
+"by": "조혜영/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229230_ACS12681_GalS27P_LqA_MttBK.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189031141?asset_id=3358084686",
+"updated": "2026-11-02",
+"code": "3BS229230",
+"sub": "ACS12681",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13188998309",
+"by": "조혜영/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229230_ACS12681_GalS27P_LqA_MttBK.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189031141?asset_id=3358084665",
+"updated": "2026-11-02",
+"code": "3BS229230",
+"sub": "ACS12681",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13188998309",
+"by": "조혜영/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/13189031141?asset_id=3358084686",
+"https://spigen.monday.com/boards/4453971876/pulses/13189031141?asset_id=3358084665"
+]
+},
 "ACS12682": {
 "url": "https://spigen.monday.com/boards/4453971876/pulses/13189045998?asset_id=3347409062",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13189000952",
@@ -448998,6 +449228,52 @@
 "alt": [
 "https://spigen.monday.com/boards/4453971876/pulses/13262717823?asset_id=3347332078",
 "https://spigen.monday.com/boards/4453971876/pulses/13262717823?asset_id=3347332073"
+]
+},
+"ACS12810": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13262735978?asset_id=3358086053",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13189003154",
+"board": "*[Mobile] 패키지 현황",
+"item": "SSbgP Liquid Air Mag Fit",
+"sub": "ACS12810",
+"file": "3BS230940_ACS12810_GalS27P_LqAMgF_NYBL.jpg",
+"updated": "2026-11-02",
+"by": "조혜영/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS230940_ACS12810_GalS27P_LqAMgF_NYBL.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13262735978?asset_id=3358086053",
+"updated": "2026-11-02",
+"code": "3BS230940",
+"sub": "ACS12810",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189003154",
+"by": "조혜영/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230940_ACS12810_GalS27P_LqAMgF_NYBL.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13262735978?asset_id=3358086079",
+"updated": "2026-11-02",
+"code": "3BS230940",
+"sub": "ACS12810",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189003154",
+"by": "조혜영/패키지디자인팀/HQ"
+},
+{
+"name": "3BS230940_ACS12810_GalS27P_LqAMgF_NYBL.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13262735978?asset_id=3358086048",
+"updated": "2026-11-02",
+"code": "3BS230940",
+"sub": "ACS12810",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189003154",
+"by": "조혜영/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/13262735978?asset_id=3358086079",
+"https://spigen.monday.com/boards/4453971876/pulses/13262735978?asset_id=3358086048"
 ]
 },
 "ACS12814": {
@@ -469357,30 +469633,50 @@
 ]
 },
 "LD105": {
-"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672395",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3357808810",
 "parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750",
 "board": "*[HA] 패키지",
 "item": "[LD105] Spigen Cable Management Net - Black",
 "sub": null,
-"file": "3MN229570_LD105_MN.jpg",
-"updated": "2026-10-08",
+"file": "3BS229560_LD105_BS.jpg",
+"updated": "2026-11-02",
 "by": "문덕훈/패키지디자인팀/HQ",
 "files": [
 {
-"name": "3MN229570_LD105_MN.jpg",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672395",
-"updated": "2026-10-08",
-"code": "3MN229570",
+"name": "3BS229560_LD105_BS.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3357808810",
+"updated": "2026-11-02",
+"code": "3BS229560",
 "sub": null,
 "board": "*[HA] 패키지",
 "item_id": "13022792750",
 "by": "문덕훈/패키지디자인팀/HQ"
 },
 {
-"name": "3BS229560_LD105_BS.jpg",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672454",
-"updated": "2026-10-08",
+"name": "3BS229560_LD105_BS.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3357808842",
+"updated": "2026-11-02",
 "code": "3BS229560",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022792750",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229560_LD105_BS.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3357808811",
+"updated": "2026-11-02",
+"code": "3BS229560",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022792750",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3MN229570_LD105_MN.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672395",
+"updated": "2026-10-08",
+"code": "3MN229570",
 "sub": null,
 "board": "*[HA] 패키지",
 "item_id": "13022792750",
@@ -469397,30 +469693,10 @@
 "by": "문덕훈/패키지디자인팀/HQ"
 },
 {
-"name": "3BS229560_LD105_BS.pdf",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672482",
-"updated": "2026-10-08",
-"code": "3BS229560",
-"sub": null,
-"board": "*[HA] 패키지",
-"item_id": "13022792750",
-"by": "문덕훈/패키지디자인팀/HQ"
-},
-{
 "name": "3MN229570_LD105_MN.ai",
 "url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672396",
 "updated": "2026-10-08",
 "code": "3MN229570",
-"sub": null,
-"board": "*[HA] 패키지",
-"item_id": "13022792750",
-"by": "문덕훈/패키지디자인팀/HQ"
-},
-{
-"name": "3BS229560_LD105_BS.ai",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672462",
-"updated": "2026-10-08",
-"code": "3BS229560",
 "sub": null,
 "board": "*[HA] 패키지",
 "item_id": "13022792750",
@@ -469448,39 +469724,29 @@
 }
 ],
 "alt": [
-"https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672454",
+"https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3357808842",
+"https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3357808811",
+"https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672395",
 "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672427",
-"https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672482",
 "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672396",
-"https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3302672462",
 "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3300153112",
 "https://spigen.monday.com/boards/3106368464/pulses/13022792750?asset_id=3300153114"
 ]
 },
 "LD201": {
-"url": "https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3260756628",
-"parent_url": "https://spigen.monday.com/boards/3106368464/pulses/12954139181",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3357989481",
+"parent_url": "https://spigen.monday.com/boards/3106368464/pulses/12954147527",
 "board": "*[HA] 패키지",
-"item": "[LD201-S12] Spigen Slim Fold Laptop Sleeve with Stand 16\"",
+"item": "[LD201-S11] Spigen Slim Fold Laptop Sleeve with Stand 14\"",
 "sub": null,
-"file": "3PK226890_LD201-S12_P.jpg",
-"updated": "2026-09-21",
+"file": "3PK226880_LD201-S11_P.jpg",
+"updated": "2026-11-02",
 "by": "문덕훈/패키지디자인팀/HQ",
 "files": [
 {
-"name": "3PK226890_LD201-S12_P.jpg",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3260756628",
-"updated": "2026-09-21",
-"code": "3PK226890",
-"sub": null,
-"board": "*[HA] 패키지",
-"item_id": "12954139181",
-"by": "문덕훈/패키지디자인팀/HQ"
-},
-{
 "name": "3PK226880_LD201-S11_P.jpg",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3260756763",
-"updated": "2026-09-21",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3357989481",
+"updated": "2026-11-02",
 "code": "3PK226880",
 "sub": null,
 "board": "*[HA] 패키지",
@@ -469488,9 +469754,9 @@
 "by": "문덕훈/패키지디자인팀/HQ"
 },
 {
-"name": "3PK226890_LD201-S12_P.pdf",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3260756875",
-"updated": "2026-09-21",
+"name": "3PK226890_LD201-S12_P.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3357989420",
+"updated": "2026-11-02",
 "code": "3PK226890",
 "sub": null,
 "board": "*[HA] 패키지",
@@ -469499,8 +469765,8 @@
 },
 {
 "name": "3PK226880_LD201-S11_P.pdf",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3260756946",
-"updated": "2026-09-21",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3357989621",
+"updated": "2026-11-02",
 "code": "3PK226880",
 "sub": null,
 "board": "*[HA] 패키지",
@@ -469508,9 +469774,9 @@
 "by": "문덕훈/패키지디자인팀/HQ"
 },
 {
-"name": "3PK226890_LD201-S12_P.ai",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3260756749",
-"updated": "2026-09-21",
+"name": "3PK226890_LD201-S12_P.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3357989606",
+"updated": "2026-11-02",
 "code": "3PK226890",
 "sub": null,
 "board": "*[HA] 패키지",
@@ -469519,12 +469785,22 @@
 },
 {
 "name": "3PK226880_LD201-S11_P.ai",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3260756826",
-"updated": "2026-09-21",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3357989506",
+"updated": "2026-11-02",
 "code": "3PK226880",
 "sub": null,
 "board": "*[HA] 패키지",
 "item_id": "12954147527",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3PK226890_LD201-S12_P.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3357989451",
+"updated": "2026-11-02",
+"code": "3PK226890",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "12954139181",
 "by": "문덕훈/패키지디자인팀/HQ"
 },
 {
@@ -470029,11 +470305,11 @@
 }
 ],
 "alt": [
-"https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3260756763",
-"https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3260756875",
-"https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3260756946",
-"https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3260756749",
-"https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3260756826",
+"https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3357989420",
+"https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3357989621",
+"https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3357989606",
+"https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3357989506",
+"https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3357989451",
 "https://spigen.monday.com/boards/3106368464/pulses/12954147527?asset_id=3247960333",
 "https://spigen.monday.com/boards/3106368464/pulses/12954139181?asset_id=3244919117",
 "https://spigen.monday.com/boards/3106368464/pulses/12742387628?asset_id=3207116418",
@@ -471635,30 +471911,80 @@
 ]
 },
 "LD408": {
-"url": "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197321",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3357804256",
 "parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13022798908",
 "board": "*[HA] 패키지",
 "item": "[LD408-2] Spigen Under-Desk Pull-out Drawer Desk Organizer - Black",
 "sub": null,
-"file": "3MN229520_LD408-2_MN.jpg",
-"updated": "2026-09-29",
+"file": "3BS229500_LD408-2_BS.jpg",
+"updated": "2026-11-02",
 "by": "문덕훈/패키지디자인팀/HQ",
 "files": [
 {
-"name": "3MN229520_LD408-2_MN.jpg",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197321",
-"updated": "2026-09-29",
-"code": "3MN229520",
+"name": "3BS229500_LD408-2_BS.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3357804256",
+"updated": "2026-11-02",
+"code": "3BS229500",
 "sub": null,
 "board": "*[HA] 패키지",
 "item_id": "13022798908",
 "by": "문덕훈/패키지디자인팀/HQ"
 },
 {
-"name": "3BS229500_LD408-2_BS.jpg",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197177",
-"updated": "2026-09-29",
+"name": "3BS229460_LD408-1_BS.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3357808052",
+"updated": "2026-11-02",
+"code": "3BS229460",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022810834",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229500_LD408-2_BS.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3357804287",
+"updated": "2026-11-02",
 "code": "3BS229500",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022798908",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229460_LD408-1_BS.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3357808069",
+"updated": "2026-11-02",
+"code": "3BS229460",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022810834",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229500_LD408-2_BS.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3357804258",
+"updated": "2026-11-02",
+"code": "3BS229500",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022798908",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS229460_LD408-1_BS.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3357808053",
+"updated": "2026-11-02",
+"code": "3BS229460",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13022810834",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3MN229520_LD408-2_MN.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197321",
+"updated": "2026-09-29",
+"code": "3MN229520",
 "sub": null,
 "board": "*[HA] 패키지",
 "item_id": "13022798908",
@@ -471675,30 +472001,10 @@
 "by": "문덕훈/패키지디자인팀/HQ"
 },
 {
-"name": "3BS229460_LD408-1_BS.jpg",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3279196795",
-"updated": "2026-09-29",
-"code": "3BS229460",
-"sub": null,
-"board": "*[HA] 패키지",
-"item_id": "13022810834",
-"by": "문덕훈/패키지디자인팀/HQ"
-},
-{
 "name": "3MN229520_LD408-2_MN.pdf",
 "url": "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197335",
 "updated": "2026-09-29",
 "code": "3MN229520",
-"sub": null,
-"board": "*[HA] 패키지",
-"item_id": "13022798908",
-"by": "문덕훈/패키지디자인팀/HQ"
-},
-{
-"name": "3BS229500_LD408-2_BS.pdf",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197253",
-"updated": "2026-09-29",
-"code": "3BS229500",
 "sub": null,
 "board": "*[HA] 패키지",
 "item_id": "13022798908",
@@ -471715,16 +472021,6 @@
 "by": "문덕훈/패키지디자인팀/HQ"
 },
 {
-"name": "3BS229460_LD408-1_BS.pdf",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3279196908",
-"updated": "2026-09-29",
-"code": "3BS229460",
-"sub": null,
-"board": "*[HA] 패키지",
-"item_id": "13022810834",
-"by": "문덕훈/패키지디자인팀/HQ"
-},
-{
 "name": "3MN229520_LD408-2_MN.ai",
 "url": "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197330",
 "updated": "2026-09-29",
@@ -471735,30 +472031,10 @@
 "by": "문덕훈/패키지디자인팀/HQ"
 },
 {
-"name": "3BS229500_LD408-2_BS.ai",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197205",
-"updated": "2026-09-29",
-"code": "3BS229500",
-"sub": null,
-"board": "*[HA] 패키지",
-"item_id": "13022798908",
-"by": "문덕훈/패키지디자인팀/HQ"
-},
-{
 "name": "3MN229480_LD408-1_MN.ai",
 "url": "https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3279197015",
 "updated": "2026-09-29",
 "code": "3MN229480",
-"sub": null,
-"board": "*[HA] 패키지",
-"item_id": "13022810834",
-"by": "문덕훈/패키지디자인팀/HQ"
-},
-{
-"name": "3BS229460_LD408-1_BS.ai",
-"url": "https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3279196812",
-"updated": "2026-09-29",
-"code": "3BS229460",
 "sub": null,
 "board": "*[HA] 패키지",
 "item_id": "13022810834",
@@ -471806,17 +472082,17 @@
 }
 ],
 "alt": [
-"https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197177",
+"https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3357808052",
+"https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3357804287",
+"https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3357808069",
+"https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3357804258",
+"https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3357808053",
+"https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197321",
 "https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3279197007",
-"https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3279196795",
 "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197335",
-"https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197253",
 "https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3279197032",
-"https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3279196908",
 "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197330",
-"https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3279197205",
 "https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3279197015",
-"https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3279196812",
 "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3253549559",
 "https://spigen.monday.com/boards/3106368464/pulses/13022798908?asset_id=3253549560",
 "https://spigen.monday.com/boards/3106368464/pulses/13022810834?asset_id=3253549399",
@@ -513539,6 +513815,28 @@
 "https://spigen.monday.com/boards/3106368464/pulses/13100658091?asset_id=3321439440"
 ]
 },
+"TA150": {
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3357732953",
+"parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13332119063",
+"board": "*[HA] 패키지",
+"item": "[TA150] Tesla Steering Wheel Cover",
+"sub": null,
+"file": "Draft_TA150_P.jpg",
+"updated": "2026-11-02",
+"by": "문덕훈/패키지디자인팀/HQ",
+"files": [
+{
+"name": "Draft_TA150_P.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3357732953",
+"updated": "2026-11-02",
+"code": "TA150",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13332119063",
+"by": "문덕훈/패키지디자인팀/HQ"
+}
+]
+},
 "TAM100": {
 "url": "https://spigen.monday.com/boards/3106368464/pulses/9773069560?asset_id=2451638948",
 "parent_url": "https://spigen.monday.com/boards/3106368464/pulses/9773069560",
@@ -525085,7 +525383,7 @@
 "ACS10598": "대성하이텍-KR",
 "ACS10599": "대성하이텍-KR",
 "ACS10600": "Dapad-CN",
-"ACS10604": "HIGH HONEST-CN",
+"ACS10604": "HIGH HONEST-CN, HIGH HONEST-CN",
 "ACS10629": "Meticore-CN",
 "ACS10630": "Meticore-CN",
 "ACS10631": "Meticore-CN",
@@ -525158,7 +525456,7 @@
 "ACS10738": "듀센-KR",
 "ACS10739": "듀센-KR",
 "ACS10740": "듀센-KR",
-"ACS10741": "CSP-KR",
+"ACS10741": "Topwell-CN",
 "ACS10742": "듀센-KR",
 "ACS10743": "듀센-KR",
 "ACS10744": "Circle Dot-CN",
@@ -525192,7 +525490,7 @@
 "ACS10954": "Dapad-CN",
 "ACS10955": "High Honest-CN",
 "ACS10956": "High Honest-CN",
-"ACS10957": "High Honest-CN",
+"ACS10957": "Circle Dot-CN",
 "ACS10958": "Circle Dot-CN",
 "ACS10959": "Circle Dot-CN",
 "ACS10960": "Circle Dot-CN",
@@ -525287,7 +525585,7 @@
 "ACS11132": "영광정공-KR",
 "ACS11133": "CSP-KR",
 "ACS11136": "영광정공-KR",
-"ACS11144": "HIGH HONEST-CN",
+"ACS11144": "HIGH HONEST-CN, HIGH HONEST-CN",
 "ACS11147": "듀센-KR",
 "ACS11148": "듀센-KR",
 "ACS11149": "듀센-KR",
@@ -526242,7 +526540,7 @@
 "ACS12759": "Dapad-CN",
 "ACS12760": "Dapad-CN",
 "ACS12767": "듀센-KR, HIGH HONEST-CN",
-"ACS12768": "HIGH HONEST-CN",
+"ACS12768": "HIGH HONEST-CN, HIGH HONEST-CN",
 "ACS12774": "Dapad-CN",
 "ACS12775": "Dapad-CN",
 "ACS12776": "Dapad-CN",
