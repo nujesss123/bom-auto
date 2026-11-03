@@ -1,7 +1,7 @@
 {
 "_meta": {
-"generated_at": "2026-11-02T18:57:48Z",
-"mode": "incremental",
+"generated_at": "2026-11-03T02:42:57Z",
+"mode": "full",
 "account": "spigen",
 "boards": [
 "4057650308",
@@ -18,10 +18,11 @@
 "☄️최종도안파일"
 ],
 "board_count": 7,
-"items": 0,
-"subitems": 0,
-"files": 0,
-"title_hits": 0,
+"items": 2826,
+"subitems": 2433,
+"files": 27262,
+"title_hits": 7323,
+"gallery": 5489,
 "codes": 9047,
 "no_gallery": [],
 "skipped": [],
@@ -32,7 +33,7 @@
 "3106368464"
 ],
 "vendor_failed": [],
-"vendors": 2556
+"vendors": 2560
 },
 "map": {
 "0415": {
@@ -525471,6 +525472,7 @@
 "ACP12796": "BOLI",
 "ACP12797": "BOLI",
 "ACP12828": "High Honest-CN",
+"ACS04213": "Dapad-CN",
 "ACS05423": "영광정공-KR",
 "ACS05463": "HUGO-CN",
 "ACS05592": "CaseSpices-CN, CaseSpices-CN",
@@ -526699,6 +526701,7 @@
 "ACS11286": "Casespices-CN",
 "ACS11287": "Casespices-CN",
 "ACS11288": "Casespices-CN",
+"ACS11311": "High Honest-CN",
 "ACS11312": "High Honest-CN",
 "ACS11313": "Dapad-CN",
 "ACS11314": "듀센-KR",
@@ -526999,6 +527002,7 @@
 "ACS11890": "Rainbow-CN",
 "ACS11891": "Rainbow-CN",
 "ACS11892": "Rainbow-CN",
+"ACS11893": "HUGO-CN",
 "ACS11894": "HUGO-CN",
 "ACS11895": "HUGO-CN",
 "ACS11896": "HUGO-CN",
@@ -527600,6 +527604,7 @@
 "ACS12825": "High Honest-CN",
 "ACS12826": "Circle Dot-CN",
 "ACS12827": "High Honest-CN",
+"ACS12834": "듀센-KR",
 "ACS12838": "Circle Dot-CN",
 "ACS12839": "Circle Dot-CN",
 "ACS12878": "Dapad-CN",
