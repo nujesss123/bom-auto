@@ -1,7 +1,7 @@
 {
 "_meta": {
-"generated_at": "2026-11-03T08:48:27Z",
-"mode": "incremental",
+"generated_at": "2026-11-03T11:11:27Z",
+"mode": "full",
 "account": "spigen",
 "boards": [
 "4057650308",
@@ -18,11 +18,11 @@
 "☄️최종도안파일"
 ],
 "board_count": 7,
-"items": 34,
-"subitems": 53,
-"files": 67,
-"title_hits": 87,
-"gallery": 4,
+"items": 2828,
+"subitems": 2436,
+"files": 27299,
+"title_hits": 7328,
+"gallery": 5493,
 "codes": 9065,
 "no_gallery": [],
 "skipped": [],
@@ -365970,15 +365970,25 @@
 ]
 },
 "A950": {
-"url": "https://spigen.monday.com/boards/3133983085/pulses/12259793024?asset_id=3350751952",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/12259793024?asset_id=3361156924",
 "parent_url": "https://spigen.monday.com/boards/3133983085/pulses/12259793024",
 "board": "*[ArcTech] 패키지",
 "item": "A950",
 "sub": null,
-"file": "3MN222680_A950.jpg",
-"updated": "2026-10-29",
+"file": "A950_SS.jpg",
+"updated": "2026-11-03",
 "by": "김해인/브랜드디자인팀/HQ",
 "files": [
+{
+"name": "A950_SS.jpg",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/12259793024?asset_id=3361156924",
+"updated": "2026-11-03",
+"code": "A950",
+"sub": null,
+"board": "*[ArcTech] 패키지",
+"item_id": "12259793024",
+"by": "김해인/브랜드디자인팀/HQ"
+},
 {
 "name": "3MN222680_A950.jpg",
 "url": "https://spigen.monday.com/boards/3133983085/pulses/12259793024?asset_id=3350751952",
@@ -366151,6 +366161,7 @@
 }
 ],
 "alt": [
+"https://spigen.monday.com/boards/3133983085/pulses/12259793024?asset_id=3350751952",
 "https://spigen.monday.com/boards/3133983085/pulses/12259793024?asset_id=3350753032",
 "https://spigen.monday.com/boards/3133983085/pulses/12259793024?asset_id=3350753630",
 "https://spigen.monday.com/boards/3133983085/pulses/12259793024?asset_id=3350752078",
@@ -465350,15 +465361,25 @@
 ]
 },
 "EE701EU": {
-"url": "https://spigen.monday.com/boards/3133983085/pulses/11837902786?asset_id=3041931140",
-"parent_url": "https://spigen.monday.com/boards/3133983085/pulses/11837902786",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/11635661074?asset_id=3361036657",
+"parent_url": "https://spigen.monday.com/boards/3133983085/pulses/11635661074",
 "board": "*[ArcTech] 패키지",
-"item": "EE451EU (케이블 금형 진행)",
+"item": "EE701EU",
 "sub": null,
-"file": "EE451EU_EE701EU_feedback.jpg",
-"updated": "2026-06-15",
+"file": "EE701EU_FF.jpg",
+"updated": "2026-11-03",
 "by": "김해인/브랜드디자인팀/HQ",
 "files": [
+{
+"name": "EE701EU_FF.jpg",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/11635661074?asset_id=3361036657",
+"updated": "2026-11-03",
+"code": "EE701EU",
+"sub": null,
+"board": "*[ArcTech] 패키지",
+"item_id": "11635661074",
+"by": "김해인/브랜드디자인팀/HQ"
+},
 {
 "name": "EE451EU_EE701EU_feedback.jpg",
 "url": "https://spigen.monday.com/boards/3133983085/pulses/11837902786?asset_id=3041931140",
@@ -465631,6 +465652,7 @@
 }
 ],
 "alt": [
+"https://spigen.monday.com/boards/3133983085/pulses/11837902786?asset_id=3041931140",
 "https://spigen.monday.com/boards/3133983085/pulses/11635661074?asset_id=3041797742",
 "https://spigen.monday.com/boards/3133983085/pulses/11635661074?asset_id=3041931265",
 "https://spigen.monday.com/boards/3133983085/pulses/11635661074?asset_id=3041969877",
@@ -466458,15 +466480,25 @@
 ]
 },
 "EF223M": {
-"url": "https://spigen.monday.com/boards/3133983085/pulses/12462462897?asset_id=3223463924",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/12462462897?asset_id=3361034696",
 "parent_url": "https://spigen.monday.com/boards/3133983085/pulses/12462462897",
 "board": "*[ArcTech] 패키지",
 "item": "EF223M",
 "sub": null,
-"file": "EF223M.jpg",
-"updated": "2026-09-03",
+"file": "EF223M_CE_FF.jpg",
+"updated": "2026-11-03",
 "by": "김해인/브랜드디자인팀/HQ",
 "files": [
+{
+"name": "EF223M_CE_FF.jpg",
+"url": "https://spigen.monday.com/boards/3133983085/pulses/12462462897?asset_id=3361034696",
+"updated": "2026-11-03",
+"code": "EF223M",
+"sub": null,
+"board": "*[ArcTech] 패키지",
+"item_id": "12462462897",
+"by": "김해인/브랜드디자인팀/HQ"
+},
 {
 "name": "EF223M.jpg",
 "url": "https://spigen.monday.com/boards/3133983085/pulses/12462462897?asset_id=3223463924",
@@ -466659,6 +466691,7 @@
 }
 ],
 "alt": [
+"https://spigen.monday.com/boards/3133983085/pulses/12462462897?asset_id=3223463924",
 "https://spigen.monday.com/boards/3133983085/pulses/12462462897?asset_id=3223460247",
 "https://spigen.monday.com/boards/3133983085/pulses/12462462897?asset_id=3223460142",
 "https://spigen.monday.com/boards/3133983085/pulses/12462462897?asset_id=3223459991",
