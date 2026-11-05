@@ -1,7 +1,7 @@
 {
 "_meta": {
-"generated_at": "2026-11-05T01:10:22Z",
-"mode": "full",
+"generated_at": "2026-11-05T08:42:40Z",
+"mode": "incremental",
 "account": "spigen",
 "boards": [
 "4057650308",
@@ -18,12 +18,12 @@
 "☄️최종도안파일"
 ],
 "board_count": 7,
-"items": 2828,
-"subitems": 2436,
-"files": 27360,
-"title_hits": 7328,
-"gallery": 5493,
-"codes": 9096,
+"items": 11,
+"subitems": 11,
+"files": 33,
+"title_hits": 52,
+"gallery": 1,
+"codes": 9106,
 "no_gallery": [],
 "skipped": [],
 "vendor_boards": [
@@ -222868,6 +222868,144 @@
 "https://spigen.monday.com/boards/4453971876/pulses/13189210315?asset_id=3360817141"
 ]
 },
+"3BS227720": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189193626?asset_id=3367352187",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13189157944",
+"board": "*[Mobile] 패키지 현황",
+"item": "SSbgU Nano Pop Mag Fit",
+"sub": "ACS12437",
+"file": "3BS227720_ACS12437_GalS27U_NnPopMgF_BbNY.jpg",
+"updated": "2026-11-05",
+"by": "황수범/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS227720_ACS12437_GalS27U_NnPopMgF_BbNY.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189193626?asset_id=3367352187",
+"updated": "2026-11-05",
+"code": "3BS227720",
+"sub": "ACS12437",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189157944",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS227720_ACS12437_GalS27U_NnPopMgF_BbNY.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189193626?asset_id=3367352333",
+"updated": "2026-11-05",
+"code": "3BS227720",
+"sub": "ACS12437",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189157944",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS227720_ACS12437_GalS27U_NnPopMgF_BbNY.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189193626?asset_id=3367352256",
+"updated": "2026-11-05",
+"code": "3BS227720",
+"sub": "ACS12437",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189157944",
+"by": "황수범/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/13189193626?asset_id=3367352333",
+"https://spigen.monday.com/boards/4453971876/pulses/13189193626?asset_id=3367352256"
+]
+},
+"3BS227730": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189272924?asset_id=3367352282",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13189157944",
+"board": "*[Mobile] 패키지 현황",
+"item": "SSbgU Nano Pop Mag Fit",
+"sub": "ACS12438",
+"file": "3BS227730_ACS12438_GalS27U_NnPopMgF_AvoGN.jpg",
+"updated": "2026-11-05",
+"by": "황수범/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS227730_ACS12438_GalS27U_NnPopMgF_AvoGN.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189272924?asset_id=3367352282",
+"updated": "2026-11-05",
+"code": "3BS227730",
+"sub": "ACS12438",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189157944",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS227730_ACS12438_GalS27U_NnPopMgF_AvoGN.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189272924?asset_id=3367352359",
+"updated": "2026-11-05",
+"code": "3BS227730",
+"sub": "ACS12438",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189157944",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS227730_ACS12438_GalS27U_NnPopMgF_AvoGN.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189272924?asset_id=3367352297",
+"updated": "2026-11-05",
+"code": "3BS227730",
+"sub": "ACS12438",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189157944",
+"by": "황수범/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/13189272924?asset_id=3367352359",
+"https://spigen.monday.com/boards/4453971876/pulses/13189272924?asset_id=3367352297"
+]
+},
+"3BS227740": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189171855?asset_id=3367352378",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13189157944",
+"board": "*[Mobile] 패키지 현황",
+"item": "SSbgU Nano Pop Mag Fit",
+"sub": "ACS12439",
+"file": "3BS227740_ACS12439_GalS27U_NnPopMgF_BKSsm.jpg",
+"updated": "2026-11-05",
+"by": "황수범/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS227740_ACS12439_GalS27U_NnPopMgF_BKSsm.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189171855?asset_id=3367352378",
+"updated": "2026-11-05",
+"code": "3BS227740",
+"sub": "ACS12439",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189157944",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS227740_ACS12439_GalS27U_NnPopMgF_BKSsm.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189171855?asset_id=3367352436",
+"updated": "2026-11-05",
+"code": "3BS227740",
+"sub": "ACS12439",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189157944",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS227740_ACS12439_GalS27U_NnPopMgF_BKSsm.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189171855?asset_id=3367352398",
+"updated": "2026-11-05",
+"code": "3BS227740",
+"sub": "ACS12439",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189157944",
+"by": "황수범/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/13189171855?asset_id=3367352436",
+"https://spigen.monday.com/boards/4453971876/pulses/13189171855?asset_id=3367352398"
+]
+},
 "3BS227750": {
 "url": "https://spigen.monday.com/boards/4453971876/pulses/13189031489?asset_id=3347406137",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13189017238",
@@ -231192,6 +231330,144 @@
 "alt": [
 "https://spigen.monday.com/boards/4485989214/pulses/18351304427?asset_id=3328441989",
 "https://spigen.monday.com/boards/4485989214/pulses/18351304427?asset_id=3328441977"
+]
+},
+"3BS231330": {
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3367433164",
+"parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13332119063",
+"board": "*[HA] 패키지",
+"item": "[TA150] Tesla Steering Wheel Cover",
+"sub": null,
+"file": "3BS231330_TA150_Black_BS.jpg",
+"updated": "2026-11-05",
+"by": "문덕훈/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS231330_TA150_Black_BS.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3367433164",
+"updated": "2026-11-05",
+"code": "3BS231330",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13332119063",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS231330_TA150_Black_BS.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3367433255",
+"updated": "2026-11-05",
+"code": "3BS231330",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13332119063",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS231330_TA150_Black_BS.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3367433180",
+"updated": "2026-11-05",
+"code": "3BS231330",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13332119063",
+"by": "문덕훈/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3367433255",
+"https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3367433180"
+]
+},
+"3BS231340": {
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3367433165",
+"parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13332119063",
+"board": "*[HA] 패키지",
+"item": "[TA150] Tesla Steering Wheel Cover",
+"sub": null,
+"file": "3BS231340_TA150_White_BS.jpg",
+"updated": "2026-11-05",
+"by": "문덕훈/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS231340_TA150_White_BS.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3367433165",
+"updated": "2026-11-05",
+"code": "3BS231340",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13332119063",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS231340_TA150_White_BS.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3367433297",
+"updated": "2026-11-05",
+"code": "3BS231340",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13332119063",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS231340_TA150_White_BS.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3367433176",
+"updated": "2026-11-05",
+"code": "3BS231340",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13332119063",
+"by": "문덕훈/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3367433297",
+"https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3367433176"
+]
+},
+"3BS231350": {
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3367433220",
+"parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13332119063",
+"board": "*[HA] 패키지",
+"item": "[TA150] Tesla Steering Wheel Cover",
+"sub": null,
+"file": "3BS231350_TA150_Carbon_BS.jpg",
+"updated": "2026-11-05",
+"by": "문덕훈/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS231350_TA150_Carbon_BS.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3367433220",
+"updated": "2026-11-05",
+"code": "3BS231350",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13332119063",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS231350_TA150_Carbon_BS.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3367433304",
+"updated": "2026-11-05",
+"code": "3BS231350",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13332119063",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS231350_TA150_Carbon_BS.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3367433221",
+"updated": "2026-11-05",
+"code": "3BS231350",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13332119063",
+"by": "문덕훈/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3367433304",
+"https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3367433221"
 ]
 },
 "3BS231650": {
@@ -447380,6 +447656,144 @@
 "https://spigen.monday.com/boards/4453971876/pulses/13189210315?asset_id=3360817141"
 ]
 },
+"ACS12437": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189193626?asset_id=3367352187",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13189157944",
+"board": "*[Mobile] 패키지 현황",
+"item": "SSbgU Nano Pop Mag Fit",
+"sub": "ACS12437",
+"file": "3BS227720_ACS12437_GalS27U_NnPopMgF_BbNY.jpg",
+"updated": "2026-11-05",
+"by": "황수범/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS227720_ACS12437_GalS27U_NnPopMgF_BbNY.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189193626?asset_id=3367352187",
+"updated": "2026-11-05",
+"code": "3BS227720",
+"sub": "ACS12437",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189157944",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS227720_ACS12437_GalS27U_NnPopMgF_BbNY.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189193626?asset_id=3367352333",
+"updated": "2026-11-05",
+"code": "3BS227720",
+"sub": "ACS12437",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189157944",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS227720_ACS12437_GalS27U_NnPopMgF_BbNY.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189193626?asset_id=3367352256",
+"updated": "2026-11-05",
+"code": "3BS227720",
+"sub": "ACS12437",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189157944",
+"by": "황수범/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/13189193626?asset_id=3367352333",
+"https://spigen.monday.com/boards/4453971876/pulses/13189193626?asset_id=3367352256"
+]
+},
+"ACS12438": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189272924?asset_id=3367352282",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13189157944",
+"board": "*[Mobile] 패키지 현황",
+"item": "SSbgU Nano Pop Mag Fit",
+"sub": "ACS12438",
+"file": "3BS227730_ACS12438_GalS27U_NnPopMgF_AvoGN.jpg",
+"updated": "2026-11-05",
+"by": "황수범/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS227730_ACS12438_GalS27U_NnPopMgF_AvoGN.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189272924?asset_id=3367352282",
+"updated": "2026-11-05",
+"code": "3BS227730",
+"sub": "ACS12438",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189157944",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS227730_ACS12438_GalS27U_NnPopMgF_AvoGN.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189272924?asset_id=3367352359",
+"updated": "2026-11-05",
+"code": "3BS227730",
+"sub": "ACS12438",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189157944",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS227730_ACS12438_GalS27U_NnPopMgF_AvoGN.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189272924?asset_id=3367352297",
+"updated": "2026-11-05",
+"code": "3BS227730",
+"sub": "ACS12438",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189157944",
+"by": "황수범/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/13189272924?asset_id=3367352359",
+"https://spigen.monday.com/boards/4453971876/pulses/13189272924?asset_id=3367352297"
+]
+},
+"ACS12439": {
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189171855?asset_id=3367352378",
+"parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13189157944",
+"board": "*[Mobile] 패키지 현황",
+"item": "SSbgU Nano Pop Mag Fit",
+"sub": "ACS12439",
+"file": "3BS227740_ACS12439_GalS27U_NnPopMgF_BKSsm.jpg",
+"updated": "2026-11-05",
+"by": "황수범/패키지디자인팀/HQ",
+"files": [
+{
+"name": "3BS227740_ACS12439_GalS27U_NnPopMgF_BKSsm.jpg",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189171855?asset_id=3367352378",
+"updated": "2026-11-05",
+"code": "3BS227740",
+"sub": "ACS12439",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189157944",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS227740_ACS12439_GalS27U_NnPopMgF_BKSsm.pdf",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189171855?asset_id=3367352436",
+"updated": "2026-11-05",
+"code": "3BS227740",
+"sub": "ACS12439",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189157944",
+"by": "황수범/패키지디자인팀/HQ"
+},
+{
+"name": "3BS227740_ACS12439_GalS27U_NnPopMgF_BKSsm.ai",
+"url": "https://spigen.monday.com/boards/4453971876/pulses/13189171855?asset_id=3367352398",
+"updated": "2026-11-05",
+"code": "3BS227740",
+"sub": "ACS12439",
+"board": "*[Mobile] 패키지 현황",
+"item_id": "13189157944",
+"by": "황수범/패키지디자인팀/HQ"
+}
+],
+"alt": [
+"https://spigen.monday.com/boards/4453971876/pulses/13189171855?asset_id=3367352436",
+"https://spigen.monday.com/boards/4453971876/pulses/13189171855?asset_id=3367352398"
+]
+},
 "ACS12440": {
 "url": "https://spigen.monday.com/boards/4453971876/pulses/13189031489?asset_id=3347406137",
 "parent_url": "https://spigen.monday.com/boards/4057650308/pulses/13189017238",
@@ -453876,6 +454290,28 @@
 "https://spigen.monday.com/boards/3106368464/pulses/9897008973?asset_id=2436587661",
 "https://spigen.monday.com/boards/3106368464/pulses/9772953964?asset_id=2436587718",
 "https://spigen.monday.com/boards/3106368464/pulses/9897008973?asset_id=2433771421"
+]
+},
+"BO200": {
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13365431765?asset_id=3367116075",
+"parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13365431765",
+"board": "*[HA] 패키지",
+"item": "[BO200] BYD Seal U Armrest Storage Box (RHD)",
+"sub": null,
+"file": "Draft_BO200_P.jpg",
+"updated": "2026-11-05",
+"by": "문덕훈/패키지디자인팀/HQ",
+"files": [
+{
+"name": "Draft_BO200_P.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13365431765?asset_id=3367116075",
+"updated": "2026-11-05",
+"code": "BO200",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13365431765",
+"by": "문덕훈/패키지디자인팀/HQ"
+}
 ]
 },
 "BO202": {
@@ -496865,15 +497301,25 @@
 ]
 },
 "S314": {
-"url": "https://spigen.monday.com/boards/3106368464/pulses/12742425119?asset_id=3318611735",
-"parent_url": "https://spigen.monday.com/boards/3106368464/pulses/12742425119",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13413621385?asset_id=3367105456",
+"parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13413621385",
 "board": "*[HA] 패키지",
-"item": "[S314-6] Spigen Slim Fold (MagFit) Card Holder Stand for iPhone Ultra",
+"item": "[S314-7] Spigen Slim Fold (MagFit) Card Holder Stand for Galaxy Z Fold 8",
 "sub": null,
-"file": "3BS224640_S314-6_Black_BS.jpg",
-"updated": "2026-10-15",
+"file": "Draft_S314-7_Black_BS.jpg",
+"updated": "2026-11-05",
 "by": "문덕훈/패키지디자인팀/HQ",
 "files": [
+{
+"name": "Draft_S314-7_Black_BS.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13413621385?asset_id=3367105456",
+"updated": "2026-11-05",
+"code": "S314",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13413621385",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
 {
 "name": "3BS224640_S314-6_Black_BS.jpg",
 "url": "https://spigen.monday.com/boards/3106368464/pulses/12742425119?asset_id=3318611735",
@@ -497196,6 +497642,7 @@
 }
 ],
 "alt": [
+"https://spigen.monday.com/boards/3106368464/pulses/12742425119?asset_id=3318611735",
 "https://spigen.monday.com/boards/3106368464/pulses/12742425119?asset_id=3318611736",
 "https://spigen.monday.com/boards/3106368464/pulses/12742425119?asset_id=3318611762",
 "https://spigen.monday.com/boards/3106368464/pulses/12742440793?asset_id=3238328805",
@@ -517366,15 +517813,105 @@
 ]
 },
 "TA150": {
-"url": "https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3357732953",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3367433164",
 "parent_url": "https://spigen.monday.com/boards/3106368464/pulses/13332119063",
 "board": "*[HA] 패키지",
 "item": "[TA150] Tesla Steering Wheel Cover",
 "sub": null,
-"file": "Draft_TA150_P.jpg",
-"updated": "2026-11-02",
+"file": "3BS231330_TA150_Black_BS.jpg",
+"updated": "2026-11-05",
 "by": "문덕훈/패키지디자인팀/HQ",
 "files": [
+{
+"name": "3BS231330_TA150_Black_BS.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3367433164",
+"updated": "2026-11-05",
+"code": "3BS231330",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13332119063",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS231340_TA150_White_BS.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3367433165",
+"updated": "2026-11-05",
+"code": "3BS231340",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13332119063",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS231350_TA150_Carbon_BS.jpg",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3367433220",
+"updated": "2026-11-05",
+"code": "3BS231350",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13332119063",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS231330_TA150_Black_BS.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3367433255",
+"updated": "2026-11-05",
+"code": "3BS231330",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13332119063",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS231340_TA150_White_BS.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3367433297",
+"updated": "2026-11-05",
+"code": "3BS231340",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13332119063",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS231350_TA150_Carbon_BS.pdf",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3367433304",
+"updated": "2026-11-05",
+"code": "3BS231350",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13332119063",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS231330_TA150_Black_BS.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3367433180",
+"updated": "2026-11-05",
+"code": "3BS231330",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13332119063",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS231340_TA150_White_BS.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3367433176",
+"updated": "2026-11-05",
+"code": "3BS231340",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13332119063",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
+{
+"name": "3BS231350_TA150_Carbon_BS.ai",
+"url": "https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3367433221",
+"updated": "2026-11-05",
+"code": "3BS231350",
+"sub": null,
+"board": "*[HA] 패키지",
+"item_id": "13332119063",
+"by": "문덕훈/패키지디자인팀/HQ"
+},
 {
 "name": "Draft_TA150_P.jpg",
 "url": "https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3357732953",
@@ -517385,6 +517922,17 @@
 "item_id": "13332119063",
 "by": "문덕훈/패키지디자인팀/HQ"
 }
+],
+"alt": [
+"https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3367433165",
+"https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3367433220",
+"https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3367433255",
+"https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3367433297",
+"https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3367433304",
+"https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3367433180",
+"https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3367433176",
+"https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3367433221",
+"https://spigen.monday.com/boards/3106368464/pulses/13332119063?asset_id=3357732953"
 ]
 },
 "TAM100": {
